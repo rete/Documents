@@ -5,8 +5,8 @@
 \renewcommand{\u}[1]{\unit{#1}}
 \newcommand{\um}{\textmu m}
 \DeclareFontFamily{U}{euc}{}
-\DeclareFontShape{U}{euc}{m}{n}{<-6>eurm5<6-8>eurm7<8->eurm10}{}%
-\DeclareSymbolFont{AMSc}{U}{euc}{m}{n} % I chose AMSc because AMSa and AMSb are defined in the amsfonts-package
+\DeclareFontShape{U}{euc}{m}{n}{<-6>eurm5<6-8>eurm7<8->eurm10}{}
+\DeclareSymbolFont{AMSc}{U}{euc}{m}{n}
 \DeclareMathSymbol{\umu}{\mathord}{AMSc}{"16}
 \usepackage[justification=centering]{caption}
 \usepackage[pdftex]{graphicx}
@@ -21,9 +21,7 @@
 \usepackage{multicol}
 \newcommand{\comment}[1]{{\fontsize{10}{10}{\par \tt\textbf {\selectfont #1}} \par}}
 
-
 \graphicspath{{figs/}}
-
 
 \title{Close-by showers separation within SDHCAL prototype detector using ArborPFA}
 
@@ -35,7 +33,7 @@
  E-mail: \email{rete@ipnl.in2p3.fr}
  }
  
-\abstract{ After the validation of the PandoraPFA algorithm, a new reconstruction algorithm is needed in order to validate the Particle Flow Algorithm (PFA) approach. In a such designed detector, the electromagnetic calorimeters (ECAL) and hadronic calorimeters (HCAL) have a leading role in the reconstruction task. The Semi-Digital Hadron Calorimeter (SDHCAL) is a candidate prototype of hadron calorimeter for ILD since its fine granularity ($\sim$ 1cm$^2$) allows to apply the Particle Flow Algorithm. The ArborPFA algorithm has been applied to the SDHCAL detector prototype data \cite{sdhcal-paper} in order to separate close-by hadronic shower contributions. A comparison between PandoraPFA and ArborPFA has been performed. The results of this study indicate a powerful separation and a good recovered energy up to 5 cm of separation distance.}
+\abstract{ After the validation of the PandoraPFA algorithm, a new reconstruction algorithm is needed in order to validate the Particle Flow Algorithm (PFA) approach. In a such designed detector, the electromagnetic calorimeters (ECAL) and hadronic calorimeters (HCAL) have a leading role in the reconstruction task. The Semi-Digital Hadron Calorimeter (SDHCAL) is a candidate prototype of hadron calorimeter for ILD since its fine granularity allows to apply the Particle Flow Algorithm. The ArborPFA algorithm has been applied to the SDHCAL detector prototype data \cite{sdhcal-paper} in order to separate close-by hadronic shower contributions. A comparison between PandoraPFA and ArborPFA has been performed. The results of this study indicate a powerful separation and a good recovered energy up to 5 cm of separation distance.}
 
 \begin{document}
 
@@ -51,7 +49,27 @@ The calorimeters proposed by the CALICE collaboration are currently under study 
 
 On the other hand, the Particle Flow concept has been introduced in order to achieve the ILC benchmarks \cite{ilc-tdr}. This algorithm aims to reconstruct particles using the most appropriate detector for the energy and momentum measurement. An implementation of the particle flow algorithm has been developed by M. A. Thomson \cite{pandora-pfa} and embedded in a C++ standalone framework called PandoraPFA and is, for the moment, the only mature implementation of this algorithm for linear colliders.
 
-In this paper, we would like to present an other approach of the particle flow : the ArborPFA approach. The algorithm has been designed for high granularity calorimeters and tested on SDHCAL simulation and test beam data. First, we evaluate here the performance of the algorithm on single pion particles. Then, we present the result of a study that aims to separate two overlaid pion showers with different separation distances and different energies. For both studies, a comparison between PandoraPFA and ArborPFA is done.
+In this paper, we would like to present an other approach of the particle flow : the ArborPFA approach. The algorithm has been designed for high granularity calorimeters and tested on SDHCAL test beam data. First, we evaluate here the performance of the algorithm on single pion particles. Then, we present the result of a study that aims to separate two overlaid pion showers with different separation distances and different energies. For both studies, a comparison between PandoraPFA and ArborPFA is performed.
+
+\section{The SDHCAL prototype}
+
+The SDHCAL prototype is a sampling calorimeter which geometry consists in 48 layers alternating a 20 mm steel absorber slice and a 7 mm gas resistive plate chamber (GRPC) slice. The gas gap between the two electrodes of the GRPC is 1.2 mm. 9216 pads (96 x 96) of 1cm$^2$ compose the readout of each chamber, thus the total number of channels  comes to 442368. A complete description of the calorimeter setup and its features can be found in \cite{sdhcal-paper}. 
+
+The test beam data used in this paper have been taken at the CERN H6 beam line of the SPS in August/September 2012. The pion event selection is also done according to \cite{sdhcal-paper}.
+
+The reconstructed energy is computed as follows :
+
+\begin{equation}
+  E_{rec} = \alpha(N_{hit}).N_{1}
+          + \beta(N_{hit}) .N_{2}
+          + \gamma(N_{hit}).N_{3}   
+\end{equation}
+where $\alpha$, $\beta$ and $\gamma$ are quadratic functions of the number of hits N$_{hit}$ and N$_1$, N$_2$ and N$_3$ are the number hits of threshold 1, 2 and 3. The nine parameters of these functions are extracted from a $\chi^2$ minimization :
+
+\begin{equation}
+  \chi^2 = \sum\limits_{evt} \frac{(E_{beam} - E_{rec})^2}{E_{beam}^2}
+\end{equation}
+over the energy range [10, 80] GeV by step of 10 GeV. The final parameters and the three function shapes are summarized in the figure NNN in annexe of this document. The linearity and energy resolution will be shown in the section NNN dedicated to the single particle study.
 
 \section{The Arbor particle flow algorithm}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -63,7 +81,7 @@ In this paper, we would like to present an other approach of the particle flow :
 ~~~~~~~The Arbor approach has been developed by H.Videau in the ALEPH experiment at LEP and adapted by M.Ruan \cite{arbor-manqi} for ILD detector design. It is based on the idea that the shower reconstruction looks like the shower structure itself : a tree topology. 
 
 The figure \ref{ARBOR_STRUCTURE} shows the shower development after a proton interaction (left) for which we can see the multiple components of the shower : charged particles, neutral particles, electromagnetic and hadronic parts. 
-In the calorimeter view, we can see the shower tree after ArborPFA reconstruction which shows also the analogy between vertexes versus calorimeter hits and particle trajectories versus connector links
+In the calorimeter view, we can see the shower tree after ArborPFA reconstruction which shows also the analogy between vertexes versus calorimeter hits and particle trajectories versus connector links.
 
 With such an approach, the shower reconstruction follows a principle close to the underlying physics and can be useful for studying the shower structure. Such studies have already been done by comparing the track length of Monte-Carlo particles produced within a shower and branch lengths in reconstructed Arbor trees \cite{arbor-manqi}.
   
@@ -75,7 +93,7 @@ With such an approach, the shower reconstruction follows a principle close to th
   \caption{\label{ARBOR_STRUCTURE} Left : schematic view of an induced proton shower. Right : schematic view of a reconstructed shower in a calorimeter with calorimeter hits (in red) and connectors (in black) clustered in an oriented tree topology by ArborPFA}
 \end{figure}
 
-Before describing the algorithm contents in detail, we would like to introduce some vocabulary specific to ArborPFA. We will talk about :
+Before describing the algorithm contents in detail, we would like to introduce some definitions specific to ArborPFA.
 
 \paragraph*{Object} An \textit{object} is a calorimeter hit or a group of contiguous calorimeter hits within a layer that serves as vertex for the ArborPFA algorithm. This was introduced for two reasons i) provide a generalization of connections between \textit{objects} without making any assumptions of what is contained in an \textit{object}, ii) fight against the multiplicity in gaseous based calorimeters such as SDHCAL \cite{sdhcal-paper}.
 
@@ -127,8 +145,7 @@ Before describing the algorithm contents in detail, we would like to introduce s
   \vspace{-30pt}
 \end{wrapfigure}
 
-\paragraph*{Connector seeding 1} In this sub-part, we start by creating a lot of connections in the neighbourhood of each object. For each object, we look for other objects in the next layers with a maximum distance $\Delta_{max}$ and we create a connection between them. Exception are made for isolated objects for which connections can be created only in the backward direction. In the physics point of view, this kind of objects can not lead to a forward energy deposition. Thus, a non-isolated object can be connected with an isolated object in the forward direction but not the opposite.
-
+\paragraph*{Connector seeding 1} In this sub-part, we start by creating a lot of connections in the neighbourhood of each object. For each object, we look for other objects in the next layers with a maximum distance $\Delta_{max}$ and we create a connection between them. Exception are made for isolated objects for which connections can be created only in the backward direction. In the physics point of view, we suppose that this kind of objects can not lead to a forward energy deposition. Thus, a non-isolated object can create a forward connector with an isolated object but not the opposite.
 
 \paragraph*{Connector cleaning 1} Once connectors are seeded, we need to build a tree structure by keeping only one connector in the backward direction for each object. We define the reference direction of an object as :
 
@@ -140,9 +157,9 @@ where :
 
 \begin{itemize}
   \item $w_{bck}$ is the global weight assigned to backward connectors
-  \item $\vec{c_{b}}$ is the direction of a backward connector among the backward connector list
+  \item $\vec{c_{b}}$ is the direction of a backward connector 
   \item $w_{fwd}$ is the global weight assigned to forward connectors
-  \item $\vec{c}_{f,\delta}$ is the direction of a forward connector among the forward connector list at the depth $\delta$. The depth is a number that quantifies the number of recursive steps to reach a connector. For instance, for a given object, one of its forward connectors has a depth of 1. A forward connector of a forward connector has a depth of 2. The figure \ref{ARBOR_CONNECTOR_DEPTH} illustrates this principle. In this first cleaning, the depth is fixed to 1.
+  \item $\vec{c}_{f,\delta}$ is the direction of a forward connector at the depth $\delta$. The depth quantifies the number of recursive steps to reach a connector. For instance, for a given object, one of its forward connectors has a depth of 1. A forward connector of a forward connector has a depth of 2. The figure \ref{ARBOR_CONNECTOR_DEPTH} illustrates this principle. In this first cleaning, the depth parameter is fixed to 1.
 \end{itemize}
 
 The reference direction is thus a vector that goes in the backward direction and indicate the most probable direction for a unique backward connection. Then we need to assign which backward connector should be kept for the tree building. Thus, for each of the backward connector of an object, we define the $\kappa$ order parameter as :
@@ -186,12 +203,12 @@ The chosen backward connector for the tree building will be the one with the sma
 \begin{center}
   \begin{figure}[!ht]
   \subfigure[]{
-    \includegraphics[width=0.5\linewidth]{TopologicalTrackAssociation.pdf}
+    \includegraphics[width=0.45\linewidth]{TopologicalTrackAssociation.pdf}
     \label{ARBOR_TOPOLOGICAL_TRACK_ASSOCIATION}
     }
     \hfill 
   \subfigure[]{
-    \includegraphics[width=0.38\linewidth]{NeutralTreeMerging.pdf}
+    \includegraphics[width=0.34\linewidth]{NeutralTreeMerging.pdf}
     \label{ARBOR_NEUTRAL_TREE_MERGING}
     }
     \caption{(a) Topological track-to-cluster association. (b) Schematic view of a neutral hadron interaction with many seeds in the first interacting layer.}
@@ -199,7 +216,7 @@ The chosen backward connector for the tree building will be the one with the sma
   \end{figure}
 \end{center}
 
-\paragraph*{Topological track association} A track to cluster association is done by using only topological information. We simply project the track entering point on the calorimeter front face. Then we look for seed objects at a maximum distance of $\Delta_{track}$. If many clusters are identified for an association, they are merged in one cluster and the association is done with the merged cluster. 
+\paragraph*{Topological track association} A track to cluster association is done by using only topological information. We simply project the track entering point on the calorimeter front face. Then we look for seed objects at a maximum distance of $\Delta_{track}$. If many clusters are identified for an association, they are merged in one cluster and the association is done with the merged cluster. The figure \ref{ARBOR_TOPOLOGICAL_TRACK_ASSOCIATION} illustrates the process.
 
 \begin{wrapfigure}{l}{0.4\textwidth}
   \vspace{-30pt}
@@ -217,23 +234,6 @@ The chosen backward connector for the tree building will be the one with the sma
 
 
 \paragraph*{Particle flow object creation} Particle flow objects are built from the produced clusters after all the steps described above (Figure \ref{ARBOR_PFO_CREATION}). Charged PFOs are built from clusters that have an associated track, while other clusters are considered as neutral PFOs.
-
-
-
-% %%%%%%%%% Simulation and test-beam data selection
-\section{Simulation and test-beam data - Event selection}
-
-\subsection{The SDHCAL prototype}
-
-The SDHCAL prototype is a sampling calorimeter which geometry consists in 48 layers alternating a 20 mm steel absorber slice and a 7 mm gas resistive plate chamber (GRPC) slice. The gas gap between the two electrodes of the GRPC is 1.2 mm. 9216 pads (96 x 96) of 1cm$^2$ compose the readout of each chamber, thus the total number of channels  comes to 442368. A complete description of the calorimeter setup and its features can be found in \cite{sdhcal-paper}. 
-
-The test beam data used in this paper have been taken at the CERN H6 beam line of the SPS in August/September 2012. The pion event selection is also done according to \cite{sdhcal-paper}. The simulation program is a standalone Geant4 application which geometry reflects the test beam geometry setup.
-
-\paragraph*{Reconstructed energy} The reconstructed energy is computed as follows :
-
-%\begin{equation}
-  
-%\end{equation}
 
 %%%%%% Single particle study %%%%%%
 \section{Single particle study}
@@ -334,6 +334,41 @@ M. Ruan, \emph{Arbor, a new approach of the Particle Flow Algorithm}, Proceeding
   \caption{The algorithm parameters of the Arbor PFA}
   \end{table}
 \end{center}
+
+
+// 0.0385315
+// 4.22584e-05
+// -7.54657e-09
+// 0.0784297
+// -5.69439e-05
+// -4.95924e-08
+// 0.127212
+// 4.56414e-05
+// 1.41142e-08
+
+
+\section{SDHCAL calibration}
+
+\begin{center}
+  \begin{figure}
+    \begin{minipage}{0.48\textwidth}
+      \begin{tabular}{| c | c | c | c |}
+        \hline
+        $\alpha_1$   &   $\alpha_2$    &   $\alpha_3$   \\ \hline
+        0.0385315    &   4.22584e-05   &   -7.54657e-09 \\ \hline \hline
+        $\beta_1$    &   $\beta_2$     &   $\beta_3$   \\ \hline
+        // 0.0784297 &  -5.69439e-05   &   -4.95924e-08 \\ \hline \hline
+        $\gamma_1$   &   $\gamma_2$    &   $\gamma_3$   \\ \hline
+        // 0.127212  &   4.56414e-05   &   1.41142e-08  \\ \hline
+      \end{tabular}    
+    \end{minipage}  \hfill
+    \begin{minipage}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{plots/EnergyCalibration.pdf}      
+    \end{minipage}
+    \caption{\label{SDHCAL_CALIBRATION} Calibration coefficient after $\chi^2$ energy minimization}
+  \end{figure}
+\end{center}
+
 
 
 \end{document}
