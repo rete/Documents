@@ -93,6 +93,8 @@ With such an approach, the shower reconstruction follows a principle close to th
   \caption{\label{ARBOR_STRUCTURE} Left : schematic view of an induced proton shower. Right : schematic view of a reconstructed shower in a calorimeter with calorimeter hits (in red) and connectors (in black) clustered in an oriented tree topology by ArborPFA}
 \end{figure}
 
+This version of the algorithm is implemented using the PandoraSDK API as a toolkit for generic PFA development. The API is used in a Marlin c++ processor as part of the reconstruction chain in ilcsoft \cite{ilcsoft}. It produces only a ROOT \cite{root} file containing the variable needed for the analysis described in this document.
+
 Before describing the algorithm contents in detail, we would like to introduce some definitions specific to ArborPFA.
 
 \paragraph*{Object} An \textit{object} is a calorimeter hit or a group of contiguous calorimeter hits within a layer that serves as vertex for the ArborPFA algorithm. This was introduced for two reasons i) provide a generalization of connections between \textit{objects} without making any assumptions of what is contained in an \textit{object}, ii) fight against the multiplicity in gaseous based calorimeters such as SDHCAL \cite{sdhcal-paper}.
@@ -100,14 +102,14 @@ Before describing the algorithm contents in detail, we would like to introduce s
 \paragraph*{Flow direction} The flow direction is of two types : forward direction which is from an inward layer to a forward layer and backward direction for the opposite.
 
 \paragraph*{Connector} A connector is a link between two \textit{objects}. It has a weight and a direction.
-%Each \textit{object} keeps track of the connector lists in its backward and forward flow direction. A weight can be assigned to a connector which can be useful to sort, select or take a decision on whether to keep it or remove it.
+
+\paragraph*{Connector depth} The connector depth is defined as the number of connector needed to reach an object starting from an given one. For example, for a given object, one of the forward connectors has a depth of one. A forward connector of a forward connector of this object has a depth of 2.
 
 \paragraph*{Tree} A tree is a set of \textit{objects} connected in a tree topology which means that for each object there is only one backward connector. An \textit{object} without backward connector is called a seed and an \textit{object} without forward connector is called a leaf.
 
 \paragraph*{Cluster} A cluster is a set of trees and isolated \textit{objects} which are not connected with any other \textit{object}.
 
 \paragraph*{Particle flow object (PFO)} A particle flow object is a set of clusters and tracks which corresponds to a reconstructed particle.
-
 
 \subsection{Pre-clustering phase} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -127,25 +129,44 @@ Before describing the algorithm contents in detail, we would like to introduce s
 
 \paragraph*{Object creation} When a minimum ionizing particle (MIP) goes through the detector, many pads can be fired in a single layer and leads to a multiplicity greater than 1. To overcome the problem, intra-layer clusters are built. For each cluster, if its number of calorimeter hits is greater than 4, the cluster is split up and each calorimeter hit becomes an object. This happens generally in the main part of a shower. In the other case, an object is created and can contains from 1 up to 4 calorimeter hits. This is the case for MIPs or isolated group of hits. 
 
-%%% ISOLATION %%%
-\paragraph*{Isolated object tagging} The second step of the pre-clustering phase consists in the identification of isolated objects that are not part of a shower bulb. For each object, we look for neighbours at a maximum distance of 18 mm in the same layer or at 5 cm in a different layer. If the number of neighbours in the same layer is greater than 3 and the total number of neighbours is greater than 1 then the object is said to be non-isolated.
+%%% MIP TAGGING %%%
+\paragraph*{Mip track candidate tagging}
+Due to inefficiencies of MIPs (minimum ionising particles) crossing the sensitive zone and in order to retrieve correctly the primary track in the calorimeter, MIPs hits, so in our case MIPs \textit{objects}, are identified and tagged for a future treatment. The tagging is performed with respect to other objects proximity within a layer and in different layers around the object of interest.
 
 \subsection{The main clustering phase - Connectors and trees}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-~~~~~~~The main clustering algorithm can be decomposed in sub-algorithms i) \textit{connector seeding}, where a lot of connectors are created in order to link neighbour objects ii) \textit{connector cleaning} where some connectors are removed in order to have a tree structure and iii) \textit{tree building} where a tree is created from the connected object structure. Thanks to the modularity of the framework, it is possible to iterate on the connector seeding and cleaning algorithms. Thus, in the current implementation, a second iteration is done in order to create a connector alignment. These iteration steps are described below with more details. \\
+~~~~~~~The main clustering algorithm can be decomposed in sub-algorithms :
+\begin{itemize}
+  \item The connector loop, where a loop over algorithms is performed in order to create and remove connectors. At the end of this step, all the objects are arranged in a tree structure which means that each object has 0 or 1 connector in the backward direction and 0 or meanies in the forward one.
+  \item The tree clustering, which create clusters containing each a tree structure left by the previous algorithms.
+\end{itemize}
 
-\begin{wrapfigure}{r}{0.4\textwidth}
-  \vspace{-30pt}
+In the current implementation, the connector loop contains the following algorithms :
+
+\begin{wrapfigure}{r}{0.45\textwidth}
+  %\vspace{-15pt}
   \begin{center}
-    \includegraphics[width=\linewidth]{ArborConnectorDepth.png}
+    \includegraphics[width=\linewidth]{ConnectorSeeding1.pdf}
   \end{center}
-  \vspace{-10pt}
-  \caption{\label{ARBOR_CONNECTOR_DEPTH} Schematic view of the connector depth principle. Starting from the blue object, the green object has a depth of 1, the yellow a depth of 2 and the orange a depth of 3}
-  \vspace{-30pt}
+  \vspace{10pt}
+  \caption{\label{ARBOR_CONNECTOR_SEEDING_1} Schematic view of a neutral and a charged pion showers after the first connector seeding algorithm}
+  %\vspace{-15pt}
 \end{wrapfigure}
 
-\paragraph*{Connector seeding 1} In this sub-part, we start by creating a lot of connections in the neighbourhood of each object. For each object, we look for other objects in the next layers with a maximum distance $\Delta_{max}$ and we create a connection between them. Exception are made for isolated objects for which connections can be created only in the backward direction. In the physics point of view, we suppose that this kind of objects can not lead to a forward energy deposition. Thus, a non-isolated object can create a forward connector with an isolated object but not the opposite.
+\paragraph*{Primary track connection} This algorithm aims to create connections between objects belonging to the primary track of charged particles in the calorimeter. It consists mainly in creating a sub object list that are candidates for the primary tracks by using the previously tagged objects (see Mip track candidate tagging algorithm) and by using the track extrapolations on the calorimeter front face. Once this list is built, the connector seeding 1 algorithm and the connector cleaning 1 are run on the sub list only. These two algorithms are described below in details.
+
+\paragraph*{Connector seeding 1} In this sub-part, we start by creating a lot of connections in the neighbourhood of each object. For each object, we look for other objects in the N$_{layers}$ next layers with a maximum distance $\Delta_{max}$ and we create a connection between them. The figure \ref{ARBOR_CONNECTOR_SEEDING_1} shows the output of this algorithm.
+
+\begin{wrapfigure}{r}{0.45\textwidth}
+  \vspace{-10pt}
+  \begin{center}
+    \includegraphics[width=\linewidth]{ConnectorCleaning1.pdf}
+  \end{center}
+  \vspace{10pt}
+  \caption{\label{ARBOR_CONNECTOR_CLEANING_1} Schematic view of a neutral and a charged pion showers after the first connector cleaning algorithm}
+
+\end{wrapfigure}
 
 \paragraph*{Connector cleaning 1} Once connectors are seeded, we need to build a tree structure by keeping only one connector in the backward direction for each object. We define the reference direction of an object as :
 
@@ -159,10 +180,10 @@ where :
   \item $w_{bck}$ is the global weight assigned to backward connectors
   \item $\vec{c_{b}}$ is the direction of a backward connector 
   \item $w_{fwd}$ is the global weight assigned to forward connectors
-  \item $\vec{c}_{f,\delta}$ is the direction of a forward connector at the depth $\delta$. The depth quantifies the number of recursive steps to reach a connector. For instance, for a given object, one of its forward connectors has a depth of 1. A forward connector of a forward connector has a depth of 2. The figure \ref{ARBOR_CONNECTOR_DEPTH} illustrates this principle. In this first cleaning, the depth parameter is fixed to 1.
+  \item $\vec{c}_{f,\delta}$ is the direction of a forward connector at the connector depth $\delta$ from the considered object.
 \end{itemize}
 
-The reference direction is thus a vector that goes in the backward direction and indicate the most probable direction for a unique backward connection. Then we need to assign which backward connector should be kept for the tree building. Thus, for each of the backward connector of an object, we define the $\kappa$ order parameter as :
+The reference direction is thus a vector that goes in the backward direction and indicates the most probable direction for a unique backward connection. Then we need to assign which backward connector should be kept for the tree building. Thus, for each backward connector of an object, we define the $\kappa$ order parameter as :
 
 \begin{equation}
   \kappa~=~\Big(\frac{\theta}{2\pi}\Big)^{p_{\theta}} . ~\Big(\frac{\Delta}{\Delta_{max}}\Big)^{p_{\Delta}} 
@@ -171,15 +192,10 @@ The reference direction is thus a vector that goes in the backward direction and
 where :
 
 \begin{itemize}
-  \item $\theta$ is the angle between the backward connector and its reference direction.
-  \item $\Delta$ is the distance to the backward connected object
+  \item $\theta$ is the angle between a backward connector and the reference direction of the considered object,
+  \item $\Delta$ is the distance between a pointed backward object and the considered object,
+  \item $p_{\theta}$ (resp. $p_{\Delta}$) is a power parameter for the normalized angle (resp. the normalized distance)
 \end{itemize}
-
-The $\kappa$ parameter quantifies the alignment with the reference direction and is within a range [0,1]. Smaller is this parameter, higher the alignment will be. Thus, the power parameters $p_{\theta}$ and $p_{\Delta}$ are to be tuned depending on which variable we want to emphasize. 
-
-A higher power parameter $p_{\Delta}$ will decrease the $\kappa$ parameter for the same distance between the objects and will favor the $\theta$ angle with the reference direction. In the opposite way, a higher power parameter $p_{\theta}$ will favor the distance $\Delta$ between the two objects. 
-
-The chosen backward connector for the tree building will be the one with the smallest $\kappa$ parameter; all the others are removed from the list. The deletion of connectors is done at the end of the algorithm such that all connectors contribute to the evaluation of the reference direction.
 
 \begin{wrapfigure}{l}{0.4\textwidth}
   \vspace{-30pt}
@@ -187,36 +203,66 @@ The chosen backward connector for the tree building will be the one with the sma
     \includegraphics[width=\linewidth]{ConnectorAlignment.pdf}
   \end{center}
   \vspace{-10pt}
-  \caption{\label{ARBOR_CONNECTOR_ALIGNEMENT} Schematic view of the connector alignment procedure. From an existing connection, more connections are created within a cone of angle $\theta_c$ and a distance $\Delta_{max,c}$. New connectors are in red.}
+  \caption{\label{ARBOR_CONNECTOR_ALIGNEMENT} Schematic view of the connector alignment procedure.}
+  \vspace{25pt}
+\end{wrapfigure}
+
+The $\kappa$ parameter quantifies the alignment with the reference direction within the range [0,1]. Smaller is this parameter, higher the alignment will be. Thus, the power parameters $p_{\theta}$ and $p_{\Delta}$ are to be tuned depending on which variable we want to emphasize. 
+
+A higher power parameter $p_{\Delta}$ will decrease the $\kappa$ parameter for the same distance between the objects and will favor the $\theta$ angle with the reference direction. In the opposite way, a higher power parameter $p_{\theta}$ will favor the distance $\Delta$ between the two objects. 
+
+\begin{wrapfigure}{r}{0.45\textwidth}
+  \vspace{-30pt}
+  \begin{center}
+    \includegraphics[width=\linewidth]{ConnectorCleaning2.pdf}
+  \end{center}
+  \vspace{-10pt}
+  \caption{\label{ARBOR_CONNECTOR_CLEANING_2} Schematic view of a neutral and a charged pion showers after the second connector cleaning algorithm}
   \vspace{-30pt}
 \end{wrapfigure}
 
-\paragraph*{Connector seeding 2} This second step of connector seeding starts from the tree structure that we obtained after the first connector cleaning algorithm. The goal of this second step is to create an alignment of connectors within the shower. For each connector, more connectors are created by looking for objects in both forward and backward directions within a cone of half-angle $\theta_c$ and length $\Delta_{max,c}$. A schematic view of this step is given on figure \ref{ARBOR_CONNECTOR_ALIGNEMENT}.
+The chosen backward connector for the tree building will be the one with the smallest $\kappa$ parameter; all the others are removed from the list. The deletion of connectors is done at the end of the algorithm such that all connectors contribute to the evaluation of the reference direction.
+
+\paragraph*{Connector seeding 2} This second step of connector seeding starts from the tree structure that we obtained after the first connector cleaning algorithm. The goal of this second step is to create an alignment of connectors within the shower. For each connector, more connectors are created by looking for objects in both forward and backward directions within a cone of half-angle $\theta_c$ and a maximum distance of $\Delta_{max,c}$. A schematic view of this step is shown on figure \ref{ARBOR_CONNECTOR_ALIGNEMENT}.
 
 \paragraph*{Connector cleaning 2} Here, we need again to clean-up the backward connector list to end up with only one connector. This last algorithm is similar to the first connector cleaning except that the cleaning is done layer per layer starting from the outer layers with a depth parameter $\delta$ greater than one. For a given connector, this accentuate the alignment with the forward ones. We end up then with a tree structure again.
 
-~ \\
-\paragraph*{Tree building} This step is straight-forward. Seed objects are identified and trees are built by taking the forward connected objects recursively. At this step, clusters are built each containing a single tree. The following association algorithms will associate some of the trees with other trees.
+\begin{wrapfigure}{r}{0.45\textwidth}
+  \vspace{-20pt}
+  \begin{center}
+    \includegraphics[width=\linewidth]{EnergyDrivenTrackClusterAssociation.pdf}
+  \end{center}
+  %\vspace{-10pt}
+  \caption{\label{ARBOR_ENERGY_DRIVEN_TRACK_CLUSTER_ASSOCIATION} Schematic view of the energy driven track cluster algorithm.}
+  \vspace{-30pt}
+\end{wrapfigure}
+
+\paragraph*{Tree building} This step is straight-forward. Seed objects are identified and trees are built by following the forward connected objects recursively. At this step, clusters are built each containing a single tree. The following association algorithms will associate some of the trees with other trees.
 
 \subsection{Association algorithms} 
 
-\begin{center}
-  \begin{figure}[!ht]
-  \subfigure[]{
-    \includegraphics[width=0.45\linewidth]{TopologicalTrackAssociation.pdf}
-    \label{ARBOR_TOPOLOGICAL_TRACK_ASSOCIATION}
-    }
-    \hfill 
-  \subfigure[]{
-    \includegraphics[width=0.34\linewidth]{NeutralTreeMerging.pdf}
-    \label{ARBOR_NEUTRAL_TREE_MERGING}
-    }
-    \caption{(a) Topological track-to-cluster association. (b) Schematic view of a neutral hadron interaction with many seeds in the first interacting layer.}
-    \label{ARBOR_ASSOCIATION_ALGORITHMS}
-  \end{figure}
-\end{center}
+% \begin{center}
+%   \begin{figure}[!ht]
+%   \subfigure[]{
+%     \includegraphics[width=0.45\linewidth]{TopologicalTrackAssociation.pdf}
+%     \label{ARBOR_TOPOLOGICAL_TRACK_ASSOCIATION}
+%     }
+%     \hfill 
+%   \subfigure[]{
+%     \includegraphics[width=0.34\linewidth]{NeutralTreeMerging.pdf}
+%     \label{ARBOR_NEUTRAL_TREE_MERGING}
+%     }
+%     \caption{(a) Topological track-to-cluster association. (b) Schematic view of a neutral hadron interaction with many seeds in the first interacting layer.}
+%     \label{ARBOR_ASSOCIATION_ALGORITHMS}
+%   \end{figure}
+% \end{center}
 
-\paragraph*{Topological track association} A track to cluster association is done by using only topological information. We simply project the track entering point on the calorimeter front face. Then we look for seed objects at a maximum distance of $\Delta_{track}$. If many clusters are identified for an association, they are merged in one cluster and the association is done with the merged cluster. The figure \ref{ARBOR_TOPOLOGICAL_TRACK_ASSOCIATION} illustrates the process.
+\paragraph*{Energy driven track cluster association} The track to cluster association is performed using two different information, the energy/momentum of the cluster/track and the cluster topology. We first look at the track projection at the calorimeter front face. Two different cases may happen :
+
+\begin{itemize}
+  \item the cluster has interact a bit before the calorimeter or in the first layer. In this case, many seed objects are found in the N$_{layer}$ first layers at a maximum distance of $\Delta_{track-cluster}$ of the track projection. Seed objects are then sorted by their distance to the track projection. The clusters associated to their seeds are then associated to the track progressively starting from the closest one until the difference between the track momentum and the total cluster energy is minimized. The associated clusters of a track are then merged since they belong to the same clucter structure.
+  \item the cluster has produced a mip track at least in the N$_{layer}$ first layers and a seed objects are found within a distance $\Delta_{(track-cluster)_1}$ to the track projection. Since only a cluster starting with a mip track has to be associated, an additional distance cut $\Delta_{(track-cluster)_2}$ between seed objects and the track projection is done. This decreases the confusion for a small separation distance between close by particles. The same track-to-cluster association and cluster merging is then performed as above.
+\end{itemize}
 
 \begin{wrapfigure}{l}{0.4\textwidth}
   \vspace{-30pt}
@@ -228,6 +274,8 @@ The chosen backward connector for the tree building will be the one with the sma
   \vspace{-20pt}
 \end{wrapfigure}
 
+The figure \ref{ARBOR_ENERGY_DRIVEN_TRACK_CLUSTER_ASSOCIATION} shows a schematic view of this algorithm. The first case corresponds to the case where an early interaction is found and the second one where a primary mip track of a cluster has been found.
+
 \paragraph*{Neutral tree merging} This algorithm is designed for neutral particle interactions for which the first interacting layer contains many seeds. The figure \ref{ARBOR_NEUTRAL_TREE_MERGING} shows a configuration where many trees have been built (with three colours) for one neutral particle interaction. We can see that the seeds in the first interacting layer should belong to the same cluster. This algorithm identifies this kind of configuration and merge the trees into one cluster.
 
 \paragraph*{Small neutral fragment merging} At this stage, the main part of the shower of each particles has been identified. It remains only isolated objects and small tree structures that surrounds the showers. First, these small structures are identified if their size is less than $N_{cut}$ objects. Then for all showers and small structures, the centroid (barycentre) is computed and each small structure is merged in the shower that has the smallest distance between centroids.
@@ -238,7 +286,7 @@ The chosen backward connector for the tree building will be the one with the sma
 %%%%%% Single particle study %%%%%%
 \section{Single particle study}
 
-
+In order to study the single particle performance, we need to adjust the data so that both PandoraPFA and ArborPFA can process them. The test beam data produced by the SDHCAL at the H6 beam line at SPS are used. The pion event selection is done according to \cite{sdhcal-paper}. Then fake track is produced in front of the calorimeter in order imitate the TPC role in ILD and mainly to steer the pion reconstruction in PandoraPFA. The shower hit position distribution
 
 
 
@@ -256,21 +304,29 @@ The chosen backward connector for the tree building will be the one with the sma
   {\emph{Nucl.\ Instrum.\ Meth.} {\bf #1} (#2) #3}}
 
 
+
 \bibitem{sdhcal-paper} 
-%[1] 
 Calice Collaboration, \emph{First results of the CALICE SDHCAL technological prototype}, CALICE Analysis Note CAN-037,30th November 2012
 
+
 \bibitem{ilc-tdr} 
-%[1] 
-J. Carwardine (chair) {\it et al.},  \emph{International Linear Collider Technical Design Report}. 1) Executive Summary, 2) Physics, 3) Accelerator, 4) Detectors. 12 June 2013
+J. Carwardine {\it et al.},  \emph{International Linear Collider Technical Design Report}. 1) Executive Summary, 2) Physics, 3) Accelerator, 4) Detectors. 12 June 2013
+
 
 \bibitem{pandora-pfa}
-%[2]
 M. A. Thomson, \emph{Particle Flow Calorimetry and the PandoraPFA Algorithm}, Nucl.Instrum.Meth. A611:25-40, 2009
 
+
 \bibitem{arbor-manqi}
-%[2]
-M. Ruan, \emph{Arbor, a new approach of the Particle Flow Algorithm}, Proceeding of CHEF 2013. arXiv:1403.4784v1, 2013
+M. Ruan, \emph{Arbor, a new approach of the Particle Flow Algorithm}, Proceeding of CHEF 2013. \hepex
+
+
+\bibitem{ilcsoft}
+ILCsoft, 2012. \textit{http://ilcsoft.desy.de/portal}
+
+
+\bibitem{root}
+ROOT, 1995-2015, \textit{https://root.cern.ch/drupal}
 
 \newpage
 
