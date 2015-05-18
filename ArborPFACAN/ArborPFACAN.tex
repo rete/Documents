@@ -33,7 +33,7 @@
  E-mail: \email{rete@ipnl.in2p3.fr}
  }
  
-\abstract{ After the validation of the PandoraPFA algorithm, a new reconstruction algorithm is needed in order to validate the Particle Flow Algorithm (PFA) approach. In a such designed detector, the electromagnetic calorimeters (ECAL) and hadronic calorimeters (HCAL) have a leading role in the reconstruction task. The Semi-Digital Hadron Calorimeter (SDHCAL) is a candidate prototype of hadron calorimeter for ILD since its fine granularity allows to apply the Particle Flow Algorithm. The ArborPFA algorithm has been applied to the SDHCAL detector prototype data \cite{sdhcal-paper} in order to separate close-by hadronic shower contributions. A comparison between PandoraPFA and ArborPFA has been performed. The results of this study indicate a powerful separation and a good recovered energy up to 5 cm of separation distance.}
+\abstract{ After the validation of the PandoraPFA algorithm, a new reconstruction algorithm is needed in order to validate the Particle Flow Algorithm (PFA) approach. In a such designed detector, the electromagnetic calorimeters (ECAL) and hadronic calorimeters (HCAL) have a leading role in the reconstruction task. The Semi-Digital Hadron Calorimeter (SDHCAL) is a candidate prototype of hadron calorimeter for ILD since its fine granularity allows to apply the Particle Flow Algorithm. The ArborPFA algorithm has been applied to the SDHCAL detector prototype data \cite{sdhcal-paper} in order to extract the single particle algorithm efficiency and to separate close-by hadronic shower contributions. The results of these studies indicate a good single particle efficiency and powerful separation up to 5 cm of separation distance.}
 
 \begin{document}
 
@@ -47,13 +47,13 @@
 
 The calorimeters proposed by the CALICE collaboration are currently under study mainly for this purpose. A \textit{semi digital hadronic calorimeter} prototype (SDHCAL) has been constructed \cite{sdhcal-paper} and successfully tested at the CERN H2 and H6 test beam lines of the SPS (CERN) in May and August 2012 respectively. With a transverse readout segmentation of 1 cm$^2$, 48 GRPC layers of $\sim$ 2.7 cm (absorber+active medium) and a good energy resolution ($\frac{\sigma_{E}}{E}$ $\simeq$ 10 \%), this calorimeter fits perfectly the ILC needs. 
 
-On the other hand, the Particle Flow concept has been introduced in order to achieve the ILC benchmarks \cite{ilc-tdr}. This algorithm aims to reconstruct particles using the most appropriate detector for the energy and momentum measurement. An implementation of the particle flow algorithm has been developed by M. A. Thomson \cite{pandora-pfa} and embedded in a C++ standalone framework called PandoraPFA and is, for the moment, the only mature implementation of this algorithm for linear colliders.
+On the other hand, the Particle Flow concept has been introduced in order to achieve the ILC benchmarks \cite{ilc-tdr}. This algorithm aims to reconstruct particles individually using the most appropriate detector for the energy and momentum measurement. An implementation of the particle flow algorithm called PandoraPFA has been developed by M. A. Thomson \cite{pandora-pfa} and is the most mature implementation of this algorithm for linear colliders.
 
-In this paper, we would like to present an other approach of the particle flow : the ArborPFA approach. The algorithm has been designed for high granularity calorimeters and tested on SDHCAL test beam data. First, we evaluate here the performance of the algorithm on single pion particles. Then, we present the result of a study that aims to separate two overlaid pion showers with different separation distances and different energies. For both studies, a comparison between PandoraPFA and ArborPFA is performed.
+In this paper, we would like to present an other approach of the particle flow : the ArborPFA approach. The algorithm has been designed for high granularity calorimeters and tested on SDHCAL test beam data. First, we evaluate here the performance of the algorithm on single pion particles. Then, we present the result of a study that aims to separate two overlaid pion showers with different separation distances and different energies.
 
 \section{The SDHCAL prototype}
 
-The SDHCAL prototype is a sampling calorimeter which geometry consists in 48 layers alternating a 20 mm steel absorber slice and a 7 mm gas resistive plate chamber (GRPC) slice. The gas gap between the two electrodes of the GRPC is 1.2 mm. 9216 pads (96 x 96) of 1cm$^2$ compose the readout of each chamber, thus the total number of channels  comes to 442368. A complete description of the calorimeter setup and its features can be found in \cite{sdhcal-paper}. 
+The SDHCAL prototype is a sampling calorimeter which consists in 48 layers alternating a 20 mm steel absorber slice and a 7 mm gas resistive plate chamber (GRPC) slice. The gas gap between the two electrodes of the GRPC is 1.2 mm. 9216 pads (96 x 96) of 1cm$^2$ compose the readout of each chamber, thus the total number of channels  comes to 442368. A complete description of the calorimeter setup and its features can be found in \cite{sdhcal-paper}. 
 
 The test beam data used in this paper have been taken at the CERN H6 beam line of the SPS in August/September 2012. The pion event selection is also done according to \cite{sdhcal-paper}.
 
@@ -93,7 +93,7 @@ With such an approach, the shower reconstruction follows a principle close to th
   \caption{\label{ARBOR_STRUCTURE} Left : schematic view of an induced proton shower. Right : schematic view of a reconstructed shower in a calorimeter with calorimeter hits (in red) and connectors (in black) clustered in an oriented tree topology by ArborPFA}
 \end{figure}
 
-This version of the algorithm is implemented using the PandoraSDK API as a toolkit for generic PFA development. The API is used in a Marlin c++ processor as part of the reconstruction chain in ilcsoft \cite{ilcsoft}. It produces only a ROOT \cite{root} file containing the variable needed for the analysis described in this document.
+This version of the algorithm is implemented using the PandoraSDK API as a toolkit for generic PFA development. The API is used in a Marlin c++ processor as part of the reconstruction chain in ILCSOFT \cite{ilcsoft}. It produces only a ROOT \cite{root} file containing the variable needed for the analysis described in this document.
 
 Before describing the algorithm contents in detail, we would like to introduce some definitions specific to ArborPFA.
 
@@ -197,7 +197,7 @@ where :
   \item $p_{\theta}$ (resp. $p_{\Delta}$) is a power parameter for the normalized angle (resp. the normalized distance)
 \end{itemize}
 
-\begin{wrapfigure}{l}{0.4\textwidth}
+\begin{wrapfigure}{l}{0.3\textwidth}
   \vspace{-30pt}
   \begin{center}
     \includegraphics[width=\linewidth]{ConnectorAlignment.pdf}
@@ -212,7 +212,7 @@ The $\kappa$ parameter quantifies the alignment with the reference direction wit
 A higher power parameter $p_{\Delta}$ will decrease the $\kappa$ parameter for the same distance between the objects and will favor the $\theta$ angle with the reference direction. In the opposite way, a higher power parameter $p_{\theta}$ will favor the distance $\Delta$ between the two objects. 
 
 \begin{wrapfigure}{r}{0.45\textwidth}
-  \vspace{-30pt}
+  \vspace{-10pt}
   \begin{center}
     \includegraphics[width=\linewidth]{ConnectorCleaning2.pdf}
   \end{center}
@@ -232,13 +232,14 @@ The chosen backward connector for the tree building will be the one with the sma
   \begin{center}
     \includegraphics[width=\linewidth]{EnergyDrivenTrackClusterAssociation.pdf}
   \end{center}
-  %\vspace{-10pt}
+  \vspace{-5pt}
   \caption{\label{ARBOR_ENERGY_DRIVEN_TRACK_CLUSTER_ASSOCIATION} Schematic view of the energy driven track cluster algorithm.}
   \vspace{-30pt}
 \end{wrapfigure}
 
 \paragraph*{Tree building} This step is straight-forward. Seed objects are identified and trees are built by following the forward connected objects recursively. At this step, clusters are built each containing a single tree. The following association algorithms will associate some of the trees with other trees.
 
+%%%%%%%%% ASSOCIATION ALGORITHMS %%%%%%%%%%%
 \subsection{Association algorithms} 
 
 % \begin{center}
@@ -264,8 +265,57 @@ The chosen backward connector for the tree building will be the one with the sma
   \item the cluster has produced a mip track at least in the N$_{layer}$ first layers and a seed objects are found within a distance $\Delta_{(track-cluster)_1}$ to the track projection. Since only a cluster starting with a mip track has to be associated, an additional distance cut $\Delta_{(track-cluster)_2}$ between seed objects and the track projection is done. This decreases the confusion for a small separation distance between close by particles. The same track-to-cluster association and cluster merging is then performed as above.
 \end{itemize}
 
-\begin{wrapfigure}{l}{0.4\textwidth}
+\begin{wrapfigure}{l}{0.23\textwidth}
   \vspace{-30pt}
+  \begin{center}
+    \includegraphics[width=\linewidth]{NeutralTreeMerging.pdf}
+  \end{center}
+  \vspace{-10pt}
+  \caption{\label{ARBOR_NEUTRAL_TREE_MERGING} Schematic view of the neutral tree merging algorithm}
+  \vspace{-40pt}
+\end{wrapfigure}
+
+The figure \ref{ARBOR_ENERGY_DRIVEN_TRACK_CLUSTER_ASSOCIATION} shows a schematic view of this algorithm. The first case corresponds to the case where an early interaction is found and the second one where a primary mip track of a cluster has been found.
+
+\paragraph*{Neutral tree merging} This algorithm is designed for neutral particle interactions for which the first interacting layer contains many seeds. The figure \ref{ARBOR_NEUTRAL_TREE_MERGING} shows a configuration where many trees have been built (with three colours) for one neutral particle interaction. We can see that the seeds in the first interacting layer should belong to the same cluster. This algorithm identifies this kind of configuration and merge the trees into one cluster.
+
+\paragraph*{Pointing cluster association} This step aims to associate neutral fragments to other fragments which may be charged or neutral parent clusters. We start by identifying the clusters for which processing a linear fit over the hit position distribution makes sense. We ask for at least N$_{objects}$ objects in at least N$_{layer}$ layers to select a cluster that can be either a parent or a daughter cluster. Then we perform as follow :
+
+\begin{enumerate}
+  \item A linear fit is performed over the hit position distribution for all of clusters
+  \item The clusters are sorted by their innermost layer (innermost hit in the cluster) l$_{inner}$
+  \item Starting from the outermost daughter cluster \textit{i}, we look for a parent cluster \textit{j} for which l$_{inner,i}$~>~l$_{inner,j}$.
+  \item If d$_{proj}$ < d$_{proj,cut}$ \& d$_{proj}$ < d$_{proj,best}$ \& $\theta_{i,j}$ < $\theta_{i,j,cut}$  where :
+  \begin{itemize}
+    \item d$_{proj}$ is the distance between the daughter cluster fit and the parent cluster barycentre (line-to-point distance)
+    \item $\theta_{i,j}$ is the angle between the two cluster fits
+  \end{itemize}
+  then the parent cluster is set as best parent for this computation and the best projection distance d$_{proj,best}$ is updated.
+  \item If d$_{cross}$ < d$_{cross,cut}$ \& d$_{cross}$ < d$_{cross,best}$ \& d$_{barycentre}$ < d$_{barycentre,cut}$ where :
+  \begin{itemize}
+    \item d$_{cross}$ is the distance at closest approach (d.c.a) between the two fitted lines of the clusters
+    \item d$_{barycentre,i,j}$ is the distance between the two cluster barycentres
+  \end{itemize}
+  then the parent cluster is set as the best parent for this computation and the best d.c.a is updated
+  \item Choose the best parent cluster among the two computations above. Many cases may happened i) no parent cluster is found, then no parent cluster is assigned to this daughter cluster, ii) one of the two computations above has found a parent cluster or the two methods have found the same parent, then we assign it to the daughter cluster, iii) the two methods have found a parent cluster but there are not the same one. In this case the closest parent cluster among the two in terms of barycentre distance is assigned to the daughter cluster
+  \item If no parent cluster is found for the daughter cluster \textit{i}, stop processing this cluster, else
+  \item If the parent cluster has no associated track, merge the two clusters, else
+  \item Check if the $\chi^2$ defined as :
+  \begin{equation}
+    \chi^2 = \Big( \frac{p-E_{tot}}{N_{res} . \sigma_E . p} \Big)^2
+  \end{equation}
+  where :
+  \begin{itemize}
+    \item p is the track momentum
+    \item E$_{tot}$ is the total energy estimated from the combined hit list of the parent cluster and the daughter cluster
+    \item N$_{res}$ is the number of energy resolution used for the computation (parameter)
+    \item $\sigma_E$ is the energy resolution at the track momentum p 
+  \end{itemize}
+  is less than $\chi^2_{cut}$ (parameter) and if the difference p-E$_{tot}$ decreases. In this case the two clusters are merged together.
+\end{enumerate}
+
+\begin{wrapfigure}{l}{0.4\textwidth}
+  \vspace{-20pt}
   \begin{center}
     \includegraphics[width=\linewidth]{PfoCreation.pdf}
   \end{center}
@@ -274,12 +324,7 @@ The chosen backward connector for the tree building will be the one with the sma
   \vspace{-20pt}
 \end{wrapfigure}
 
-The figure \ref{ARBOR_ENERGY_DRIVEN_TRACK_CLUSTER_ASSOCIATION} shows a schematic view of this algorithm. The first case corresponds to the case where an early interaction is found and the second one where a primary mip track of a cluster has been found.
-
-\paragraph*{Neutral tree merging} This algorithm is designed for neutral particle interactions for which the first interacting layer contains many seeds. The figure \ref{ARBOR_NEUTRAL_TREE_MERGING} shows a configuration where many trees have been built (with three colours) for one neutral particle interaction. We can see that the seeds in the first interacting layer should belong to the same cluster. This algorithm identifies this kind of configuration and merge the trees into one cluster.
-
 \paragraph*{Small neutral fragment merging} At this stage, the main part of the shower of each particles has been identified. It remains only isolated objects and small tree structures that surrounds the showers. First, these small structures are identified if their size is less than $N_{cut}$ objects. Then for all showers and small structures, the centroid (barycentre) is computed and each small structure is merged in the shower that has the smallest distance between centroids.
-
 
 \paragraph*{Particle flow object creation} Particle flow objects are built from the produced clusters after all the steps described above (Figure \ref{ARBOR_PFO_CREATION}). Charged PFOs are built from clusters that have an associated track, while other clusters are considered as neutral PFOs.
 
