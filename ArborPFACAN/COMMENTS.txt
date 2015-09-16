@@ -1,0 +1,139 @@
+#Correction Oleg Markin 1 :
+
+Dear Remi,
+
+you've written a beautiful note! In particular let me thank you for the detailed description of the ArborPFA, on behalf of those who is going to use it. I wish there were an equally good description of the PandoraPFA when I was working with it.  By the way, to attract attention of a reader to the work's results, I would still place the section about the ArborPFA (#3) behind the section #5 or maybe into appendices -- let us remember the title declares the note is not about the algorithm itself.
+
+Since you have made the text using a JINST template, I comment it like something more than simply an internal note, so please ignore those of my comments that assume a non-CALICE reader while you are at the note stage. Your English is mostly clear and pure, though I am not satisfied with wording in several places, so please consult a native speaker where I am not sure (marked CNS). The comments and suggestions for lines are interleaved with general ones.
+
+The algorithm parameters in the appendices are interesting if they are optimized to provide the best separation of showers. Otherwise, I think their values are not that important for understanding of the written and not needed for the JINST.
+
+[OK] l.18 "Separation of two close-by ..."
+
+[OK] l.29  Should be "in order to distinguish between Z and WÂ± bosons as well as to study Higgs' properties."
+
+[OK] l.30 I would treat the nouns here as uncountable: "To achieve this, both good energy resolution and fine transverse segmentation should be provided ..." -- CNS
+
+[OK and poetic ...] l.37 Why do not use a rhyme : "this calorimeter perfectly fits the ILC needs."
+
+[OK] l.39  "aims to individually reconstruct particles,  using ..." -- CNS
+
+[OK] l.56 why not \cdot
+
+[TO SEE] Please indicate typical numbers of hits at each threshold for a 10 GeV shower -- that is important and interesting.
+
+[OK] l.57 comma before and
+
+[OK] l.58 Maybe "number of hits at thresholds 1, 2 and 3"; comma before where -- CNS
+
+[NOT] Here I am asking myself: do the hits at thresholds 2 and 3 include those at 1 and 2 -- probably not, judging by the formula -- and what are the values of energy, to which the thresholds correspond? I think a couple of sentences explaining details would not hurt.
+[-> NOT because of SDHCAL paper reference l.53]
+
+[THANK YOU] Figure 1, left, is an impressive drawing, I like it.
+
+[TO SEE] l.75-78 This information is too poor even for internal reading. For the JINST, it should be either extended or omitted.
+[Suggestions ?]
+
+[OK] l.82 "a vertex"
+
+[NOT] l.footnote Why " ... pad could ..", it can, anytime.
+[One or more pads could be fired. See sdhcal paper reference about multiplicity]
+
+[OK] l.95 comma before which
+
+[OK] l.103  "a few pads"/"several pads"
+[several]
+
+[OK] l.107 Do you mean "each of these hits ..."
+[l.108 not 107]
+
+[OK] l.117 Do you intentionally use  a comma within the under-script -- I expect it before "it".
+[yes, comma in under-script. Comma after 'it' also added]
+
+[OK] l.footnote "a tracking detector" -- CNS
+
+[OK] l.127 Is the word "face" appropriate here and below, perhaps just remove it -- CNS
+
+[OK] l.133 Do you mean "for example" by "in one case"? Then I would simply stop the sentence after " ... algorithm" -- CNS
+
+[OK] l.155 I would expect ", so that" instead of "such that" -- CNS
+
+[OK] l.172 "information" is uncountable -- please rephrase.
+[two pieces of information]
+
+[OK] l.179 Is "clusters of a track" a good term?
+['track' reference removed since not useful]
+
+[OK] l.185 "close-by", without a hyphen it is an adverb -- CNS
+
+[OK, Chuck Norris approved] l.217 "is minimal" looks more correct for me -- CNS
+
+[OK] l.219 "may happen"
+
+[TO SEE] l.224 Let me a joke, is this line a machine code?
+[Don't know what to replace with. Any suggestions ?]
+
+[OK] l.237 "surround the shower" or what?
+
+[OK] l.255 "all hit positions" -- CNS
+
+Figure 8 What a nice octopus!
+[From Méditerrannée !]
+
+[OK] l.261 "with a momentum equal to that of beams"
+
+[OK] l.262 Once again, "The inputs are loaded" is slightly obscure to me, please say a few words about those inputs.
+
+[OK] l.278 "These points  are extracted for each energy value, using..." Do you mean "first, a gaussian .." or "the first gaussian"?  Please check -- something is wrong with this and the next sentences.
+[Simply rephrased ...]
+
+[OK] l.281 "From the latter"
+
+[OK] l.295 "... showers,  two events ..."
+
+[OK] l.298 The sentence seems to look better without "also".
+
+[TO SEE] Figure 11 looks poor and uninformative -- not good for the JINST.
+[Any suggestions ?]
+
+[OK] l.310 "same" is probably used incorrectly here -- CNS
+[in the same one -> in a new one]
+
+[TODO] l.317-318 No, we can hardly see, please rephrase.
+
+[OK] Caption of fig.12 "Colours correspond"
+
+[OK] l.327 It is better to replace "of" by "at".
+
+[OK] l.330 Why "We CAN check ..."? Have you checked that?
+['We can check that' -> 'We can also see that'. Yes it has been checked]
+
+[TODO] Figures 14 and 15 should be probably enlarged since letters of legends are too small and nearly unreadable when  printed to paper if we care about the paper reading.
+
+[TO SEE] The definition of efficiency and purity is too simple since it does take into account the threshold of a hit, so we don't know which hits were incorrectly assigned by the algorithm. Can we -- perhaps in the future -- weight the hits with their energy? I remember you have tagged them.
+[I don't understand your remark, sorry. Can you rephrase it or add more comments]
+
+[OK] l.341 "As" seems ambiguous here, I would write "In the same way as". -- CNS
+
+[OK] l.358 typo "at least one"
+
+[OK] l.359 see l.341
+
+l.361 I absolutely do not understand how "This means", whereas I perfectly understand your thought concerning the binary-like behavior. Maybe this is my problem, but would you add some explanation to the text.
+
+l.369 "show"
+
+As I wrote before, we shall be proud of the right assignment of ENERGY, not just hits.
+
+l.379  Move "pointing TO the particle entry point" to immediately after "..., a track".
+
+l.380 see 369
+
+l.385 typo "and shows that"
+
+And again -- see l.361 -- I have stumbled over "At small separation distance (5cm), the difference stays constant and shows ..." Please rephrase what you mean.
+
+l.386 "or merging with the charged hadron"
+
+l.390 "improve" is certainly not sufficient: "to provide/facilitate the PFA performance". 
+
