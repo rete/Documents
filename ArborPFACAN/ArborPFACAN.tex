@@ -25,7 +25,7 @@
 \usepackage{lineno}
 \linenumbers
 
-\title{Close-by showers separation within SDHCAL prototype detector using ArborPFA}
+\title{Separation of nearby hadronic showers in the CALICE SDHCAL prototype detector using ArborPFA}
 
 \author{R. \'Et\'e$^a$\thanks{Corresponding author.} \\%, I. Laktineh$^a$ , G. Grenier$^a$ , A. Steen$^a$ , L. Mirabito$^a$\\
 \llap{$^a$} Universit\'e de Lyon, Universit\'e Lyon 1, CNRS/IN2P3, 
@@ -37,7 +37,7 @@
  
 \abstract{ 
 
-A new reconstruction algorithm called ArborPFA  is developed to separate close-by hadronic showers in the SDHCAL prototype. This intends to demonstrate the capability of high granularity hadronic calorimeters such as the SDHCAL to apply efficiently the Particle Flow Algorithms in the future ILC experiments. The reconstruction algorithm we present here uses the tree structure features of the hadronic showers, that high granular calorimeters reveal, to associate clusters belonging to each hadronic shower and to reduce the confusion between two close-by showers. The results of these studies indicate a good single particle efficiency and powerful separation down to 5 cm of separation distance.
+A new reconstruction algorithm, ArborPFA, is developed to separate nearby hadronic showers in the SDHCAL prototype. This intends to demonstrate the capability of high granularity hadronic calorimeters such as the SDHCAL to efficiently apply Particle Flow Algorithms at future ILC experiments. The reconstruction algorithm we present here uses the tree-like structure features of hadronic showers, that high granular calorimeters reveal, to associate clusters belonging to each hadronic shower and to reduce the confusion between two close-by showers. The results of these studies indicate a good single particle efficiency and powerful separation down to distance of 5 cm.
 }
 
 \begin{document}
@@ -49,21 +49,22 @@ A new reconstruction algorithm called ArborPFA  is developed to separate close-b
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-~~~~~~~To study the Higgs boson properties and to extend the discovery of new particles beyond the scope of LHC, a linear e$^+$ e$^-$ collider such as the ILC is proposed. An important requirement of such a machine is to provide a good jet energy resolution ($\Delta$E/E $\sim$3-4\%) in order to distinguish between Z and W$^{\pm}$ bosons as well as to study the Higgs boson properties. To achieve this, both good energy resolution and fine transverse segmentation should be provided by the \textit{electromagnetic calorimeter} (ECAL) and the \textit{hadronic calorimeter} (HCAL).
-
-Different calorimeters are currently under study by the CALICE collaboration to fulfill these requirements. In this framework, a \textit{semi digital hadronic calorimeter} prototype (SDHCAL) was built \cite{sdhcal-paper} and successfully tested at the CERN H6 test beam lines of the SPS (CERN) in 2012. With a transverse readout segmentation of 1 cm$^2$, 48 sampling layers and a good energy resolution \cite{sdhcal-paper}, this calorimeter perfectly fits the ILC needs. 
-
+~~~~~~~To study the Higgs boson properties and to extend the discovery of new particles beyond the scope of LHC, a linear e$^+$ e$^-$ collider such as the ILC is proposed. An important requirement of such a machine is to provide a good jet energy resolution ($\Delta$E/E $\sim$3-4\%) in order to distinguish between Z and W$^{\pm}$ bosons as well as to study the Higgs boson properties. 
 
 The Particle Flow concept has been proposed to achieve the ILC benchmarks \cite{ilc-tdr}. This algorithm aims to individually reconstruct particles using the most appropriate sub-detector for the energy and momentum measurement. An implementation of the particle flow algorithm called PandoraPFA has been developed \cite{pandora-pfa} and successfully applied in ILD physics performance studies and to close-by hadronic showers separation using AHCAL beam test data %\cite{note ahcal !!!}.
 
-In this paper, we present an other approach of the particle flow : the ArborPFA approach. The algorithm has been designed for high granularity calorimeters and tested on SDHCAL test beam data. We propose to evaluate the performance of the algorithm on single pion events and then to study the ability of the algorithm to separate two overlaid pion showers with different separation distances and different energies.
+To apply efficiently the Particle Flow Algorithms, both good energy resolution and fine transverse and longitudinal segmentation should be provided by the \textit{electromagnetic calorimeter} (ECAL) and the \textit{hadronic calorimeter} (HCAL).
+
+Different calorimeter technologies are currently under study by the CALICE collaboration to fulfill these requirements. In this framework, a \textit{semi digital hadronic calorimeter} prototype (SDHCAL) was built \cite{sdhcal-paper} and successfully tested at the CERN H6 test beam lines of the SPS (CERN) in 2012. With a transverse readout segmentation of 1 cm$^2$, 48 sampling layers and good energy resolution \cite{sdhcal-paper}, this calorimeter statifies ILC requirements. 
+
+In this paper, we present an other approach of the particle flow : the ArborPFA approach. The algorithm has been designed for high granularity calorimeters and applied to SDHCAL test beam data. We propose to evaluate the performance of the algorithm on single pion events and to study the ability of the algorithm to separate two overlaid pion showers at different separation distances and energies.
 
 \newpage
 \section{The SDHCAL prototype}
 
-The SDHCAL prototype is a sampling calorimeter which consists of 48 layers (up to 50 layers) alternating a 20 mm steel absorber slice and a 6 mm gas resistive plate chamber (GRPC) slice with their embedded electronics. The gas gap between the two electrodes of the GRPC is 1.2 mm. 9216 pads (96 x 96) of 1cm$^2$ compose the readout of each chamber, leading to a total number of 442368 channels. A complete description of the calorimeter setup and its features can be found in \cite{sdhcal-paper}. 
+The SDHCAL prototype is a sampling calorimeter which consists of 48 layers alternating a 20 mm steel absorbers and a 6 mm gas resistive plate chamber (GRPC) with their embedded electronics. The gas gap between the two electrodes of the GRPC is 1.2 mm. 9216 pads (96 x 96) of 1cm$^2$ compose the readout of each chamber, leading to a total number of 442368 channels. Signals from particles crossing the gas gap are recorded on those pads in a 2-bits format corresponding to 3 thresholds on the induced charge. A complete description of the calorimeter setup and its features can be found in \cite{sdhcal-paper}. 
 
-The test beam data used in this paper have been taken at the CERN H6 beam line in 2012. The pion event selection is also performed according to the selection presented in \cite{sdhcal-paper}.
+The test beam data used in this paper were taken at the CERN H6 beam line in 2012. The pion event selection is also performed according to the selection presented in \cite{sdhcal-paper}.
 
 The reconstructed energy of a single particle is computed as follows :
 
@@ -77,7 +78,7 @@ where $\alpha$, $\beta$ and $\gamma$ are quadratic functions of the number of hi
 \begin{equation}
   \chi^2 = \sum\limits_{evt} \frac{(E_{beam} - E_{rec})^2}{E_{beam}}
 \end{equation}
-This minimization was performed over all the hadronic events in the energy range [10, 80] GeV by step of 10 GeV. The linearity and energy resolution will be shown in the section \ref{SINGLE_PARTICLE_STUDY_SECTION} dedicated to the single particle study.
+This minimization was performed over all the hadronic events in the energy range [10, 80] GeV by step of 10 GeV. The linearity and energy resolution will be shown in section \ref{SINGLE_PARTICLE_STUDY_SECTION} dedicated to the single particle study.
 
 \newpage
 \section{The Arbor particle flow algorithm}
@@ -87,12 +88,12 @@ This minimization was performed over all the hadronic events in the energy range
 \subsection{Principle} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-~~~~~~~The Arbor approach has been developed by the ALEPH collaboration and adapted \cite{arbor-manqi} for ILD detector design recently. It is based on the idea that the hadronic shower development follows a tree topology.
+~~~~~~~The Arbor approach has been developed by the ALEPH collaboration and recently adapted \cite{arbor-manqi} for ILD detector design. It is based on the idea that the hadronic shower development follows a tree-like topology.
 
-Figure \ref{ARBOR_STRUCTURE} shows the shower development after a proton interaction (left) for which we can see the multiple components of the shower : charged particles, neutral particles, electromagnetic and hadronic parts.
-The same figure shows on the right a sampling calorimeter view of a shower interaction as seen in a high granular calorimeter. The black arrows drawn on this view suggest clearly the tree topology development of the shower.
+Figure \ref{ARBOR_STRUCTURE} shows the shower development after a proton interaction (left) in which we can see the multiple components of the shower : charged particles, neutral particles, electromagnetic and hadronic parts.
+The same figure shows on the right a sampling calorimeter view of a shower interaction as seen in a highly granular calorimeter. The black arrows drawn on this view suggest the tree-like topology development of the shower.
 
-With such an approach, the shower reconstruction follows a principle close to the underlying physics and can be useful for studying the shower structure. 
+With such an approach, the shower reconstruction follows a principle close to the underlying physics.% and can be useful for studying the shower structure. 
   
 \begin{figure}[!ht]
   \begin{center}
@@ -104,9 +105,9 @@ With such an approach, the shower reconstruction follows a principle close to th
 
 The algorithm we present here is implemented using the PandoraSDK API as a toolkit for generic PFA development \cite{pandora-sdk}. The API is used in a Marlin \cite{marlin-lccd} c++ processor as part of the reconstruction chain in ILCSOFT \cite{ilcsoft}. It produces only a ROOT \cite{root} file containing the variable needed for the analysis described in this document.
 
-Before describing the algorithm contents in detail, few definitions specific to ArborPFA need to be introduced :
+Before describing the algorithm in detail, a few definitions specific to ArborPFA need to be introduced :
 
-\paragraph*{Object} An \textit{object} is a calorimeter hit or a group of contiguous calorimeter hits within a layer that serves as a vertex for the ArborPFA algorithm. This was introduced for two reasons i) to provide a generalization of connections between \textit{objects} without making any assumptions of what is contained in an \textit{object}, ii) to overcome the track multiplicity\footnote{More than one pad could be fired when a particle crosses the gas gap.} in gaseous based calorimeters such as SDHCAL \cite{sdhcal-paper}.
+\paragraph*{Object} An \textit{object} is a calorimeter hit or a group of contiguous calorimeter hits within a layer that serves as a vertex for the ArborPFA algorithm. This was introduced for two reasons i) to provide a generalization of connections between \textit{objects} without making any assumptions of what is contained in an \textit{object}, ii) to overcome the pad multiplicity\footnote{More than one pad could be fired when a particle crosses the gas gap.} inherent in the SDHCAL \cite{sdhcal-paper} and similar detectors.
 
 \paragraph*{Flow direction} The flow direction is of two kinds : forward direction which is from upstream to downstream of the beam direction and backward direction for the opposite.
 
@@ -114,19 +115,19 @@ Before describing the algorithm contents in detail, few definitions specific to 
 
 \paragraph*{Connector depth} The connector depth is defined as the number of intermediary connectors linking two different objects.
 
-\paragraph*{Tree} A tree is a set of \textit{objects} connected in a tree topology which means that for each object there is only one backward connector. An \textit{object} without backward connector is called a seed and an \textit{object} without a forward connector is called a leaf.
+\paragraph*{Tree} A tree is a set of \textit{objects} connected in a tree topology, which means that for each object there is only one backward connector. An \textit{object} without a backward connector is called a seed and an \textit{object} without a forward connector is called a leaf.
 
 \paragraph*{Cluster} A cluster is a set of trees.
 
-\paragraph*{Particle flow object (PFO)} A particle flow object is a set of clusters and tracks \footnote{By track we mean a reconstructed track in a tracking detector like a TPC}, which corresponds to a reconstructed particle.
+\paragraph*{Particle flow object (PFO)} A particle flow object is a set of clusters and tracks \footnote{By \textit{track} we mean one reconstructed by a tracking detector such as a TPC}, which corresponds to a reconstructed particle.
 
 ~\newline 
-Note that in the following algorithm descriptions, some parameters are labelled by a name or a symbol and their values are given in Appendix \ref{ARBOR_ALGORITHM_PARAMETERS}.
+Note that in the following algorithm descriptions, some parameters are labelled by a name or symbol, whose values are given in Appendix \ref{ARBOR_ALGORITHM_PARAMETERS}.
 
 \subsection{Pre-clustering phase} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-~~~~~~~Before building trees, we need to create objects to connect with each others.
+~~~~~~~Before building trees, we need to create objects to connect with each other.
 
 %%% OBJECT CREATION %%%
 \begin{wrapfigure}{r}{0.4\textwidth}
@@ -139,17 +140,16 @@ Note that in the following algorithm descriptions, some parameters are labelled 
   \vspace{-20pt}
 \end{wrapfigure}
 
-\paragraph*{Object creation} When a particle goes through the detector, several pads can be fired in a single layer and leads to a multiplicity greater than 1. To overcome the problem, intra-layer group of hits are assembled using the nearest neighbour clustering algorithm. For each group of hits, if its size is greater than 4, the group is split up and each of these hits becomes an object. This happens generally in the main part of a shower. Otherwise, an object is created and thus contains from 1 up to 4 calorimeter hits. This is the case for a mip or an isolated group of hits. Figure \ref{ARBOR_OBJECT_CREATION} shows the output of this algorithm with encircled hits forming objects.
+\paragraph*{Object creation} When a particle goes through the detector, several pads can be fired in a single layer, leading to a multiplicity greater than 1. To overcome this problem, intra-layer groups of hits are assembled using the nearest neighbour clustering algorithm (corner neighbours not included). If a group contains more than 4 hits, it is split and each individual hit is considered as a separate object. This generally happens in the shower core. If a group contains 4 or less hits, it is used to define a single object. This is the case for a mip or more generally any isolated non-showering particle. Figure \ref{ARBOR_OBJECT_CREATION} shows the output of this algorithm with encircled hits forming objects.
 
 %%% MIP TAGGING %%%
-\paragraph*{Track segment candidate tagging}
-In order to retrieve correctly the primary track in the calorimeter, track segment candidates \textit{objects} are identified and tagged for a future treatment.
-For each object, we count the number of neighbouring objects within the same layer at a maximum distance of $\Delta_{mip}$. If this number doesn't exceed N$_{obj,cut}$, it is tagged as a track segment candidate object.
+\paragraph*{Track segment\footnote{By \textit{track segment} we mean a track produced by a charged particle in the calorimeter such as Minimum Ionizing Particles (MIP)} candidate tagging}
+In order to correctly reconstruct the primary track segment in the calorimeter, track segment candidate \textit{objects} are identified and tagged for future treatment. For each object, we count the number of objects in the same layer within a distance of $\Delta_{mip}$. If this number doesn't exceed N$_{obj,cut}$, the object is tagged as a track segment candidate object.
 
 \subsection{The main clustering phase - Connectors and trees}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-~~~~~~~The main clustering algorithm consists in an iterative procedure using dedicated algorithms in order to create and remove connectors (connector loop). At the end of this step, all the objects are arranged in a tree structure which means that each object has 0 or 1 connector in the backward direction and 0 or many in the forward one.
+~~~~~~~The main clustering algorithm consists of an iterative procedure using dedicated algorithms to create and remove connectors (connector loop). At the end of this step, all objects are arranged in a tree structure, which means that each object has at most one connector in the backward direction and 0 or more in the forward direction.
 
 \begin{figure}[!h]
   \begin{minipage}{0.49\linewidth}
@@ -167,11 +167,11 @@ For each object, we count the number of neighbouring objects within the same lay
 
 In the current implementation, the connector loop contains the following algorithms :
 
-\paragraph*{Primary track connection} This algorithm aims to create connections between objects belonging to the primary track of charged particles in the calorimeter. It consists mainly in creating a sub-list of objects that are candidates for the primary tracks by using the objects tagged as track segment candidates and the tracks extrapolation on the front of the calorimeter. Once this list is built, the "\textit{connector seeding 1}" algorithm and the "\textit{connector cleaning 1}" algorithm are run on the sub list only. 
+\paragraph*{Primary track connection} This algorithm aims to create connections between objects belonging to the primary track segment of charged particles in the calorimeter. It consists mainly in creating a sub-list of objects that are candidates for the primary track segments by using the objects tagged as track segment candidates and the track extrapolations on the front of the calorimeter. Once this list is built, the "\textit{connector seeding 1}" algorithm and the "\textit{connector cleaning 1}" algorithm are run on only the sub-list objects.
 
-\paragraph*{Connector seeding 1} In this sub-part, we start by creating connections in the neighbourhood of each object. For each object, we look for other objects in the N$_{layers}$ next layers with a maximum distance $\Delta_{max}$ and we create a connection between them. As an example, Figure \ref{ARBOR_CONNECTOR_SEEDING_1} illustrates the output of this algorithm.
+\paragraph*{Connector seeding 1} We start by creating connections in the neighbourhood of each object. For each object, we look for other objects in the N$_{layers}$ next layers within a maximum distance $\Delta_{max}$ and we create connections between them. As an example, Figure \ref{ARBOR_CONNECTOR_SEEDING_1} (left) illustrates the output of this algorithm.
 
-\paragraph*{Connector cleaning 1} Once connectors are seeded, we need to build a tree structure by keeping only one connector in the backward direction for each object. We define the reference direction of an object as :
+\paragraph*{Connector cleaning 1} Once connectors are created, we need to build a tree structure by keeping only one connector in the backward direction for each object. We define the reference direction of an object as :
 
 \begin{equation}
   \vec{C}_{ref} = w_{bck} . \sum_\sigma \sum_b \vec{c}_{b,\sigma} - w_{fwd} . \sum_\delta \sum_f \vec{c}_{f,\delta}
@@ -180,7 +180,7 @@ In the current implementation, the connector loop contains the following algorit
 where :
 
 \begin{itemize}
-  \item $w_{bck}$ ($w_{fwd}$) is the global weight assigned to backward (forward) connectors
+  \item $w_{bck}$ ($w_{fwd}$) is a global positive weight assigned to backward (forward) connectors
   \item $\vec{c}_{b,\sigma}$ ($\vec{c}_{f,\delta}$) is the direction of a backward (forward) connector at the connector depth $\sigma$ ($\delta$) from the considered object
 \end{itemize}
 
@@ -194,13 +194,13 @@ where :
 
 \begin{itemize}
   \item $\theta$ is the angle between a backward connector and the reference direction of the considered object,
-  \item $\Delta$ is the distance between a pointed backward object and the considered object,
-  \item $p_{\theta}$ (resp. $p_{\Delta}$) is a power parameter for the normalized angle (resp. the normalized distance)
+  \item $\Delta$ is the distance between the connected objects,
+  \item $p_{\theta}$ ($p_{\Delta}$) is a power parameter for the normalized angle (distance)
 \end{itemize}
 
-The $\kappa$ parameter quantifies the alignment with the reference direction within the range [0,1]. Smaller is this parameter, higher the alignment will be. Thus, the power parameters $p_{\theta}$ and $p_{\Delta}$ are to be tuned depending on which variable we want to emphasize.
+The $\kappa$ parameter quantifies the alignment with the reference direction within the range [0,1]. Smaller is this parameter, higher the alignment will be. The power parameters $p_{\theta}$ and $p_{\Delta}$ are to be tuned depending on which variable we want to emphasize.
 
-The chosen backward connector for the tree building will be the one with the smallest $\kappa$ parameter; all the others are removed from the list. The removal of connectors is done at the end of the algorithm so that all connectors contribute to the evaluation of the reference direction.
+The chosen backward connector for the tree building is the one with the smallest $\kappa$ parameter; all others are removed from the list. The removal of connectors is done at the end of the algorithm so that all connectors contribute to the evaluation of the reference direction.
 
 \begin{figure}[!h]
   \begin{minipage}{0.4\linewidth}
@@ -216,20 +216,22 @@ The chosen backward connector for the tree building will be the one with the sma
   \caption{\label{ARBOR_CONNECTOR_ALIGNEMENT} \label{ARBOR_CONNECTOR_CLEANING_2} Left : Schematic view of the connector alignment procedure. In black, a considered connector and in red possible new connectors in backward and forward directions. Right : a neutral and a charged pion showers after the second connector cleaning algorithm}
 \end{figure}
 
-\paragraph*{Connector seeding 2} This second step of connector seeding starts from the tree structure obtained after the first connector cleaning algorithm. The goal of this second step is to create an alignment of connectors within the shower. For each connector, more forward connectors are created from the forward object of this connector by looking in a cone of half-angle $\theta_c$ and a maximum distance of $\Delta_{max,c}$. In the same way, more backward connectors are created from the backward object of this connector. A schematic view of this step is shown on figure \ref{ARBOR_CONNECTOR_ALIGNEMENT}.
+\paragraph*{Connector seeding 2} This second step of connector seeding starts from the tree structure obtained after the first connector cleaning algorithm. The goal of this second step is to create an alignment of connectors within the shower. For each connector, more forward connectors are created from the forward object of this connector by looking in a cone of half-angle $\theta_c$ and a maximum distance of $\Delta_{max,c}$. In the same way, additional backward connectors are created from the backward object of this connector. A schematic view of this step is shown in figure \ref{ARBOR_CONNECTOR_ALIGNEMENT}.
 
-\paragraph*{Connector cleaning 2} Here, we need again to clean-up the backward connector list to end up with only one connector. This last algorithm is similar to the first connector cleaning except that the cleaning is done layer per layer starting from the downstream layers with a depth parameter $\delta$ strictly higher than one. For a given connector, this accentuates the alignment with the forward ones. We end up then with a tree structure again.
+\paragraph*{Connector cleaning 2} Here, we again need to clean up the backward connector list to end up with only one connector per object. This last algorithm is similar to the first connector cleaning except that the cleaning is done layer per layer starting from the downstream layers with a depth parameter $\delta$ strictly higher than one. For a given connector, this accentuates the alignment with the forward ones. We end up then with a tree structure again.
 
-\paragraph*{Tree building} This step is straight-forward. Seed objects are identified and trees are built by following the forward connected objects recursively. At this step, clusters are built each containing a single tree. The following algorithms will associate some of the trees with others.
+\paragraph*{Tree building} This step is straight-forward. Seed objects are identified and trees are built by recursively following the forward connected objects. At this step, clusters are built each containing a single tree. 
+
+The following algorithms associate some of the trees with each other.
 
 %%%%%%%%% ASSOCIATION ALGORITHMS %%%%%%%%%%%
 \subsection{Association algorithms}
 
-\paragraph*{Energy driven track cluster association} The track to cluster association is performed using two different pieces of information, the energy/momentum of the cluster/track and the cluster topology. We first look at the track projection at the calorimeter front face. Two different cases may happen :
+\paragraph*{Energy driven track cluster association} The track to cluster association is performed using three different pieces of information, the cluster energy, the track momentum and the cluster topology. We first look at the track projection on the calorimeter front face. Two different cases may occur :
 
 \begin{itemize}
   \item the particle has interacted before the calorimeter or in the first layer. In this case, many seed objects are found in the N$_{layer}$ first layers at a maximum distance of $\Delta_{{track-cluster}_1}$ of the track projection. Seed objects are then sorted by their distance to the track projection. The clusters associated to their seeds are then associated to the track progressively starting from the closest one until the difference between the track momentum and the total cluster energy is minimized. The clusters are then merged since they belong to the same cluster structure.
-  \item the particle produced a track segment at least in the N$_{layer}$ first layers and a seed objects are found within a distance $\Delta_{(track-cluster)_1}$ to the track projection. Since only a cluster starting with a track segment has to be associated, an additional distance cut $\Delta_{(track-cluster)_2}$ between seed objects and the track projection is applied. This decreases the confusion for a small separation distance between close-by particles. The same track-to-cluster association and cluster merging is then performed as above.
+  \item the particle produced a track segment at least in the N$_{layer}$ first layers and a seed object is found within a distance $\Delta_{(track-cluster)_1}$ to the track projection. Since only a cluster starting with a track segment has to be associated, an additional distance cut $\Delta_{(track-cluster)_2}$ between seed objects and the track projection is applied. This decreases the confusion for small separation distances between nearby particles. The same track-to-cluster association and cluster merging is then performed as above.
 \end{itemize}
 
 \begin{minipage}{0.58\linewidth}
@@ -248,30 +250,30 @@ The chosen backward connector for the tree building will be the one with the sma
 \end{minipage}
 \newline
 
-Figure \ref{ARBOR_ENERGY_DRIVEN_TRACK_CLUSTER_ASSOCIATION} shows a schematic view of the two different scenarios. The first one corresponds to the case where an early interaction is found and the second one where a primary track segment of a cluster is found.
+Figure \ref{ARBOR_ENERGY_DRIVEN_TRACK_CLUSTER_ASSOCIATION} shows a schematic view of the two different scenarios. The upper one corresponds to the case where an early interaction is found, and the lower one where a primary track segment of a cluster is found.
 
-\paragraph*{Neutral tree merging} This algorithm is designed for neutral particle interactions for which the first interacting layer contains few seeds. Figure \ref{ARBOR_NEUTRAL_TREE_MERGING} shows a configuration where many trees have been built (with three colours) for one neutral particle interaction. We can see that the seeds in the first interacting layer belongs to the same cluster. We group all the tree seeds within the same layer and at maximum distance of $\Delta_{seed}$. Then all of these trees are merged in the cluster.
+\paragraph*{Neutral tree merging} This algorithm is designed for neutral particle interactions for which the first interacting layer contains a few seeds. Figure \ref{ARBOR_NEUTRAL_TREE_MERGING} shows a configuration in which three trees have been built (with three colours) for one neutral particle interaction. We can see that the seeds in the first interacting layer all belong to the same cluster. We group all the tree seeds within the same layer and at maximum distance of $\Delta_{seed}$. Then all of these trees are merged in the cluster.
 
-\paragraph*{Pointing cluster association} This step aims at associating neutral fragments to other fragments which may be charged or neutral parent clusters. We start by identifying the clusters that have at least N$_{objects}$ objects in at least N$_{layer}$ contiguous layers. The selected cluster could be either a parent or a daughter cluster. Then we proceed as follows :
+\paragraph*{Pointing cluster association} This step aims at associating neutral fragments (daughter cluster) to other fragments which may be charged or neutral clusters (parent clusters). We start by identifying the clusters that have at least N$_{objects}$ objects in at least N$_{layer}$ contiguous layers. The selected cluster could be either a parent or a daughter cluster. Then we proceed as follows :
 
 \begin{enumerate}
-  \item A linear 3D straight line fit is performed over the position of all the hits of each cluster. This defines the direction of each cluster.
-  \item The clusters are sorted by their most downstream layers (downstream hit in the cluster) l$_{inner}$.
+  \item A linear 3D straight line fit is performed over the position of all the hits of each cluster (without weights). This defines the axis of each cluster.
+  \item The clusters are sorted by their most downstream layers (most downstream hit in the cluster) l$_{inner}$.
   \item Starting from the most downstream cluster \textit{i}, we look for a parent cluster \textit{j} for which l$_{inner,i}$~>~l$_{inner,j}$.
-  \item Among these candidate parent clusters, we look for those for which d$_{proj}$ < d$_{proj,cut}$ \& $\theta_{i,j}$ < $\theta_{i,j,cut}$  where :
+  \item Among these candidate parent clusters, we look for those for which d$_{proj}$ < d$_{proj,cut}$ and $\theta_{i,j}$ < $\theta_{i,j,cut}$  where :
   \begin{itemize}
-    \item d$_{proj}$ is the distance between the candidate daughter cluster direction and the candidate parent cluster barycentre (line-to-point distance)
-    \item $\theta_{i,j}$ is the angle between the direction of the two clusters
+    \item d$_{proj}$ is the distance between the candidate daughter cluster axis and the candidate parent cluster barycentre (line-to-point distance)
+    \item $\theta_{i,j}$ is the angle between the axis of the two clusters
   \end{itemize}
-  and we choose the cluster for which d$_{proj}$ is minimum.  
-  \item Among this same list of candidate parent clusters, we look for those satisfying the condition d$_{cross}$ < d$_{cross,cut}$ \& d$_{closest}$ < d$_{closest,cut}$ where :
+  and we choose the cluster for which d$_{proj}$ is minimal.  
+  \item Among this same list of candidate parent clusters, we look for those satisfying the condition d$_{cross}$ < d$_{cross,cut}$ and d$_{closest}$ < d$_{closest,cut}$ where :
   \begin{itemize}
-    \item d$_{cross}$ is the distance at closest approach (d.c.a) between the two cluster directions
-    \item d$_{closest,i,j}$ is the closest distance between an object of the parent cluster and the point where the daughter cluster direction crosses the parent one (distance at closest approach) 
+    \item d$_{cross}$ is the distance at closest approach (d.c.a) between the two cluster axes
+    \item d$_{closest,i,j}$ is the closest distance between an object of the parent cluster and the point of closest approach of the cluster axes (distance at closest approach)
   \end{itemize}
   and we choose the cluster for which d$_{cross}$ is minimal.
   \item We choose the best candidate parent cluster among the two previous methods above. Many cases may happen i) no parent cluster is found, then no parent cluster is assigned to this daughter cluster, ii) one of the two methods has found a parent cluster or the two methods provide the same parent, then we assign it to the daughter cluster, iii) the two methods have found a parent cluster but there are not the same one. In this case the closest candidate parent cluster among the two in terms of barycentre distance is assigned to the daughter cluster.
-  \item If no parent cluster has been found for the cluster \textit{i}, stop processing this cluster, else :
+  \item If no parent cluster has been found for a cluster, stop processing this cluster, else :
   \item If the parent cluster has no associated track, merge the two clusters, else :
   \item We define the variable $\Psi$ as :
   \begin{equation}
@@ -282,8 +284,8 @@ Figure \ref{ARBOR_ENERGY_DRIVEN_TRACK_CLUSTER_ASSOCIATION} shows a schematic vie
   \begin{itemize}
     \item p is the track momentum of the parent cluster
     \item E$_{tot}$ is the total energy estimated from the combined hit list of the parent and daughter clusters
-    \item $\sigma_E$ is the energy resolution at the track momentum p 
-    \item f$_{res}$\footnote{The parameter f$_{res}$ is used to reduce or enlarge the accepted range of the difference p-E$_{tot}$. A higher value of this parameter will accept a merging with a higher difference p-E$_{tot}$.} is an energy resolution factor
+    \item $\sigma_E$ is the calorimeter energy resolution at the track momentum p 
+    \item f$_{res}$ is a multiplicative factor\footnote{The parameter f$_{res}$ is used to reduce or enlarge the accepted range of the difference p-E$_{tot}$. A higher value of this parameter will accept a merging with a higher difference p-E$_{tot}$.}
   \end{itemize}
   
 \begin{figure}[!h]
@@ -293,11 +295,11 @@ Figure \ref{ARBOR_ENERGY_DRIVEN_TRACK_CLUSTER_ASSOCIATION} shows a schematic vie
   \caption{\label{ARBOR_PFO_CREATION} Schematic view of the final ArborPFA output}
 \end{figure}
 
-We check then that the $\Psi^2$ defined for the parent and daughter clusters is less than $\Psi^2_{cut}$ and if the difference between p and E$_{tot}$ after the cluster merging (parent + daughter clusters) decreases. The two clusters are merged if the previous conditions are satisfied.
+We check then that the $\Psi$ defined for the parent and daughter clusters is less than $\Psi_{cut}$ and if the difference between p and E$_{tot}$ after the cluster merging (parent + daughter clusters) decreases. The two clusters are merged if the previous conditions are satisfied.
 
 \end{enumerate}
 
-\paragraph*{Small neutral fragment merging} At this stage, the main part of the shower of each particles has been identified. Only isolated objects and small tree structures that surround the showers are not associated. First, these small structures are identified if their size is less than $N_{cut}$ objects. Then for all showers and small structures, the centroid (barycentre) is computed and each small structure is merged in the shower that has the smallest distance between centroids.
+\paragraph*{Small neutral fragment merging} At this stage, the main part of the shower of each particles has been identified. Only isolated objects and small tree structures that surround the showers are not associated. First, these small structures are identified if their size is less than $N_{cut}$ objects. Then for all showers and small structures, the barycentre is computed and each small structure is merged within the shower that has the smallest distance between barycentres.
 
 \paragraph*{Particle flow object creation} Particle flow objects are built from the produced clusters after all the steps described above (Figure \ref{ARBOR_PFO_CREATION}). Charged PFOs are built from clusters that have an associated track, while other clusters are considered as neutral PFOs.
 
@@ -316,15 +318,15 @@ We check then that the $\Psi^2$ defined for the parent and daughter clusters is 
     \includegraphics[width=\linewidth]{SingleParticleSetup.pdf}
   \end{center}
   \vspace{-10pt}
-  \caption{\label{ARBOR_SINGLE_PARTICLE_SETUP} Event display of a 50 GeV pion shower in the SDHCAL detector as loaded in the reconstruction framework}
+  \caption{\label{ARBOR_SINGLE_PARTICLE_SETUP} Event display of a 50 GeV pion shower in the SDHCAL detector}
 \end{wrapfigure}
 
-To study the single particle performance, we use the SDHCAL charged pion data taken at CERN on the H6 line of SPS in 2012. The list of runs for the different energies can be found in Appendix \ref{SDHCAL_RUN_LIST}. In order to select only pions, an event selection is performed as described in \cite{sdhcal-paper}.
+To study the single particle performance of the algorithm, we use the SDHCAL charged pion data taken at CERN on the H6 line of SPS in 2012 from 10 GeV up to 80 GeV. The list of runs for the different energies can be found in Appendix \ref{SDHCAL_RUN_LIST}. In order to select only pions, an event selection is performed as described in \cite{sdhcal-paper}.
 
-To emulate correctly a charged pion for the reconstruction program, a fake-track is created in front of the calorimeter. A global barycentre of all hit positions in the transverse plan is calculated. A new barycentre is then calculated using the 4 first layers only and within a region of 8x8 cells around the global barycentre in the x and y direction. This defines the shower entering point in the first layer. From the entering point of the shower, a straight track is created with a momentum equal to that of beams.
+To correctly emulate a charged pion for the reconstruction program, a fake track is created in front of the calorimeter. A global barycentre of all hit positions in the transverse plane (x and y axes) is calculated. A new barycentre is then calculated using only hits n the 4 first layers and within a region of 8x8 cells around the global barycentre in the x and y directions. This defines the shower entering point in the first layer. From the entering point of the shower, a straight track is created along the beam axis (z direction) with momentum equal to that of beams.
 %which has the beam's one.
 
-The calorimeter hits and the created track are then loaded in the PandoraSDK toolkit \cite{pandora-sdk} within a single hcal endcap geometry (without the beam pipe and the BeamCal) and processed by the ArborPFA algorithms. An event display after loading the inputs in the framework is shown on figure~\ref{ARBOR_SINGLE_PARTICLE_SETUP}.
+The calorimeter hits and the created track are then loaded into the PandoraSDK toolkit \cite{pandora-sdk} within a single hcal endcap geometry (no magnetic field) and processed by the ArborPFA algorithms. An event display of a single pion event is shown on figure~\ref{ARBOR_SINGLE_PARTICLE_SETUP}.
 
 \subsection{Single particle analysis}
 
@@ -333,10 +335,10 @@ The calorimeter hits and the created track are then loaded in the PandoraSDK too
     \includegraphics[width=0.48\textwidth]{plots/SingleParticle_Efficiency.pdf}
     \includegraphics[width=0.48\textwidth]{plots/SingleParticle_NPfos.pdf} \\
   \end{center}
-  \caption{\label{ARBOR_SINGLE_PARTICLE_EFFICIENCY_AND_NPFOS} Efficiency of the number of recovered hits (left) and the mean number of reconstructed particles (right) after ArborPFA reconstruction on single pion shower events with the SDHCAL prototype}
+  \caption{\label{ARBOR_SINGLE_PARTICLE_EFFICIENCY_AND_NPFOS} Hit clustering efficiency (left) and the mean number of reconstructed particles (right) after ArborPFA reconstruction on single pion shower events with the SDHCAL prototype}
 \end{figure}
 
-We define the efficiency of the single particle reconstruction $\epsilon_s$ as the number of hits recovered by the ArborPFA program and correctly attached to track in front of the calorimeter. Figure \ref{ARBOR_SINGLE_PARTICLE_EFFICIENCY_AND_NPFOS} shows the mean efficiency of the single particle reconstruction (left) and the mean number of reconstructed particles (right) as a function of the beam energy after applying the ArborPFA. It shows a constant efficiency with more than 95\% over the whole beam energy range. But since the number of hits increases with the energy, the number of missed hits in the reconstructed charged particle increases as well. Consequently, the number of reconstructed particles shows an increase which is directly due to the shower splitting. This number grows up to 1.45 particles at 80 GeV but has finally a small impact on the reconstructed energy and energy resolution because the small additional clusters represent a small amount of energy. Indeed, figure \ref{ARBOR_SINGLE_PARTICLE_EREC_AND_ERESOL} shows the reconstructed energy and energy resolution of a single charged pion before and after running the ArborPFA program. 
+We define the efficiency of the single particle reconstruction, or the hit clustering efficiency $\epsilon_s$ as the number of hits recovered by the ArborPFA program and correctly attached to track in front of the calorimeter. Figure \ref{ARBOR_SINGLE_PARTICLE_EFFICIENCY_AND_NPFOS} shows the mean efficiency of the single particle reconstruction (left) and the mean number of reconstructed particles (right) as a function of the beam energy after applying ArborPFA. It shows a constant efficiency of over 96\% over the whole beam energy range. Since the number of hits increases with the energy, the number of missed hits in the reconstructed charged particle also increases. Consequently, the mean number of reconstructed particles shows an increase which is directly due to shower splitting. This number grows up to 1.45 particles at 80 GeV but has only a small impact on the reconstructed energy and energy resolution because the small additional clusters represent a small amount of energy. Indeed, figure \ref{ARBOR_SINGLE_PARTICLE_EREC_AND_ERESOL} shows the reconstructed energy and energy resolution of a single charged pion before and after running the ArborPFA program. 
 
 \begin{figure}[!h]
   \begin{center}
@@ -352,7 +354,7 @@ The linearity is shown below the reconstructed energy and is defined as :
   \Delta E/E_{beam} = \Big(E_{rec} - E_{beam}\Big)/E_{beam}
 \end{equation}
 
-These energy points are extracted using two fits of the energy distributions i) a gaussian distribution fit over the full reconstructed distribution is first performed. The mean $\mu_{E,first}$ and the width $\sigma_{E,first}$ are extracted and ii) a second gaussian fit is then performed over the range [$\mu_{E,first}$-1.5*$\sigma_{E,first}$ ; $\mu_{E,first}$+1.5*$\sigma_{E,first}$]. From the latter, we extract the final values of the reconstructed energy and energy resolution defined as the mean $\mu_E$ and the width $\sigma_E$ respectively of the gaussian fit (same procedure applied in \cite{sdhcal-paper}). The efficiency plot has shown that some hits are missing after reconstruction so it is expected to have a small energy decrease in the reconstructed energy. Nevertheless, the linearity is still within 5\% as before applying the reconstruction.
+These energy points are extracted using two fits of the energy distributions : i) a gaussian distribution fit over the full reconstructed distribution is first performed. The mean $\mu_{E,first}$ and width $\sigma_{E,first}$ are extracted, and ii) a second gaussian fit is then performed over the range [$\mu_{E,first}$-1.5*$\sigma_{E,first}$ ; $\mu_{E,first}$+1.5*$\sigma_{E,first}$]. From the latter, we extract the final values of the reconstructed energy and energy resolution defined as the mean $\mu_E$ and the width $\sigma_E$ respectively of the gaussian fit (same procedure applied in \cite{sdhcal-paper}). The efficiency plot has shown that some hits are missing after reconstruction so it is expected to have a small energy decrease in the reconstructed energy. Nevertheless, the linearity is still within 8\% as before applying the reconstruction. The energy resolution is also not so much affected after reconstruction.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%% Separation of two close-by hadronic showers %%%%%%
@@ -360,11 +362,11 @@ These energy points are extracted using two fits of the energy distributions i) 
 \newpage
 \section{Separation of two close-by hadronic showers}
 
-The ability of a particle flow algorithm to disentangle close-by showers is a key point for the reconstruction in detectors such as ILD of the ILC. To study the confusion between neutral and charged hadrons and the ability of the ArborPFA algorithm to disentangle them, we use again the same test beam data of the SDHCAL prototype. Two different pion showers are first overlaid in the same event and the ArborPFA algorithm is run on the overlaid event with the same parameters as for the single particle study. An analysis of the separation is then performed in order to extract the performance of the algorithm.
+The ability of a particle flow algorithm to disentangle close-by showers is a key point for the reconstruction in detectors such as ILD of the ILC. To study the confusion between neutral and charged hadrons and the ability of the ArborPFA algorithm to disentangle them, we again use the same test beam data of the SDHCAL prototype. Two different pion showers are first overlaid in the same event and the ArborPFA algorithm is run on the overlaid event with the same parameters as for the single particle study. An analysis of the separation is then performed in order to extract the performance of the algorithm.
 
 \subsection{Overlay procedure and setup}
 
-In order to study the separation of close-by hadronic showers, two events from test beam data are overlaid in one event. We have chosen to overlay 10 GeV pions and pions with different energies from 10 GeV up to 50 GeV by step of 10 GeV. Different separation distances between the shower entry point from 5 cm up to 30 cm by step of 5 cm were used. The choice of this energy range is motivated by the fact that it is the typical single particle energies foreseen at the ILC within jets \cite{ilc-tdr}.
+In order to study the separation of nearby hadronic showers, two events from test beam data are overlaid in one event. We have chosen to overlay 10 GeV pions and pions with different energies from 10 GeV up to 50 GeV by step of 10 GeV. Different separation distances between the shower entry point from 5 cm up to 30 cm by step of 5 cm were used. The choice of this energy range is motivated by the fact that it is the typical single particle energies foreseen at the ILC within jets \cite{hadron-jets}.
 
 \begin{figure}[!h]
   \begin{center}
@@ -476,6 +478,9 @@ Calice Collaboration, \emph{First results of the CALICE SDHCAL technological pro
 \bibitem{ilc-tdr} 
 J. Carwardine {\it et al.},  \emph{International Linear Collider Technical Design Report}. 1) Executive Summary, 2) Physics, 3) Accelerator, 4) Detectors. 12 June 2013
 
+\bibitem{hadron-jets} 
+O. Lobban, A. Sriharan, R. Wigmans,  \emph{On the energy measurement of hadron jets}, \nim{A495}{2002}{107-120}
+
 \bibitem{marlin-lccd}
 F. Gaede, Marlin and LCCD: Software tools for the ILC, Nucl.Instrum.Meth. A559 (2006) 177-180
 
@@ -485,14 +490,11 @@ M. A. Thomson, \emph{Particle Flow Calorimetry and the PandoraPFA Algorithm}, \p
 \bibitem{pandora-sdk}
 J. S. Marshall, M. A. Thomson, \emph{The Pandora Software Development Kit for Pattern Recognition}, \physics{1506.05348}
 
-
 \bibitem{arbor-manqi}
 M. Ruan, \emph{Arbor, a new approach of the Particle Flow Algorithm}, Proceeding of CHEF 2013. \hepex{1403.4784}
 
-
 \bibitem{ilcsoft}
 ILCsoft, 2012. \href{http://ilcsoft.desy.de/portal}{\tt http://ilcsoft.desy.de/portal}
-
 
 \bibitem{root}
 ROOT, 1995-2015, \href{https://root.cern.ch/drupal}{\tt https://root.cern.ch/drupal}
@@ -809,6 +811,7 @@ ROOT, 1995-2015, \href{https://root.cern.ch/drupal}{\tt https://root.cern.ch/dru
 
 \newpage
 \section{SDHCAL data}
+\label{SDHCAL_RUN_LIST}
 
 \begin{center}
   \begin{figure}[!h]
@@ -817,7 +820,7 @@ ROOT, 1995-2015, \href{https://root.cern.ch/drupal}{\tt https://root.cern.ch/dru
       Energy & 10 GeV & 20 GeV & 30 GeV & 40 GeV & 50 GeV & 60 GeV & 70 GeV & 80 GeV \\ \hline
       Run number & 715693 & 715675 & 715747 & 715748 & 715751 & 715753 & 715754 & 715756 \\ \hline
     \end{tabular}
-    \caption{\label{SDHCAL_RUN_LIST} List of SDHCAL pion runs used for reconstruction}
+    \caption{ List of SDHCAL pion runs used for reconstruction}
   \end{figure}
 \end{center}
 

@@ -1,4 +1,4 @@
-#Correction Oleg Markin 1 :
+# Correction Oleg Markin 1 :
 
 Dear Remi,
 
@@ -136,4 +136,549 @@ And again -- see l.361 -- I have stumbled over "At small separation distance (5c
 l.386 "or merging with the charged hadron"
 
 l.390 "improve" is certainly not sufficient: "to provide/facilitate the PFA performance". 
+
+
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+
+# Correction Daniel Jeans 1
+
+[OK] - I suggest changing the title to something like:
+
+"Separation of nearby hadronic showers in the CALICE SDHCAL prototype detector 
+using ArborPFA"
+
+ [ "Close-by" is not such nice English: I prefer "nearby".
+  Maybe better to mention CALICE in the title.]
+
+Abstract:
+----------
+[OK] "algorithm called ArborPFA is" -> "algorithm, ArborPFA, is"
+close-by -> nearby [also in many other places in the text]
+
+[OK] "to apply efficiently the Particle Flow Algorithms in the future" ->
+"to efficiently apply Particle Flow Algorithms at future"
+
+[OK] "tree structure" ->
+"tree-like structure"
+
+[OK] "of the hadronic showers" ->
+"of hadronic showers"
+
+[OK] "separation down to 5 cm of separation distance."
+"separation down to distances of 5 cm."
+
+Introduction
+-------------
+
+[OK] l30: remove "a"s before "good" and "fine"
+the calo also needs good longitudinal segmentation: transverse is not good enough.
+
+[OK] l33: Different calorimeters -> Different calorimeter technologies
+
+[OK] l36: remove "a" before "good"
+
+[OK] l37: "fits perfectly the ILC needs." -> "satisfies ILC requirements."
+
+[OK] from l38 you introduce PFA. in the first para you already told us that granularity 
+is important: however the importance of granularity comes only from PFA. I think it makes
+much more sense to first introduce PFA, then the granularity requirement.
+
+[OK] l44: "The algorithm has been...tested on SDHCAL TB data". 
+this sounds like the algo has already been 
+tested. however, I think this note is the first such test?
+I suggest:
+"The algorithm has been designed for high granularity calorimeters.
+In this note we evaluate...single pion events collected by the SDHCAL in test beams, 
+and also study the ability..."
+[Simplified : tested on SDHCAL TB data -> applied to SDHCAL test beam data]
+
+
+[OK] l46: with -> at
+
+[OK] l47: remove "different" (the previous one is still active)
+
+sec2
+-----
+
+[OK] l49: it's impossible to understand what you mean by "48 ( up to 50 )" if one is not an 
+internal CALICE expert: CAN should be written for external people.
+[( up to 50 ) removed]
+
+[OK] l50: "...alternating 20 mm steel absorbers with 6 mm gas resistive plate chamber (GRPC)...". I don't like "slice"
+[Yes, it sounds like a sandwich ...]
+
+[OK] l54: have been -> were
+
+[OK] l57: here you introduce N1, N2 etc. I think you have to mention the s-digital 
+readout in the first paragraph of this section.
+[Thresholds explanation added]
+
+[OK] l61: "in the section 4" -> "in section 4"
+
+
+Sec 3
+------
+[NOT] I wonder if it would be better to move this description of ARBOR to a separate note
+[e.g. a LC-NOTE] ?
+It's a nice, self-consistent description of the algorithm, which doesn't depend on
+CALICE data.
+[Algorithm implementation designed for SDHCAL protoype for the moment]
+
+[OK] l65/66: move "recently" to before "adapted"
+
+[OK] l67: "tree-like"
+
+[OK] l68: for -> in
+
+[OK] l71: high granular -> highly granular
+
+[OK] l72:
+"suggest clearly the tree topology" ->
+"suggest the tree-like topology"
+I'm not sure it's really	 "clear"...
+
+[OK] l74:
+"and can be useful for studying the shower structure."
+Isn't the interest not to study the structure of showers, 
+but rather to reconstruct them correctly and completely?
+[Last part removed ...]
+
+[OK] l79: remove "contents"; add "a" before "few"
+
+[OK] l84: you use the term "track" in several different ways in your note: here as
+any particle crossing a cell, otherwise for a well-isolated caloriemter track,
+in other places as a TPC track. Could you try to separate these cases?
+e.g. in l84 I don;t think you have to use "track" at all, and a caloriemter track
+could be called a calo-track or something similar.
+
+add "inherent" before "gaseous"
+
+I think the multiplicity is not really limited to gaseous detectors, not to calorimeters.
+So I would just say somethign like:
+"overcome the hit multiplicity inherent in the SDHCAL\footnote{1} and similar detectors."
+[Changed according to last proposed sentence.
+
+	Track : TPC track.
+	Track segment : reconstructed track IN the SDHCAL (made of hits).
+
+"Track multiplicity" changed to "pad multiplicity"
+]
+
+[OK] l86: this flow direction makes sense in a test beam: I would emphasise this.
+I guess you use a different definition when you use ILD.
+
+[NOT] " 'forward' is defined parallel to the beam momentum, and 'backwards' in the opposite direction.
+[Parallel doesn't give information on the direction itself]
+
+[OK] l91: add "," after "topology"
+
+[OK] l92: add "a" after "without"
+
+you could call Cluster -> Forest or Copse if you want to extend your tree-based imagery!
+[What about 'ArborMushroom' for isolated hits ?]
+
+[OK] l98: "a name or symbol, whose values are given in Appendix A."
+
+[OK] l101: others -> other
+
+[OK] l103: add "a" before "few"
+"layer and leads to" ->
+"layer, leading to"
+
+[OK] l104: the -> this
+
+[OK] l105: group->groups
+
+[OK] l106: is a corner neighbour considered as a neighbour in your algo? since this is quite
+a technical description, I think you should mention explicitly.
+[corner neighbours not included]
+
+[OK] "For each
+group of hits, if its size is greater than 4, the group is
+split up and each these hits becomes an object." ->
+"If a group contains more than four hits, it is split 
+and each individual hit is considered a separate object."
+
+[OK] l109: exchange "happens" and "generally"
+[OK] what do you mean by "main part" of shower. maybe "core" would be better? (replaced by "shower core")
+
+[OK] "Otherwise, an object is created and thus contains from 1
+up to 4 calorimeter hits." ->
+"If a group contains four or less hits, it is used to define a single object."
+
+[OK] "this is case for mip" -> well, for a well isolated MIP, yes. or rather any isolated 
+non-showering particle.
+
+[OK] l114: "Track segment"; very different definitiopn of track than what's in the footnote 
+just below...I commented on this above.
+"retrieve correctly" -> "correctly reconstruct"
+
+[OK] l115: candidates -> candidate
+remove "a"
+
+[OK] l116:
+"number of neighbouring objects within the same layer at a maximum distance" ->
+"number of objects in the same layer within a distance"
+
+[OK] l117:
+"Nobj,cut it is tagged" ->
+"Nobj,cut, the object is tagged"
+
+[OK] footnote:
+By 'track' we mean one reconstructed by a tracking detector such as a TPC.
+
+[OK] l119: "in" -> "of"
+
+[OK] l120: remove "in order"; remove "the" before "objects"
+[OK] l121: add "," after "structure"; connector -> connectors
+[replaced by "at most one connector"]
+[OK] l122: many -> more; one->direction.
+
+[NOT] fig3 is meant to illustrate the first step. if i understand correctly, this uses only
+"track segment candidates" which must be well isolated objects. most of the
+objects in fig3 do not seem to be well isolated, so should not
+have any connections yet?
+[
+fig3 on right (on left) is meant to illustrates the output of the seeding (cleaning) procedure.
+The first step that deals with the track segment candidates uses a seeding and cleaning procedure only on this hits with specialized parameters.
+The seeding and cleaning is then applied to all hits with other parameters.
+]
+
+[TO SEE] l125: "in" -> "for" before "creating"
+[Are you sure? Seems strange ...]
+
+[OK] l126/7: track segment...track extrapolation: more track confusion!
+
+[OK] l128/9: "are run on only the sub-list [to be consistent with l125] objects."
+
+[OK] l130: remove "In this sub-part," [sub-part sounds really ugly!]
+[OK] l131: with -> within
+[OK] l132: "and create connections between them."
+[OK] add "(left)" after "figure 3"
+
+[OK] l130/l134: connectors are "seeded"
+what does seeded mean? is it related to your defined "seeds"? I don't really think so,
+so it's just confusing. I would use a different terminology here.
+[Replaced by created here]
+
+[NOT] eq 3.1: why are there sums over sigma and delta? in l141 you say that sigma=delta=1, 
+so i don't see why a sum is required...
+[sigma = 1 but not delta. 1 is a parameter in the algorithm, other values are possible]
+
+[NOT] l142: the ref dir is backward if the weights are positive: however as fas as I can tell
+they are not required to be so?
+[I alway use positive weights. Added in note]
+
+[OK] l148: a sounds a little clumsy: how about:
+"∆ is the distance between the connected objects"
+
+[OK] l149:
+p θ (p ∆ ) is a power parameter for the normalized angle (distance)
+
+[OK] l151:
+"The smaller this parameter, the better the alignment."
+remove "Thus,"
+
+[OK] l153: "will be" -> "is"
+[OK] l154: "all the others" -> "all others"
+
+[NOT] l156: I think that here you use all objects, not only the track segment candidates? Please 
+write it clearly.
+[see comment on fig3]
+
+[OK] l160: more -> additional
+[OK] l161: on -> in
+[OK] l163: exchange "need" and "again"; clean-up -> clean up
+[OK] l163: add "per object" after "one connector"
+
+[TO SEE] l164: I don't understand the "cleaning per layer" procedure. is the kept connector always in one of the closer layers with smallest delta?
+
+[OK] l168: more "recursively" to before "following"
+[OK] l169: Nwe paragraph before "The following..." ; remove "will"; "with others." -> "with each other."
+
+[OK] l172: "different information" -> "pieces of information:" ; 
+
+[OK] "energy/momentum of the cluster/track" ->
+"the ratio of cluster energy to track momentum"
+[it's not the ratio. But added correction to clarify. Sorry !]
+
+[OK] l173: at -> on
+[OK] happen -> occur
+
+[OK] l181: "and a seed objects are found" : you mix singular and plural. It's not clear which one you want.
+I guess "and at least one seed object is found..."
+[No, only one since a track segment suggests it]
+
+[OK] l184: remove "a" before "small"
+[OK] l185: distance -> distances ; close by -> nearby
+
+[OK] fig6: here you show clusters by connector colour: in figure 7 you colour the objects. 
+You should be consistent: personally I prefer the coloured objects, which I find easier to see.
+[Chuck Norris approved ! Looks nicer now]
+
+[OK] l189: first->upper
+[OK] l190: add "," before "and" ; second -> lower
+
+[OK] l193: what does "few" mean? "a few" would mean around 3, while "few" vaguely implies less than ~4 or 5.
+[OK] "where many" -> "in which three"
+
+[OK] l195: belongs -> "all belong"
+
+[OK] l197: in this section, I think it would be useful to start with a clear definition of the 
+parent-child relationship.
+I sort of guessed that a child cluster ends later than it's parent...but I'm not sure
+
+[OK] l202 and later in this section: "direction" -> "axis"
+the direction does not define a trajectory in space, only a general direction. 
+you seem to use the shower axis: both its direction and position.
+do you apply an energy weight when you fit the axis? better to tell us explicitly.
+[No weight used. Corrected]
+
+[OK] l203: add "most" after "("
+
+[OK] l204: "&" -> "and" [to avoid confusion...this is not a "&" from c, rather a "&&", I guess]
+
+[OK] l208: I don;t think I've seen the definition of barycentre. later you also use centroid for the same quantity.
+please be consistent and use only one term.
+
+[OK] l210: minimum -> smallest
+
+[OK] l214: "point where...approach)" ->
+"point of closest approach of the cluster axes (distance at closest approach)"
+
+[OK] l217: minimum -> smallest
+
+[OK] l224: the -> a ; remove "i"
+
+[OK] l225: what happens if the daughter cluster has an associated track?
+[It is not processed. See first sentence of this algorithm description]
+
+[OK] l231: add "calorimeter" before "energy" just to be completely clear
+
+[OK] l232: I would put footnote at end of this line, and call it "a multiplicative factor"
+It's not really anything to do with the energy resolution, it just multiplies it.
+
+[OK] l233: why use \Psi^2 and not just \Psi?
+[It was originally a Chi2, now changed to a different definition and thus renamed to Psi to avoid confusions. All parameters refeared to Chi2 and not Chi. Corrected to keep Psi without 'square']
+
+[OK] l237: surrounds -> surround
+
+[OK] l239: use only one of centroid/barycentre, and define it properly
+
+[OK] l240: in -> with
+
+sec4
+-----
+
+[OK] l246: "single particle performance" of what? SDHCAL? Arbor? their combination?
+please specify!
+[OK] l248: at least mention the energy range here 10-80 GeV.
+
+[OK] l249: Appendix 16 -> Appendix B.
+
+[TO SEE] l251: maybe a short description of the event selection here. I know you refer to the other note,
+but I think it's important enough to briefy summarise.
+
+[OK] l252: exchange "emulate" and "correctly"
+
+[OK] l253: "fake-track" -> "fake track"
+
+[OK] l255: the whole -> all ; plan -> plane
+
+[OK] l257: "the 4 first layers only" -> "only hits in the 4 first layers"
+
+[OK] l258: what is definition of x,y? later in the text you use upper case XYZ.
+Define properly, and use consistent notation.
+
+[OK] l259: direction -> directions
+
+[OK] l261:
+"a straight track is created with a momentum which has the beam’s one." ->
+"a straight track is created with momentum equal to that of the beam."
+In what direction is the straight track? 
+I guess along z, 
+or maybe along the calo track direction, 
+or the average measured beam direction?
+you have to tell us.
+
+[OK] l262: in -> into
+
+[OK] It's not clear what you mean by:
+"within a single hcal endcap geometry (without the beam pipe and the BeamCal)"
+
+is it just one HCAL endcap? then why write about beamcal and so on? it's just confusing...
+or is it the whole detector except beamcal and beam pipe? 
+how about the magnetic field? do you set it to 0?
+
+[OK] l263/4: "An event is displayed in fig 8."
+I don't understand the relevance of "after loading in the framework" (also in the caption)...
+
+[OK] fig9: left: consider zero-suppressing the y axis: it would be much more useful.
+axis labels and titles are all much too small, as is the legend.
+suggest "CALICE Preliminary" -> "CALICE SDHCAL Preliminary"
+x-axis: I prefer p_beam: it is the momentum which is defined, not the energy.
+you need units on the x-axis label.
+[many of these comments hold for all plots in this section]
+
+[OK] caption: you call it "Efficiency of the number of recovered hits" here,
+"efficiency of the single particle reconstruction ε_s" in the text.
+Please be consistent. I would suggest somethiing like "Hit clustering efficiency" or similar.
+
+
+[NOT] l269: beam energy -> beam momentum ; 
+[OK] remove "the" before ArborPFA.
+
+[OK] l270: with more than -> of over ; remove "But"
+
+[OK] l271: increases as well -> also increases
+[OK] l272: add "average" before "number"
+[OK] l273: remove "the" before "shower" ; finally -> only
+
+[TO SEE] it might be nice to show the distribution of N_pfos at one or two energies, rahter than just the average.
+
+
+[OK] fig 10: axis labels, legends much too small. should have similar size to the text.
+
+[NOT] eq 4.1: what is \Delta E ? E_beam -> p_beam
+
+[OK] l278: add ":" after "distributions"
+
+[OK] l279: remove "the" before "width"
+[OK] l280: add "," after "extracted"
+[OK] l281: last -> second [Already changed from Oleg corrections]
+[OK] l285: linearity is not within 5%, certainy not @ 80gev, possibly not at 30 and 50gev.
+
+[OK] some discussion of the resolution plot is missing. (You do discuss the linearity)
+[A short sentence added ...]
+
+
+
+sec5
+----
+
+[OK] l289: exchange "use" and "again"
+[OK] l295: close-by -> nearby
+l296:
+"We have chosen to overlay 10 GeV pion events with pion events at different energies
+from 10 to 50 GeV, in steps of 10 GeV."
+
+"The distance between shower entry points was scanned between 5 cm and 30 cm in steps of 5 cm."
+
+"This energy range corresponds to typical single particle energies within jets at the ILC."
+Is this true? it sounds rather higher than the average jet particle energy... you ref[2] to supprt this
+is rather broad. It will take me a long time to find where this is mentioned. perhaps a more specific 
+refoerence?
+
+fig11: missing calice labels, axis labels almost invisible.
+
+l304: which shower has it's track removed? is it always the 10 GeV one? 
+why?
+
+l306: here you use uppercase X, Y.
+
+l308: what is d?
+
+l310: remove "in the same one"
+
+l321: I don;t think we need to be told what labels (1,2,3) you use to tag the different hit types...
+
+l324: "shifting as shown on figure" -> "shifting. An example if shown in figure"
+
+fig12: the track is very thin, and difficult to see. can you make it thicker?
+caption: remove "Event" ; 
+this is not a neutral hadron, rather a "fake neutral" hadron -> maybe invent a specific term for this;
+"at 20 cm separation distance on" -> "separated by 20 cm in" 
+XoY seems a strange notation: x-y ?
+corresponds -> correspond
+track -> fake track
+
+l326: again, not a true "neutral hadron": you need to make this clear.
+
+l328: remove "between them"
+
+l333: "due to shower overlaps and resulting confusion."
+
+fig13: y-axis label: maybe "<N_pfo>" would be better (also in fig 9(R)). here it would also be good to see the
+N_pfo distribution for one or two contrasting points.
+
+fig14: caption: 
+"after separation with a charged hadron" -> "after reconstruction"
+
+eq 5.1: NHit_ini,tot -> Nhit_ini,tot [for consistency with all others]
+
+l342: "while the reconstruction is performed." -> "in the reconstruction."
+
+l345: 
+"which tends to merge the small neutral cluster fragments in" ->
+"which merges small neutral cluster fragments to"
+"taking care" -> "considering"
+why doesn't it consider the parent energy?
+
+l350: remove "on the" ; "where" -> "in which"
+
+l352: closed -> close
+very close to 100% doesn;t mean much: 99% ? 95 % ? 99.9999% ? much better to say something like "> 99%"
+
+l353: "confusions start appearing" -> "confusion becomes significant" ; in -> with	   
+
+l356: "for the 50 GeV charged particle case." -> "at 50 GeV."
+
+fig15: caption: "The same variable" is incorrect!
+
+l358: "in the case where" -> "when" ; on -> one 
+is this the energy of all neutral PFOs, or only the largest one?
+
+l359: insert "mean" before "reconstructed"
+
+l360: "constant evolution". I think you mean that it is constant. evolution suggests that something is changing,
+"constant evolution" that it is changing at a constant rate. not what you mean, I think.
+
+l363: in -> with
+
+how does the performance depend on the depth of the showers' first interactions?
+If both interact in the same layer, I guess they are easier to separate than if the neutral starts later than the
+charged? maybe an interesting plot to add here.
+
+If you could add a comparison with simulation for these separatio plots, that would be very interesting.
+I can imagine that you have no time for this before LCWS, but for a later update of the note.
+
+sec6
+----
+
+
+described in details with all the sub-algorithms. -> 
+described in detail.
+
+maybe add another sentence to this paragraph. something descriptive like "Arbor is based on reconstucting the
+tree structure of had showers..." 
+
+l369: showed -> show
+l370: "whole energy range" better to explicitly say 10-80 gev.
+"The mean number of PFOs shows a linear increase with
+energy from 1.1 PFOs at 10~GeV to 1.4 PFOs at 80 GeV."
+
+"The reconstructed
+energy of the single charged hadron is close to the one applied before running the algorithm with a
+small decrease due to the 5% of inefficiency and thus the energy resolution increases too." ->
+"Around 5% of hits are not clustered by the algorithm, leading to a small decrease in the clustered
+energy response and a small degradation of the energy resolution with respect to the case in which
+all hits are considered."
+
+"The algorithm has also been applied in order to separate close-by hadronic showers." ->
+"The ability of the algorithm to separate close-by hadronic showers was also investigated."
+
+l377: what is the "mip track"? I htink this is the first time to come across this term in the note, I don;t think
+you've defined it. mip -> MIP
+
+I wonder if 377-379 is too much detail for the summary.
+
+l380: "good" : please be quantitative: >99% or whatever. good sounds rather modest: 70% might be "good"!
+
+l385 taht -> that
+
+
+l417: I think BackwardConnectorWeight is w_bck in the text? (same for fwd)
 
