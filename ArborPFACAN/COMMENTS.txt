@@ -6,7 +6,7 @@ you've written a beautiful note! In particular let me thank you for the detailed
 
 Since you have made the text using a JINST template, I comment it like something more than simply an internal note, so please ignore those of my comments that assume a non-CALICE reader while you are at the note stage. Your English is mostly clear and pure, though I am not satisfied with wording in several places, so please consult a native speaker where I am not sure (marked CNS). The comments and suggestions for lines are interleaved with general ones.
 
-The algorithm parameters in the appendices are interesting if they are optimized to provide the best separation of showers. Otherwise, I think their values are not that important for understanding of the written and not needed for the JINST.
+[TO SEE] The algorithm parameters in the appendices are interesting if they are optimized to provide the best separation of showers. Otherwise, I think their values are not that important for understanding of the written and not needed for the JINST.
 
 [OK] l.18 "Separation of two close-by ..."
 
@@ -99,7 +99,7 @@ Figure 8 What a nice octopus!
 [OK] l.310 "same" is probably used incorrectly here -- CNS
 [in the same one -> in a new one]
 
-[TODO] l.317-318 No, we can hardly see, please rephrase.
+[OK] l.317-318 No, we can hardly see, please rephrase.
 
 [OK] Caption of fig.12 "Colours correspond"
 
@@ -108,7 +108,7 @@ Figure 8 What a nice octopus!
 [OK] l.330 Why "We CAN check ..."? Have you checked that?
 ['We can check that' -> 'We can also see that'. Yes it has been checked]
 
-[TODO] Figures 14 and 15 should be probably enlarged since letters of legends are too small and nearly unreadable when  printed to paper if we care about the paper reading.
+[OK] Figures 14 and 15 should be probably enlarged since letters of legends are too small and nearly unreadable when  printed to paper if we care about the paper reading.
 
 [TO SEE] The definition of efficiency and purity is too simple since it does take into account the threshold of a hit, so we don't know which hits were incorrectly assigned by the algorithm. Can we -- perhaps in the future -- weight the hits with their energy? I remember you have tagged them.
 [I don't understand your remark, sorry. Can you rephrase it or add more comments]
@@ -119,23 +119,23 @@ Figure 8 What a nice octopus!
 
 [OK] l.359 see l.341
 
-l.361 I absolutely do not understand how "This means", whereas I perfectly understand your thought concerning the binary-like behavior. Maybe this is my problem, but would you add some explanation to the text.
+[OK] l.361 I absolutely do not understand how "This means", whereas I perfectly understand your thought concerning the binary-like behavior. Maybe this is my problem, but would you add some explanation to the text.
 
-l.369 "show"
+[OK] l.369 "show"
 
-As I wrote before, we shall be proud of the right assignment of ENERGY, not just hits.
+[OK] As I wrote before, we shall be proud of the right assignment of ENERGY, not just hits.
 
-l.379  Move "pointing TO the particle entry point" to immediately after "..., a track".
+[OK] l.379  Move "pointing TO the particle entry point" to immediately after "..., a track".
 
-l.380 see 369
+[OK] l.380 see 369
 
-l.385 typo "and shows that"
+[OK] l.385 typo "and shows that"
 
-And again -- see l.361 -- I have stumbled over "At small separation distance (5cm), the difference stays constant and shows ..." Please rephrase what you mean.
+[OK] And again -- see l.361 -- I have stumbled over "At small separation distance (5cm), the difference stays constant and shows ..." Please rephrase what you mean.
 
-l.386 "or merging with the charged hadron"
+[OK] l.386 "or merging with the charged hadron"
 
-l.390 "improve" is certainly not sufficient: "to provide/facilitate the PFA performance". 
+[TO SEE] l.390 "improve" is certainly not sufficient: "to provide/facilitate the PFA performance". 
 
 
 #--------------------------------------------------------------------------------------------------------------
@@ -561,84 +561,85 @@ sec5
 
 [OK] l289: exchange "use" and "again"
 [OK] l295: close-by -> nearby
-l296:
-"We have chosen to overlay 10 GeV pion events with pion events at different energies
+[OK] l296: "We have chosen to overlay 10 GeV pion events with pion events at different energies
 from 10 to 50 GeV, in steps of 10 GeV."
 
-"The distance between shower entry points was scanned between 5 cm and 30 cm in steps of 5 cm."
+[OK] "The distance between shower entry points was scanned between 5 cm and 30 cm in steps of 5 cm."
 
-"This energy range corresponds to typical single particle energies within jets at the ILC."
+[OK] "This energy range corresponds to typical single particle energies within jets at the ILC."
 Is this true? it sounds rather higher than the average jet particle energy... you ref[2] to supprt this
 is rather broad. It will take me a long time to find where this is mentioned. perhaps a more specific 
 refoerence?
 
-fig11: missing calice labels, axis labels almost invisible.
+[OK] fig11: missing calice labels, axis labels almost invisible.
 
-l304: which shower has it's track removed? is it always the 10 GeV one? 
+[OK] l304: which shower has it's track removed? is it always the 10 GeV one? 
 why?
 
-l306: here you use uppercase X, Y.
+[NOT] l306: here you use uppercase X, Y.
+[X and Y for axies, x and y for positions]
 
-l308: what is d?
+[OK] l308: what is d?
 
-l310: remove "in the same one"
+[OK] l310: remove "in the same one"
 
-l321: I don;t think we need to be told what labels (1,2,3) you use to tag the different hit types...
+[OK] l321: I don;t think we need to be told what labels (1,2,3) you use to tag the different hit types...
 
-l324: "shifting as shown on figure" -> "shifting. An example if shown in figure"
+[OK] l324: "shifting as shown on figure" -> "shifting. An example if shown in figure"
 
-fig12: the track is very thin, and difficult to see. can you make it thicker?
-caption: remove "Event" ; 
-this is not a neutral hadron, rather a "fake neutral" hadron -> maybe invent a specific term for this;
-"at 20 cm separation distance on" -> "separated by 20 cm in" 
-XoY seems a strange notation: x-y ?
-corresponds -> correspond
-track -> fake track
+[OK] fig12: the track is very thin, and difficult to see. can you make it thicker?
+[OK] caption: remove "Event" ; 
+[OK] this is not a neutral hadron, rather a "fake neutral" hadron -> maybe invent a specific term for this;
+[OK] "at 20 cm separation distance on" -> "separated by 20 cm in" 
+[NOT] XoY seems a strange notation: x-y ? [Standard notation in displays]
+[OK] corresponds -> correspond
+[OK] track -> fake track
 
-l326: again, not a true "neutral hadron": you need to make this clear.
+[OK] l326: again, not a true "neutral hadron": you need to make this clear.
 
-l328: remove "between them"
+[OK] l328: remove "between them"
 
-l333: "due to shower overlaps and resulting confusion."
+[OK] l333: "due to shower overlaps and resulting confusion."
 
-fig13: y-axis label: maybe "<N_pfo>" would be better (also in fig 9(R)). here it would also be good to see the
+[OK] fig13: y-axis label: maybe "<N_pfo>" would be better (also in fig 9(R)). here it would also be good to see the
 N_pfo distribution for one or two contrasting points.
 
-fig14: caption: 
+[OK] fig14: caption: 
 "after separation with a charged hadron" -> "after reconstruction"
 
-eq 5.1: NHit_ini,tot -> Nhit_ini,tot [for consistency with all others]
+[OK] eq 5.1: NHit_ini,tot -> Nhit_ini,tot [for consistency with all others]
 
-l342: "while the reconstruction is performed." -> "in the reconstruction."
+[OK] l342: "while the reconstruction is performed." -> "in the reconstruction."
 
-l345: 
+[OK] l345: 
 "which tends to merge the small neutral cluster fragments in" ->
 "which merges small neutral cluster fragments to"
 "taking care" -> "considering"
 why doesn't it consider the parent energy?
+[Simple imlementation first. Need more investigations now]
 
-l350: remove "on the" ; "where" -> "in which"
+[OK] l350: remove "on the" ; "where" -> "in which"
 
-l352: closed -> close
+[OK] l352: closed -> close
 very close to 100% doesn;t mean much: 99% ? 95 % ? 99.9999% ? much better to say something like "> 99%"
 
-l353: "confusions start appearing" -> "confusion becomes significant" ; in -> with	   
+[OK] l353: "confusions start appearing" -> "confusion becomes significant" ; in -> with	   
 
-l356: "for the 50 GeV charged particle case." -> "at 50 GeV."
+[OK] l356: "for the 50 GeV charged particle case." -> "at 50 GeV."
 
-fig15: caption: "The same variable" is incorrect!
+[OK] fig15: caption: "The same variable" is incorrect!
 
-l358: "in the case where" -> "when" ; on -> one 
+[OK] l358: "in the case where" -> "when" ; on -> one 
 is this the energy of all neutral PFOs, or only the largest one?
 
-l359: insert "mean" before "reconstructed"
+[OK] l359: insert "mean" before "reconstructed"
 
-l360: "constant evolution". I think you mean that it is constant. evolution suggests that something is changing,
+[OK] l360: "constant evolution". I think you mean that it is constant. evolution suggests that something is changing,
 "constant evolution" that it is changing at a constant rate. not what you mean, I think.
 
-l363: in -> with
+[OK] l363: in -> with
 
-how does the performance depend on the depth of the showers' first interactions?
+[TO SEE] how does the performance depend on the depth of the showers' first interactions?
 If both interact in the same layer, I guess they are easier to separate than if the neutral starts later than the
 charged? maybe an interesting plot to add here.
 
@@ -649,36 +650,386 @@ sec6
 ----
 
 
-described in details with all the sub-algorithms. -> 
+[OK] described in details with all the sub-algorithms. -> 
 described in detail.
 
-maybe add another sentence to this paragraph. something descriptive like "Arbor is based on reconstucting the
+[OK] maybe add another sentence to this paragraph. something descriptive like "Arbor is based on reconstucting the
 tree structure of had showers..." 
 
-l369: showed -> show
-l370: "whole energy range" better to explicitly say 10-80 gev.
-"The mean number of PFOs shows a linear increase with
+[OK] l369: showed -> show
+[OK] l370: "whole energy range" better to explicitly say 10-80 gev.
+[OK] "The mean number of PFOs shows a linear increase with
 energy from 1.1 PFOs at 10~GeV to 1.4 PFOs at 80 GeV."
 
-"The reconstructed
+[OK] "The reconstructed
 energy of the single charged hadron is close to the one applied before running the algorithm with a
 small decrease due to the 5% of inefficiency and thus the energy resolution increases too." ->
 "Around 5% of hits are not clustered by the algorithm, leading to a small decrease in the clustered
 energy response and a small degradation of the energy resolution with respect to the case in which
 all hits are considered."
+[Totally agree]
 
-"The algorithm has also been applied in order to separate close-by hadronic showers." ->
+[OK] "The algorithm has also been applied in order to separate close-by hadronic showers." ->
 "The ability of the algorithm to separate close-by hadronic showers was also investigated."
+[close-by ?? nearby you mean ? :)]
 
-l377: what is the "mip track"? I htink this is the first time to come across this term in the note, I don;t think
+[OK] l377: what is the "mip track"? I htink this is the first time to come across this term in the note, I don;t think
 you've defined it. mip -> MIP
+[changed by track segment]
 
-I wonder if 377-379 is too much detail for the summary.
+[TO SEE] I wonder if 377-379 is too much detail for the summary.
 
-l380: "good" : please be quantitative: >99% or whatever. good sounds rather modest: 70% might be "good"!
+[OK] l380: "good" : please be quantitative: >99% or whatever. good sounds rather modest: 70% might be "good"!
 
-l385 taht -> that
+[OK] l385 taht -> that
 
 
 l417: I think BackwardConnectorWeight is w_bck in the text? (same for fwd)
+
+
+
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+
+
+
+First of all, all the comments below are just my "thinking", it is only for a discussion, and you can perfectly have different arguments / opinion and be perfectly right.
+=============
+
+Abstract and introduction of ArborPFA in the text: do you need to specify the relation of your Arbor to Manqi's / ALEPH one (I just do not know how they are related, eg. code / algorithm reuse, acknowledgments)
+
+Abstract:
+
+[OK] "in future ILC experiments" -> in fact, not limited to ILC (CEPC, FCC, LHC upgrades ...)
+['in future ILC experiments' removed to keep it general]
+
+[OK] "to associate clusters belonging ..." -> clusters are not defined, may be "associate hits to hadronic showers with minimal errors" or smth. like that
+
+[OK] "a good single particle efficiency and  ..." -> in principle, what is important for PFO is the energy, not hits; results on the energy precision could also be mentioned?
+
+General comment: if in reconstructing two showers, one is split by mistake and it is energy is significantly reduced: in the current treatment, as I understand, this is always considered as a failure of an algorithm. However,
+if this is a neutral shower which is split and two neutral showers are formed, this is sill Ok for PFA. The overall energy is still measured properly: it is the charged track momentum from a tracker plus the sum of neutral hadronic energies.
+May be this may be mentioned somewhere.
+
+If I understand correctly, and may be this can mentioned, there is no particle ID between neutral particles, ie. gamma and neutral hadrons are essentially treated in the same way?
+---------------
+
+[OK] l 28 "a linear e+e-" -> again CEPC, FCC are circular
+
+[OK] l 30 "a good energy resolution" -> for ECAL a moderate intrinsic resolution of <=20%/sqrt(E) is sufficient and proposed (while it can be a few percent/sqrt(E), but then without high granularity)
+[Agree, but can be kept as it is. Good does not specify how much the resolution has to be]
+
+[OK] l 33-47 I agree with Daniel that logically one may invert these three paragraphs and start from PFA -> Pandora -> Arbor (mentioning here that other Arbor('s) exist) -> SDHCAL.
+May be, if this is true, one can also mention that Arbor is more suitable for highER granularity as it emphasizes the pattern recognition, and therefore, more suitable for SDHCAL?
+
+[OK] l 49 "48 layers (up to 50)" -> in addition to Daniel's comment, 48 layers is a repetition, this was already mentioned on l. 36
+
+[NOT] l 52 "9216 pads .. compose the readout" -> May be "9216 pads are readout"?
+
+[NOT] l 55 If you know the pion purity after selection it may be an appropriate place to add (eg. was there a contamination from electrons)
+[Described in the SDHCAL note]
+
+[OK] l 57 "where alpha, beta, gamma ... and N1, N2 and N3 ..." -> since alpha/beta depends on Nhit, it may be better to introduce N1,2,3 first (invert the order)
+"N1, N2 and N3 are the number of hits with energies between thresholds 1-2, 2-3 and 3-infinity. Nhit is the total number of hits N1+N2+N3". The values of thresholds in MIPs may help understanding.
+
+[OK] l 60 "The minimization ... over all hadronic events" -> with equal weights? equal weights per event or per energy point? If you do not want to go in too much details, eg.: "with approximately equal weights" per energy point
+[No weight assigned per event either per energy point]
+
+[OK] General comment: how Nhit is defined for ArborPFA shower? I would expect Nhit is calculated across those hits which are associated to the shower.
+Since hits <-> shower association is not known apriori, but is determined by Arbor, in principle, Nhit is not available before Arbor finishes. So, I am not sure whether you may use any energy variable inside Arbor algorithms, except
+when the shower is somehow already defined (may be not finally).
+In other words, E reconstructed depends on pattern via Ntot.
+[Defined in section about single particule reconstruction]
+
+[OK] Eg. the definition of barycenter depends on the energy (I assume every hit is taken with the weight = energy).
+[No. Computed using hit positions only, no weighting]
+
+[TO SEE] The (2.2) chi2 minimization is defined according to total Nhit in event, without Arbor reconstruction. May be one can mention that, ie. there may be a room for a little improvement, if chi2 for Arbor Nhits is minimized.
+[Are you talkign about a PFA calibration procedure ?]
+--------------
+
+Sec 3.
+l 68 "Fig. 1 shows the shower development ... for which we can see multiple components of the shower: " -> "Fig. 1 shows an example of the shower development ... where all main components of the shower are present: "
+(shower may proceed in this or other way, for me "shows shower development" is too deterministic, as if shower may develop only in this way)
+
+[OK] l 76 c++ -> C++
+
+[NOT] l 75-77 PandoraSDK API -> may be misleading, as reader may assume this is Pandora; clarification may help
+[PandoraSDK toolkit is different from LCReco (old PandoraPFA name). It's a toolkit for PFA development and is not related to Pandora algorithms in any way]
+
+[OK] "It produces only a ROOT file containing the variable +s .. " -> this sentence is probably not so much relevant (both Arbor algorithm and shower separation do not depend on the concrete realization). What can be interesting is how Arbor is related (depends) on ROOT or
+ in general, the framework where Arbor runs. Anyway, it is up to you to decide.
+
+[OK] Terminology: l 81 and the following.
+The "tree", in fact, is a mathematical term, it is a graph without cycles, see eg.
+https://en.wikipedia.org/wiki/Tree_%28graph_theory%29
+You probably use a "rooted tree" - the tree with the selected root. If you stick to mathematical notations, you'll make sure other people will understand you.
+There will be no need to invent a new terminology and to check that it is not misleading for people from various fields.
+[Already changed to tree-like to do not confuse]
+
+Your root is called "seed". Both "seed" and "root" are natural as they are related to normal trees. I would say "seed" if the tree grows out of it with time, and "root" if the tree already exists. Up to you to decide.
+
+The term "object" is rather misleading for me. As I understand, in your case it is a "node" or a "vertex" of a tree. For me, the object is not something elementary (like "atom") but rather more complex. Contrary to that, in your definition, (if I've understood
+right) everything else is made from such simplest "objects". "Node", "vertex", "point", "cluster of hits", "group of hits" - all that seems more natural to me.
+
+Connections or connectors -> edges in mathematical tree terminology.
+
+forest is a set of trees
+
+Usage of term "track" is quite misleading. I would use it only for tracker tracks. l 114 - 117: as I understand, "a track segment candidate object" is just an isolated hit? The latter is much easier to understand. 
+
+l 81-85: "object" is not defined unambiguously (if I am not mistaken, Daniel also mentioned that). Is it == group of adjacent hits in the same layer? then, of which shape?
+[NOT] l 102 - 113: In Fig. 2 in the last layer we see 6 consecutive hits (encircled), but according to l 107 only 4 (max) may form an "object"? In the middle layer there are 4 hits in a row - is this shape allowed for an "object"?
+[This is a 2D schematic view of the algorithm. The layer where there are 4 hits, is bigger in 3D and is split. If you want I can change the figure.]
+
+[NOT] l 106: "nearest neighbour clustering algorithm" : this gives some hint of what is done, but is still unclear to me. Do you use NN (nearest neighbour) and then cut all edges longer than some threshold, and this threshold is determined by the requirement
+to always get <=4 connected vertices?
+[Nearest neighbour NN, yes. Just nearest cell, corners not looked for]
+
+[NOT] l 107-108: It is written that for N>4 hits, they are split into N objects == N hits, 1+1+1+1+...? Probably this is not the case, you split until N<=4 everywhere?
+[cluster of N hits -> 1+1+1+1+1 ... hits become 1+1+1+1+1 ... objects]
+
+[TO SEE] General comment, I would put all the numbers for your algorithms from Appendix to the corresponding places in the text.
+In the current version of the note, the naming and symbols of the variables in the text and in the Appendix are in most cases different. Another argument, every time
+I encounter the variable, I need to turn pages, find the variable (with different name :) in Appendix and read its  value. This interrupts the reading (in most cases I just need "an order of magnitude", to understand the algorithm).
+Note, value=4 on l. 107 is the place where the variable is in the text.
+
+[TODO] Before introducing the variables you may mention that they are parameters in your program and then mark them by italic / bold font or in some other way in the text. Also, most of the readers will not use the codes, so it does not matter for them which flexibility
+is available in the programs. 
+
+[TO SEE] Variability of the parameters may trigger a question, how they were optimized. (I suppose, "by hand"?), another question, what was the emphasis in the optimization: was it in the shower separation, the reconstruction of single shower
+events, the energy?
+[Parameters were tuned by hand based on single particle and overlaid events by looking at NPfos for shower splitting (single) and neutral recovery (overlay), also by looking at the reconstructed energy (single and overlay) and the purirty/efficiency (single and overlay)]
+
+Probably, it is a difficult question, may be another one, to put it simpler: what are your plans on ArborPFA: do you eventually plan to obtain jet energy resolution, like in Pandora?
+[Yes. Last part of my PhD program. A bit of rewrite has to be done in order to adapt it to full detector configurations. Plan to extract JER and JES]
+
+[NOT] l 124 - 129 There are 6 parameters of "Primary track connection" algorithm in the Appendix, but this is not covered in the text. Is this algorithm supposed to be described in more detail later?
+[Yes Connector seeding 1 and cleaning 1 just after]
+
+[NOT] "Connector cleaning 1" - It is rather difficult to understand, may be one can start from eq. 3.2 and write smth. like
+"The backward connector is selected by minimizing the expression
+[The chosen backward connector for the tree building will be the one with the smallest κ parameter]
+
+Eq. (3.2)
+
+[NOT] Here Delta is the distance between X-Y projections of connector endpoints, which is required to be less than 45 mm (?) Theta is the 3D angle between the connector and the average  direction of the adjacent connectors. The latter is defined as
+[No, Delta is the distance in 3D between two connected objects. Ok for your Theta explanation.]
+
+Eq. (3.1)
+..."
+
+Eq. (3.2): p_theta, p_Delta are in fact only one parameter, as only their ratio matters in minimization: minimum of a^p_theta * b^p_Delta == min(a * b ^(p_Delta / p_theta)).
+[Yes, in fact one power evolve with the other one. Not sure about a simple "ratio" relation, thus we need to have two different parameters.]
+
+What happens with Eq. 3.1 if there is no any backward, or any forward edge?
+[If no backward, no need to decide which one to keep. If no forward, only the sum over the backward remains]
+
+[OK] l 144 "k order parameter" - order probably means that in the end the smallest k is selected? Here, on l.144  "order" is not explained and is rather misleading.
+["order" removed to keep it simple]
+
+[OK] l.148: "pointed backward" -> along which line? I've understood that along Z, but I am not sure whether all tracks are always perpendicular to SDHCAL face? May be this needs to be mentioned somewhere. (In common to Daniel's question, what happens in ILD geometry).
+[Bad words to express the idea, already changed after Daniel's corrections. By "pointed object" I meant one of the backward connector]
+
+"Connector seeding / cleaning 2" - rather difficult to understand for the reader. In general: the simpler - the better. Probably, you mean second iteration?
+[Yes second iteration. Start from trees and align connectors inside them in better way]
+
+l 157 - "The goal of this 2d step is .. an alignment" - if it is a 2d iteration, its goal is the same as for the 1st. One needs to explain only the difference between iterations.
+
+l 164 I did not understand why the order of the cleaning (from downstream layer -> upstream) is important? Is it because the still existing connectors influence the reference direction calculation in eq. 3.1?
+[Yes exactly. If you do it globally as the 1st cleaning you find the best backward connectors and THEN you remove all other ones. Here for each layer, from downstream to upstream, if you remove the "bad" connectors only in the layer, at the next step (so next layer), only the kept connectors contribute to the calculation in eq 3.1.]
+
+[NOT] If delta > 1 here (for Eq. 3.1), what is it exactly and what was it in the first iteration? Is there a sum over delta? If there is no similar sum over sigma, as sigma==1 (l .141), the sum symbol over sigma in eq. 3.1 should really be dropped to avoid confusion
+(Daniel's comment).
+[If Delta is set to 1 and if I remove delta from the sum (since it is fixed to one), you may asked the question : "Why is there a parameter depth for the backward connectors and no parameter for the forward ones". It was added in the document do avoid this question. It will be used in future studies in ILD, so I prefer to keep it like this.]
+
+[OK] l 167 - 169 One may try (?): "Seed objects are identified and trees are built by following the forward connections. (Drop next sentence) The following algorithms will merge the trees into clusters."
+I understand that your cluster is some container of trees, and at this step you already start containers with only one tree. This is a technical detail, though. If it can be avoided and dropped from the text (?), it could really improve the readability
+(which is by far the most important).
+[Totally agree. Dropped !]
+
+Another general comment: the paper (text) is not a C++ code, nor a literate translation of C++ code. In the text one may explain why the algorithm is done like this (something which never appears in the computer program),
+or the algorithm can be presented at a "higher level" (assembler -> C++ -> eg. python -> human text :)
+
+
+l. 176 "track projection" -> again, is track always parallel to Z?
+[In our case, in the single particle and overlay studies, yes but in general, no]
+
+[NOT] l. 176-177 "The clusters" -> here "The trees", as there is one tree in the cluster? Are there further iterations?
+[Here it's cluster since we have many trees together now]
+
+l. 181 - 184 I did not understand: there are two cuts on max distance between seed objects <->track projection, one is at 75 mm (?), and this is followed by another at 55 mm. Is the former contained in the latter?
+[No. The former is used to detect a particle with a track segment. The latter to restrict the selected seeds for association. See figure 5]
+
+[NOT] Fig.5 and 6 can be probably merged in one Fig.5a, 5b. (As for the rest double plots in the paper).
+
+[OK] l. 189 "The first" -> "The upper"
+
+"Neutral tree merging" - I do not understand, what limits this algorithm to only neutral showers, not charged? Eg. like the one on top of Fig.5. Is there any veto on hits in the first layers? Also, there is no merging if seeds are shifted eg. by +/-1 layer?
+[In fig5 top, the seeds are merged using the track association. This algorithm is designed for neutral particle as in fig6. If the seed start one layer after, then there shouldn't be any seed in fact since there should be a connection between this "seed" and an other object in the backward direction. Same idea for one layer before.]
+
+[OK] l. 195-196 "The trees having seeds closer than Delta_seed mm and positioned in the same layer are merged".
+[Totally agree !]
+
+[OK] l. 200 parent or a daughter cluster -> they are not defined at this point, not clear. A notice, that the next algorithm establishes parent - child relations, may be useful.
+
+[OK] l. 203-204 look like a C++ code. Eg. We require that the child clusters propagate further downstream to the layers where their parents do not have hits.
+
+[OK] l. 208 and in the following: definition of barycenter is missing
+
+[OK] l. 214-216 - difficult to understand what d_closest,i,j is. "point where  ... direction crosses the parent one" - in general, two lines are not crossing, then how this point is defined?
+[See Daniel's comment]
+
+[OK] l. 224 - again, pure C++; implicitly, if something is not said, this means, nothing is done; so probably may be dropped. 
+
+[OK] l.225 may be continued like "If the parent cluster is found and it has no associated track ...". "Otherwise we check whether
+the merging improves a match with the associated track momentum" or smth. similar.
+
+l. 231 how sigma_E is defined? It is a parameterization of Fig. 10,right? Or, something specific to Arbor?
+[HCAL energy resolution at track momentum p. Not specific to Arbor]
+
+[TO SEE] l.232 f_res is defined in the footnote, while everything else - in the text. To be consistent, it is better to define everything in the same way.
+[Added in footnote from Imad recommandation]
+
+On the other hand:
+[TO SEE] l. 233 what matters is probably only Psi_cut * r_res, not these two quantities separately; the cut is (x / f_res) < Psi_cut, or x < (f_res * Psi_cut). So, one parameter on right-hand-side is sufficient.
+[Don't understand your remark]
+
+l.233-235: "Two clusters are merged if Psi defined for ..."
+
+In which order the clusters are merged? Is this important? There is no optimization on best convergence to track momentum?
+[Everything is in the sorting of clusters (l.203). But there is not so much more optimization with the track momentum, I agree !]
+
+l.238-239 - "Then for all showers and small structures, the centroid (barycenter) is computed..." - this probably means one overall centroid for all these large+small structures, not individual ones.
+[No! 1 barycentre for one structure and the merging is done one by one. It's not a global barycentre.]
+
+[OK] "Every tree with less than 20 nodes is merged with the larger tree, the closest in terms of barycenter distances".
+[Modified a bit and included]
+---------------
+
+Sec.4
+
+[OK] l.252 - a note that there was no tracker in front of SDHCAL may be useful for understanding
+[Approved !]
+
+l.254-256 - Every time barycenter is mentioned, I have a question on the definition of Nhit. It enters the energy and the weights in barycenter calculation (?) Here: is it a different Nhit, ie. only within the restricted region, or the full Nhit?
+[No weights used for barycentre calculations. NHit is the total NHit in the calorimeter]
+
+l.262 - again, PandoraSDK needs explanation that this is not Pandora.
+"A single hcal endcap geometry" ->
+[OK] - is there a magn. field,
+- are tracks always perpendicular to hcal surface [YES in our case]
+- is it otherwise the same geometry / setup as in beam test?
+
+General question: if everything is done in ILD geometry, why MC simulation is missing? (Just a brief sentence may be sufficient before LCWS).
+[Not ILD geometry, ILD is not mentionned anywhere. Just an end cap emulating the SDHCAL test beam geometry]
+[No MC simulation since discrepencies at high energies are observed with NHit. See Arnaud simulation and digitizer note and talks]
+
+What was the statistics (after selection, or just raw events) for the runs listed in Appendix?
+
+[OK] l.266 - "as the number of hits" -> "as the fraction of hits"?
+[Exact !]
+
+[NOT] l.270 "const. eff. with more that 95%" -> "const. eff. above 95%"
+[Already changed with something else after previous corrections]
+
+l.271-272 Proposed logic is not obvious:
+"But since
+1) the number of hits increases with the E,
+2) the number of missed hits in the reco. charged particle increases...Consequently,
+3) the number of reco. particles (increases)"
+
+[TO SEE] Efficiency in Fig.9 left stays almost constant, so 2) = inefficiency * growing N hits is increasing and this results in 3)?
+[Don't undestand, sorry]
+
+[TO SEE] It may be interesting to show Nhits (or energy) in a fake cluster.
+[What do you mean by fake cluster ?]
+
+[OK] Fig.10 left, scale for x-axis is unreadable.
+
+l.275 "a small amount of energy" -
+In fact, 1-2% (from Fig.10 left-bottom) by itself is not so small for PFA. This energy is probably assigned to the neutral hadrons (and taken out from charged). Charged tracks give 65% of the jet energy, so it gives 0.65 - 1.3% of extra energy (confusion even
+for well isolated particles). This can be "calibrated", though: if the correction is always eg. 1.5% of charged energy, we just reduce Ejet by this average amount. The question, how this fraction fluctuates from one event to the other.
+May be, this can be thought of and some discussion may be added to the text.
+
+
+[OK] l 277 The linearity -> The deviation from linearity,
+Eq.4.1
+is shown in Fig.10a, bottom.
+[No. Not (Erec - Ebeam). It was added just to clarify what is Delta_E]
+
+[OK] l 297 [10-50] is mixed with 10 GeV. May be I missed it, but what was defined as neutral and charged? Whether 10 GeV was always neutral and [10-50] - charged? May be needs to be defined from the beginning.
+
+Fig.11 left: Delta E/E = (9.46 - 10)/10 = -5.4%, while in Fig.10 left-bottom it is about +3% at 10 GeV ??
+[Yes, hits from the removed track segment are missing]
+
+[OK] l.332 "for distances shorter than 10 cm from 2.1 PFO down to 1.8" -> there is only one point 5cm < 10 cm (the analysis is discrete in spite of the connecting lines in Fig.13), and (about) 1.8 PFO (with slight E dependence) is for 5 cm.
+
+l.334 terminology: efficiency and purity. In fact, both look as efficiencies, first is relative to single event, second - to reconstructed single particle shower. By the way, is epsilon < rho always?
+For me, calling them differently (efficiency - purity) implies that there is some (significant) difference between them. May be just epsilon_1,2.
+[Purity is the number of greatly recovered hits after reco versus Nhit after reco whereas efficiency is the number of greatly recovered hits after reco versus NHit before reco
+
+Example : A shower with 50 hits before reconstruction. After reconstruction you end up with a reconstructed shower of 40 hits with 35 hits beloning to the original shower and 5 hits from other showers. Then :
+
+Purity = 35 / 40 = 0.875
+Efficiency = 35 / 50 = 0.7
+
+In extreme cases, you might be completely pure but with a very poor efficiency and also the opposite
+]
+
+Epsilon-rho are given only for neutral (10 GeV). In fact, there are 3 categories: charged shower - neutral - fakes, and epsilon-rho may be defined for any of them.
+[Totally agree. Here we talk only about the neutral one, since in PFA the reconstruction is first driven by the charged particle reconstruction. Remains the neutral which depends somehow on the ch part reco. The idea was to study this impact by looking at many variables at neutral particle reco level.]
+
+Fig.15 right and in the text below: it is not defined, what is reconstructed and measured energies. If there are several neutral hadrons - is it the energy sum? I am afraid, I do not understand l.357 - 363.
+[neutral energy is the sum of neutral particle energies. More explanation added. Tell me if something is wrong after these corrections]
+
+How Fig.15 right is related to Fig.11, left: in the latter, there is -5.4% energy drop, or 0.54 GeV. In the former, 10 + 50 GeV combination (yellow) is at 2. Is it 2 GeV? There are no units on the vertical scale. -0.54 != +/-2 ??
+[Unit is GeV, but the energy drop of 2 GeV is due to the last performed algorithm as explained for the purity]
+-----------
+
+Summary
+
+[OK] l.368 "a TPC track" -> track is reconstructed by both TPC and silicon detectors, depending on the ILD model, the latter may be the closest to HCAL.
+
+[NOT] l.369 Triangles in Fig.9 left (and also in the other plots) are not symmetric: it is not clear which point in the triangle corresponds to the right position.
+Is it the center or the lowest corner? If it is the center, 95% is too conservative, the points are even higher than 95%?
+[center]
+
+[NOT] l.372 "applied" -> is close to the overall energy in the single particle event.
+[Sentence completely changed after previous corrections]
+
+[NOT] l.373 small decrease due to 5% of ineff. -> a number is always better than small/large etc., as small can eg. become large in other contexts.
+5% inefficiency - is it 1-95% = 5% of hit inefficiency? then "<=5% of hit inefficiency"
+[Same as before]
+
+[TO SEE] l.373 "and thus the energy resolution increases too". There is something which I do not understand here. From left-bottom of Fig.10, at 80 GeV: the energy drop is 1-1.5%. By itself it can not explain the increase of RMS (Fig.10 right)
+from 10 to 11% at 80 GeV. Let's estimate the error which (when quadratically added) may increase 10 -> 11: sqrt(11^2 - 10^2) = 5%. So, this tiny 1-1.5% looks not sufficient?
+[Don't understand, sorry. Can you rephrase your comment ?]
+
+General comment. For PFA in the end only the energy measurement is important. It is interesting to have some estimator of the energy error, how it depends on separation distance. For a moment there are plots (as a function of distance):
+- <N PFO>
+- (neutral hadron) hit association efficiency
+- probability to reconstruct at least one neutral shower
+- <Ereco - Emeas> (not fully explained, may be this triggers my question)
+The plot with some energy error dependence on distance would be highly welcome.
+
+In the mixed events we have: charged + neutral + fake reconstructed showers. One may plot either their energies separately, or an overall PFA error eg.
+delta E = mixed event reconstructed energy, where charged shower energy is substituted by the beam momentum (like in PFO) - EVENT energy with single "neutral" shower - beam momentum for charged single particle.
+
+In fact, the problem is two dimensional: for every separation distance we have a distribution of delta E.
+
+With Kostya we plot the fraction of events within 3-4 deltaE windows around zero as a function of distance, ie. 3-4 curves.
+On the other hand, we plot RMS of deltaE at each distance. If errors are independent, they are added in quadrature, so, assuming independent errors for simplicity in the real jet environment, between different regions of shower overlaps, one may
+obtain the total confusion as sqrt(RMS1^2 + RMS2^2 + ...), so RMS may be sufficient to have. Luckily, we may reduce in this way 2-dim distributions to 1-dim case. Note, this is not true for RMS90, though.
+Still, one RMS value may be a good representation of the complex distribution.
+
+
+
+
+
+
+
+
 
