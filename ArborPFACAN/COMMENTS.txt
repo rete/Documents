@@ -6,7 +6,8 @@ you've written a beautiful note! In particular let me thank you for the detailed
 
 Since you have made the text using a JINST template, I comment it like something more than simply an internal note, so please ignore those of my comments that assume a non-CALICE reader while you are at the note stage. Your English is mostly clear and pure, though I am not satisfied with wording in several places, so please consult a native speaker where I am not sure (marked CNS). The comments and suggestions for lines are interleaved with general ones.
 
-[TO SEE] The algorithm parameters in the appendices are interesting if they are optimized to provide the best separation of showers. Otherwise, I think their values are not that important for understanding of the written and not needed for the JINST.
+[NOT] The algorithm parameters in the appendices are interesting if they are optimized to provide the best separation of showers. Otherwise, I think their values are not that important for understanding of the written and not needed for the JINST.
+[The algorithm parameters have optimized.]
 
 [OK] l.18 "Separation of two close-by ..."
 
@@ -20,7 +21,8 @@ Since you have made the text using a JINST template, I comment it like something
 
 [OK] l.56 why not \cdot
 
-[TO SEE] Please indicate typical numbers of hits at each threshold for a 10 GeV shower -- that is important and interesting.
+[NOT] Please indicate typical numbers of hits at each threshold for a 10 GeV shower -- that is important and interesting.
+[NHits (1 2 3) plot at 10 GeV joined in Mail response]
 
 [OK] l.57 comma before and
 
@@ -31,8 +33,8 @@ Since you have made the text using a JINST template, I comment it like something
 
 [THANK YOU] Figure 1, left, is an impressive drawing, I like it.
 
-[TO SEE] l.75-78 This information is too poor even for internal reading. For the JINST, it should be either extended or omitted.
-[Suggestions ?]
+[NOT] l.75-78 This information is too poor even for internal reading. For the JINST, it should be either extended or omitted.
+[This is only for internal note. A bit modified ...]
 
 [OK] l.82 "a vertex"
 
@@ -70,7 +72,7 @@ Since you have made the text using a JINST template, I comment it like something
 
 [OK] l.219 "may happen"
 
-[TO SEE] l.224 Let me a joke, is this line a machine code?
+[OK] l.224 Let me a joke, is this line a machine code?
 [Don't know what to replace with. Any suggestions ?]
 
 [OK] l.237 "surround the shower" or what?
@@ -93,7 +95,7 @@ Figure 8 What a nice octopus!
 
 [OK] l.298 The sentence seems to look better without "also".
 
-[TO SEE] Figure 11 looks poor and uninformative -- not good for the JINST.
+[OK] Figure 11 looks poor and uninformative -- not good for the JINST.
 [Any suggestions ?]
 
 [OK] l.310 "same" is probably used incorrectly here -- CNS
@@ -110,8 +112,8 @@ Figure 8 What a nice octopus!
 
 [OK] Figures 14 and 15 should be probably enlarged since letters of legends are too small and nearly unreadable when  printed to paper if we care about the paper reading.
 
-[TO SEE] The definition of efficiency and purity is too simple since it does take into account the threshold of a hit, so we don't know which hits were incorrectly assigned by the algorithm. Can we -- perhaps in the future -- weight the hits with their energy? I remember you have tagged them.
-[I don't understand your remark, sorry. Can you rephrase it or add more comments]
+[NOT] The definition of efficiency and purity is too simple since it does take into account the threshold of a hit, so we don't know which hits were incorrectly assigned by the algorithm. Can we -- perhaps in the future -- weight the hits with their energy? I remember you have tagged them.
+[I agree that it's a simple definition but we don't think a more sophisticated definition will bring more information to this study event taking into account the threshold changing after the overlay. The effect on threshold is shown on the energy plots afterward]
 
 [OK] l.341 "As" seems ambiguous here, I would write "In the same way as". -- CNS
 
@@ -135,8 +137,8 @@ Figure 8 What a nice octopus!
 
 [OK] l.386 "or merging with the charged hadron"
 
-[TO SEE] l.390 "improve" is certainly not sufficient: "to provide/facilitate the PFA performance". 
-
+[OK] l.390 "improve" is certainly not sufficient: "to provide/facilitate the PFA performance". 
+[changed by  "in jets to study the possible improvment on PFA performances using this algorithm"]
 
 #--------------------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------------------
@@ -347,8 +349,8 @@ The first step that deals with the track segment candidates uses a seeding and c
 The seeding and cleaning is then applied to all hits with other parameters.
 ]
 
-[TO SEE] l125: "in" -> "for" before "creating"
-[Are you sure? Seems strange ...]
+[OK] l125: "in" -> "for" before "creating"
+[Are you sure? Seems strange ... Changed by "of"]
 
 [OK] l126/7: track segment...track extrapolation: more track confusion!
 
@@ -395,6 +397,7 @@ write it clearly.
 [OK] l163: add "per object" after "one connector"
 
 [TO SEE] l164: I don't understand the "cleaning per layer" procedure. is the kept connector always in one of the closer layers with smallest delta?
+[A réécrire ...]
 
 [OK] l168: more "recursively" to before "following"
 [OK] l169: Nwe paragraph before "The following..." ; remove "will"; "with others." -> "with each other."
@@ -479,8 +482,9 @@ please specify!
 
 [OK] l249: Appendix 16 -> Appendix B.
 
-[TO SEE] l251: maybe a short description of the event selection here. I know you refer to the other note,
+[OK] l251: maybe a short description of the event selection here. I know you refer to the other note,
 but I think it's important enough to briefy summarise.
+[A réécrire]
 
 [OK] l252: exchange "emulate" and "correctly"
 
@@ -537,7 +541,8 @@ Please be consistent. I would suggest somethiing like "Hit clustering efficiency
 [OK] l272: add "average" before "number"
 [OK] l273: remove "the" before "shower" ; finally -> only
 
-[TO SEE] it might be nice to show the distribution of N_pfos at one or two energies, rahter than just the average.
+[OK] it might be nice to show the distribution of N_pfos at one or two energies, rahter than just the average.
+[Added !]
 
 
 [OK] fig 10: axis labels, legends much too small. should have similar size to the text.
@@ -639,9 +644,10 @@ is this the energy of all neutral PFOs, or only the largest one?
 
 [OK] l363: in -> with
 
-[TO SEE] how does the performance depend on the depth of the showers' first interactions?
+[NOT] how does the performance depend on the depth of the showers' first interactions?
 If both interact in the same layer, I guess they are easier to separate than if the neutral starts later than the
 charged? maybe an interesting plot to add here.
+[I didn't store this information in files, but I will produce it for a future paper]
 
 If you could add a comparison with simulation for these separatio plots, that would be very interesting.
 I can imagine that you have no time for this before LCWS, but for a later update of the note.
@@ -677,7 +683,7 @@ all hits are considered."
 you've defined it. mip -> MIP
 [changed by track segment]
 
-[TO SEE] I wonder if 377-379 is too much detail for the summary.
+[OK] I wonder if 377-379 is too much detail for the summary.
 
 [OK] l380: "good" : please be quantitative: >99% or whatever. good sounds rather modest: 70% might be "good"!
 
@@ -746,8 +752,9 @@ In other words, E reconstructed depends on pattern via Ntot.
 [OK] Eg. the definition of barycenter depends on the energy (I assume every hit is taken with the weight = energy).
 [No. Computed using hit positions only, no weighting]
 
-[TO SEE] The (2.2) chi2 minimization is defined according to total Nhit in event, without Arbor reconstruction. May be one can mention that, ie. there may be a room for a little improvement, if chi2 for Arbor Nhits is minimized.
-[Are you talkign about a PFA calibration procedure ?]
+[OK] The (2.2) chi2 minimization is defined according to total Nhit in event, without Arbor reconstruction. May be one can mention that, ie. there may be a room for a little improvement, if chi2 for Arbor Nhits is minimized.
+[We didn't want to bias the reconstruction made by Arbor. I agree with you for a jet configuration]
+[Ajouter mention de l'utilisation de ERec dans le calcul de E des PFOs dans la section Single Particle]
 --------------
 
 Sec 3.
@@ -791,17 +798,18 @@ to always get <=4 connected vertices?
 [NOT] l 107-108: It is written that for N>4 hits, they are split into N objects == N hits, 1+1+1+1+...? Probably this is not the case, you split until N<=4 everywhere?
 [cluster of N hits -> 1+1+1+1+1 ... hits become 1+1+1+1+1 ... objects]
 
-[TO SEE] General comment, I would put all the numbers for your algorithms from Appendix to the corresponding places in the text.
+[NOT] General comment, I would put all the numbers for your algorithms from Appendix to the corresponding places in the text.
 In the current version of the note, the naming and symbols of the variables in the text and in the Appendix are in most cases different. Another argument, every time
 I encounter the variable, I need to turn pages, find the variable (with different name :) in Appendix and read its  value. This interrupts the reading (in most cases I just need "an order of magnitude", to understand the algorithm).
 Note, value=4 on l. 107 is the place where the variable is in the text.
+[We think that keeping the parameters in separated tables is better for reading]
 
 [TODO] Before introducing the variables you may mention that they are parameters in your program and then mark them by italic / bold font or in some other way in the text. Also, most of the readers will not use the codes, so it does not matter for them which flexibility
 is available in the programs. 
 
-[TO SEE] Variability of the parameters may trigger a question, how they were optimized. (I suppose, "by hand"?), another question, what was the emphasis in the optimization: was it in the shower separation, the reconstruction of single shower
+[OK] Variability of the parameters may trigger a question, how they were optimized. (I suppose, "by hand"?), another question, what was the emphasis in the optimization: was it in the shower separation, the reconstruction of single shower
 events, the energy?
-[Parameters were tuned by hand based on single particle and overlaid events by looking at NPfos for shower splitting (single) and neutral recovery (overlay), also by looking at the reconstructed energy (single and overlay) and the purirty/efficiency (single and overlay)]
+[Parameters were tuned by hand based on single particle and overlaid events by looking at NPfos for shower splitting (single) and neutral recovery (overlay), also by looking at the reconstructed energy (single and overlay) and the purity/efficiency (single and overlay)]
 
 Probably, it is a difficult question, may be another one, to put it simpler: what are your plans on ArborPFA: do you eventually plan to obtain jet energy resolution, like in Pandora?
 [Yes. Last part of my PhD program. A bit of rewrite has to be done in order to adapt it to full detector configurations. Plan to extract JER and JES]
@@ -890,12 +898,12 @@ the merging improves a match with the associated track momentum" or smth. simila
 l. 231 how sigma_E is defined? It is a parameterization of Fig. 10,right? Or, something specific to Arbor?
 [HCAL energy resolution at track momentum p. Not specific to Arbor]
 
-[TO SEE] l.232 f_res is defined in the footnote, while everything else - in the text. To be consistent, it is better to define everything in the same way.
-[Added in footnote from Imad recommandation]
+[NOT] l.232 f_res is defined in the footnote, while everything else - in the text. To be consistent, it is better to define everything in the same way.
+[It was put in footnote to keep the description simple]
 
 On the other hand:
-[TO SEE] l. 233 what matters is probably only Psi_cut * r_res, not these two quantities separately; the cut is (x / f_res) < Psi_cut, or x < (f_res * Psi_cut). So, one parameter on right-hand-side is sufficient.
-[Don't understand your remark]
+[NOT] l. 233 what matters is probably only Psi_cut * f_res, not these two quantities separately; the cut is (x / f_res) < Psi_cut, or x < (f_res * Psi_cut). So, one parameter on right-hand-side is sufficient.
+[I understand your remark but the factor parameter was kept apart to facilitate the optimization]
 
 l.233-235: "Two clusters are merged if Psi defined for ..."
 
@@ -941,11 +949,11 @@ l.271-272 Proposed logic is not obvious:
 2) the number of missed hits in the reco. charged particle increases...Consequently,
 3) the number of reco. particles (increases)"
 
-[TO SEE] Efficiency in Fig.9 left stays almost constant, so 2) = inefficiency * growing N hits is increasing and this results in 3)?
-[Don't undestand, sorry]
+[NOT] Efficiency in Fig.9 left stays almost constant, so 2) = inefficiency * growing N hits is increasing and this results in 3)?
+[I could change as you explained but I think the logic is OK. We first present the plot and its content and then the explanation]
 
-[TO SEE] It may be interesting to show Nhits (or energy) in a fake cluster.
-[What do you mean by fake cluster ?]
+[NOT] It may be interesting to show Nhits (or energy) in a fake cluster.
+[Nhits for fake clusters is just the difference 1 - eff since was it missing in NHits for a reconstructed showers is NHits for fake clusters. Same for ERec]
 
 [OK] Fig.10 left, scale for x-axis is unreadable.
 
@@ -1004,10 +1012,11 @@ Is it the center or the lowest corner? If it is the center, 95% is too conservat
 5% inefficiency - is it 1-95% = 5% of hit inefficiency? then "<=5% of hit inefficiency"
 [Same as before]
 
-[TO SEE] l.373 "and thus the energy resolution increases too". There is something which I do not understand here. From left-bottom of Fig.10, at 80 GeV: the energy drop is 1-1.5%. By itself it can not explain the increase of RMS (Fig.10 right)
+[OK] l.373 "and thus the energy resolution increases too". There is something which I do not understand here. From left-bottom of Fig.10, at 80 GeV: the energy drop is 1-1.5%. By itself it can not explain the increase of RMS (Fig.10 right)
 from 10 to 11% at 80 GeV. Let's estimate the error which (when quadratically added) may increase 10 -> 11: sqrt(11^2 - 10^2) = 5%. So, this tiny 1-1.5% looks not sufficient?
-[Don't understand, sorry. Can you rephrase your comment ?]
+[It is not the RMS that is increasing but RMS/E. Since E is decreasing -> RMS/E is increasing.]
 
+[TO SEE]
 General comment. For PFA in the end only the energy measurement is important. It is interesting to have some estimator of the energy error, how it depends on separation distance. For a moment there are plots (as a function of distance):
 - <N PFO>
 - (neutral hadron) hit association efficiency

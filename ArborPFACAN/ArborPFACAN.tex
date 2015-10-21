@@ -57,7 +57,7 @@ To apply efficiently the Particle Flow Algorithms, both good energy resolution a
 
 Different calorimeter technologies are currently under study by the CALICE collaboration to fulfill these requirements. In this framework, a \textit{semi digital hadronic calorimeter} prototype (SDHCAL) was built \cite{sdhcal-paper} and successfully tested at the CERN H6 test beam lines of the SPS (CERN) in 2012. With a transverse readout segmentation of 1 cm$^2$, 48 sampling layers and good energy resolution \cite{sdhcal-paper}, this calorimeter statifies ILC requirements. 
 
-In this paper, we present an other approach of the particle flow : the ArborPFA approach. The algorithm has been designed for high granularity calorimeters and applied to SDHCAL test beam data. We propose to evaluate the performance of the algorithm on single pion events and to study the ability of the algorithm to separate two overlaid pion showers at different separation distances and energies.
+In this paper, we present another approach of the particle flow : the ArborPFA approach. The algorithm has been designed for high granularity calorimeters and applied to SDHCAL test beam data. We propose to evaluate the performance of the algorithm on single pion events and to study the ability of the algorithm to separate two overlaid pion showers at different separation distances and energies.
 
 \newpage
 \section{The SDHCAL prototype}
@@ -78,14 +78,15 @@ where N$_1$, N$_2$ and N$_3$ are the number hits of threshold 1, 2 and 3, N$_{hi
 \begin{equation}
   \chi^2 = \sum\limits_{evt} \frac{(E_{beam} - E_{rec})^2}{E_{beam}}
 \end{equation}
-This minimization was performed over all the hadronic events in the energy range [10, 80] GeV by step of 10 GeV. No weight is assigned event by event either per energy point. The linearity and energy resolution will be shown in section \ref{SINGLE_PARTICLE_STUDY_SECTION} dedicated to the single particle study.
+This minimization was performed over all the hadronic events in the energy range [10, 80] GeV by step of 10 GeV. 
+%No weight is assigned event by event either per energy point. The linearity and energy resolution will be shown in section \ref{SINGLE_PARTICLE_STUDY_SECTION} dedicated to the single particle study.
 
 \newpage
 \section{The Arbor particle flow algorithm}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-~~~~~~~The Arbor approach has been developed by the ALEPH collaboration and recently adapted \cite{arbor-manqi} for ILD detector design. It is based on the idea that the hadronic shower development follows a tree-like topology.
+~~~~~~~The Arbor approach has been developed by Henri Videau of the ALEPH collaboration and recently adapted \cite{arbor-manqi} for ILD detector design. It is based on the idea that the hadronic shower development follows a tree-like topology.
 
 Figure \ref{ARBOR_STRUCTURE} shows an example of a shower development (left) where all main components of the shower are present : charged particles, neutral particles, electromagnetic and hadronic components.
 The same figure shows on the right a sampling calorimeter view of a shower interaction as seen in a highly granular calorimeter. The black arrows drawn on this view suggest the tree-like topology development of the shower.
@@ -100,7 +101,7 @@ With such an approach, the shower reconstruction follows a principle close to th
   \caption{\label{ARBOR_STRUCTURE} Left : schematic view of an induced proton shower. Right : schematic view of a reconstructed shower in a calorimeter with calorimeter hits (red)}
 \end{figure}
 
-The algorithm we used here is implemented using the PandoraSDK API as a toolkit for generic PFA development \cite{pandora-sdk}. The API is used in a Marlin \cite{marlin-lccd} C++ processor as part of the reconstruction chain in ILCSOFT \cite{ilcsoft}. A complete description of the algorithm can be found in Appendix \ref{ARBOR_ALGO_DESCRIPTION}
+The algorithm we use here is implemented using the PandoraSDK API as a toolkit for generic PFA development \cite{pandora-sdk}. The API is used in a Marlin \cite{marlin-lccd} C++ processor as part of the reconstruction chain in ILCSOFT \cite{ilcsoft}. A full description of the algorithm is given in Appendix \ref{ARBOR_ALGO_DESCRIPTION}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%% Single particle study %%%%%%
@@ -120,9 +121,9 @@ The algorithm we used here is implemented using the PandoraSDK API as a toolkit 
   \caption{\label{ARBOR_SINGLE_PARTICLE_SETUP} Event display of a 50 GeV pion shower in the SDHCAL detector}
 \end{wrapfigure}
 
-To study the single particle performance of the algorithm, we use the SDHCAL charged pion data taken at CERN on the H6 line of SPS in 2012 from 10 GeV up to 80 GeV. In order to select only pions, an event selection is performed as described in \cite{sdhcal-paper}.
+To study the single particle performance of the algorithm, we use the SDHCAL charged pion data taken at CERN on the H6 line of SPS in 2012 from 10 GeV up to 80 GeV. In order to select only charged hadrons, an event selection is performed based on topological variables. Muons coming from the beam and cosmic muons are first removed by requiring that $N_{Hit}/N_{Touched layers}$ must be higher than 2.2. Electrons are then removed by requiring that the shower starting layer has to be higher than 5 or the number of touched layers must be higher than 30. Neutral particles are also removed by requiring that a maximum of 4 hits are found in the 5 first layers. A more detailed description of the event selection is described in \cite{sdhcal-paper}.
 
-To correctly emulate a charged pion for the reconstruction program and since there was no tracker in front of the SDHCAL during beam tests, a fake track is created in front of the calorimeter. A global barycentre of all hit positions in the transverse plane (X and Y axes) is calculated. A new barycentre is then calculated using only hits n the 4 first layers and within a region of 8x8 cells around the global barycentre in the X and Y directions. This defines the shower entering point in the first layer. From the entering point of the shower, a straight track is created along the beam axis (Z direction) with momentum equal to that of beams.
+To correctly emulate a charged hadron for the reconstruction program and since there was no tracker in front of the SDHCAL during beam tests, a fake track is created in front of the calorimeter. A global barycentre of all hit positions in the transverse plane (X and Y axes) is calculated. A new barycentre is then determined using only hits n the 4 first layers and within a region of 8x8 cells around the global barycentre in the X and Y directions. This defines the shower entering point in the first layer. From the entering point of the shower, a straight track is created along the beam axis (Z direction) with momentum equal to that of the beam.
 
 The calorimeter hits and the created track are then loaded into the PandoraSDK toolkit \cite{pandora-sdk} within a single hcal endcap geometry (no magnetic field) with the SDHCAL prototype dimensions and processed by the ArborPFA algorithms. An event display of a single pion event is shown on figure~\ref{ARBOR_SINGLE_PARTICLE_SETUP}.
 
@@ -136,7 +137,15 @@ The calorimeter hits and the created track are then loaded into the PandoraSDK t
   \caption{\label{ARBOR_SINGLE_PARTICLE_EFFICIENCY_AND_NPFOS} Hit clustering efficiency (left) and the mean number of reconstructed particles (right) after ArborPFA reconstruction on single pion shower events with the SDHCAL prototype}
 \end{figure}
 
-We define the efficiency of the single particle reconstruction, or the hit clustering efficiency $\epsilon_s$ as the fraction of hits recovered by the ArborPFA program and correctly attached to track in front of the calorimeter. Figure \ref{ARBOR_SINGLE_PARTICLE_EFFICIENCY_AND_NPFOS} shows the mean efficiency of the single particle reconstruction (left) and the mean number of reconstructed particles (right) as a function of the beam energy after applying ArborPFA. It shows a constant efficiency of over 96\% over the whole beam energy range. Since the number of hits increases with the energy, the number of missed hits in the reconstructed charged particle also increases. Consequently, the mean number of reconstructed particles shows an increase which is directly due to shower splitting. This number grows up to 1.45 particles at 80 GeV but has only a small impact on the reconstructed energy and energy resolution because the small additional clusters represent a small amount of energy. Indeed, figure \ref{ARBOR_SINGLE_PARTICLE_EREC_AND_ERESOL} shows the reconstructed energy and energy resolution of a single charged pion before and after running the ArborPFA program. 
+\begin{figure}[!h]
+  \begin{center}
+    \includegraphics[width=0.48\textwidth]{plots/SingleParticle_NPfos_20GeV.pdf}
+    \includegraphics[width=0.48\textwidth]{plots/SingleParticle_NPfos_70GeV.pdf} \\
+  \end{center}
+  \caption{\label{ARBOR_SINGLE_PARTICLE_NPFOS_20_AND_70_GEV} Distributions of the number of reconstructed particles for a 20 GeV single charged hadron (left) and a 70 GeV single charged hadron (right).}
+\end{figure}
+
+We define the efficiency of the single particle reconstruction, or the hit clustering efficiency $\epsilon_s$ as the fraction of hits recovered by the ArborPFA program and correctly attached to the track in front of the calorimeter. Figure \ref{ARBOR_SINGLE_PARTICLE_EFFICIENCY_AND_NPFOS} shows the mean efficiency of the single particle reconstruction (left) and the mean number of reconstructed particles (right) as a function of the beam energy after applying ArborPFA. Two typical distributions of the number of reconstructed particles are shown in figure \ref{ARBOR_SINGLE_PARTICLE_NPFOS_20_AND_70_GEV} as an example. The hit clustering efficiency shows a constant efficiency of over 96\% over the whole beam energy range. Since the number of hits increases with the energy, the number of missed hits in the reconstructed charged particle also increases. Consequently, the mean number of reconstructed particles shows an increase which is directly due to shower splitting. This number grows up to 1.45 particles at 80 GeV but has only a small impact on the reconstructed energy and energy resolution because the small additional clusters represent a small amount of energy. 
 
 \begin{figure}[!h]
   \begin{center}
@@ -146,7 +155,7 @@ We define the efficiency of the single particle reconstruction, or the hit clust
   \caption{\label{ARBOR_SINGLE_PARTICLE_EREC_AND_ERESOL} Reconstructed energy (left) and energy resolution (right) before (blue) and after (red) ArborPFA reconstruction on single pion shower event with the SDHCAL prototype}
 \end{figure}
 
-The deviation from linearity is shown below the reconstructed energy and is defined as :
+Figure \ref{ARBOR_SINGLE_PARTICLE_EREC_AND_ERESOL} shows the reconstructed energy and energy resolution of a single charged pion before and after running the ArborPFA program. The deviation from linearity is shown below the reconstructed energy and is defined as :
 
 \begin{equation}
   \Delta E/E_{beam} = \Big(E_{rec} - E_{beam}\Big)/E_{beam}
@@ -164,13 +173,14 @@ The ability of a particle flow algorithm to disentangle close-by showers is a ke
 
 \subsection{Overlay procedure and setup}
 
-In order to study the separation of nearby hadronic showers, two events from test beam data are overlaid in one event. We have chosen to overlay 10 GeV pion events and pion events at different energies from 10 GeV to 50 GeV, in steps of 10 GeV. The distance between shower entry points was scanned between 5 cm and 30 cm in steps of 5 cm. The choice of this energy range is motivated by the fact that it is the typical single particle energies foreseen at the ILC within jets \cite{hadron-jets}.
+In order to study the separation of nearby hadronic showers, two events from test beam data are overlaid in one event. We have chosen to overlay 10 GeV pion events and pion events at different energies from 10 GeV to 50 GeV, in steps of 10 GeV. The distance between shower entry points was taken between 5 cm and 30 cm by step of 5 cm. The choice of this energy range is motivated by the fact that it is the typical single particle energies foreseen at the ILC within jets \cite{hadron-jets}.
 
 \begin{figure}[!h]
   \begin{center}
-    \includegraphics[width=0.6\linewidth]{plots/OverlayEvent_OverlayCompare.pdf}
+    \includegraphics[width=0.48\linewidth]{plots/SingleParticle_10GeV.pdf}
+    \includegraphics[width=0.48\linewidth]{plots/OverlayEvent_OverlayCompare.pdf}
   \end{center}
-  \caption{\label{OVERLAY_EVENT_MC_EREC_OVERLAID_HITS} The reconstructed energy of the 10 GeV neutral hadron after the overlay procedure with a 50 GeV charged hadron with a separation distance of 30 cm (black) and 5 cm (red)}
+  \caption{\label{OVERLAY_EVENT_MC_EREC_OVERLAID_HITS} Left : The reconstructed energy of a 10 GeV charged hadron before the overlay procedure. Right : The reconstructed energy of the 10 GeV neutral hadron after the overlay procedure with a 50 GeV charged hadron with a separation distance of 30 cm (black) and 5 cm (red)}
 \end{figure}
 
 The overlay event algorithm is processed as follow :
@@ -180,12 +190,12 @@ The overlay event algorithm is processed as follow :
   \item The hits belonging to the 10 GeV pion primary track segment are removed from the event in order to emulate a neutral hadron shower.
   \item The two showers are then centred along the X and Y axis at the center of the calorimeter. No shift is performed on the Z direction (beam line).
   \item The showers are then shifted along the X axis by a distance of -d/2 for the neutral hadron and +d/2 for the charged particle, where d is the distance to the calorimeter center in cm.
-  \item The two events are then overlaid. At this step a problem may occur : while mixing the showers in the event, pair of hits may overlap in the same cell. Knowing that we are using a semi digital readout and that the information of the deposit charge in each cell is not available in the data, we need to assign a new threshold by using an approximation. The most intuitive one is to keep the highest threshold of the two hits. Figure \ref{OVERLAY_EVENT_MC_EREC_OVERLAID_HITS} shows the reconstructed energy of the 10 GeV neutral hadron overlaid with a 50 GeV charged hadron at 30 cm distance (left) and 5 cm distance (right). The latter case is the worst one that can appears in this study given the energy points and the distances we have chosen. By comparing the two plots, we can see that the effect of this approximation on the reconstructed energy is negligible.
+  \item The two events are then overlaid. At this step a problem may occur : while mixing the showers in the event, pair of hits may overlap in the same cell. Knowing that we are using a semi digital readout and that the information of the deposit charge in each cell is not available in the data, we need to assign a new threshold by using an approximation. The most intuitive one is to keep the highest threshold of the two hits. Figure \ref{OVERLAY_EVENT_MC_EREC_OVERLAID_HITS} (right) shows the reconstructed energy of the 10 GeV fake neutral hadron overlaid with a 50 GeV charged hadron at 30 cm distance (black) and 5 cm distance (red). The latter case is the worst that can appear in this study given the energy points and the distances we have chosen. By comparing the two plots, we can see that the effect of this approximation on the reconstructed energy is negligible.
   \item The hits are tagged with respect to our initial showers. The overlaid hits are tagged differently so that the information on the overlaid hits can be retrieved after reconstruction.
   \item A new event is created containing the overlaid showers and the entering point of the charged particle track after shifting. An example is shown on figure \ref{OVERLAY_EVENT_DISPLAY}.
 \end{enumerate}
 
-Figure \ref{OVERLAY_EVENT_DISPLAY} also shows a small energy deviation of -0.54 GeV for the 30 cm case. With respect to the reconstructed energy after running ArborPFA shown on figure \ref{ARBOR_SINGLE_PARTICLE_EREC_AND_ERESOL} (left), a drop of -0.8 GeV is observed and is due to the track segment hits removal while overlaying the two showers. 
+Figure \ref{OVERLAY_EVENT_MC_EREC_OVERLAID_HITS} shows the reconstructed energy of a 10 GeV charged hadron before the overlay procedure (left). A small energy difference of approximatively -0.8 GeV is observed between the reconstructed energy before the overlay (left) and after the overlay (right) for the 30 cm case (black), due to the track segment hits removal while overlaying the two showers.
 
 \begin{figure}[!h]
   \begin{center}
@@ -206,7 +216,7 @@ Figure \ref{OVERLAY_EVENT_DISPLAY} also shows a small energy deviation of -0.54 
 \end{figure}
 
 
-Figure \ref{OVERLAY_EVENT_NPFOS} shows the mean number of PFOs after running the ArborPFA program on a 10 GeV fake neutral hadron overlaid with a charged hadron at different energies and different separation distances. The behaviour at a large separation distances where the number of PFOs increases with the charged particle energy matches the behaviour of the number of PFOs in the single particle study. We can also see that the sum of the number of PFOs for the single particle is compatible with the number of PFOs for the overlay. The mean number of PFOs is stable at large separation distances but slightly decreases at 5 cm from about 2.1 PFOs down to about 1.8 PFOs due to the showers overlaps and resulting confusions.
+Figure \ref{OVERLAY_EVENT_NPFOS} shows the mean number of PFOs after running the ArborPFA program on a 10 GeV fake neutral hadron overlaid with a charged hadron at different energies and different separation distances. The behaviour at large separation distance with the charged particle energy matches the mean number of PFOs that of the single particle study. We can also see that the sum of the mean number of PFOs for the single particle is compatible with the mean number of PFOs for the overlay. The mean number of PFOs is stable at large separation distances but slightly decreases at 5 cm from about 2.1 PFOs down to about 1.8 PFOs due to the showers overlaps and resulting confusions.
 
 \begin{figure}[!h]
   \begin{center}
@@ -230,17 +240,17 @@ with Nhit$_{good}$ the number of hits that initially belong to the particle and 
 
 Figure \ref{OVERLAY_EVENT_PURITY_EFFICIENCY} shows the efficiency (left) and the purity (right) of the neutral hadron for different charged particle energies and different separation distances. In the same way as for the mean number of PFOs, at small distances the two showers start to overlap and confusions appear in the reconstruction. Thus, some hits of the neutral hadron are assigned to the charged one (and vice versa) and the efficiency and purity decrease. At large separation distances, the purity does not tend to 100\%. This is due to the last performed algorithm (small neutral fragment algorithm) which merges small neutral cluster fragments to their closest parent cluster, without considering the parent cluster size or energy. Since the number of neutral fragments for a single hadron particle increases with the energy, a non-negligible part of the charged hits is assigned to the neutral hadron, leading to a decrease of its purity.
 
-Figure \ref{OVERLAY_EVENT_NEUTRAL_PERCENTAGE} (left) shows the fraction of events in which at least one neutral hadron has been reconstructed. As expected, the number of reconstructed neutral particles decreases with the separation distance. From 30 cm down to 15 cm, this fraction is stable and greater than 97\%. At 10 cm, confusions becomes significant and the neutral hadron is sometimes merged with the charged one, leading to a small decrease of this fraction. At 5 cm, we can see that the fraction strongly depends on the charged particle energy and goes from 73\% of reconstructed events for the 10 GeV charged particle case down to 60\% at 50 GeV.
+Figure \ref{OVERLAY_EVENT_NEUTRAL_PERCENTAGE} (left) shows the fraction of events in which at least one neutral hadron has been reconstructed. As expected, the number of reconstructed neutral particles decreases with the separation distance. From 30 cm down to 15 cm, this fraction is stable and greater than 97\%. At 10 cm, confusion becomes significant and the neutral hadron is sometimes merged with the charged one, leading to a small decrease of this fraction. At 5 cm, we can see that the fraction strongly depends on the charged particle energy and goes from 73\% of reconstructed events for the 10 GeV charged particle case down to 60\% at 50 GeV.
 
 \begin{figure}[!h]
   \begin{center}
     \includegraphics[width=0.47\linewidth]{plots/OverlayEvent_NeutralPercentage.pdf}
     \includegraphics[width=0.47\linewidth]{plots/OverlayEvent_NeutralEnergyDifferenceMeanNeutralEfficient.pdf}
   \end{center}
-  \caption{\label{OVERLAY_EVENT_EREC} \label{OVERLAY_EVENT_NEUTRAL_PERCENTAGE} Left : The fraction of events where at least one neutral hadron has been reconstructed. Right : The mean difference between the reconstructed energy and the measured energy before reconstruction for which at least one neutral hadron has been reconstructed.}
+  \caption{\label{OVERLAY_EVENT_EREC} \label{OVERLAY_EVENT_NEUTRAL_PERCENTAGE} Left : The fraction of events where at least one neutral hadron has been reconstructed. Right : The mean difference between the reconstructed energy and the measured energy before reconstruction in events with at least one reconstructed neutral hadron.}
 \end{figure}
 
-We define the reconstructed neutral energy as the sum of the neutral particle energies and the measured neutral energy as the estimated energy before reconstruction. Figure \ref{OVERLAY_EVENT_EREC} (on the right) shows the mean difference between the reconstructed neutral energy and the measured neutral energy when at least one neutral hadron has been reconstructed. In the same way as for the purity, the mean reconstructed neutral energy increases with the charged particle energy. This plot also shows a flat behavior of the reconstructed neutral energy with the separation distance. This means that the reconstruction of the neutral hadron at very small distance (5 cm) has a \textit{binary-like} behaviour, either well reconstructed or completely merged with the charged hadron.
+We define the reconstructed neutral energy as the sum of the neutral particle energies and the measured neutral energy as the estimated energy before reconstruction. Figure \ref{OVERLAY_EVENT_EREC} (on the right) shows the mean difference between the reconstructed neutral energy and the measured neutral energy when at least one neutral hadron has been reconstructed. In the same way as for the purity, the mean reconstructed neutral energy decreases with the charged particle energy. This plot also shows a flat behavior of the reconstructed neutral energy with the separation distance. This means that the reconstruction of the neutral hadron at very small distance (5 cm) has a \textit{binary-like} behaviour, either well reconstructed or completely merged with the charged hadron.
 
 %%%%%%%%%%%%%%%%%%%%%
 %%%%%% Summary %%%%%%
@@ -248,19 +258,19 @@ We define the reconstructed neutral energy as the sum of the neutral particle en
 \newpage
 \section{Summary}
 
-The ArborPFA, based on the tree-like structure of hadronic showers has been described in details. 
+The ArborPFA, based on the tree-like structure of hadronic showers has been described. 
 
-A single particle study has been performed on SDHCAL test beam data taken at SPS at CERN during August and September 2012 \cite{sdhcal-paper}. Single pion showers have been selected and a track in front of the calorimeter has been created in order to emulate a track from a tracking detector.
+A single particle study has been performed on SDHCAL using data taken at SPS H2 beam line at CERN \cite{sdhcal-paper}. Single hadron showers have been studied using the algorithm.
 
-The results show a good efficiency with more than 95\% of hits assigned to the reconstructed charged particle over the energy range of 10 to 80 GeV. The mean number of PFOs shows a linear increase with the energy from 1.1 PFOs at 10 GeV to 1.4 PFOs at 80 GeV. Around 4\% of hits are not clustered by the algorithm, leading to a small decrease in the clustered energy response and a small degradation of the energy resolution with respect to the case in which all hits are considered.
+The results show a good efficiency with more than 95\% of hits assigned to the reconstructed charged particle over the energy range of 10 to 80 GeV. The mean number of PFOs shows a linear increase with the energy from 1.1 PFOs at 10 GeV to 1.4 PFOs at 80 GeV. Around 4\% of hits are not associated by the algorithm, leading to a small decrease in the clustered energy response and a small degradation of the energy resolution with respect to the case in which all hits are considered.
 
-The ability of the algorithm to separate nearby hadronic showers was also investigated. Two different charged hadron showers with different energies from the same test beam data set have been overlaid in the same event with different separation distances. For the 10 GeV pion shower, the track segment inside the calorimeter has been identified and removed from the event in order to emulate a neutral hadron particle. For the other particle, a track has been generated in front of the calorimeter and pointing on the particle entry point, as for the single particle case. 
+The ability of the algorithm to separate nearby hadronic showers was also investigated. Two different charged hadron showers with different energies from the same test beam data set have been overlaid in the same event with different separation distances. For the 10 GeV pion shower, the track segment inside the calorimeter has been identified and removed from the event in order to emulate a neutral hadron particle.
 
-The results showed a neutral hadron recovery higher than 90\% until 10 cm separation distance where a non negligible confusion starts to appear. 
+The results show an efficiency of a neutral hadron recovery higher than 90\% down to 10 cm separation distance where a non negligible confusion starts to appear. 
 
-The difference between the reconstructed energy and the measured energy of the neutral hadron in the case where at least one neutral hadron has been reconstructed showed an increase with the charged hadron energy for all the separation distances due to the small neutral fragment merging algorithm. At small separation distance (5cm), the difference stays constant and shows that the neutral hadron reconstruction has a \textit{binary-like} behaviour, either a very good reconstruction or merged in the charged hadron.
+The difference between the reconstructed energy and the measured energy of the neutral hadron in the case where at least one neutral hadron has been reconstructed shows an increase with the charged hadron energy for all the separation distances due to the small neutral fragment merging algorithm. At small separation distance (5cm), the difference stays constant and shows that the neutral hadron reconstruction has a binary-like behaviour, either a very good reconstruction or merged in the charged hadron.
 
-This work will be extended shortly to include the electromagnetic calorimeter as well as the other sub-detectors in the framework of the ILD detector with the aim to separate charged and neutral hadrons produced in jets to improve on the PFA performances.
+This work will be extended shortly to include the electromagnetic calorimeter as well as the other sub-detectors in the framework of the ILD detector with the aim to separate charged and neutral hadrons produced in jets to study the possible improvment on PFA performances using this algorithm.
 
 \newpage
 \begin{thebibliography}{6}
@@ -270,33 +280,29 @@ This work will be extended shortly to include the electromagnetic calorimeter as
   {\emph{Nucl.\ Instrum.\ Meth.} {\bf #1} (#2) #3}}
 \newcommand\can[1]{\href{https://twiki.cern.ch/twiki/pub/CALICE/CaliceAnalysisNotes/CAN-#1.pdf}{\tt CAN-#1}}
 
-
-\bibitem{sdhcal-paper} 
-Calice Collaboration, \emph{First results of the CALICE SDHCAL technological prototype}, \can{037}
-
 \bibitem{ilc-tdr} 
 J. Carwardine {\it et al.},  \emph{International Linear Collider Technical Design Report}. 1) Executive Summary, 2) Physics, 3) Accelerator, 4) Detectors. 12 June 2013
-
-\bibitem{hadron-jets} 
-O. Lobban, A. Sriharan, R. Wigmans,  \emph{On the energy measurement of hadron jets}, \nim{A495}{2002}{107-120}
-
-\bibitem{marlin-lccd}
-F. Gaede, Marlin and LCCD: Software tools for the ILC, \nim{A559}{2006}{177-180}
 
 \bibitem{pandora-pfa}
 M. A. Thomson, \emph{Particle Flow Calorimetry and the PandoraPFA Algorithm}, \physics{0907.3577}
 
-\bibitem{pandora-sdk}
-J. S. Marshall, M. A. Thomson, \emph{The Pandora Software Development Kit for Pattern Recognition}, \physics{1506.05348}
+\bibitem{sdhcal-paper} 
+Calice Collaboration, \emph{Construction and commissioning of a technological prototype of a high-granularity semi-digital hadronic calorimeter}, \physics{1506.05316}
 
 \bibitem{arbor-manqi}
 M. Ruan, \emph{Arbor, a new approach of the Particle Flow Algorithm}, Proceeding of CHEF 2013. \hepex{1403.4784}
 
+\bibitem{pandora-sdk}
+J. S. Marshall, M. A. Thomson, \emph{The Pandora Software Development Kit for Pattern Recognition}, \physics{1506.05348}
+
+\bibitem{marlin-lccd}
+F. Gaede, Marlin and LCCD: Software tools for the ILC, \nim{A559}{2006}{177-180}
+
 \bibitem{ilcsoft}
 ILCsoft, 2012. \href{http://ilcsoft.desy.de/portal}{\tt http://ilcsoft.desy.de/portal}
 
-\bibitem{root}
-ROOT, 1995-2015, \href{https://root.cern.ch/drupal}{\tt https://root.cern.ch/drupal}
+\bibitem{hadron-jets} 
+O. Lobban, A. Sriharan, R. Wigmans,  \emph{On the energy measurement of hadron jets}, \nim{A495}{2002}{107-120}
 
 \newpage
 
@@ -328,7 +334,7 @@ Before describing the algorithm in detail, a few definitions specific to ArborPF
 ~\newline 
 Note that in the following algorithm descriptions, some parameters are labelled by a name or symbol, whose values are given in a separate Appendix \ref{ARBOR_ALGORITHM_PARAMETERS}.
 
-\subsection*{Pre-clustering phase} 
+\subsection{Pre-clustering phase} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%% OBJECT CREATION %%%
@@ -350,7 +356,7 @@ Note that in the following algorithm descriptions, some parameters are labelled 
 \paragraph*{Track segment\footnote{By \textit{track segment} we mean a track produced by a charged particle in the calorimeter such as Minimum Ionizing Particles (MIP)} candidate tagging}
 In order to correctly reconstruct the primary track segment in the calorimeter, track segment candidate \textit{objects} are identified and tagged for future treatment. For each object, we count the number of objects in the same layer within a distance of $\Delta_{mip}$. If this number doesn't exceed N$_{obj,cut}$, the object is tagged as a track segment candidate object.
 
-\subsection*{The main clustering phase - Connectors and trees}
+\subsection{The main clustering phase - Connectors and trees}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ~~~~~~~The main clustering algorithm consists of an iterative procedure using dedicated algorithms to create and remove connectors (connector loop). At the end of this step, all objects are arranged in a tree structure, which means that each object has at most one connector in the backward direction and 0 or more in the forward direction.
@@ -371,7 +377,7 @@ In order to correctly reconstruct the primary track segment in the calorimeter, 
 
 In the current implementation, the connector loop contains the following algorithms :
 
-\paragraph*{Primary track connection} This algorithm aims to create connections between objects belonging to the primary track segment of charged particles in the calorimeter. It consists mainly in creating a sub-list of objects that are candidates for the primary track segments by using the objects tagged as track segment candidates and the track extrapolations on the front of the calorimeter. Once this list is built, the "\textit{connector seeding 1}" algorithm and the "\textit{connector cleaning 1}" algorithm are run on only the sub-list objects.
+\paragraph*{Primary track connection} This algorithm aims to create connections between objects belonging to the primary track segment of charged particles in the calorimeter. It consists mainly of creating a sub-list of objects that are candidates for the primary track segments by using the objects tagged as track segment candidates and the track extrapolations on the front of the calorimeter. Once this list is built, the "\textit{connector seeding 1}" algorithm and the "\textit{connector cleaning 1}" algorithm are run on only the sub-list objects.
 
 \paragraph*{Connector seeding 1} We start by creating connections in the neighbourhood of each object. For each object, we look for other objects in the N$_{layers}$ next layers within a maximum distance $\Delta_{max}$ and we create connections between them. As an example, Figure \ref{ARBOR_CONNECTOR_SEEDING_1} (left) illustrates the output of this algorithm.
 
@@ -422,14 +428,17 @@ The chosen backward connector for the tree building is the one with the smallest
 
 \paragraph*{Connector seeding 2} This second step of connector seeding starts from the tree structure obtained after the first connector cleaning algorithm. The goal of this second step is to create an alignment of connectors within the shower. For each connector, more forward connectors are created from the forward object of this connector by looking in a cone of half-angle $\theta_c$ and a maximum distance of $\Delta_{max,c}$. In the same way, additional backward connectors are created from the backward object of this connector. A schematic view of this step is shown in figure \ref{ARBOR_CONNECTOR_ALIGNEMENT}.
 
-\paragraph*{Connector cleaning 2} Here, we again need to clean up the backward connector list to end up with only one connector per object. This last algorithm is similar to the first connector cleaning except that the cleaning is done layer per layer starting from the downstream layers with a depth parameter $\delta$ strictly higher than one. For a given connector, this accentuates the alignment with the forward ones. We end up then with a tree structure again.
+\paragraph*{Connector cleaning 2} Here, we again need to clean up the backward connector list to end up with only one connector per object. This last algorithm is similar to the first connector cleaning except that the cleaning is done layer per layer.  We start by the downstream layer and we perform the same cleaning procedure as described in the first connector cleaning within a single layer. Once the cleaning is done, the removal of unneeded connectors is done. By removing these connectors layer by layer, the computation of the reference vector will take into account only the cleaned connectors in the downstream direction. The depth parameter $\delta$ is also chosen to strictly higher than one in order to accentuate the alignment with the upstream connectors. We end up then with a tree structure again.
+
+% starting from the downstream layers with a depth parameter $\delta$ strictly higher than one. For a given connector, this accentuates the alignment with the forward ones. We end up then with a tree structure again.
 
 \paragraph*{Tree building} This step is straight-forward. Seed objects are identified and trees are built by recursively following the forward connected objects.
+
 
 The following algorithms associate some of the trees with each other.
 
 %%%%%%%%% ASSOCIATION ALGORITHMS %%%%%%%%%%%
-\subsection*{Association algorithms}
+\subsection{Association algorithms}
 
 \paragraph*{Energy driven track cluster association} The track to cluster association is performed using three different pieces of information, the cluster energy, the track momentum and the cluster topology. We first look at the track projection on the calorimeter front face. Two different cases may occur :
 

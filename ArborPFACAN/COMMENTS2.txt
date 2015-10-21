@@ -1,0 +1,79 @@
+# Correction Oleg Markin 2 :
+
+Oh, Remi, everything is good for a CAN. Thanks. 
+
+
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+
+
+# Correction Daniel Jeans 2 :
+
+Dear Remi,
+
+Thanks for the updated note, and sorry for the long time it's taken me to reply.
+
+I'm happy for the note to be published as a CAN.
+
+I noticed just one spelling mistake (during a quick reading-through):
+[OK] l175: "th" -> "the"
+
+Regards,
+Daniel. 
+
+
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+
+# Correction  Vladislav Balgura 2 :
+
+As promised, further comments from my side...
+
+[NOT] l 167 - 170 - This part logically belongs to discussion in 5) == l.158 - 162  (Fig. 6 right is explained before comparing it to Fig. 6 left)
+[It is not related to the overlay analysis itself but to the inputs provided to the reconstruction algorithm. That's why we put it here]
+
+[OK] l. 175 th -> the
+
+[OK] Fig.10 caption:
+"The mean difference between the reconstructed energy and the measured energy before
+reconstruction for which at least one neutral hadron has been reconstructed."
+-> "The mean difference between the reconstructed energy and the measured energy before
+reconstruction *in events with at least one reconstructed neutral hadron*".
+
+[OK] l 206 -> "In the same way as for the purity, the mean reconstructed neutral energy increases with the charged particle energy."
+Not clear. In addition, the (neutral particle) purity *decreases* with the charged particle energy (Fig 9 right)?
+
+[OK] l. 212 The ArborPFA, based on the tree-like structure of hadronic showers has been described in details
+-> In fact, it is described in Appendix, so it is not yet described at this point (unless one reads Appendix before the main text, of course).
+["in details" removed since a short description is still provided]
+
+[OK] l213 using data taken SPS H2 -> using data taken *at* SPS H2
+
+[OK] l 228 show -> shows
+
+[NOT] l 230 At small separation distance (5cm), the difference stays constant
+-> not clear. Stays constant when varying what? At fixed distance (5 cm), one may vary only energy? but, in fact, there is a dependence on energy on Fig. 10?
+May be "Above 5 cm distance, the difference stays constant"??
+[The difference does not vary with the distance but with the energy]
+
+[OK] Concerning references: please, check them and ensure that they appear in an ascending order in the text: on page 2 they go like 2, 5, 1, ... instead of 1,2,3...
+
+I am sorry, I have not read the Appendix and your answers, and may be miss something. Will do it tomorrow.
+Anyway, as I said to Marina, the note is much more "readable" now, which is very advantageous given the amount of work invested to ArborPFA and the high quality of the obtained results.
+I am clearly in favor of CALICE-wide circulation.
+
+Best regards,
+Vladik.
+
+
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+
+
+
