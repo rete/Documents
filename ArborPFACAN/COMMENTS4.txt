@@ -1,0 +1,75 @@
+
+# Correction  Naomi Van Der Kolk 1 :
+
+Dear Remi,
+
+Thanks for this interesting note. I found it is very clear.
+I have a few questions and comments and noticed a few spelling issues.
+They are listed below.
+
+Best regards,
+Naomi
+
+General: 
+Is there a publication of PandoraPFA performance to which you can compare your results?
+[Not really. There publications about performances with CALICE data but with an ECal in front of the HCal. So difficult to compare.]
+
+Have you looked at distances smaller than 5 cm? What was the motivation to stop at 5 cm?
+[Granularity, shower radius ~ 10cm, mean distance between two showers in 100 GeV jets and AHCAL CALICE note on the same topic]
+
+[OK] General for figures: For many captions the dot at the end of the last sentence is missing.
+
+Also in figures 8,9 and 10 you have chosen to use a yellow line; it would be better to take another colour as this yellow is not very well visible (when printed) for many light sources and also when projected during a presentation.
+
+By line:
+[OK] l15: distance -> distances
+
+[OK] l37: mention also CLIC
+
+[OK] l45: the dot at the end of the sentence is missing
+
+[OK] l61: a 20 mm steel observers and a 6 mm gas resistive pale chamber ->  20 mm steel observers and 6 mm gas resistive pale chambers
+
+[OK] l73: the “:” should be still on the previous line (I believe in English there is no space between the word and the colon). 
+
+[OK] l75: by step of -> with steps of
+
+[OK] l107: Is maximum correct here? Should it not be minimum?
+
+[OK] l132: up to 1.45 -> up to 1.45 for
+
+[OK] l142: procedure applied -> procedure as applied
+
+[OK] l160: by step of -> with steps of
+
+[OK] l162: energies foreseen -> energy range foreseen
+
+[OK] l201: resulting confusions. -> the resulting confusion.
+
+[OK] Figure 10 left: extent the y-axis beyond 1(even though the value cannot exceed 1), so that the curves to not seem to disappear from the figure.
+
+[OK] l256-257: Here the binary like behaviour is mentioned for all distances, while in lines 232-234 it is said to be binary for small distances. Which statement is correct?
+
+[OK] l260: improvment -> improvement
+
+[OK] l306: on left -> on the left
+
+[OK] l310: on right -> on the right
+
+[OK] caption fig 12: pion showers -> pion shower
+
+[OK] l415-417, l423: The comparison conditions have inverted question marks and exclamation marks, where I would expect smaller than and greater than symbols. (this can be because of a character encoding error?).
+[Yes LaTeX error]
+
+[OK] l432: but there are not -> but they are not
+
+
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+
+
+
+
+

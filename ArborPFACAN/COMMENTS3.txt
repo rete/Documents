@@ -1,0 +1,168 @@
+# Correction  Marina Chadeeva 1 :
+
+Dear Remi,
+
+just few formal comments from my side concerning the style of the title page.
+
+Please take a look at the guidelines for the CALICE Analysis Notes
+(https://twiki.cern.ch/twiki/pub/CALICE/SpeakersBureau/Guidelines_1.2.pdf)
+
+[OK] The CALICE Analysis Note
+- should be authored by "The CALICE Collaboration" and may refer to the corresponding author;
+- should carry a disclaimer as written in the guidelines;
+- should have a number of the Note and date written in the upper right corner.
+
+Please take a look at the title pages of e.g. CAN-033, CAN-035, CAN-036
+
+Best regards,
+Marina 
+[JINST style removed and title page reviewed to match the CAN style]
+
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+
+# Correction  Vladislav Balgura 3 :
+
+Dear Remi,
+
+Thanks for corrections.
+A quick look from my side:
+
+[NOT] l 167 - 170 - This part logically belongs to discussion in 5) == l.158 - 162 (Fig. 6 right is explained before comparing it to Fig. 6 left) [It is not related to the overlay analysis itself but to the inputs provided to the reconstruction algorithm. That's why we put it here]
+
+It may not be so important for the note, but for the paper you'll need to explain Fig. 6 from left to right.
+
+
+l 206 -> "In the same way as for the purity, the mean reconstructed neutral energy increases with the charged particle energy."
+Not clear. In addition, the (neutral particle) purity *decreases* with the charged particle energy (Fig 9 right)?
+
+[OK] As I can see, you've changed "the mean reconstructed neutral energy increases" -> "the mean reconstructed neutral energy decreases"
+but as I understand, the problem here is a little deeper: the energy, in fact, increases, but the purity decreases (?)
+[Changed by : "For the same reason as for the purity, ...".
+To be clear :
+* The neutral particle purity decreases with the distance
+* The neutral particle purity decreases with the charged particle energy.
+* The neutral particle energy decreases with the ditance
+* The neutral particle energy increases with the charged particle energy (so changed back to "increases", sorry for the mistake)
+]
+
+
+
+l 230 At small separation distance (5cm), the difference stays constant
+-> not clear. Stays constant when varying what? At fixed distance (5 cm), one may vary only energy? but, in fact, there is a dependence on energy on Fig. 10? May be "Above 5 cm distance, the difference stays constant"?? 
+
+[OK] Probably, my comment was not so clear. Let me explain in other words.
+"At small separation distance (5cm), the difference stays constant" means that
+1) you have FIXED the distance at 5 cm;
+2) you study the difference as a function of something else, but not of the distance (the distance is already FIXED ==5cm!), and this function of some OTHER argument is effectively constant.
+Is this what you really want to say? What is this OTHER argument?
+
+Again, thanks for you corrections.
+Vladik. 
+
+
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+
+# Correction  Vladislav Balgura 4 :
+
+Dear Remi,
+
+As promised, a few comments on Appendix. (Sorry, I did not have time today to read it fully).
+Once again, please, go ahead with the CALICE collaboration review. You may consider the comments below as if they are from the CALICE review, not from the Editorial board.
+
+[OK] l 282 I am not sure, what you mean by the "nearest neighbor" algorithm. Is it the same as in
+https://en.wikipedia.org/wiki/Nearest_neighbor_search
+[Yes]
+
+[OK] Fig 11 - as you algorithm is in 2D, showing 1D picture may be misleading. The purpose of this Fig is to explain the grouping of the hits, but instead, it rather creates confusion (because of 1D projection).
+[Figure changed by a new one with a single layer view of calo hits grouping. It also illustrates the NN clustering algorithm step performed before]
+
+It is still unclear, whether you group only 4=2x2 hits or 4=1x4 as well?
+[Yes 4=4x1 as well]
+
+Cheers,
+Vladik. 
+
+
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------
+
+# Correction  Marina Chadeeva 2 :
+
+
+Dear Remi,
+
+thank you for the note, it is important and helpful for further studies.
+Please find below some additional comments from my side to the text body except for the appendices (though the appendices are very useful indeed).
+
+-----------------------
+line 60:
+[OK] number hits of threshold 1, 2 and 3 ---> insert "of" before "hits"
+
+[OK] Nevertheless, it is not clear. Does it mean "... number of hits between thresholds 1 and 2, between thresholds 2 and 3 and above threshold 3, respectively"?
+If yes, please say so.
+
+
+line 88,91:
+[OK] N_Touchedlayers should be defined because "touched layers" is a slang.
+
+[OK] Does it mean "number of layers with more than one hit"?
+If yes, please introduce a definition.
+
+
+[OK] line 99:
+n ---> in
+
+
+[OK] Figure 4:
+put labels on the y axis, e.g. "Number of events"
+[Also added on figure 6]
+
+[OK] Equation 4.1:
+E_rec ---> mu_E
+
+[OK] I guess that the mean mu_E should be used in this equation instead of E_rec, as the latter is defined above in eq.(2.1) for event energy.
+Put the equation (4.1) and preceding sentence below the definition of mu_E.
+
+
+[OK] line 146:
+Please rephrase to indicate that two showers are treated separately at this stage.
+Maybe you can say "...segments of each shower..."
+
+
+[OK] Figure 7:
+The term "PFO" should be introduced before, moreover it is widely used later.
+[Definition added at the end of section 3]
+
+
+[OK] line 175:
+remove "that" after PFOs
+
+
+[OK] Figure 8,caption:
+on overlaid particles ---> on overlaid 10 GeV emulated neutral hadron and charged hadrons at different energies.
+
+
+[OK] line 213:
+H2 ---> H6
+
+
+[OK] line 225:
+Join the sentence to the previous paragraph.
+
+-------------------------------------------------
+
+
+Best regards,
+Marina 
+
+
+
+
