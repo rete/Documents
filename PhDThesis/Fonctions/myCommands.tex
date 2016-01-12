@@ -1,0 +1,93 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%	%
+%Commandes speciales 						%
+%Thèse R.Kieffer 2011						%
+%%%%%%%%%%%%%%%%%%%%%%%%%	%
+
+
+%Pour les commentaires
+\newcommand{\putcomment}[1]{{\fontsize{10}{10}{\par \tt\textbf {\selectfont #1}} \par}}
+
+%Pour citer les equations
+\newcommand{\Eqref}[1]{eq.~\ref{#1}}
+
+
+%Pour citer les figures
+\newcommand{\figureref}[1]{figure~\ref{#1}}
+
+%Pour citer les figures
+\newcommand{\Figureref}[1]{figure~\ref{#1}}
+
+%Pour citer les Tablaux
+\newcommand{\Tableref}[1]{table~\ref{#1}}
+
+%Pour citer les Tablaux
+\newcommand{\tableref}[1]{table~\ref{#1}}
+
+%\newcommand{\refparag}[1]{Par. \ref{#1}}
+
+%Pour citer une partie
+\newcommand{\refcf}[1]{(cf.~\ref{#1} page~\pageref{#1})}
+
+%Pour citer un chapitre
+\newcommand{\cfchap}[1]{(cf. Chapitre~\ref{#1})}
+
+%Pour citer un tableau
+\newcommand{\cftab}[1]{(cf. Table~\ref{#1})}
+
+%Pour les anglicismes
+%\newcommand{\english}[1]{\textit{(mot angl.~#1)}}
+\newcommand{\english}[1]{(\textit{#1})}
+
+%Pour les unités
+\newcommand{\unit}[1]{\ensuremath{\mathrm{\,#1}}}
+\renewcommand{\u}[1]{\unit{#1}}
+
+\renewcommand{\deg}{\ensuremath{^\circ}} %degrés
+
+%La page blanche
+\newcommand{\pageblanche}{%
+  \newpage{\pagestyle{empty}\cleardoublepage}%
+}
+
+%Commandes utiles?
+\newcommand{\draftnote}[1]{[{\bf #1}]}
+
+%Pour la partie physique
+\newcommand{\ttb}{$\mathrm t\bar{\mathrm{t}}$}
+\newcommand{\bbb}{$\mathrm b\bar{\mathrm{b}}$}
+\newcommand{\nunub}{$\nu\bar{\nu}$}
+\newcommand{\ppb}{$\mathrm p\bar{\mathrm{p}}$}
+\newcommand{\ppbit}{$\mathit p\bar{\mathit p}$}
+\newcommand{\invpb}{pb$^{-1}$}
+\newcommand{\invfb}{fb$^{-1}$}
+\newcommand{\Gc}{GeV/$c$}
+\newcommand{\Gcc}{GeV/$c^2$}
+\newcommand{\et}{$E_T$}
+
+%vielles commandes pas a moi, mais j'en utilise certaines
+\newcommand{\HT}{H_T}
+\newcommand{\zdca}{z_\mathrm{DCA}}
+\newcommand{\etadet}{\vert\eta_\mathrm{det}\vert}
+\newcommand{\etadetlead}{\vert\eta_\mathrm{det1}\vert}
+\newcommand{\mhttrig}{{\tt MHT30\_3CJT5}}
+\newcommand{\montrig}{{\tt 3CJT5-monitor}}
+\newcommand{\g}{\mathrm{g}}
+\newcommand{\e}{\mathrm{e}} %Uuilisée
+\newcommand{\q}{\mathrm{q}}
+\newcommand{\qb}{\bar{\mathrm{q}}}
+\newcommand{\cq}{\mathrm{c}}
+\newcommand{\bq}{\mathrm{b}}
+\newcommand{\tq}{\mathrm{t}}
+\newcommand{\sq}{\widetilde{\mathrm{q}}}
+\newcommand{\sg}{\widetilde{\mathrm{g}}}
+\newcommand{\st}{\widetilde{\mathrm{t}}}
+\newcommand{\sbot}{\widetilde{\mathrm{b}}}
+\newcommand{\mchi}{m_\chi}
+\newcommand{\grav}{\mathrm{G}}
+\newcommand{\nub}{\bar{\nu}}
+\newcommand{\xo}{\widetilde{{\mathrm \chi}}^0_1}
+\newcommand{\xpm}{\widetilde{{\mathrm \chi}}^\pm}
+\newcommand{\met}{\mbox{\ensuremath{\slash\kern-.7emE_{T}}}}
+\newcommand{\mht}{\mbox{\ensuremath{\slash\kern-.7emH_{T}}}}
+%\newcommand{\met}{\not\!\! E_T}∫
+%\newcommand{\mht}{\not\!\! H_T}

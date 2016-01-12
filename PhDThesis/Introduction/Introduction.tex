@@ -1,0 +1,33 @@
+\chapter*{Introduction}
+
+Après la découverte d'une nouvelle particule compatible avec un boson de Higgs-Brout-Englert en juillet 2012, le Grand Collisionneur de Hadron LHC poursuit ses recherches à plus haute énergie afin de tester le modèle standard. Des projets de collisionneurs linéaires tels que le Collisionneur Linéaire International ILC ont été proposés par la communauté scientifique dans le but d'effectuer des mesures de précisions sur les propriétés de ce boson et la recherche de supersymétrie. La netteté des événements enregistrés dans ces expériences dû à une bonne connaissance de l'énergie au centre de masse et à la grande granularité des détecteurs, ont permi le développement des algorithmes de suivi de particules qui remplacent les méthodes de reconstruction traditionnelles. Ce manuscrit synthétise les travaux de recherche que j'ai réalisé sur le développement d'un algorithme de suivi de particule dédié à des détecteurs ultra-granulaires générique.
+\\ \\
+Le chapitre 
+1
+% ~\ref{chap.ms} 
+présente le cadre théorique de la physique des particules, le modèle standard. Les différents mécanismes d'interaction ainsi que les particules le constituant seront introduits. Les limites du modèle seront discutés afin de mieux comprendre les propositions de nouveaux projets d'accélérateurs par la communauté scientifique.
+\\ \\
+Le chapitre 
+2
+% ~\ref{chap.ilc}
+présente le Collisionneur Linéaire International ILC. Les différents détecteurs et sous-détecteurs proposés pour enregistrer les événements au point de collision seront décrits. Une description plus détaillée du Grand Détecteur International ILD ainsi qu'une introduction aux algorithmes de suivi de particules seront donnés. Nous nous intéresseront aussi brièvement à d'autres projets de collisionneurs utilisant ce type de détecteurs et d'algorithmes.
+\\ \\
+Le chapitre
+3
+% ~\ref{chap.sdhcal}
+décrira les différentes caractéristiques du prototype de calorimètre hadronique semi-digital SDHCAL développé à l'IPNL. Une comparaison des résultats entre la simulation Geant4 du prototype et les données obtenues lors de test en faisceau au CERN permettront d'extraire les performances du détecteur, nécessaire au développement de l'algorithme de suivi de particules.
+\\ \\
+Dans le chapitre
+4,
+% ~\ref{chap.arborsdhcal}
+une description de l'algorithme de suivi de particules dédié au détecteur SDHCAL sera donnée. Dans un premier temps, les performances de l'algorithme sur des hadrons chargés seuls seront extraites et comparées aux performances du détecteur. Dans un second temps, une étude visant à séparer un hadron neutre et un hadron chargé proches dans le système calorimétrique permettra de quantifier la part de confusion dû à l'algorithme sur la reconstruction du hadron neutre.
+\\ \\
+Le chapitre
+5
+% ~\ref{chap.arborild}
+fournira une description complète de l'algorithme pour des détecteurs générique du type ILD. Les différences avec la version dédié au SDHCAL seront soulignés. Les portions d'algorithmes supplémentaires telle que le \textit{re-clustering} statistique seront aussi exposés. L'application aux systèmes di-jet \textit{uds} permettront d'extraire des performances sur la résolution en énergie des jets. L'extraction de la masse des bosons $W$ et $Z$ donnera une seconde estimation des performances physique de l'algorithme.
+\\ \\
+Le chapitre
+6
+% ~\ref{chap.dqm4hep}
+sera dédié au développement d'un logiciel de \textit{monitoring} de qualité de données en ligne. L’architecture logicielle et les fonctionnalités seront présentés. L'implémentation pour le détecteur SDHCAL dans une situation de test en faisceau sera ensuite détaillé. Des tests de performance mémoire et performance réseau ainsi que des cas pratique d'utilisation lors des test en faisceau seront présentés afin d'apprécier la qualité du logiciel.

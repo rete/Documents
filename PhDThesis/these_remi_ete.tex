@@ -1,0 +1,259 @@
+\documentclass[12pt]{book}
+
+\setlength{\hoffset}{-1in}
+\setlength{\voffset}{-1in}
+\setlength{\topmargin}{1.5cm}
+\setlength{\headheight}{1.cm}
+\setlength{\headsep}{.5cm}%zone de texte header)
+\setlength{\topskip}{0cm}
+\setlength{\textheight}{23cm}
+\setlength{\footskip}{3cm}
+\setlength{\oddsidemargin}{3.25cm}
+\setlength{\evensidemargin}{3.25cm}
+\setlength{\textwidth}{15cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[frenchb]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{pifont}
+\usepackage[T1]{fontenc}
+\usepackage{verbatim}
+\usepackage[nooneline]{subfigure}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{bm}
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{gensymb}
+\usepackage{textcomp}
+\usepackage{wasysym}
+\usepackage{enumerate}
+\usepackage{appendix}
+\usepackage{lscape}
+
+%Pour les petit table of content en début de chapitre
+\usepackage{minitoc}
+\mtcsettitle{minitoc}{Contenu}
+%Profondeur d'indexage
+%\setcounter{secnumdepth}{4}
+%\setcounter{minitocdepth}{2}
+
+%\usepackage{multicol,caption}
+\usepackage{caption}
+%\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{lineno} % Numéro de lignes
+\usepackage{ upgreek } %Lettres grec grandes
+\usepackage{textcomp}
+\usepackage[colorlinks= false, urlcolor=blue, citebordercolor={0 1 0}, linkbordercolor ={1 0 0},pdfborder={0 0 0}]{hyperref} %Gestion des affichages (Citations, Acronymes)
+\usepackage[printonlyused,withpage]{acronym}  %Utilisation des acronymes
+
+\usepackage[version=3]{mhchem} %Pour les élements chimiques
+
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{colortbl}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage{fancyhdr}
+\usepackage{perpage}
+\MakePerPage{footnote}
+\captionsetup{font=sl}
+\DeclareUnicodeCharacter{00A0}{ }
+\renewcommand{\contentsname}{Table des matières}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Déclaration de toutes mes commandes   %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input Fonctions/myCommands.tex
+\input Fonctions/ltxdefs.tex
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Page de couverture %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+
+\def\clap#1{\hbox to 0pt{\hss #1\hss}}%
+
+\def\ligne#1{
+  \hbox to \hsize{
+    \vbox{\centering #1}}}
+
+\def\haut#1#2#3{
+  \hbox to \hsize{
+    \rlap{\vtop{\raggedright #1}}
+    \hss
+    \clap{\vtop{\centering #2}}
+    \hss
+    \llap{\vtop{\raggedleft #3}}}}
+
+\def\bas#1#2#3{
+  \hbox to \hsize{
+    \rlap{\vbox{\raggedright #1}}
+    \hss
+    \clap{\vbox{\centering #2}}
+    \hss
+    \llap{\vbox{\raggedleft #3}}}}
+
+% Titre
+\def\maketitle{
+  \thispagestyle{empty}\vbox to \vsize{
+    \vfill
+    \haut{}{\large \@blurb}{}
+    \vfill
+    \ligne{\LARGE \@title}
+    \vspace{5mm}
+    \ligne{\LARGE \@author}
+    \vfill
+    \ligne{\Large \@jury}
+    \vfill
+  }
+}
+
+% Date, lieu,...
+\def\date#1{\def\@date{#1}}
+\def\author#1{\def\@author{#1}}
+\def\title#1{\def\@title{#1}}
+\def\location#1{\def\@location{#1}}
+\def\blurb#1{\def\@blurb{#1}}
+\def\jury#1{\def\@jury{#1}}
+\def\email#1{\def\@email{#1}}
+\def\administratif#1{\def\@administratif{#1}}
+%\def\includegraphics#1{\def\@includegraphics{#1}}
+
+% Valeurs par defaut
+\date{\today}
+\author{}
+\title{}
+\location{Villeurbanne}
+\blurb{}
+
+\email{rete@ipnl.in2p3.fr}
+
+\makeatother
+\title{\Huge Développement d'un algorithme de suivi de particules pour l'ILC. Outils de monitoring \\ en ligne de qualité de données}
+\author{Rémi \textsc{\'Eté}}
+\location{Villeurbanne}
+\administratif{
+  %Sous la direction de :\\
+  %Imad  \textsc{Laktineh} et 
+}
+\blurb{
+  Th\`ese de l'Universit\'e de Lyon \\
+  \bigskip
+  \'Ecole Doctorale de Physique et Astrophysique de Lyon (PHAST)\\[1em]
+  \bigskip
+  Th\`ese de Doctorat en Physique des Particules \\
+  \bigskip
+  Institut de Physique Nucl\'eaire de Lyon (IPNL)\\
+}
+\jury{
+  \begin{center}
+    \begin{tabular}{lll}
+      JURY~: & M.  Didier \textsc{Contardo} & (examinateur)\\
+      & M.  Gérald \textsc{Grenier} & (co-directeur de th\`ese)\\
+      & M.  Imad  \textsc{Laktineh} & (directeur de th\`ese)\\
+      & M.  Dominique \textsc{Pallin}       & (rapporteur)\\
+      & M.  Alberto \textsc{Ribon}       & (examinateur)\\
+      & M.  Laurent \textsc{Serin}      & (rapporteur)\\
+    \end{tabular}
+  \end{center}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\interfootnotelinepenalty=10000
+
+
+\begin{document}
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.18\textwidth]{Logo/logo_white_ILC.jpg}
+    \hspace{1cm}
+    \includegraphics[width=0.18\textwidth]{Logo/calice_logo.jpg}
+    \hspace{1cm}
+    \includegraphics[width=0.18\textwidth]{Logo/Logo_IPNL.jpg}
+    \hspace{1cm}
+    \includegraphics[width=0.18\textwidth]{Logo/logo_ucbl_lyon1.jpg}
+  \end{center}
+\end{figure}
+
+\maketitle{\thispagestyle{empty}}
+
+\clearpage
+%\pageblanche
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\sectionmark}[1]{ \markright{\thesection\, #1}}
+\renewcommand{\chaptermark}[1]{%
+\markboth{\sc\thechapter.\ #1}{}}
+
+\lhead[\thepage]{\rightmark}
+\rhead[\leftmark]{\thepage}
+
+\dominitoc
+\modulolinenumbers[5]
+\linenumbers
+
+\pagestyle{empty}
+\input Resume/Resume.tex
+\pageblanche
+
+\frontmatter %active les numérot de pages en i
+\tableofcontents{\thispagestyle{empty}}
+\pageblanche
+%\pageblanche
+\cleardoublepage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Activation numéro de lignes            %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\setpagewiselinenumbers
+
+
+\renewcommand\listfigurename{Liste des figures}
+\listoffigures{\thispagestyle{empty}}
+
+%%###############################################
+%%#######Liste des Tables  ########################
+%%###############################################
+\listoftables{\thispagestyle{empty}}
+
+%On désactive ici les haut de pages
+\pagestyle{empty}
+
+%###############################################
+%%#######MicroIntro###############
+%%###############################################
+\renewcommand*\thesection{\arabic{section}}
+\input Introduction/Introduction.tex
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead[\thepage]{\rightmark}
+ \rhead[\leftmark]{\thepage}
+
+\renewcommand*\thesection{\arabic{section}}
+\mainmatter
+%\def\etc{\latinabbrev{etc}}
+% \input ModelStandard/ModelStandard.tex
+% \input ILC/ILC.tex
+% \input ShowerTh/ShowerTh.tex
+% \input SDHCAL/SDHCAL.tex
+% \input Digitizer/Digitizer.tex
+% \input Shower/Shower.tex
+% \input ILD/ILD.tex
+%\backmatter
+%###############################################
+%#######Bibliographie #############################
+%###############################################
+\bibliography{Bibliography/Bibliography}
+\bibliographystyle{Bibliography/MyRefStyle}
+\addcontentsline{toc}{chapter}{\bibname} 
+
+\end{document}
