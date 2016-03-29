@@ -1,0 +1,49 @@
+\frametitle {\secname}
+  \framesubtitle{\subsecname - Interface programmable (API)}
+    \begin{block}{\verb|DQMModuleApi|}
+      Responsable des opérations par/sur les modules d'analyse et au éléments y touchant directement
+      \begin{itemize}
+        \item \textit{Booking} d'éléments monitorables
+        \item Structure en répertoire
+        \item Tests de qualité sur les éléments monitorables
+        \item Résulats des tests de qualité
+        \item Gestion d'allocation/suppression mémoire des objets utilisateur
+      \end{itemize}
+    \end{block}
+    %% Module : ModuleApi, dir struct, Qtests, Qtests report, alloc/del mgmt
+    %% Streamer : Streamer interface, serialization, DQMEvent
+  \end{frame}
+
+  \begin{frame}
+  \frametitle{\secname}
+  \framesubtitle{\subsecname - Interface graphique}
+    %% Run control, Job control, Monitoring Gui
+  \end{frame}
+
+  \subsection{Implémentation pour le SDHCAL}
+
+  \begin{frame}
+  \frametitle{\secname}
+  \framesubtitle{\subsecname - Implémentation pour le SDHCAL (actuelle)}
+    %% Faire un diagramme impl act avec le module de laurent
+  \end{frame}
+
+
+  \begin{frame}
+  \frametitle{\secname}
+  \framesubtitle{\subsecname - Implémentation pour le SDHCAL (prévue)}
+    %% Faire un diagramme impl act avec ce qui serait prévu :
+    %%  * Tous les modules d'analyse
+    %%  * Event converter
+  \end{frame}
+
+  \section{Conclusion et plans}
+  \begin{frame}
+  \end{frame}
+
+
+  \section*{Backup}
+  \begin{frame}
+  \end{frame}
+
+\end{document}

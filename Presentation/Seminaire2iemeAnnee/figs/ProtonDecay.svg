@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg version="1.2" baseProfile="tiny" viewBox="0 0 18000 13000" preserveAspectRatio="xMidYMid" fill-rule="evenodd" clip-path="url(#presentation_clip_path)" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
+ <defs>
+  <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
+   <rect x="0" y="0" width="18000" height="13000"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <font id="EmbeddedFont_1" horiz-adv-x="2048">
+   <font-face font-family="Arial embedded" units-per-em="2048" font-weight="normal" font-style="normal" ascent="1852" descent="423"/>
+   <missing-glyph horiz-adv-x="2048" d="M 0,0 L 2047,0 2047,2047 0,2047 0,0 Z"/>
+   <glyph unicode="π" horiz-adv-x="1351" d="M 505,916 L 505,0 325,0 325,916 45,916 45,1062 1369,1062 1369,916 1127,916 1127,0 947,0 947,916 505,916 Z"/>
+   <glyph unicode="ν" horiz-adv-x="1006" d="M 430,0 L 26,1062 216,1062 444,426 C 469,357 491,286 512,212 528,268 550,335 579,414 L 815,1062 1000,1062 598,0 430,0 Z"/>
+   <glyph unicode="μ" horiz-adv-x="874" d="M 1018,1062 L 1018,0 857,0 857,126 C 822,73 788,36 754,16 707,-11 653,-25 591,-25 536,-25 487,-14 444,8 412,25 377,58 338,107 L 338,-407 160,-407 160,1062 338,1062 338,612 C 338,449 347,343 364,295 381,246 410,208 449,180 488,152 532,138 583,138 636,138 684,153 726,182 768,211 798,249 815,296 832,342 841,446 841,609 L 841,1062 1018,1062 Z"/>
+   <glyph unicode="γ" horiz-adv-x="1006" d="M 25,1062 L 214,1062 511,225 815,1062 999,1062 602,0 602,-407 419,-407 419,0 25,1062 Z"/>
+   <glyph unicode="p" horiz-adv-x="927" d="M 135,-407 L 135,1062 299,1062 299,924 C 338,978 381,1019 430,1046 479,1073 538,1086 607,1086 698,1086 778,1063 847,1016 916,969 969,904 1004,819 1039,734 1057,640 1057,539 1057,430 1038,333 999,246 960,159 903,92 829,46 754,-1 676,-24 594,-24 534,-24 480,-11 433,14 385,39 346,71 315,110 L 315,-407 135,-407 Z M 298,525 C 298,388 326,287 381,222 436,157 503,124 582,124 662,124 731,158 788,226 845,293 873,398 873,540 873,675 845,777 790,844 734,911 667,945 590,945 513,945 446,909 387,838 328,766 298,662 298,525 Z"/>
+   <glyph unicode="e" horiz-adv-x="1006" d="M 862,342 L 1048,319 C 1019,210 964,126 885,66 806,6 704,-24 581,-24 426,-24 303,24 212,120 121,215 75,349 75,522 75,701 121,839 213,938 305,1037 424,1086 571,1086 713,1086 829,1038 919,941 1009,844 1054,708 1054,533 1054,522 1054,506 1053,485 L 261,485 C 268,368 301,279 360,217 419,155 493,124 582,124 648,124 704,141 751,176 798,211 835,266 862,342 Z M 271,633 L 864,633 C 856,722 833,789 796,834 739,903 664,938 573,938 490,938 421,910 365,855 308,800 277,726 271,633 Z"/>
+   <glyph unicode="0" horiz-adv-x="980" d="M 85,723 C 85,896 103,1036 139,1142 174,1247 227,1329 298,1386 368,1443 456,1472 563,1472 642,1472 711,1456 770,1425 829,1393 878,1347 917,1288 956,1228 986,1155 1008,1070 1030,984 1041,868 1041,723 1041,551 1023,412 988,307 953,201 900,119 830,62 759,4 670,-25 563,-25 422,-25 311,26 230,127 133,249 85,448 85,723 Z M 270,723 C 270,482 298,322 355,243 411,163 480,123 563,123 646,123 715,163 772,243 828,323 856,483 856,723 856,964 828,1125 772,1204 715,1283 645,1323 561,1323 478,1323 412,1288 363,1218 301,1129 270,964 270,723 Z"/>
+   <glyph unicode="-" horiz-adv-x="583" d="M 65,440 L 65,621 618,621 618,440 65,440 Z"/>
+   <glyph unicode="+" horiz-adv-x="980" d="M 513,237 L 513,639 114,639 114,807 513,807 513,1206 683,1206 683,807 1082,807 1082,639 683,639 683,237 513,237 Z"/>
+  </font>
+ </defs>
+ <g id="id2" class="Master_Slide" clip-path="url(#presentation_clip_path)">
+  <g id="bg-id2" visibility="visible" class="Background">
+   <rect fill="none" stroke="none" x="0" y="0" width="18000" height="13000"/>
+  </g>
+  <g id="bo-id2" visibility="visible" class="BackgroundObjects"/>
+ </g>
+ <g id="id1" class="Slide" visibility="visible" clip-path="url(#presentation_clip_path)">
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 8968,3635 L 6840,6703"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 6668,6950 L 6934,6751 6761,6631 6668,6950 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 8968,3635 L 11025,6085"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 11219,6315 L 11097,6006 10936,6141 11219,6315 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 8968,3635 L 8994,7848"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 8996,8149 L 9099,7833 8889,7835 8996,8149 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 8923,-34 L 8964,3334"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 8968,3635 L 9069,3319 8859,3321 8968,3635 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 8968,3635 L 15208,6167"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 15487,6280 L 15235,6064 15156,6259 15487,6280 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 6668,6950 L 6593,7065"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 6517,7181 L 6442,7296"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 6367,7412 L 6291,7527"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 6216,7643 L 6141,7758"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 6065,7874 L 5990,7989"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 5914,8105 L 5839,8220"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 5764,8336 L 5688,8451"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 5613,8567 L 5538,8682"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 5462,8798 L 5387,8913"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 5312,9029 L 5244,9132"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 5080,9384 L 5340,9178 5164,9063 5080,9384 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 6668,6950 L 6902,8417"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 6950,8714 L 7004,8386 6797,8420 6950,8714 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 8968,3635 L 4670,6129"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 4410,6280 L 4735,6213 4630,6031 4410,6280 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 11219,6315 L 11274,6442"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 11329,6568 L 11383,6695"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 11438,6821 L 11493,6948"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 11548,7074 L 11603,7201"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 11657,7327 L 11712,7454"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 11767,7580 L 11822,7707"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 11877,7834 L 11931,7960"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 11986,8087 L 12041,8213"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 12096,8340 L 12151,8466"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 12205,8593 L 12260,8719"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 12315,8846 L 12370,8972"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 12425,9099 L 12479,9226"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 12534,9352 L 12589,9479"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 12644,9605 L 12699,9732"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 12753,9858 L 12808,9985"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 12863,10111 L 12918,10238"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 12973,10364 L 13027,10491"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 13159,10795 L 13130,10464 12937,10548 13159,10795 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 11219,6315 L 10821,10883"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 10795,11183 L 10927,10878 10718,10860 10795,11183 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 15487,6280 L 15841,9403"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 15875,9702 L 15944,9377 15735,9401 15875,9702 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 15487,6280 L 15573,6387"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 15660,6495 L 15746,6602"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 15833,6710 L 15919,6817"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 16006,6925 L 16092,7032"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 16179,7139 L 16265,7247"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 16352,7354 L 16438,7462"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 16651,7726 L 16535,7415 16372,7546 16651,7726 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 4410,6280 L 4362,6409"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 4314,6539 L 4266,6668"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 4218,6797 L 4170,6927"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 4122,7056 L 4075,7185"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 4027,7314 L 3979,7444"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 3931,7573 L 3883,7702"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 3835,7832 L 3809,7903"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 3704,8185 L 3912,7926 3715,7853 3704,8185 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 4410,6280 L 4296,6358"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 4182,6435 L 4068,6513"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 3954,6590 L 3840,6668"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 3726,6745 L 3612,6823"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 3498,6900 L 3384,6978"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 3270,7055 L 3156,7133"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 3042,7210 L 2927,7288"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 2813,7365 L 2699,7443"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 2585,7521 L 2471,7598"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 2357,7676 L 2243,7753"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 2129,7831 L 2015,7908"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 1764,8079 L 2084,7989 1965,7815 1764,8079 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 3704,8185 L 3767,10635"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 3775,10936 L 3872,10618 3662,10624 3775,10936 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 3704,8185 L 3017,10401"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 2928,10689 L 3122,10419 2921,10357 2928,10689 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 1764,8079 L 1704,9824"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 1694,10125 L 1810,9814 1600,9807 1694,10125 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 1764,8079 L 806,9095"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 600,9314 L 892,9157 740,9013 600,9314 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 6950,8714 L 8049,11817"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 8149,12101 L 8143,11769 7945,11839 8149,12101 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="9247" y="1400" width="854" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="9497" y="2101">p</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.ConnectorShape">
+   <g>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 6950,8714 L 6331,12333"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 6280,12630 L 6437,12337 6230,12302 6280,12630 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="8900" y="6100" width="1312" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="9150" y="6801">π</text>
+      <text x="9586" y="6801">+</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="12189" y="4138" width="1312" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="12439" y="4839">π</text>
+      <text x="12875" y="4839">+</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="10389" y="4838" width="1151" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="10639" y="5539">π</text>
+      <text x="11075" y="5539">-</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="5400" y="4238" width="1176" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="5650" y="4939">π</text></g>
+    </g>
+    <g font-family="Arial embedded" font-size="423px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="6086" y="4939">0</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="6800" y="7138" width="1240" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="7050" y="7839">μ</text></g>
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="7414" y="7839">+</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="15761" y="8238" width="1240" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="16011" y="8939">μ</text></g>
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="16375" y="8939">+</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="9800" y="9138" width="1401" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="10050" y="9839">μ</text></g>
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="10414" y="9839">+</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="3774" y="9500" width="1227" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="4024" y="10201">e</text></g>
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="4375" y="10201">+</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="2274" y="8900" width="1066" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="2524" y="9601">e</text></g>
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="2875" y="9601">-</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="1774" y="8138" width="1227" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="2024" y="8839">e</text></g>
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="2375" y="8839">+</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="174" y="7800" width="1066" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="424" y="8501">e</text></g>
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="775" y="8501">-</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="6100" y="5338" width="1312" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="6350" y="6039">π</text>
+      <text x="6786" y="6039">+</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="2200" y="6238" width="821" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="2450" y="6939">γ</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="4100" y="6638" width="821" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="4350" y="7339">γ</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="5300" y="6938" width="821" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="5550" y="7639">ν</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="16180" y="5900" width="821" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="16430" y="6601">ν</text></g>
+    </g>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.TextShape">
+   <g>
+    <rect fill="none" stroke="none" x="12000" y="7238" width="821" height="963"/>
+    <g font-family="Arial embedded" font-size="635px" font-style="normal" font-weight="400">
+     <g fill="rgb(0,0,0)" stroke="none">
+      <text x="12250" y="7939">ν</text></g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
