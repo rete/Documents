@@ -1,0 +1,3917 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.6)  30 SEP 2015 15:32
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**steen_thesis_2.tex
+(./steen_thesis_2.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/12/03 3.9h The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-french/frenchb.ldf
+Language: frenchb 2013/12/30 v2.6g French support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/12/03 3.9h Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\FB@interchartokenstateORI=\count89
+Package babel Info: Making : an active character on input line 244.
+Package babel Info: Making ; an active character on input line 245.
+Package babel Info: Making ! an active character on input line 246.
+Package babel Info: Making ? an active character on input line 247.
+\FB@Mht=\dimen104
+\std@mcc=\count90
+\dec@mcc=\count91
+\listindentFB=\skip43
+\labelwidthFB=\skip44
+\leftmarginFB=\skip45
+\parindentFFN=\dimen105
+))
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks17
+\verbatim@line=\toks18
+\verbatim@in@stream=\read1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip46
+\subfigcapskip=\skip47
+\subfigcaptopadj=\dimen106
+\subfigbottomskip=\skip48
+\subfigcapmargin=\dimen107
+\subfiglabelskip=\skip49
+\c@subfigure=\count92
+\c@lofdepth=\count93
+\c@subtable=\count94
+\c@lotdepth=\count95
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip50
+\subfig@bottom=\skip51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count96
+))
+\Gin@req@height=\dimen108
+\Gin@req@width=\dimen109
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen110
+\extrarowheight=\dimen111
+\NC@list=\toks19
+\extratabsurround=\skip52
+\backup@length=\skip53
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup7
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen112
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+LaTeX Info: Redefining \boldsymbol on input line 39.
+\pmbraise@=\dimen113
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count97
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count98
+\leftroot@=\count99
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count100
+\DOTSCASE@=\count101
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen114
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
+\dotsspace@=\muskip10
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
+\tag@help=\toks21
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
+\andhelp@=\toks22
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
+\@envbody=\toks23
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup8
+\symAMSb=\mathgroup9
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+))
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks25
+)
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count109
+\c@@ppsavesec=\count110
+\c@@ppsaveapp=\count111
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/minitoc/minitoc.sty
+Package: minitoc 2008/07/16 v60 Package minitoc (JPFD)
+
+(/usr/share/texlive/texmf-dist/tex/latex/minitoc/mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 60 ***.
+\tf@mtc=\write3
+\mtcindent=\skip57
+\mtcskipamount=\skip58
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks26
+\mtc@strutbox=\box28
+\mtc@hstrutbox=\box29
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout3 = `steen_thesis_2.mtc0'.
+
+\openout3 = `steen_thesis_2.mtc'.
+
+
+(./steen_thesis_2.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout3 = `steen_thesis_2.mtc'.
+
+\openout3 = `steen_thesis_2.mtc0'.
+
+\c@mtc=\count112
+\c@minitocdepth=\count113
+\c@ptc=\count114
+\c@parttocdepth=\count115
+\ptcindent=\skip59
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+
+(/usr/share/texlive/texmf-dist/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+)
+(/usr/share/texlive/texmf-dist/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+))
+Package minitoc Info: I0017
+(minitoc)             \mtcsettitle redefines the macro 
+(minitoc)             "mtctitle" as 
+(minitoc)             "Contenu" on input line 60.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen121
+\captionmargin@=\dimen122
+\captionwidth=\dimen123
+\caption@tempdima=\dimen124
+\caption@indent=\dimen125
+\caption@parindent=\dimen126
+\caption@hangindent=\dimen127
+)
+\c@ContinuedFloat=\count116
+Package caption Info: subfigure package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count117
+\output=\toks27
+\linenoprevgraf=\count118
+\linenumbersep=\dimen128
+\linenumberwidth=\dimen129
+\c@linenumber=\count119
+\c@pagewiselinenumber=\count120
+\c@LN@truepage=\count121
+\c@internallinenumber=\count122
+\c@internallinenumbers=\count123
+\quotelinenumbersep=\dimen130
+\bframerule=\dimen131
+\bframesep=\dimen132
+\bframebox=\box30
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup11
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen133
+\Hy@linkcounter=\count124
+\Hy@pagecounter=\count125
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count126
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `false' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count127
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen134
+\Fld@menulength=\count128
+\Field@Width=\dimen135
+\Fld@charsize=\dimen136
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count129
+\c@Item=\count130
+\c@Hfootnote=\count131
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count132
+\c@bookmark@seq@number=\count133
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip60
+)
+(/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2012/10/29 v1.38 Support for acronyms (Tobias Oetiker)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5 Variant command support
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write4
+\integerpart=\count134
+\decimalpart=\count135
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\AC@clearlist=\toks28
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2014/02/01 v3.15 for typesetting chemical formulae
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count136
+\calc@Bcount=\count137
+\calc@Adimen=\dimen137
+\calc@Bdimen=\dimen138
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count138
+\calc@Cskip=\skip63
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/twoopt.sty
+Package: twoopt 2008/08/11 v1.5 Definitions with two optional arguments (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3names.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
+Package: l3bootstrap 2014/01/04 v4640 L3 Experimental bootstrap code
+)
+Package: l3names 2014/01/04 v4640 L3 Namespace for primitives
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count139
+)
+Package: expl3 2014/01/07 v4646 L3 Experimental code bundle wrapper
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3basics.sty
+Package: l3basics 2014/01/04 v4642 L3 Basic definitions
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3expan.sty
+Package: l3expan 2014/01/04 v4642 L3 Argument expansion
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3tl.sty
+Package: l3tl 2013/12/27 v4625 L3 Token lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3seq.sty
+Package: l3seq 2013/12/14 v4623 L3 Sequences and stacks
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3int.sty
+Package: l3int 2013/08/02 v4583 L3 Integers
+\c_max_int=\count140
+\l_tmpa_int=\count141
+\l_tmpb_int=\count142
+\g_tmpa_int=\count143
+\g_tmpb_int=\count144
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3quark.sty
+Package: l3quark 2013/12/14 v4623 L3 Quarks
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prg.sty
+Package: l3prg 2014/01/04 v4642 L3 Control structures
+\g__prg_map_int=\count145
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3clist.sty
+Package: l3clist 2013/07/28 v4581 L3 Comma separated lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3token.sty
+Package: l3token 2013/08/25 v4587 L3 Experimental token manipulation
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prop.sty
+Package: l3prop 2013/12/14 v4623 L3 Property lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3msg.sty
+Package: l3msg 2013/07/28 v4581 L3 Messages
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3file.sty
+Package: l3file 2013/10/13 v4596 L3 File and I/O operations
+\l_iow_line_count_int=\count146
+\l__iow_target_count_int=\count147
+\l__iow_current_line_int=\count148
+\l__iow_current_word_int=\count149
+\l__iow_current_indentation_int=\count150
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3skip.sty
+Package: l3skip 2013/07/28 v4581 L3 Dimensions and skips
+\c_zero_dim=\dimen139
+\c_max_dim=\dimen140
+\l_tmpa_dim=\dimen141
+\l_tmpb_dim=\dimen142
+\g_tmpa_dim=\dimen143
+\g_tmpb_dim=\dimen144
+\c_zero_skip=\skip64
+\c_max_skip=\skip65
+\l_tmpa_skip=\skip66
+\l_tmpb_skip=\skip67
+\g_tmpa_skip=\skip68
+\g_tmpb_skip=\skip69
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3keys.sty
+Package: l3keys 2013/12/08 v4614 L3 Experimental key-value interfaces
+\g__keyval_level_int=\count151
+\l_keys_choice_int=\count152
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3fp.sty
+Package: l3fp 2014/01/04 v4642 L3 Floating points
+\c__fp_leading_shift_int=\count153
+\c__fp_middle_shift_int=\count154
+\c__fp_trailing_shift_int=\count155
+\c__fp_big_leading_shift_int=\count156
+\c__fp_big_middle_shift_int=\count157
+\c__fp_big_trailing_shift_int=\count158
+\c__fp_Bigg_leading_shift_int=\count159
+\c__fp_Bigg_middle_shift_int=\count160
+\c__fp_Bigg_trailing_shift_int=\count161
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3box.sty
+Package: l3box 2013/07/28 v4581 L3 Experimental boxes
+\c_empty_box=\box31
+\l_tmpa_box=\box32
+\l_tmpb_box=\box33
+\g_tmpa_box=\box34
+\g_tmpb_box=\box35
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3coffins.sty
+Package: l3coffins 2013/12/14 v4624 L3 Coffin code layer
+\l__coffin_internal_box=\box36
+\l__coffin_internal_dim=\dimen145
+\l__coffin_offset_x_dim=\dimen146
+\l__coffin_offset_y_dim=\dimen147
+\l__coffin_x_dim=\dimen148
+\l__coffin_y_dim=\dimen149
+\l__coffin_x_prime_dim=\dimen150
+\l__coffin_y_prime_dim=\dimen151
+\c_empty_coffin=\box37
+\l__coffin_aligned_coffin=\box38
+\l__coffin_aligned_internal_coffin=\box39
+\l_tmpa_coffin=\box40
+\l_tmpb_coffin=\box41
+\l__coffin_display_coffin=\box42
+\l__coffin_display_coord_coffin=\box43
+\l__coffin_display_pole_coffin=\box44
+\l__coffin_display_offset_dim=\dimen152
+\l__coffin_display_x_dim=\dimen153
+\l__coffin_display_y_dim=\dimen154
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3color.sty
+Package: l3color 2012/08/29 v4156 L3 Experimental color support
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3luatex.sty
+Package: l3luatex 2013/07/28 v4581 L3 Experimental LuaTeX-specific functions
+\g__cctab_allocate_int=\count162
+\g__cctab_stack_int=\count163
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3candidates.sty
+Package: l3candidates 2014/01/06 v4643 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen155
+\l__box_bottom_dim=\dimen156
+\l__box_left_dim=\dimen157
+\l__box_right_dim=\dimen158
+\l__box_top_new_dim=\dimen159
+\l__box_bottom_new_dim=\dimen160
+\l__box_left_new_dim=\dimen161
+\l__box_right_new_dim=\dimen162
+\l__box_internal_box=\box45
+\l__coffin_bounding_shift_dim=\dimen163
+\l__coffin_left_corner_dim=\dimen164
+\l__coffin_right_corner_dim=\dimen165
+\l__coffin_bottom_corner_dim=\dimen166
+\l__coffin_top_corner_dim=\dimen167
+\l__coffin_scaled_total_height_dim=\dimen168
+\l__coffin_scaled_width_dim=\dimen169
+))
+\mhchem@ce@result=\toks29
+\mhchem@ce@part=\toks30
+\mhchem@arrow@deployType=\toks31
+\mhchem@arrow@params=\toks32
+\mhchem@arrowlength@pgf=\skip70
+\mhchem@bondwidth=\skip71
+\mhchem@bondheight=\skip72
+\mhchem@smallbondwidth@tmpA=\skip73
+\mhchem@smallbondwidth@tmpB=\skip74
+\mhchem@smallbondwidth=\skip75
+\__mhchem_option_version_int=\count164
+\mhchem@prepostscript@tmp@i=\skip76
+\mhchem@prepostscript@tmp@ii=\skip77
+\mhchem@mathbox@tmp@i=\skip78
+\mhchem@mathbox@tmp@ii=\skip79
+\mhchem@minispace@tmp=\skip80
+\mhchem@option@minussidebearingleft=\skip81
+\mhchem@option@minussidebearingright=\skip82
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen170
+)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+\everycr=\toks33
+\minrowclearance=\skip83
+)
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+\rownum=\count165
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip84
+\f@ncyO@elh=\skip85
+\f@ncyO@erh=\skip86
+\f@ncyO@olh=\skip87
+\f@ncyO@orh=\skip88
+\f@ncyO@elf=\skip89
+\f@ncyO@erf=\skip90
+\f@ncyO@olf=\skip91
+\f@ncyO@orf=\skip92
+)
+(/usr/share/texlive/texmf-dist/tex/latex/bigfoot/perpage.sty
+Package: perpage 2006/07/15 1.12 Reset/sort counters per page
+\c@abspage=\count166
+)
+\c@pp@a@footnote=\count167
+
+(./Fonctions/myCommands.tex) (./Fonctions/ltxdefs.tex) (./steen_thesis_2.aux)
+\openout1 = `steen_thesis_2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 224.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 224.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Info: Redefining \degres on input line 224.
+LaTeX Info: Redefining \dots on input line 224.
+
+
+Package frenchb.ldf Warning: Setting StandardEnumerateEnv=true for
+(frenchb.ldf)                compatibility with enumerate package,
+(frenchb.ldf)                 on input line 224.
+
+LaTeX Info: Redefining \up on input line 224.
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count168
+\scratchdimen=\dimen171
+\scratchbox=\box46
+\nofMPsegments=\count169
+\nofMParguments=\count170
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count171
+\MPscratchDim=\dimen172
+\MPnumerator=\count172
+\makeMPintoPDFobject=\count173
+\everyMPtoPDFconversion=\toks35
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\symgns@font=\mathgroup12
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 224.
+Package gensymb Info: Math companion symbols declared on input line 224.
+LaTeX Info: Redefining \degree on input line 224.
+LaTeX Info: Redefining \celsius on input line 224.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 224.
+LaTeX Info: Redefining \ohm on input line 224.
+Package gensymb Info: Using \textohm for \ohm on input line 224.
+Package gensymb Info: Using \textmu for \micro on input line 224.
+\c@minilofdepth=\count174
+\c@minilotdepth=\count175
+\c@partlofdepth=\count176
+\c@partlotdepth=\count177
+\c@sectlofdepth=\count178
+\c@sectlotdepth=\count179
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+Package minitoc(hints) Info: I0042
+(minitoc(hints))             --- The appendix package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+
+
+Package minitoc(hints) Warning: W0030
+(minitoc(hints))                --- The \part command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+
+Package minitoc(hints) Warning: W0028
+(minitoc(hints))                --- The \chapter command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box47
+Package hyperref Info: Link coloring OFF on input line 224.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count180
+)
+LaTeX Info: Redefining \ref on input line 224.
+LaTeX Info: Redefining \pageref on input line 224.
+LaTeX Info: Redefining \nameref on input line 224.
+
+(./steen_thesis_2.out) (./steen_thesis_2.out)
+\@outlinefile=\write5
+\openout5 = `steen_thesis_2.out'.
+
+
+<Logo/logo_white_ILC.jpg, id=341, 256.96pt x 167.62625pt>
+File: Logo/logo_white_ILC.jpg Graphic file (type jpg)
+
+<use Logo/logo_white_ILC.jpg>
+Package pdftex.def Info: Logo/logo_white_ILC.jpg used on input line 231.
+(pdftex.def)             Requested size: 76.8193pt x 50.11177pt.
+
+<Logo/calice_logo.jpg, id=342, 684.5575pt x 323.2075pt>
+File: Logo/calice_logo.jpg Graphic file (type jpg)
+
+<use Logo/calice_logo.jpg>
+Package pdftex.def Info: Logo/calice_logo.jpg used on input line 233.
+(pdftex.def)             Requested size: 76.8193pt x 36.26804pt.
+ <Logo/Logo_IPNL.jpg, id=343, 263.7855pt x 96.36pt>
+File: Logo/Logo_IPNL.jpg Graphic file (type jpg)
+
+<use Logo/Logo_IPNL.jpg>
+Package pdftex.def Info: Logo/Logo_IPNL.jpg used on input line 235.
+(pdftex.def)             Requested size: 76.8193pt x 28.0613pt.
+
+<Logo/logo_ucbl_lyon1.jpg, id=344, 266.9975pt x 190.7125pt>
+File: Logo/logo_ucbl_lyon1.jpg Graphic file (type jpg)
+
+<use Logo/logo_ucbl_lyon1.jpg>
+Package pdftex.def Info: Logo/logo_ucbl_lyon1.jpg used on input line 237.
+(pdftex.def)             Requested size: 76.8193pt x 54.8716pt.
+
+Overfull \hbox (2.61049pt too wide) detected at line 241
+ []
+ []
+
+
+Overfull \hbox (2.61049pt too wide) detected at line 241
+ []
+ []
+
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 241.
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 241.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 241.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 241.
+
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+Overfull \hbox (2.61049pt too wide) detected at line 241
+ []
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Logo/logo_white_ILC.jpg>
+ <./Logo/calice_logo.jpg> <./Logo/Logo_IPNL.jpg> <./Logo/logo_ucbl_lyon1.jpg>]
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM steen_thesis_2.toc on input line 
+283.
+Package minitoc Info: I0033
+(minitoc)             Writing steen_thesis_2.mtc1.
+\openout3 = `steen_thesis_2.mtc1'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing steen_thesis_2.mtc2.
+\openout3 = `steen_thesis_2.mtc2'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing steen_thesis_2.mtc3.
+\openout3 = `steen_thesis_2.mtc3'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing steen_thesis_2.mtc4.
+\openout3 = `steen_thesis_2.mtc4'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing steen_thesis_2.mtc5.
+\openout3 = `steen_thesis_2.mtc5'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing steen_thesis_2.mtc6.
+\openout3 = `steen_thesis_2.mtc6'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing steen_thesis_2.mtc7.
+\openout3 = `steen_thesis_2.mtc7'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing steen_thesis_2.mtc8.
+\openout3 = `steen_thesis_2.mtc8'.
+
+ (./Resume/Resume.tex [2
+
+
+]
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Overfull \hbox (3.30508pt too wide) in paragraph at lines 3--4
+[]\T1/cmr/m/n/12 Le Col-li-sion-neur Li-néaire In-ter-na-tio-nal ILC est un pro
+-jet de col-li-sion-neur électron-
+ []
+
+) [3] [4] (./Introduction/Introduction.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 3--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--304
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5
+
+
+]
+[6] (./steen_thesis_2.toc [7
+
+] [8])
+\tf@toc=\write6
+\openout6 = `steen_thesis_2.toc'.
+
+ [9] [10
+
+] (./ModelStandard/ModelStandard.tex
+Chapitre 1.
+\openout3 = `steen_thesis_2.mtc'.
+
+\openout3 = `steen_thesis_2.mtc'.
+
+(./steen_thesis_2.mtc1)pdfTeX warning (ext4): destination with the same identif
+ier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 \newpage
+             [1
+
+
+]
+<ModelStandard/figs/Standard_model_infographic_bis.png, id=512, 1026.83624pt x 
+770.88pt>
+File: ModelStandard/figs/Standard_model_infographic_bis.png Graphic file (type 
+png)
+ <use ModelStandard/figs/Standard_model_infographic_bis.png>
+Package pdftex.def Info: ModelStandard/figs/Standard_model_infographic_bis.png 
+used on input line 13.
+(pdftex.def)             Requested size: 298.75262pt x 224.27876pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.41 
+      [2 <./ModelStandard/figs/Standard_model_infographic_bis.png>]pdfTeX warni
+ng (ext4): destination with the same identifier (name{page.3}) has been already
+ used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 
+      [3] <ModelStandard/figs/betaminus.png, id=541, 636.12656pt x 451.6875pt>
+File: ModelStandard/figs/betaminus.png Graphic file (type png)
+
+<use ModelStandard/figs/betaminus.png>
+Package pdftex.def Info: ModelStandard/figs/betaminus.png used on input line 72
+.
+(pdftex.def)             Requested size: 213.39566pt x 151.51784pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.80 
+      [4]
+Overfull \hbox (32.20067pt too wide) in paragraph at lines 90--91
+[]\T1/cmr/m/n/12 un champ vec-to-riel com-plexe mas-sif qui re-pré-sente une pa
+ire particule-antiparticule :
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.93 
+      [5 <./ModelStandard/figs/betaminus.png>]) (./ILC/ILC.texpdfTeX warning (e
+xt4): destination with the same identifier (name{page.6}) has been already used
+, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Le Collisionneur LinÃ©aire International} [6]
+Chapitre 2.
+\openout3 = `steen_thesis_2.mtc'.
+
+\openout3 = `steen_thesis_2.mtc'.
+
+(./steen_thesis_2.mtc2)pdfTeX warning (ext4): destination with the same identif
+ier (name{page.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \newpage
+             [7
+
+] <ILC/figs/pileup_pp_2012.png, id=575, 578.16pt x 433.62pt>
+File: ILC/figs/pileup_pp_2012.png Graphic file (type png)
+
+<use ILC/figs/pileup_pp_2012.png>
+Package pdftex.def Info: ILC/figs/pileup_pp_2012.png used on input line 16.
+(pdftex.def)             Requested size: 341.43436pt x 256.07178pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.22 
+      [8 <./ILC/figs/pileup_pp_2012.png>]
+Overfull \hbox (6.80836pt too wide) in paragraph at lines 25--26
+\T1/cmr/m/n/12 d'at-teindre des éner-gie beau-coup plus éle-vées qu'avec un ac-
+cé-lé-ra-teur électron-positon.
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30 
+      [9] <ILC/figs/kappa_factor.png, id=601, 944.52875pt x 600.2425pt>
+File: ILC/figs/kappa_factor.png Graphic file (type png)
+
+<use ILC/figs/kappa_factor.png>
+Package pdftex.def Info: ILC/figs/kappa_factor.png used on input line 58.
+(pdftex.def)             Requested size: 426.79134pt x 271.22401pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.68 
+      [10] <ILC/figs/japanese_sites.jpg, id=614, 846.16125pt x 424.58624pt>
+File: ILC/figs/japanese_sites.jpg Graphic file (type jpg)
+
+<use ILC/figs/japanese_sites.jpg>
+Package pdftex.def Info: ILC/figs/japanese_sites.jpg used on input line 72.
+(pdftex.def)             Requested size: 320.09349pt x 160.61235pt.
+
+<ILC/figs/ilc-scheme.png, id=616, 467.7475pt x 219.82124pt>
+File: ILC/figs/ilc-scheme.png Graphic file (type png)
+
+<use ILC/figs/ilc-scheme.png>
+Package pdftex.def Info: ILC/figs/ilc-scheme.png used on input line 82.
+(pdftex.def)             Requested size: 426.79134pt x 200.58437pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./ILC/figs/kappa_factor.png>] [12 <./ILC/figs/japanese_sites.jpg> <./ILC/
+figs/ilc-scheme.png>] <ILC/figs/rf-cav.png, id=631, 359.3425pt x 59.22125pt>
+File: ILC/figs/rf-cav.png Graphic file (type png)
+
+<use ILC/figs/rf-cav.png>
+Package pdftex.def Info: ILC/figs/rf-cav.png used on input line 99.
+(pdftex.def)             Requested size: 426.79134pt x 70.3422pt.
+
+<ILC/figs/Particle_Flow_Paradigm.jpg, id=634, 532.5158pt x 153.41527pt>
+File: ILC/figs/Particle_Flow_Paradigm.jpg Graphic file (type jpg)
+
+<use ILC/figs/Particle_Flow_Paradigm.jpg>
+Package pdftex.def Info: ILC/figs/Particle_Flow_Paradigm.jpg used on input line
+ 133.
+(pdftex.def)             Requested size: 426.79134pt x 122.95944pt.
+ [13 <./ILC/figs/rf-cav.png>] [14 <./ILC/figs/Particle_Flow_Paradigm.jpg>]
+<ILC/figs/pfa_ild.jpg, id=652, 249.42743pt x 220.64734pt>
+File: ILC/figs/pfa_ild.jpg Graphic file (type jpg)
+
+<use ILC/figs/pfa_ild.jpg>
+Package pdftex.def Info: ILC/figs/pfa_ild.jpg used on input line 146.
+(pdftex.def)             Requested size: 256.0774pt x 226.54543pt.
+
+Overfull \hbox (5.70442pt too wide) in paragraph at lines 153--154
+[]\T1/cmr/m/n/12 Cependant, une très grande gra-nu-la-rité pour-rait en-traî-ne
+r une im-por-tante consom-
+ []
+
+[15 <./ILC/figs/pfa_ild.jpg>]
+Overfull \hbox (24.85873pt too wide) in paragraph at lines 158--170
+ [] 
+ []
+
+<ILC/figs/ild.png, id=663, 805.0075pt x 349.305pt>
+File: ILC/figs/ild.png Graphic file (type png)
+ <use ILC/figs/ild.png>
+Package pdftex.def Info: ILC/figs/ild.png used on input line 179.
+(pdftex.def)             Requested size: 426.79134pt x 185.18939pt.
+
+[16] [17 <./ILC/figs/ild.png (PNG copy)>]
+<ILC/figs/Image_7b.jpg, id=688, 769.87625pt x 623.32875pt>
+File: ILC/figs/Image_7b.jpg Graphic file (type jpg)
+
+<use ILC/figs/Image_7b.jpg>
+Package pdftex.def Info: ILC/figs/Image_7b.jpg used on input line 236.
+(pdftex.def)             Requested size: 183.51714pt x 148.58424pt.
+
+<ILC/figs/ILd_inner.pdf, id=689, 722.7pt x 542.025pt>
+File: ILC/figs/ILd_inner.pdf Graphic file (type pdf)
+
+<use ILC/figs/ILd_inner.pdf>
+Package pdftex.def Info: ILC/figs/ILd_inner.pdf used on input line 237.
+(pdftex.def)             Requested size: 234.73653pt x 176.04851pt.
+ [18]
+<ILC/figs/pfaCalo.png, id=702, 473.77pt x 283.0575pt>
+File: ILC/figs/pfaCalo.png Graphic file (type png)
+
+<use ILC/figs/pfaCalo.png>
+Package pdftex.def Info: ILC/figs/pfaCalo.png used on input line 248.
+(pdftex.def)             Requested size: 298.75262pt x 178.4956pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19 <./ILC/figs/Image_7b.jpg> <./ILC/figs/ILd_inner.pdf>] [20 <./ILC/figs/pfaCa
+lo.png (PNG copy)>]
+<ILC/figs/siecalNLayer.png, id=732, 567.11874pt x 397.485pt>
+File: ILC/figs/siecalNLayer.png Graphic file (type png)
+
+<use ILC/figs/siecalNLayer.png>
+Package pdftex.def Info: ILC/figs/siecalNLayer.png used on input line 285.
+(pdftex.def)             Requested size: 234.73653pt x 164.52257pt.
+
+<ILC/figs/siscecalProp.png, id=733, 371.3875pt x 356.33125pt>
+File: ILC/figs/siscecalProp.png Graphic file (type png)
+
+<use ILC/figs/siscecalProp.png>
+Package pdftex.def Info: ILC/figs/siscecalProp.png used on input line 286.
+(pdftex.def)             Requested size: 187.78922pt x 180.17693pt.
+ [21 <./ILC/figs/siecalNLayer.png> <./ILC/figs/siscecalProp.png>] <ILC/figs/hca
+l1.png, id=753, 224.84pt x 169.63374pt>
+File: ILC/figs/hcal1.png Graphic file (type png)
+
+<use ILC/figs/hcal1.png>
+Package pdftex.def Info: ILC/figs/hcal1.png used on input line 305.
+(pdftex.def)             Requested size: 204.85802pt x 154.56364pt.
+
+<ILC/figs/hcal2.png, id=754, 221.82875pt x 169.63374pt>
+File: ILC/figs/hcal2.png Graphic file (type png)
+
+<use ILC/figs/hcal2.png>
+Package pdftex.def Info: ILC/figs/hcal2.png used on input line 306.
+(pdftex.def)             Requested size: 204.85802pt x 156.65508pt.
+
+Underfull \vbox (badness 1009) has occurred while \output is active []
+
+ [22]
+[23 <./ILC/figs/hcal1.png> <./ILC/figs/hcal2.png>]
+<ILC/figs/sid.png, id=778, 894.34125pt x 515.9275pt>
+File: ILC/figs/sid.png Graphic file (type png)
+ <use ILC/figs/sid.png>
+Package pdftex.def Info: ILC/figs/sid.png used on input line 334.
+(pdftex.def)             Requested size: 426.79134pt x 246.20961pt.
+
+Overfull \hbox (4.3188pt too wide) in paragraph at lines 339--340
+[]\T1/cmr/m/n/12 Le deuxième concept de dé-tec-teur pour l'ILC est le Dé-tec-te
+ur au Si-li-cium (SiD) [[]].
+ []
+
+[24 <./ILC/figs/sid.png (PNG copy)>]
+<ILC/figs/z-hz.png, id=791, 241.90375pt x 144.54pt>
+File: ILC/figs/z-hz.png Graphic file (type png)
+ <use ILC/figs/z-hz.png>
+Package pdftex.def Info: ILC/figs/z-hz.png used on input line 378.
+(pdftex.def)             Requested size: 132.30426pt x 79.05612pt.
+
+<ILC/figs/ww-hnunu.png, id=792, 245.91875pt x 161.60374pt>
+File: ILC/figs/ww-hnunu.png Graphic file (type png)
+
+<use ILC/figs/ww-hnunu.png>
+Package pdftex.def Info: ILC/figs/ww-hnunu.png used on input line 379.
+(pdftex.def)             Requested size: 132.30426pt x 86.94662pt.
+
+<ILC/figs/z-zh-hh.png, id=793, 237.88875pt x 184.69pt>
+File: ILC/figs/z-zh-hh.png Graphic file (type png)
+
+<use ILC/figs/z-zh-hh.png>
+Package pdftex.def Info: ILC/figs/z-zh-hh.png used on input line 380.
+(pdftex.def)             Requested size: 132.30426pt x 102.72115pt.
+
+<ILC/figs/hcross.png, id=796, 413.545pt x 397.485pt>
+File: ILC/figs/hcross.png Graphic file (type png)
+ <use ILC/figs/hcross.png>
+Package pdftex.def Info: ILC/figs/hcross.png used on input line 388.
+(pdftex.def)             Requested size: 298.75262pt x 287.1594pt.
+
+[25 <./ILC/figs/z-hz.png> <./ILC/figs/ww-hnunu.png> <./ILC/figs/z-zh-hh.png>]
+[26 <./ILC/figs/hcross.png>]
+<ILC/figs/fcc_ilc_clic_lumi.png, id=822, 939.51pt x 538.01pt>
+File: ILC/figs/fcc_ilc_clic_lumi.png Graphic file (type png)
+
+<use ILC/figs/fcc_ilc_clic_lumi.png>
+Package pdftex.def Info: ILC/figs/fcc_ilc_clic_lumi.png used on input line 407.
+
+(pdftex.def)             Requested size: 426.79134pt x 244.40088pt.
+) (./ShowerTh/ShowerTh.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27] [28 <./ILC/figs/fcc_ilc_clic_lumi.png>]
+Chapitre 3.
+\openout3 = `steen_thesis_2.mtc'.
+
+\openout3 = `steen_thesis_2.mtc'.
+
+(./steen_thesis_2.mtc3) [29
+
+]
+Package epstopdf Info: Source file: <ShowerTh/figs/dedx_table_98.eps>
+(epstopdf)                    date: 2015-06-22 15:30:44
+(epstopdf)                    size: 118304 bytes
+(epstopdf)             Output file: <ShowerTh/figs/dedx_table_98-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-06-22 15:30:44
+(epstopdf)                    size: 19229 bytes
+(epstopdf)             Command: <repstopdf --outfile=ShowerTh/figs/dedx_table_9
+8-eps-converted-to.pdf ShowerTh/figs/dedx_table_98.eps>
+(epstopdf)             \includegraphics on input line 21.
+Package epstopdf Info: Output file is already uptodate.
+
+<ShowerTh/figs/dedx_table_98-eps-converted-to.pdf, id=855, 301.125pt x 330.2337
+5pt>
+File: ShowerTh/figs/dedx_table_98-eps-converted-to.pdf Graphic file (type pdf)
+ <use ShowerTh/figs/dedx_table_98-eps-converted-to.pdf>
+Package pdftex.def Info: ShowerTh/figs/dedx_table_98-eps-converted-to.pdf used 
+on input line 21.
+(pdftex.def)             Requested size: 256.0774pt x 280.8562pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <ShowerTh/figs/elossfrac_06.eps>
+(epstopdf)                    date: 2015-06-22 15:30:44
+(epstopdf)                    size: 369445 bytes
+(epstopdf)             Output file: <ShowerTh/figs/elossfrac_06-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-06-22 15:30:44
+(epstopdf)                    size: 73421 bytes
+(epstopdf)             Command: <repstopdf --outfile=ShowerTh/figs/elossfrac_06
+-eps-converted-to.pdf ShowerTh/figs/elossfrac_06.eps>
+(epstopdf)             \includegraphics on input line 36.
+Package epstopdf Info: Output file is already uptodate.
+
+<ShowerTh/figs/elossfrac_06-eps-converted-to.pdf, id=858, 344.28625pt x 243.911
+25pt>
+File: ShowerTh/figs/elossfrac_06-eps-converted-to.pdf Graphic file (type pdf)
+ <use ShowerTh/figs/elossfrac_06-eps-converted-to.pdf>
+Package pdftex.def Info: ShowerTh/figs/elossfrac_06-eps-converted-to.pdf used o
+n input line 36.
+(pdftex.def)             Requested size: 256.0774pt x 181.41821pt.
+ [30]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[31 <./ShowerTh/figs/dedx_table_98-eps-converted-to.pdf>]
+<ShowerTh/figs/compton_scattering.png, id=892, 566.5968pt x 494.3268pt>
+File: ShowerTh/figs/compton_scattering.png Graphic file (type png)
+
+<use ShowerTh/figs/compton_scattering.png>
+Package pdftex.def Info: ShowerTh/figs/compton_scattering.png used on input lin
+e 55.
+(pdftex.def)             Requested size: 170.71393pt x 148.93277pt.
+ [32 <./ShowerTh/figs/elossfrac_06-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <ShowerTh/figs/sigma_both_06.eps>
+(epstopdf)                    date: 2015-06-22 15:30:44
+(epstopdf)                    size: 202303 bytes
+(epstopdf)             Output file: <ShowerTh/figs/sigma_both_06-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-06-22 15:30:44
+(epstopdf)                    size: 42357 bytes
+(epstopdf)             Command: <repstopdf --outfile=ShowerTh/figs/sigma_both_0
+6-eps-converted-to.pdf ShowerTh/figs/sigma_both_06.eps>
+(epstopdf)             \includegraphics on input line 76.
+Package epstopdf Info: Output file is already uptodate.
+
+<ShowerTh/figs/sigma_both_06-eps-converted-to.pdf, id=906, 300.12125pt x 526.96
+875pt>
+File: ShowerTh/figs/sigma_both_06-eps-converted-to.pdf Graphic file (type pdf)
+ <use ShowerTh/figs/sigma_both_06-eps-converted-to.pdf>
+Package pdftex.def Info: ShowerTh/figs/sigma_both_06-eps-converted-to.pdf used 
+on input line 76.
+(pdftex.def)             Requested size: 256.0774pt x 449.67041pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33 <./ShowerTh/figs/compton_scattering.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34 <./ShowerTh/figs/sigma_both_06-eps-converted-to.pdf>]
+<ShowerTh/figs/nuclear_reaction_emulsion.png, id=935, 281.55188pt x 229.60782pt
+>
+File: ShowerTh/figs/nuclear_reaction_emulsion.png Graphic file (type png)
+ <use ShowerTh/figs/nuclear_reaction_emulsion.png>
+Package pdftex.def Info: ShowerTh/figs/nuclear_reaction_emulsion.png used on in
+put line 90.
+(pdftex.def)             Requested size: 256.0774pt x 208.84534pt.
+ [35 <./ShowerTh/figs/nuclear_reaction_emulsion.png (PNG copy)>] [36]
+<ShowerTh/figs/electromagnetic_cascade.png, id=952, 352.31625pt x 143.53625pt>
+File: ShowerTh/figs/electromagnetic_cascade.png Graphic file (type png)
+
+<use ShowerTh/figs/electromagnetic_cascade.png>
+Package pdftex.def Info: ShowerTh/figs/electromagnetic_cascade.png used on inpu
+t line 114.
+(pdftex.def)             Requested size: 170.71393pt x 69.54929pt.
+ [37 <./ShowerTh/figs/electromagnetic_cascade.png>]
+Package epstopdf Info: Source file: <ShowerTh/figs/lProfile.eps>
+(epstopdf)                    date: 2015-06-22 15:30:44
+(epstopdf)                    size: 15539 bytes
+(epstopdf)             Output file: <ShowerTh/figs/lProfile-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-06-22 15:30:44
+(epstopdf)                    size: 14009 bytes
+(epstopdf)             Command: <repstopdf --outfile=ShowerTh/figs/lProfile-eps
+-converted-to.pdf ShowerTh/figs/lProfile.eps>
+(epstopdf)             \includegraphics on input line 156.
+Package epstopdf Info: Output file is already uptodate.
+
+<ShowerTh/figs/lProfile-eps-converted-to.pdf, id=970, 496.85625pt x 552.0625pt>
+File: ShowerTh/figs/lProfile-eps-converted-to.pdf Graphic file (type pdf)
+<use ShowerTh/figs/lProfile-eps-converted-to.pdf>
+Package pdftex.def Info: ShowerTh/figs/lProfile-eps-converted-to.pdf used on in
+put line 156.
+(pdftex.def)             Requested size: 213.39566pt x 237.10425pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[38]
+Package epstopdf Info: Source file: <ShowerTh/figs/transverseProfile_15gev_1cm.
+eps>
+(epstopdf)                    date: 2015-06-22 15:30:44
+(epstopdf)                    size: 12792 bytes
+(epstopdf)             Output file: <ShowerTh/figs/transverseProfile_15gev_1cm-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-22 15:30:44
+(epstopdf)                    size: 12627 bytes
+(epstopdf)             Command: <repstopdf --outfile=ShowerTh/figs/transversePr
+ofile_15gev_1cm-eps-converted-to.pdf ShowerTh/figs/transverseProfile_15gev_1cm.
+eps>
+(epstopdf)             \includegraphics on input line 167.
+Package epstopdf Info: Output file is already uptodate.
+
+<ShowerTh/figs/transverseProfile_15gev_1cm-eps-converted-to.pdf, id=987, 569.12
+625pt x 408.52625pt>
+File: ShowerTh/figs/transverseProfile_15gev_1cm-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use ShowerTh/figs/transverseProfile_15gev_1cm-eps-converted-to.pdf>
+Package pdftex.def Info: ShowerTh/figs/transverseProfile_15gev_1cm-eps-converte
+d-to.pdf used on input line 167.
+(pdftex.def)             Requested size: 213.39566pt x 153.17827pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[39 <./ShowerTh/figs/lProfile-eps-converted-to.pdf>] [40 <./ShowerTh/figs/trans
+verseProfile_15gev_1cm-eps-converted-to.pdf>]
+<ShowerTh/figs/had-shower.png, id=1023, 845.1575pt x 597.23125pt>
+File: ShowerTh/figs/had-shower.png Graphic file (type png)
+
+<use ShowerTh/figs/had-shower.png>
+Package pdftex.def Info: ShowerTh/figs/had-shower.png used on input line 187.
+(pdftex.def)             Requested size: 298.75262pt x 211.12094pt.
+ [41 <./ShowerTh/figs/had-shower.png (PNG copy)>] [42] <ShowerTh/figs/fig_7a_lp
+.pdf, id=1044, 794.97pt x 614.295pt>
+File: ShowerTh/figs/fig_7a_lp.pdf Graphic file (type pdf)
+
+<use ShowerTh/figs/fig_7a_lp.pdf>
+Package pdftex.def Info: ShowerTh/figs/fig_7a_lp.pdf used on input line 238.
+(pdftex.def)             Requested size: 298.75262pt x 230.85684pt.
+ [43 <./ShowerTh/figs/fig_7a_lp.pdf>]
+<ShowerTh/figs/eudet_fig_11_rprof_18_FTF_BIC.pdf, id=1069, 888.31876pt x 618.31
+pt>
+File: ShowerTh/figs/eudet_fig_11_rprof_18_FTF_BIC.pdf Graphic file (type pdf)
+ <use ShowerTh/figs/eudet_fig_11_rprof_18_FTF_BIC.pdf>
+Package pdftex.def Info: ShowerTh/figs/eudet_fig_11_rprof_18_FTF_BIC.pdf used o
+n input line 247.
+(pdftex.def)             Requested size: 298.75262pt x 207.93944pt.
+) (./SDHCAL/SDHCAL.tex [44 <./ShowerTh/figs/eudet_fig_11_rprof_18_FTF_BIC.pdf>]
+
+Chapitre 4.
+\openout3 = `steen_thesis_2.mtc'.
+
+\openout3 = `steen_thesis_2.mtc'.
+
+(./steen_thesis_2.mtc4) [45
+
+] [46] [47]
+<SDHCAL/figs/proto.jpg, id=1142, 3276.24pt x 1842.885pt>
+File: SDHCAL/figs/proto.jpg Graphic file (type jpg)
+
+<use SDHCAL/figs/proto.jpg>
+Package pdftex.def Info: SDHCAL/figs/proto.jpg used on input line 41.
+(pdftex.def)             Requested size: 341.43436pt x 192.03233pt.
+
+<SDHCAL/figs/pion80GeV.pdf, id=1144, 569.12625pt x 552.0625pt>
+File: SDHCAL/figs/pion80GeV.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/pion80GeV.pdf>
+Package pdftex.def Info: SDHCAL/figs/pion80GeV.pdf used on input line 50.
+(pdftex.def)             Requested size: 341.43436pt x 331.21478pt.
+ [48] [49 <./SDHCAL/figs/proto.jpg>] [50 <./SDHCAL/figs/pion80GeV.pdf, page is 
+rotated 90 degrees>]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 67.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 67.
+
+Missing character: There is no ° in font cmr12!
+[51] <SDHCAL/figs/GRPC-K7.png, id=1227, 1059.96pt x 465.74pt>
+File: SDHCAL/figs/GRPC-K7.png Graphic file (type png)
+
+<use SDHCAL/figs/GRPC-K7.png>
+Package pdftex.def Info: SDHCAL/figs/GRPC-K7.png used on input line 80.
+(pdftex.def)             Requested size: 341.43436pt x 150.02055pt.
+
+<SDHCAL/figs/PADs.png, id=1229, 972.63374pt x 320.19624pt>
+File: SDHCAL/figs/PADs.png Graphic file (type png)
+
+<use SDHCAL/figs/PADs.png>
+Package pdftex.def Info: SDHCAL/figs/PADs.png used on input line 88.
+(pdftex.def)             Requested size: 341.43436pt x 112.40259pt.
+
+<SDHCAL/figs/aLayer.jpg, id=1232, 1464.672pt x 1098.504pt>
+File: SDHCAL/figs/aLayer.jpg Graphic file (type jpg)
+
+<use SDHCAL/figs/aLayer.jpg>
+Package pdftex.def Info: SDHCAL/figs/aLayer.jpg used on input line 96.
+(pdftex.def)             Requested size: 200.59244pt x 150.43715pt.
+
+<SDHCAL/figs/layer_electronic2.pdf, id=1233, 424.94759pt x 372.9132pt>
+File: SDHCAL/figs/layer_electronic2.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/layer_electronic2.pdf>
+Package pdftex.def Info: SDHCAL/figs/layer_electronic2.pdf used on input line 9
+7.
+(pdftex.def)             Requested size: 170.71393pt x 149.81131pt.
+
+<SDHCAL/figs/DIFCassette.jpg, id=1235, 1098.504pt x 1464.672pt>
+File: SDHCAL/figs/DIFCassette.jpg Graphic file (type jpg)
+
+<use SDHCAL/figs/DIFCassette.jpg>
+Package pdftex.def Info: SDHCAL/figs/DIFCassette.jpg used on input line 105.
+(pdftex.def)             Requested size: 170.71393pt x 227.60289pt.
+ [52 <./SDHCAL/figs/GRPC-K7.png>]
+<SDHCAL/figs/PPCycle.png, id=1248, 720.6925pt x 236.885pt>
+File: SDHCAL/figs/PPCycle.png Graphic file (type png)
+
+<use SDHCAL/figs/PPCycle.png>
+Package pdftex.def Info: SDHCAL/figs/PPCycle.png used on input line 115.
+(pdftex.def)             Requested size: 341.43436pt x 112.22514pt.
+ [53 <./SDHCAL/figs/PADs.png> <./SDHCAL/figs/aLayer.jpg> <./SDHCAL/figs/layer_e
+lectronic2.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54 <./SDHCAL/figs/DIFCassette.jpg> <./SDHCAL/figs/PPCycle.png>]
+
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 128.
+
+<SDHCAL/figs/Dac0Lin.pdf, id=1275, 569.12625pt x 384.43625pt>
+File: SDHCAL/figs/Dac0Lin.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/Dac0Lin.pdf>
+Package pdftex.def Info: SDHCAL/figs/Dac0Lin.pdf used on input line 141.
+(pdftex.def)             Requested size: 298.75262pt x 201.80858pt.
+ [55]
+<SDHCAL/figs/Dac1Lin.pdf, id=1292, 569.12625pt x 549.05125pt>
+File: SDHCAL/figs/Dac1Lin.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/Dac1Lin.pdf>
+Package pdftex.def Info: SDHCAL/figs/Dac1Lin.pdf used on input line 168.
+(pdftex.def)             Requested size: 192.0548pt x 185.28423pt.
+
+<SDHCAL/figs/Dac2Lin.pdf, id=1293, 569.12625pt x 549.05125pt>
+File: SDHCAL/figs/Dac2Lin.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/Dac2Lin.pdf>
+Package pdftex.def Info: SDHCAL/figs/Dac2Lin.pdf used on input line 169.
+(pdftex.def)             Requested size: 192.0548pt x 185.28423pt.
+ [56 <./SDHCAL/figs/Dac0Lin.pdf, page is rotated 90 degrees>] <SDHCAL/figs/plat
+eau12.png, id=1347, 698.61pt x 475.7775pt>
+File: SDHCAL/figs/plateau12.png Graphic file (type png)
+
+<use SDHCAL/figs/plateau12.png>
+Package pdftex.def Info: SDHCAL/figs/plateau12.png used on input line 184.
+(pdftex.def)             Requested size: 209.1301pt x 142.42216pt.
+
+<SDHCAL/figs/plateau33.png, id=1348, 698.61pt x 475.7775pt>
+File: SDHCAL/figs/plateau33.png Graphic file (type png)
+
+<use SDHCAL/figs/plateau33.png>
+Package pdftex.def Info: SDHCAL/figs/plateau33.png used on input line 185.
+(pdftex.def)             Requested size: 209.1301pt x 142.42216pt.
+
+Underfull \vbox (badness 3219) has occurred while \output is active []
+
+ [57 <./SDHCAL/figs/Dac1Lin.pdf, page is rotated 90 degrees> <./SDHCAL/figs/Dac
+2Lin.pdf, page is rotated 90 degrees>]
+<SDHCAL/figs/cumulLinear.png, id=1443, 1280.785pt x 696.6025pt>
+File: SDHCAL/figs/cumulLinear.png Graphic file (type png)
+
+<use SDHCAL/figs/cumulLinear.png>
+Package pdftex.def Info: SDHCAL/figs/cumulLinear.png used on input line 199.
+(pdftex.def)             Requested size: 426.79134pt x 232.12231pt.
+
+<SDHCAL/figs/cumulResol.png, id=1444, 1280.785pt x 696.6025pt>
+File: SDHCAL/figs/cumulResol.png Graphic file (type png)
+
+<use SDHCAL/figs/cumulResol.png>
+Package pdftex.def Info: SDHCAL/figs/cumulResol.png used on input line 206.
+(pdftex.def)             Requested size: 426.79134pt x 232.12231pt.
+ [58 <./SDHCAL/figs/plateau12.png> <./SDHCAL/figs/plateau33.png>] [59 <./SDHCAL
+/figs/cumulLinear.png> <./SDHCAL/figs/cumulResol.png>] <SDHCAL/figs/noise.pdf, 
+id=1463, 569.12625pt x 548.0475pt>
+File: SDHCAL/figs/noise.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/noise.pdf>
+Package pdftex.def Info: SDHCAL/figs/noise.pdf used on input line 217.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+<SDHCAL/figs/gain.pdf, id=1464, 569.12625pt x 548.0475pt>
+File: SDHCAL/figs/gain.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/gain.pdf>
+Package pdftex.def Info: SDHCAL/figs/gain.pdf used on input line 218.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 217--219
+[][] [][] 
+ []
+
+<SDHCAL/figs/gainMap31.pdf, id=1469, 569.12625pt x 548.0475pt>
+File: SDHCAL/figs/gainMap31.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/gainMap31.pdf>
+Package pdftex.def Info: SDHCAL/figs/gainMap31.pdf used on input line 228.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+<SDHCAL/figs/noiseRate.pdf, id=1470, 569.12625pt x 548.0475pt>
+File: SDHCAL/figs/noiseRate.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/noiseRate.pdf>
+Package pdftex.def Info: SDHCAL/figs/noiseRate.pdf used on input line 229.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 228--230
+[][] [][] 
+ []
+
+[60]
+Underfull \vbox (badness 3557) has occurred while \output is active []
+
+ [61 <./SDHCAL/figs/noise.pdf, page is rotated 90 degrees> <./SDHCAL/figs/gain.
+pdf, page is rotated 90 degrees> <./SDHCAL/figs/gainMap31.pdf, page is rotated 
+90 degrees> <./SDHCAL/figs/noiseRate.pdf, page is rotated 90 degrees>]
+<SDHCAL/figs/time_spectrum.pdf, id=1663, 569.12625pt x 355.3275pt>
+File: SDHCAL/figs/time_spectrum.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/time_spectrum.pdf>
+Package pdftex.def Info: SDHCAL/figs/time_spectrum.pdf used on input line 245.
+(pdftex.def)             Requested size: 384.10959pt x 239.82486pt.
+
+<SDHCAL/figs/time_hit_sprectrum_all_centered_R715651_T28.pdf, id=1666, 569.1262
+5pt x 385.44pt>
+File: SDHCAL/figs/time_hit_sprectrum_all_centered_R715651_T28.pdf Graphic file 
+(type pdf)
+
+<use SDHCAL/figs/time_hit_sprectrum_all_centered_R715651_T28.pdf>
+Package pdftex.def Info: SDHCAL/figs/time_hit_sprectrum_all_centered_R715651_T2
+8.pdf used on input line 253.
+(pdftex.def)             Requested size: 384.10959pt x 260.149pt.
+ [62] [63 <./SDHCAL/figs/time_spectrum.pdf, page is rotated 90 degrees>]
+<SDHCAL/figs/transverseRatio.pdf, id=1726, 569.12625pt x 410.53375pt>
+File: SDHCAL/figs/transverseRatio.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/transverseRatio.pdf>
+Package pdftex.def Info: SDHCAL/figs/transverseRatio.pdf used on input line 270
+.
+(pdftex.def)             Requested size: 298.75262pt x 215.50839pt.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 276.
+
+[64 <./SDHCAL/figs/time_hit_sprectrum_all_centered_R715651_T28.pdf, page is rot
+ated 90 degrees>]
+<SDHCAL/figs/Clusters.pdf, id=1779, 322.20375pt x 162.20601pt>
+File: SDHCAL/figs/Clusters.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/Clusters.pdf>
+Package pdftex.def Info: SDHCAL/figs/Clusters.pdf used on input line 280.
+(pdftex.def)             Requested size: 213.39566pt x 107.4325pt.
+ [65 <./SDHCAL/figs/transverseRatio.pdf, page is rotated 90 degrees> <./SDHCAL/
+figs/Clusters.pdf>]
+<SDHCAL/figs/nhitMuon.pdf, id=1838, 569.12625pt x 410.53375pt>
+File: SDHCAL/figs/nhitMuon.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/nhitMuon.pdf>
+Package pdftex.def Info: SDHCAL/figs/nhitMuon.pdf used on input line 293.
+(pdftex.def)             Requested size: 298.75262pt x 215.50839pt.
+
+<SDHCAL/figs/eff_2012.pdf, id=1840, 569.12625pt x 548.0475pt>
+File: SDHCAL/figs/eff_2012.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/eff_2012.pdf>
+Package pdftex.def Info: SDHCAL/figs/eff_2012.pdf used on input line 303.
+(pdftex.def)             Requested size: 192.0548pt x 184.9455pt.
+
+<SDHCAL/figs/mul_2012.pdf, id=1841, 569.12625pt x 548.0475pt>
+File: SDHCAL/figs/mul_2012.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/mul_2012.pdf>
+Package pdftex.def Info: SDHCAL/figs/mul_2012.pdf used on input line 304.
+(pdftex.def)             Requested size: 192.0548pt x 184.9455pt.
+ [66 <./SDHCAL/figs/nhitMuon.pdf, page is rotated 90 degrees>] [67 <./SDHCAL/fi
+gs/eff_2012.pdf, page is rotated 90 degrees> <./SDHCAL/figs/mul_2012.pdf, page 
+is rotated 90 degrees>]
+
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 336.
+
+<SDHCAL/figs/muon-rad.png, id=1994, 504.4446pt x 286.1892pt>
+File: SDHCAL/figs/muon-rad.png Graphic file (type png)
+
+<use SDHCAL/figs/muon-rad.png>
+Package pdftex.def Info: SDHCAL/figs/muon-rad.png used on input line 342.
+(pdftex.def)             Requested size: 256.0774pt x 145.28204pt.
+
+<SDHCAL/figs/muCut715747.pdf, id=1995, 569.12625pt x 410.53375pt>
+File: SDHCAL/figs/muCut715747.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/muCut715747.pdf>
+Package pdftex.def Info: SDHCAL/figs/muCut715747.pdf used on input line 350.
+(pdftex.def)             Requested size: 341.43436pt x 246.30336pt.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 358.
+
+[68] [69 <./SDHCAL/figs/muon-rad.png> <./SDHCAL/figs/muCut715747.pdf, page is r
+otated 90 degrees>]
+<SDHCAL/figs/ntrack_e-_50GeV.pdf, id=2063, 569.12625pt x 548.0475pt>
+File: SDHCAL/figs/ntrack_e-_50GeV.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/ntrack_e-_50GeV.pdf>
+Package pdftex.def Info: SDHCAL/figs/ntrack_e-_50GeV.pdf used on input line 364
+.
+(pdftex.def)             Requested size: 128.0387pt x 123.297pt.
+
+<SDHCAL/figs/zbegin_e-_50GeV.pdf, id=2064, 569.12625pt x 548.0475pt>
+File: SDHCAL/figs/zbegin_e-_50GeV.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/zbegin_e-_50GeV.pdf>
+Package pdftex.def Info: SDHCAL/figs/zbegin_e-_50GeV.pdf used on input line 365
+.
+(pdftex.def)             Requested size: 128.0387pt x 123.297pt.
+
+<SDHCAL/figs/nlayer_e-_50GeV.pdf, id=2065, 569.12625pt x 548.0475pt>
+File: SDHCAL/figs/nlayer_e-_50GeV.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/nlayer_e-_50GeV.pdf>
+Package pdftex.def Info: SDHCAL/figs/nlayer_e-_50GeV.pdf used on input line 366
+.
+(pdftex.def)             Requested size: 128.0387pt x 123.297pt.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 372.
+
+<SDHCAL/figs/multiple.png, id=2069, 712.5822pt x 593.3367pt>
+File: SDHCAL/figs/multiple.png Graphic file (type png)
+
+<use SDHCAL/figs/multiple.png>
+Package pdftex.def Info: SDHCAL/figs/multiple.png used on input line 376.
+(pdftex.def)             Requested size: 213.39566pt x 177.6855pt.
+ [70 <./SDHCAL/figs/ntrack_e-_50GeV.pdf, page is rotated 90 degrees> <./SDHCAL/
+figs/zbegin_e-_50GeV.pdf, page is rotated 90 degrees> <./SDHCAL/figs/nlayer_e-_
+50GeV.pdf, page is rotated 90 degrees>]
+<SDHCAL/figs/pi-_selection10GeV.pdf, id=2212, 569.12625pt x 548.0475pt>
+File: SDHCAL/figs/pi-_selection10GeV.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/pi-_selection10GeV.pdf>
+Package pdftex.def Info: SDHCAL/figs/pi-_selection10GeV.pdf used on input line 
+387.
+(pdftex.def)             Requested size: 192.0548pt x 184.9455pt.
+
+<SDHCAL/figs/pi-_selection50GeV.pdf, id=2213, 569.12625pt x 548.0475pt>
+File: SDHCAL/figs/pi-_selection50GeV.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/pi-_selection50GeV.pdf>
+Package pdftex.def Info: SDHCAL/figs/pi-_selection50GeV.pdf used on input line 
+388.
+(pdftex.def)             Requested size: 192.0548pt x 184.9455pt.
+
+<SDHCAL/figs/EFFRate.pdf, id=2221, 569.12625pt x 537.00626pt>
+File: SDHCAL/figs/EFFRate.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/EFFRate.pdf>
+Package pdftex.def Info: SDHCAL/figs/EFFRate.pdf used on input line 421.
+(pdftex.def)             Requested size: 256.0774pt x 241.63419pt.
+
+<SDHCAL/figs/timeCalib70.pdf, id=2223, 569.12625pt x 410.53375pt>
+File: SDHCAL/figs/timeCalib70.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/timeCalib70.pdf>
+Package pdftex.def Info: SDHCAL/figs/timeCalib70.pdf used on input line 430.
+(pdftex.def)             Requested size: 298.75262pt x 215.50839pt.
+ [71 <./SDHCAL/figs/multiple.png>] [72 <./SDHCAL/figs/pi-_selection10GeV.pdf, p
+age is rotated 90 degrees> <./SDHCAL/figs/pi-_selection50GeV.pdf, page is rotat
+ed 90 degrees>]
+<SDHCAL/figs/time_corr1.pdf, id=2327, 569.12625pt x 548.0475pt>
+File: SDHCAL/figs/time_corr1.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/time_corr1.pdf>
+Package pdftex.def Info: SDHCAL/figs/time_corr1.pdf used on input line 442.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<SDHCAL/figs/time_corr2.pdf, id=2328, 569.12625pt x 548.0475pt>
+File: SDHCAL/figs/time_corr2.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/time_corr2.pdf>
+Package pdftex.def Info: SDHCAL/figs/time_corr2.pdf used on input line 443.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<SDHCAL/figs/time_corr3.pdf, id=2329, 569.12625pt x 548.0475pt>
+File: SDHCAL/figs/time_corr3.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/time_corr3.pdf>
+Package pdftex.def Info: SDHCAL/figs/time_corr3.pdf used on input line 444.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+ [73 <./SDHCAL/figs/EFFRate.pdf, page is rotated 90 degrees>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74 <./SDHCAL/figs/timeCalib70.pdf, page is rotated 90 degrees> <./SDHCAL/figs
+/time_corr1.pdf, page is rotated 90 degrees> <./SDHCAL/figs/time_corr2.pdf, pag
+e is rotated 90 degrees> <./SDHCAL/figs/time_corr3.pdf, page is rotated 90 degr
+ees>]
+<SDHCAL/figs/NHITPION.pdf, id=2563, 566.115pt x 739.76375pt>
+File: SDHCAL/figs/NHITPION.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/NHITPION.pdf>
+Package pdftex.def Info: SDHCAL/figs/NHITPION.pdf used on input line 481.
+(pdftex.def)             Requested size: 213.39566pt x 278.84428pt.
+
+<SDHCAL/figs/Nhit_N1_N2_N3.pdf, id=2564, 569.12625pt x 385.44pt>
+File: SDHCAL/figs/Nhit_N1_N2_N3.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/Nhit_N1_N2_N3.pdf>
+Package pdftex.def Info: SDHCAL/figs/Nhit_N1_N2_N3.pdf used on input line 490.
+(pdftex.def)             Requested size: 298.75262pt x 202.3355pt.
+ [75]
+<SDHCAL/figs/gfit-en-20-bin.pdf, id=2579, 569.12625pt x 549.05125pt>
+File: SDHCAL/figs/gfit-en-20-bin.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/gfit-en-20-bin.pdf>
+Package pdftex.def Info: SDHCAL/figs/gfit-en-20-bin.pdf used on input line 514.
+
+(pdftex.def)             Requested size: 192.0548pt x 185.28423pt.
+
+<SDHCAL/figs/gfit-en-40-bin.pdf, id=2580, 569.12625pt x 549.05125pt>
+File: SDHCAL/figs/gfit-en-40-bin.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/gfit-en-40-bin.pdf>
+Package pdftex.def Info: SDHCAL/figs/gfit-en-40-bin.pdf used on input line 515.
+
+(pdftex.def)             Requested size: 192.0548pt x 185.28423pt.
+
+<SDHCAL/figs/LINEARITY_bin_10.pdf, id=2583, 566.115pt x 739.76375pt>
+File: SDHCAL/figs/LINEARITY_bin_10.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/LINEARITY_bin_10.pdf>
+Package pdftex.def Info: SDHCAL/figs/LINEARITY_bin_10.pdf used on input line 52
+3.
+(pdftex.def)             Requested size: 187.78922pt x 245.38702pt.
+
+<SDHCAL/figs/RESO_bin_10.pdf, id=2584, 569.12625pt x 544.0325pt>
+File: SDHCAL/figs/RESO_bin_10.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/RESO_bin_10.pdf>
+Package pdftex.def Info: SDHCAL/figs/RESO_bin_10.pdf used on input line 524.
+(pdftex.def)             Requested size: 234.73653pt x 224.39127pt.
+ [76 <./SDHCAL/figs/NHITPION.pdf>] [77 <./SDHCAL/figs/Nhit_N1_N2_N3.pdf, page i
+s rotated 90 degrees> <./SDHCAL/figs/gfit-en-20-bin.pdf, page is rotated 90 deg
+rees> <./SDHCAL/figs/gfit-en-40-bin.pdf, page is rotated 90 degrees>]
+<SDHCAL/figs/evolution.pdf, id=2772, 569.12625pt x 327.2225pt>
+File: SDHCAL/figs/evolution.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/evolution.pdf>
+Package pdftex.def Info: SDHCAL/figs/evolution.pdf used on input line 539.
+(pdftex.def)             Requested size: 298.75262pt x 171.7744pt.
+
+<SDHCAL/figs/gfit-en-20.pdf, id=2773, 569.12625pt x 549.05125pt>
+File: SDHCAL/figs/gfit-en-20.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/gfit-en-20.pdf>
+Package pdftex.def Info: SDHCAL/figs/gfit-en-20.pdf used on input line 546.
+(pdftex.def)             Requested size: 192.0548pt x 185.28423pt.
+
+<SDHCAL/figs/gfit-en-40.pdf, id=2774, 569.12625pt x 549.05125pt>
+File: SDHCAL/figs/gfit-en-40.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/gfit-en-40.pdf>
+Package pdftex.def Info: SDHCAL/figs/gfit-en-40.pdf used on input line 547.
+(pdftex.def)             Requested size: 192.0548pt x 185.28423pt.
+
+<SDHCAL/figs/LINEARITY_Nov_10.pdf, id=2777, 566.115pt x 739.76375pt>
+File: SDHCAL/figs/LINEARITY_Nov_10.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/LINEARITY_Nov_10.pdf>
+Package pdftex.def Info: SDHCAL/figs/LINEARITY_Nov_10.pdf used on input line 55
+6.
+(pdftex.def)             Requested size: 209.1301pt x 273.27936pt.
+
+<SDHCAL/figs/LINEARITY_Sept_10.pdf, id=2778, 566.115pt x 739.76375pt>
+File: SDHCAL/figs/LINEARITY_Sept_10.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/LINEARITY_Sept_10.pdf>
+Package pdftex.def Info: SDHCAL/figs/LINEARITY_Sept_10.pdf used on input line 5
+57.
+(pdftex.def)             Requested size: 209.1301pt x 273.27936pt.
+
+<SDHCAL/figs/RESO_Nov_10.pdf, id=2780, 569.12625pt x 544.0325pt>
+File: SDHCAL/figs/RESO_Nov_10.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/RESO_Nov_10.pdf>
+Package pdftex.def Info: SDHCAL/figs/RESO_Nov_10.pdf used on input line 565.
+(pdftex.def)             Requested size: 209.1301pt x 199.91086pt.
+
+<SDHCAL/figs/RESO_Sept_10.pdf, id=2781, 569.12625pt x 544.0325pt>
+File: SDHCAL/figs/RESO_Sept_10.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/RESO_Sept_10.pdf>
+Package pdftex.def Info: SDHCAL/figs/RESO_Sept_10.pdf used on input line 566.
+(pdftex.def)             Requested size: 209.1301pt x 199.91086pt.
+ [78 <./SDHCAL/figs/LINEARITY_bin_10.pdf> <./SDHCAL/figs/RESO_bin_10.pdf, page 
+is rotated 90 degrees>] [79 <./SDHCAL/figs/evolution.pdf, page is rotated 90 de
+grees>] [80 <./SDHCAL/figs/gfit-en-20.pdf, page is rotated 90 degrees> <./SDHCA
+L/figs/gfit-en-40.pdf, page is rotated 90 degrees> <./SDHCAL/figs/LINEARITY_Nov
+_10.pdf> <./SDHCAL/figs/LINEARITY_Sept_10.pdf>]
+Overfull \hbox (2.6676pt too wide) detected at line 576
+\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12  \OMS/cmsy/m/n/12 ^^A 
+\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 N\OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12 ^^@ \OML/
+cmm/m/it/12 N\OT1/cmr/m/n/12 1[]) + \OML/cmm/m/it/12 ^^L \OMS/cmsy/m/n/12 ^^A \
+OT1/cmr/m/n/12 (\OML/cmm/m/it/12 N\OT1/cmr/m/n/12 2 \OMS/cmsy/m/n/12 ^^@ \OML/c
+mm/m/it/12 N\OT1/cmr/m/n/12 2[]) + \OML/cmm/m/it/12 ^^M \OMS/cmsy/m/n/12 ^^A \O
+T1/cmr/m/n/12 (\OML/cmm/m/it/12 N\OT1/cmr/m/n/12 3 \OMS/cmsy/m/n/12 ^^@ \OML/cm
+m/m/it/12 N\OT1/cmr/m/n/12 3[]) + \OML/cmm/m/it/12 C \OMS/cmsy/m/n/12 ^^A \OT1/
+cmr/m/n/12 (\OML/cmm/m/it/12 N\OT1/cmr/m/n/12 1[] + \OML/cmm/m/it/12 N\OT1/cmr/
+m/n/12 2[] + \OML/cmm/m/it/12 N\OT1/cmr/m/n/12 3[])
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81 <./SDHCAL/figs/RESO_Nov_10.pdf, page is rotated 90 degrees> <./SDHCAL/figs
+/RESO_Sept_10.pdf, page is rotated 90 degrees>]
+Overfull \hbox (84.48119pt too wide) in paragraph at lines 601--619
+[][] 
+ []
+
+
+<SDHCAL/figs/Pi20GeV_SDHCAL_2modes_overlay.pdf, id=3208, 569.12625pt x 555.0737
+5pt>
+File: SDHCAL/figs/Pi20GeV_SDHCAL_2modes_overlay.pdf Graphic file (type pdf)
+ <use SDHCAL/figs/Pi20GeV_SDHCAL_2modes_overlay.pdf>
+Package pdftex.def Info: SDHCAL/figs/Pi20GeV_SDHCAL_2modes_overlay.pdf used on 
+input line 627.
+(pdftex.def)             Requested size: 192.0548pt x 187.31659pt.
+
+<SDHCAL/figs/Pi80GeV_SDHCAL_2modes_overlay.pdf, id=3209, 569.12625pt x 555.0737
+5pt>
+File: SDHCAL/figs/Pi80GeV_SDHCAL_2modes_overlay.pdf Graphic file (type pdf)
+ <use SDHCAL/figs/Pi80GeV_SDHCAL_2modes_overlay.pdf>
+Package pdftex.def Info: SDHCAL/figs/Pi80GeV_SDHCAL_2modes_overlay.pdf used on 
+input line 628.
+(pdftex.def)             Requested size: 192.0548pt x 187.31659pt.
+
+<SDHCAL/figs/RESOLUTION.pdf, id=3212, 569.12625pt x 544.0325pt>
+File: SDHCAL/figs/RESOLUTION.pdf Graphic file (type pdf)
+
+<use SDHCAL/figs/RESOLUTION.pdf>
+Package pdftex.def Info: SDHCAL/figs/RESOLUTION.pdf used on input line 636.
+(pdftex.def)             Requested size: 298.75262pt x 285.58813pt.
+ [82] [83 <./SDHCAL/figs/Pi20GeV_SDHCAL_2modes_overlay.pdf, page is rotated 90 
+degrees> <./SDHCAL/figs/Pi80GeV_SDHCAL_2modes_overlay.pdf, page is rotated 90 d
+egrees>] [84 <./SDHCAL/figs/RESOLUTION.pdf, page is rotated 90 degrees>]) (./Di
+gitizer/Digitizer.tex [85
+
+] [86
+
+]
+Chapitre 5.
+\openout3 = `steen_thesis_2.mtc'.
+
+\openout3 = `steen_thesis_2.mtc'.
+
+(./steen_thesis_2.mtc5) [87] [88]
+<Digitizer/figs/HadronicModelsInventory.jpg, id=3396, 1044.90375pt x 615.29875p
+t>
+File: Digitizer/figs/HadronicModelsInventory.jpg Graphic file (type jpg)
+ <use Digitizer/figs/HadronicModelsInventory.jpg>
+Package pdftex.def Info: Digitizer/figs/HadronicModelsInventory.jpg used on inp
+ut line 15.
+(pdftex.def)             Requested size: 341.43436pt x 201.0588pt.
+
+Underfull \vbox (badness 1210) has occurred while \output is active []
+
+ [89 <./Digitizer/figs/HadronicModelsInventory.jpg>] [90]
+<Digitizer/figs/intraNucl.png, id=3421, 392.667pt x 239.4546pt>
+File: Digitizer/figs/intraNucl.png Graphic file (type png)
+
+<use Digitizer/figs/intraNucl.png>
+Package pdftex.def Info: Digitizer/figs/intraNucl.png used on input line 67.
+(pdftex.def)             Requested size: 341.43436pt x 208.2142pt.
+ [91 <./Digitizer/figs/intraNucl.png>]
+[92] <Digitizer/figs/physics_list_G4.pdf, id=3440, 435.57307pt x 111.40233pt>
+File: Digitizer/figs/physics_list_G4.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/physics_list_G4.pdf>
+Package pdftex.def Info: Digitizer/figs/physics_list_G4.pdf used on input line 
+87.
+(pdftex.def)             Requested size: 341.43436pt x 87.3269pt.
+ [93 <./Digitizer/figs/physics_list_G4.pdf>] [94]
+<Digitizer/figs/stepLength_zoom.pdf, id=3470, 569.12625pt x 548.0475pt>
+File: Digitizer/figs/stepLength_zoom.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/stepLength_zoom.pdf>
+Package pdftex.def Info: Digitizer/figs/stepLength_zoom.pdf used on input line 
+145.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+<Digitizer/figs/layer19map.pdf, id=3471, 569.12625pt x 548.0475pt>
+File: Digitizer/figs/layer19map.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/layer19map.pdf>
+Package pdftex.def Info: Digitizer/figs/layer19map.pdf used on input line 146.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 145--147
+[][] [][] 
+ []
+
+[95] [96 <./Digitizer/figs/stepLength_zoom.pdf, page is rotated 90 degrees> <./
+Digitizer/figs/layer19map.pdf, page is rotated 90 degrees>]
+Overfull \hbox (10.16992pt too wide) in paragraph at lines 165--166
+[]\T1/cmr/m/n/12 Dans les gerbes ha-dro-niques et élec-tro-ma-gné-tiques, les p
+ar-ti-cules char-gées peuvent
+ []
+
+[97] <Digitizer/figs/thrScanDat.pdf, id=3601, 569.12625pt x 569.12625pt>
+File: Digitizer/figs/thrScanDat.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/thrScanDat.pdf>
+Package pdftex.def Info: Digitizer/figs/thrScanDat.pdf used on input line 212.
+(pdftex.def)             Requested size: 213.39566pt x 213.39577pt.
+
+<Digitizer/figs/thrScanSim.pdf, id=3602, 569.12625pt x 569.12625pt>
+File: Digitizer/figs/thrScanSim.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/thrScanSim.pdf>
+Package pdftex.def Info: Digitizer/figs/thrScanSim.pdf used on input line 213.
+(pdftex.def)             Requested size: 213.39566pt x 213.39577pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 212--214
+[][] [][] 
+ []
+
+<Digitizer/figs/effLayer.pdf, id=3618, 569.12625pt x 548.0475pt>
+File: Digitizer/figs/effLayer.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/effLayer.pdf>
+Package pdftex.def Info: Digitizer/figs/effLayer.pdf used on input line 250.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+<Digitizer/figs/mulLayer.pdf, id=3619, 569.12625pt x 548.0475pt>
+File: Digitizer/figs/mulLayer.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/mulLayer.pdf>
+Package pdftex.def Info: Digitizer/figs/mulLayer.pdf used on input line 251.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 250--252
+[][] [][] 
+ []
+
+<Digitizer/figs/layer8.pdf, id=3622, 569.12625pt x 569.12625pt>
+File: Digitizer/figs/layer8.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/layer8.pdf>
+Package pdftex.def Info: Digitizer/figs/layer8.pdf used on input line 256.
+(pdftex.def)             Requested size: 213.39566pt x 213.39577pt.
+
+<Digitizer/figs/layer37.pdf, id=3623, 569.12625pt x 569.12625pt>
+File: Digitizer/figs/layer37.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/layer37.pdf>
+Package pdftex.def Info: Digitizer/figs/layer37.pdf used on input line 257.
+(pdftex.def)             Requested size: 213.39566pt x 213.39577pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 256--258
+[][] [] 
+ []
+
+[98]
+Underfull \vbox (badness 1137) has occurred while \output is active []
+
+ [99 <./Digitizer/figs/thrScanDat.pdf> <./Digitizer/figs/thrScanSim.pdf>]
+Underfull \vbox (badness 5008) has occurred while \output is active []
+
+ [100 <./Digitizer/figs/effLayer.pdf, page is rotated 90 degrees> <./Digitizer/
+figs/mulLayer.pdf, page is rotated 90 degrees>]
+<Digitizer/figs/mul_vs_thetaNLC.pdf, id=3828, 569.12625pt x 548.0475pt>
+File: Digitizer/figs/mul_vs_thetaNLC.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/mul_vs_thetaNLC.pdf>
+Package pdftex.def Info: Digitizer/figs/mul_vs_thetaNLC.pdf used on input line 
+280.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+<Digitizer/figs/mul_vs_theta.pdf, id=3829, 569.12625pt x 548.0475pt>
+File: Digitizer/figs/mul_vs_theta.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/mul_vs_theta.pdf>
+Package pdftex.def Info: Digitizer/figs/mul_vs_theta.pdf used on input line 281
+.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 280--282
+[][] [][] 
+ []
+
+
+Underfull \vbox (badness 8075) has occurred while \output is active []
+
+ [101 <./Digitizer/figs/layer8.pdf> <./Digitizer/figs/layer37.pdf>]
+<Digitizer/figs/eff2Layer.pdf, id=3927, 569.12625pt x 548.0475pt>
+File: Digitizer/figs/eff2Layer.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/eff2Layer.pdf>
+Package pdftex.def Info: Digitizer/figs/eff2Layer.pdf used on input line 298.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+<Digitizer/figs/eff3Layer.pdf, id=3928, 569.12625pt x 548.0475pt>
+File: Digitizer/figs/eff3Layer.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/eff3Layer.pdf>
+Package pdftex.def Info: Digitizer/figs/eff3Layer.pdf used on input line 299.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 298--300
+[][] [][] 
+ []
+
+[102 <./Digitizer/figs/mul_vs_thetaNLC.pdf, page is rotated 90 degrees> <./Digi
+tizer/figs/mul_vs_theta.pdf, page is rotated 90 degrees>] [103 <./Digitizer/fig
+s/eff2Layer.pdf, page is rotated 90 degrees> <./Digitizer/figs/eff3Layer.pdf, p
+age is rotated 90 degrees>]
+Overfull \hbox (7.66367pt too wide) in paragraph at lines 348--350
+[]\T1/cmr/m/n/12 Les gerbes élec-tro-ma-gné-tiques sont tra-di-tion-nel-le-ment
+ bien si-mu-lées par GEANT4.
+ []
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 374.
+
+Missing character: There is no è in font cmr8!
+
+LaTeX Warning: Command \` invalid in math mode on input line 374.
+
+Missing character: There is no è in font cmr8!
+<Digitizer/figs/selection715725.pdf, id=4132, 569.12625pt x 548.0475pt>
+File: Digitizer/figs/selection715725.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/selection715725.pdf>
+Package pdftex.def Info: Digitizer/figs/selection715725.pdf used on input line 
+378.
+(pdftex.def)             Requested size: 192.0548pt x 184.9455pt.
+
+<Digitizer/figs/selection715716.pdf, id=4133, 569.12625pt x 548.0475pt>
+File: Digitizer/figs/selection715716.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/selection715716.pdf>
+Package pdftex.def Info: Digitizer/figs/selection715716.pdf used on input line 
+379.
+(pdftex.def)             Requested size: 192.0548pt x 184.9455pt.
+
+<Digitizer/figs/nhit_e-_20GeV_AugSep2012.pdf, id=4137, 569.12625pt x 548.0475pt
+>
+File: Digitizer/figs/nhit_e-_20GeV_AugSep2012.pdf Graphic file (type pdf)
+ <use Digitizer/figs/nhit_e-_20GeV_AugSep2012.pdf>
+Package pdftex.def Info: Digitizer/figs/nhit_e-_20GeV_AugSep2012.pdf used on in
+put line 385.
+(pdftex.def)             Requested size: 192.0548pt x 184.9455pt.
+
+<Digitizer/figs/nhit_e-_50GeV_AugSep2012.pdf, id=4138, 569.12625pt x 548.0475pt
+>
+File: Digitizer/figs/nhit_e-_50GeV_AugSep2012.pdf Graphic file (type pdf)
+ <use Digitizer/figs/nhit_e-_50GeV_AugSep2012.pdf>
+Package pdftex.def Info: Digitizer/figs/nhit_e-_50GeV_AugSep2012.pdf used on in
+put line 386.
+(pdftex.def)             Requested size: 192.0548pt x 184.9455pt.
+
+<Digitizer/figs/NHITELECTRON.pdf, id=4139, 565.11125pt x 739.76375pt>
+File: Digitizer/figs/NHITELECTRON.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/NHITELECTRON.pdf>
+Package pdftex.def Info: Digitizer/figs/NHITELECTRON.pdf used on input line 392
+.
+(pdftex.def)             Requested size: 213.39566pt x 279.34094pt.
+ [104] [105 <./Digitizer/figs/selection715725.pdf, page is rotated 90 degrees> 
+<./Digitizer/figs/selection715716.pdf, page is rotated 90 degrees>] [106 <./Dig
+itizer/figs/nhit_e-_20GeV_AugSep2012.pdf, page is rotated 90 degrees> <./Digiti
+zer/figs/nhit_e-_50GeV_AugSep2012.pdf, page is rotated 90 degrees>]
+<Digitizer/figs/nhit_pi-_20GeV_AugSep2012.pdf, id=4339, 569.12625pt x 548.0475p
+t>
+File: Digitizer/figs/nhit_pi-_20GeV_AugSep2012.pdf Graphic file (type pdf)
+ <use Digitizer/figs/nhit_pi-_20GeV_AugSep2012.pdf>
+Package pdftex.def Info: Digitizer/figs/nhit_pi-_20GeV_AugSep2012.pdf used on i
+nput line 406.
+(pdftex.def)             Requested size: 192.0548pt x 184.9455pt.
+
+<Digitizer/figs/nhit_pi-_40GeV_AugSep2012.pdf, id=4340, 569.12625pt x 548.0475p
+t>
+File: Digitizer/figs/nhit_pi-_40GeV_AugSep2012.pdf Graphic file (type pdf)
+ <use Digitizer/figs/nhit_pi-_40GeV_AugSep2012.pdf>
+Package pdftex.def Info: Digitizer/figs/nhit_pi-_40GeV_AugSep2012.pdf used on i
+nput line 407.
+(pdftex.def)             Requested size: 192.0548pt x 184.9455pt.
+
+<Digitizer/figs/nhit_pi-_60GeV_AugSep2012.pdf, id=4341, 569.12625pt x 548.0475p
+t>
+File: Digitizer/figs/nhit_pi-_60GeV_AugSep2012.pdf Graphic file (type pdf)
+ <use Digitizer/figs/nhit_pi-_60GeV_AugSep2012.pdf>
+Package pdftex.def Info: Digitizer/figs/nhit_pi-_60GeV_AugSep2012.pdf used on i
+nput line 408.
+(pdftex.def)             Requested size: 192.0548pt x 184.9455pt.
+
+<Digitizer/figs/nhit_pi-_80GeV_AugSep2012.pdf, id=4342, 569.12625pt x 548.0475p
+t>
+File: Digitizer/figs/nhit_pi-_80GeV_AugSep2012.pdf Graphic file (type pdf)
+ <use Digitizer/figs/nhit_pi-_80GeV_AugSep2012.pdf>
+Package pdftex.def Info: Digitizer/figs/nhit_pi-_80GeV_AugSep2012.pdf used on i
+nput line 409.
+(pdftex.def)             Requested size: 192.0548pt x 184.9455pt.
+
+<Digitizer/figs/NHITPIONHP.pdf, id=4344, 565.11125pt x 739.76375pt>
+File: Digitizer/figs/NHITPIONHP.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/NHITPIONHP.pdf>
+Package pdftex.def Info: Digitizer/figs/NHITPIONHP.pdf used on input line 414.
+(pdftex.def)             Requested size: 213.39566pt x 279.34094pt.
+
+<Digitizer/figs/NHITPION_NOV_HP.pdf, id=4345, 565.11125pt x 739.76375pt>
+File: Digitizer/figs/NHITPION_NOV_HP.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/NHITPION_NOV_HP.pdf>
+Package pdftex.def Info: Digitizer/figs/NHITPION_NOV_HP.pdf used on input line 
+415.
+(pdftex.def)             Requested size: 213.39566pt x 279.34094pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 414--416
+[][] [] 
+ []
+
+<Digitizer/figs/NHITPION_MODEL.pdf, id=4347, 565.11125pt x 739.76375pt>
+File: Digitizer/figs/NHITPION_MODEL.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/NHITPION_MODEL.pdf>
+Package pdftex.def Info: Digitizer/figs/NHITPION_MODEL.pdf used on input line 4
+21.
+(pdftex.def)             Requested size: 213.39566pt x 279.34094pt.
+
+<Digitizer/figs/NHITPION_MODEL_NOV.pdf, id=4348, 565.11125pt x 739.76375pt>
+File: Digitizer/figs/NHITPION_MODEL_NOV.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/NHITPION_MODEL_NOV.pdf>
+Package pdftex.def Info: Digitizer/figs/NHITPION_MODEL_NOV.pdf used on input li
+ne 422.
+(pdftex.def)             Requested size: 213.39566pt x 279.34094pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 421--423
+[][] [] 
+ []
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 426.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+) [107 <./Digitizer/figs/NHITELECTRON.pdf>] [108 <./Digitizer/figs/nhit_pi-_20G
+eV_AugSep2012.pdf, page is rotated 90 degrees> <./Digitizer/figs/nhit_pi-_40GeV
+_AugSep2012.pdf, page is rotated 90 degrees> <./Digitizer/figs/nhit_pi-_60GeV_A
+ugSep2012.pdf, page is rotated 90 degrees> <./Digitizer/figs/nhit_pi-_80GeV_Aug
+Sep2012.pdf, page is rotated 90 degrees>]
+<Digitizer/figs/NHITPROTON.pdf, id=4584, 565.11125pt x 739.76375pt>
+File: Digitizer/figs/NHITPROTON.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/NHITPROTON.pdf>
+Package pdftex.def Info: Digitizer/figs/NHITPROTON.pdf used on input line 430.
+(pdftex.def)             Requested size: 213.39566pt x 279.34094pt.
+
+<Digitizer/figs/NHITPROTON_QGSP.pdf, id=4585, 565.11125pt x 739.76375pt>
+File: Digitizer/figs/NHITPROTON_QGSP.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/NHITPROTON_QGSP.pdf>
+Package pdftex.def Info: Digitizer/figs/NHITPROTON_QGSP.pdf used on input line 
+431.
+(pdftex.def)             Requested size: 213.39566pt x 279.34094pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 430--432
+[][] [] 
+ []
+
+<Digitizer/figs/NHIT1PIONHP.pdf, id=4589, 565.11125pt x 739.76375pt>
+File: Digitizer/figs/NHIT1PIONHP.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/NHIT1PIONHP.pdf>
+Package pdftex.def Info: Digitizer/figs/NHIT1PIONHP.pdf used on input line 438.
+
+(pdftex.def)             Requested size: 136.57634pt x 178.7773pt.
+
+<Digitizer/figs/NHIT2PIONHP.pdf, id=4590, 565.11125pt x 739.76375pt>
+File: Digitizer/figs/NHIT2PIONHP.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/NHIT2PIONHP.pdf>
+Package pdftex.def Info: Digitizer/figs/NHIT2PIONHP.pdf used on input line 439.
+
+(pdftex.def)             Requested size: 136.57634pt x 178.7773pt.
+
+<Digitizer/figs/NHIT3PIONHP.pdf, id=4591, 565.11125pt x 739.76375pt>
+File: Digitizer/figs/NHIT3PIONHP.pdf Graphic file (type pdf)
+
+<use Digitizer/figs/NHIT3PIONHP.pdf>
+Package pdftex.def Info: Digitizer/figs/NHIT3PIONHP.pdf used on input line 440.
+
+(pdftex.def)             Requested size: 136.57634pt x 178.7773pt.
+ [109 <./Digitizer/figs/NHITPIONHP.pdf> <./Digitizer/figs/NHITPION_NOV_HP.pdf>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [110 <./Digitizer/figs/NHITPION_MODEL.pdf> <./Digitizer/figs/NHITPION_MODEL_NO
+V.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111 <./Digitizer/figs/NHITPROTON.pdf> <./Digitizer/figs/NHITPROTON_QGSP.pdf> 
+<./Digitizer/figs/NHIT1PIONHP.pdf> <./Digitizer/figs/NHIT2PIONHP.pdf> <./Digiti
+zer/figs/NHIT3PIONHP.pdf>]) (./Shower/Shower.tex [112]
+Chapitre 6.
+\openout3 = `steen_thesis_2.mtc'.
+
+\openout3 = `steen_thesis_2.mtc'.
+
+(./steen_thesis_2.mtc6) [113
+
+]
+<Shower/figs/ncluster_pi-_20GeV_AugSep2012.pdf, id=5031, 569.12625pt x 548.0475
+pt>
+File: Shower/figs/ncluster_pi-_20GeV_AugSep2012.pdf Graphic file (type pdf)
+ <use Shower/figs/ncluster_pi-_20GeV_AugSep2012.pdf>
+Package pdftex.def Info: Shower/figs/ncluster_pi-_20GeV_AugSep2012.pdf used on 
+input line 15.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+<Shower/figs/ncluster_pi-_70GeV_AugSep2012.pdf, id=5032, 569.12625pt x 548.0475
+pt>
+File: Shower/figs/ncluster_pi-_70GeV_AugSep2012.pdf Graphic file (type pdf)
+ <use Shower/figs/ncluster_pi-_70GeV_AugSep2012.pdf>
+Package pdftex.def Info: Shower/figs/ncluster_pi-_70GeV_AugSep2012.pdf used on 
+input line 16.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 15--17
+[][] [] 
+ []
+
+<Shower/figs/NCLUSTERPIONHP.pdf, id=5034, 565.11125pt x 739.76375pt>
+File: Shower/figs/NCLUSTERPIONHP.pdf Graphic file (type pdf)
+
+<use Shower/figs/NCLUSTERPIONHP.pdf>
+Package pdftex.def Info: Shower/figs/NCLUSTERPIONHP.pdf used on input line 22.
+(pdftex.def)             Requested size: 192.0548pt x 251.40346pt.
+
+<Shower/figs/NCLUSTERPIONNOV.pdf, id=5035, 565.11125pt x 739.76375pt>
+File: Shower/figs/NCLUSTERPIONNOV.pdf Graphic file (type pdf)
+
+<use Shower/figs/NCLUSTERPIONNOV.pdf>
+Package pdftex.def Info: Shower/figs/NCLUSTERPIONNOV.pdf used on input line 23.
+
+(pdftex.def)             Requested size: 192.0548pt x 251.40346pt.
+
+<Shower/figs/NCLUSTERPION_MODEL.pdf, id=5036, 565.11125pt x 739.76375pt>
+File: Shower/figs/NCLUSTERPION_MODEL.pdf Graphic file (type pdf)
+
+<use Shower/figs/NCLUSTERPION_MODEL.pdf>
+Package pdftex.def Info: Shower/figs/NCLUSTERPION_MODEL.pdf used on input line 
+24.
+(pdftex.def)             Requested size: 192.0548pt x 251.40346pt.
+
+<Shower/figs/NCLUSTERPION_MODEL_NOV.pdf, id=5037, 565.11125pt x 739.76375pt>
+File: Shower/figs/NCLUSTERPION_MODEL_NOV.pdf Graphic file (type pdf)
+
+<use Shower/figs/NCLUSTERPION_MODEL_NOV.pdf>
+Package pdftex.def Info: Shower/figs/NCLUSTERPION_MODEL_NOV.pdf used on input l
+ine 25.
+(pdftex.def)             Requested size: 192.0548pt x 251.40346pt.
+ [114 <./Shower/figs/ncluster_pi-_20GeV_AugSep2012.pdf, page is rotated 90 degr
+ees> <./Shower/figs/ncluster_pi-_70GeV_AugSep2012.pdf, page is rotated 90 degre
+es>]
+Underfull \vbox (badness 4713) has occurred while \output is active []
+
+ [115 <./Shower/figs/NCLUSTERPIONHP.pdf> <./Shower/figs/NCLUSTERPIONNOV.pdf> <.
+/Shower/figs/NCLUSTERPION_MODEL.pdf> <./Shower/figs/NCLUSTERPION_MODEL_NOV.pdf>
+]
+<Shower/figs/ncluster_e-_30GeV_AugSep2012.pdf, id=5314, 569.12625pt x 548.0475p
+t>
+File: Shower/figs/ncluster_e-_30GeV_AugSep2012.pdf Graphic file (type pdf)
+ <use Shower/figs/ncluster_e-_30GeV_AugSep2012.pdf>
+Package pdftex.def Info: Shower/figs/ncluster_e-_30GeV_AugSep2012.pdf used on i
+nput line 34.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+<Shower/figs/NCLUSTERELECTRON.pdf, id=5315, 565.11125pt x 739.76375pt>
+File: Shower/figs/NCLUSTERELECTRON.pdf Graphic file (type pdf)
+
+<use Shower/figs/NCLUSTERELECTRON.pdf>
+Package pdftex.def Info: Shower/figs/NCLUSTERELECTRON.pdf used on input line 35
+.
+(pdftex.def)             Requested size: 170.71393pt x 223.46597pt.
+ [116 <./Shower/figs/ncluster_e-_30GeV_AugSep2012.pdf, page is rotated 90 degre
+es> <./Shower/figs/NCLUSTERELECTRON.pdf>]
+<Shower/figs/longiProf_pi-_10GeV_ftfp_bert_hp.pdf, id=5413, 569.12625pt x 548.0
+475pt>
+File: Shower/figs/longiProf_pi-_10GeV_ftfp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/longiProf_pi-_10GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/longiProf_pi-_10GeV_ftfp_bert_hp.pdf used 
+on input line 48.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/longiProf_pi-_10GeV_qgsp_bert_hp.pdf, id=5414, 569.12625pt x 548.0
+475pt>
+File: Shower/figs/longiProf_pi-_10GeV_qgsp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/longiProf_pi-_10GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/longiProf_pi-_10GeV_qgsp_bert_hp.pdf used 
+on input line 49.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/longiProf_pi-_10GeV_ftf_bic.pdf, id=5415, 569.12625pt x 548.0475pt
+>
+File: Shower/figs/longiProf_pi-_10GeV_ftf_bic.pdf Graphic file (type pdf)
+ <use Shower/figs/longiProf_pi-_10GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/longiProf_pi-_10GeV_ftf_bic.pdf used on in
+put line 50.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/longiProf_pi-_30GeV_ftfp_bert_hp.pdf, id=5416, 569.12625pt x 548.0
+475pt>
+File: Shower/figs/longiProf_pi-_30GeV_ftfp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/longiProf_pi-_30GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/longiProf_pi-_30GeV_ftfp_bert_hp.pdf used 
+on input line 51.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/longiProf_pi-_30GeV_qgsp_bert_hp.pdf, id=5417, 569.12625pt x 548.0
+475pt>
+File: Shower/figs/longiProf_pi-_30GeV_qgsp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/longiProf_pi-_30GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/longiProf_pi-_30GeV_qgsp_bert_hp.pdf used 
+on input line 52.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/longiProf_pi-_30GeV_ftf_bic.pdf, id=5418, 569.12625pt x 548.0475pt
+>
+File: Shower/figs/longiProf_pi-_30GeV_ftf_bic.pdf Graphic file (type pdf)
+ <use Shower/figs/longiProf_pi-_30GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/longiProf_pi-_30GeV_ftf_bic.pdf used on in
+put line 53.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/longiProf_pi-_80GeV_ftfp_bert_hp.pdf, id=5419, 569.12625pt x 548.0
+475pt>
+File: Shower/figs/longiProf_pi-_80GeV_ftfp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/longiProf_pi-_80GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/longiProf_pi-_80GeV_ftfp_bert_hp.pdf used 
+on input line 54.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/longiProf_pi-_80GeV_qgsp_bert_hp.pdf, id=5420, 569.12625pt x 548.0
+475pt>
+File: Shower/figs/longiProf_pi-_80GeV_qgsp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/longiProf_pi-_80GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/longiProf_pi-_80GeV_qgsp_bert_hp.pdf used 
+on input line 55.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/longiProf_pi-_80GeV_ftf_bic.pdf, id=5421, 569.12625pt x 548.0475pt
+>
+File: Shower/figs/longiProf_pi-_80GeV_ftf_bic.pdf Graphic file (type pdf)
+ <use Shower/figs/longiProf_pi-_80GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/longiProf_pi-_80GeV_ftf_bic.pdf used on in
+put line 56.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+ [117 <./Shower/figs/longiProf_pi-_10GeV_ftfp_bert_hp.pdf, page is rotated 90 d
+egrees> <./Shower/figs/longiProf_pi-_10GeV_qgsp_bert_hp.pdf, page is rotated 90
+ degrees> <./Shower/figs/longiProf_pi-_10GeV_ftf_bic.pdf, page is rotated 90 de
+grees> <./Shower/figs/longiProf_pi-_30GeV_ftfp_bert_hp.pdf, page is rotated 90 
+degrees> <./Shower/figs/longiProf_pi-_30GeV_qgsp_bert_hp.pdf, page is rotated 9
+0 degrees> <./Shower/figs/longiProf_pi-_30GeV_ftf_bic.pdf, page is rotated 90 d
+egrees> <./Shower/figs/longiProf_pi-_80GeV_ftfp_bert_hp.pdf, page is rotated 90
+ degrees> <./Shower/figs/longiProf_pi-_80GeV_qgsp_bert_hp.pdf, page is rotated 
+90 degrees> <./Shower/figs/longiProf_pi-_80GeV_ftf_bic.pdf, page is rotated 90 
+degrees>]
+<Shower/figs/LONGIPION.pdf, id=5820, 565.11125pt x 739.76375pt>
+File: Shower/figs/LONGIPION.pdf Graphic file (type pdf)
+
+<use Shower/figs/LONGIPION.pdf>
+Package pdftex.def Info: Shower/figs/LONGIPION.pdf used on input line 68.
+(pdftex.def)             Requested size: 204.85802pt x 268.16595pt.
+
+<Shower/figs/LONGIPIONNOV.pdf, id=5821, 565.11125pt x 739.76375pt>
+File: Shower/figs/LONGIPIONNOV.pdf Graphic file (type pdf)
+
+<use Shower/figs/LONGIPIONNOV.pdf>
+Package pdftex.def Info: Shower/figs/LONGIPIONNOV.pdf used on input line 69.
+(pdftex.def)             Requested size: 204.85802pt x 268.16595pt.
+
+<Shower/figs/LONGIPROF_PION_MODEL.pdf, id=5822, 565.11125pt x 739.76375pt>
+File: Shower/figs/LONGIPROF_PION_MODEL.pdf Graphic file (type pdf)
+
+<use Shower/figs/LONGIPROF_PION_MODEL.pdf>
+Package pdftex.def Info: Shower/figs/LONGIPROF_PION_MODEL.pdf used on input lin
+e 70.
+(pdftex.def)             Requested size: 204.85802pt x 268.16595pt.
+
+<Shower/figs/LONGIPROF_PION_MODEL_NOV.pdf, id=5823, 565.11125pt x 739.76375pt>
+File: Shower/figs/LONGIPROF_PION_MODEL_NOV.pdf Graphic file (type pdf)
+
+<use Shower/figs/LONGIPROF_PION_MODEL_NOV.pdf>
+Package pdftex.def Info: Shower/figs/LONGIPROF_PION_MODEL_NOV.pdf used on input
+ line 71.
+(pdftex.def)             Requested size: 204.85802pt x 268.16595pt.
+
+<Shower/figs/longiProf_e-_20GeV_AugSep2012.pdf, id=5829, 569.12625pt x 548.0475
+pt>
+File: Shower/figs/longiProf_e-_20GeV_AugSep2012.pdf Graphic file (type pdf)
+ <use Shower/figs/longiProf_e-_20GeV_AugSep2012.pdf>
+Package pdftex.def Info: Shower/figs/longiProf_e-_20GeV_AugSep2012.pdf used on 
+input line 81.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+<Shower/figs/LONGIELECTRON.pdf, id=5830, 565.11125pt x 739.76375pt>
+File: Shower/figs/LONGIELECTRON.pdf Graphic file (type pdf)
+
+<use Shower/figs/LONGIELECTRON.pdf>
+Package pdftex.def Info: Shower/figs/LONGIELECTRON.pdf used on input line 82.
+(pdftex.def)             Requested size: 170.71393pt x 223.46597pt.
+ [118]
+
+LaTeX Warning: Text page 119 contains only floats.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [119 <./Shower/figs/LONGIPION.pdf> <./Shower/figs/LONGIPIONNOV.pdf> <./Shower/
+figs/LONGIPROF_PION_MODEL.pdf> <./Shower/figs/LONGIPROF_PION_MODEL_NOV.pdf>] [1
+20 <./Shower/figs/longiProf_e-_20GeV_AugSep2012.pdf, page is rotated 90 degrees
+> <./Shower/figs/LONGIELECTRON.pdf>]
+<Shower/figs/radProf_pi-_10GeV_ftfp_bert_hp.pdf, id=6113, 569.12625pt x 548.047
+5pt>
+File: Shower/figs/radProf_pi-_10GeV_ftfp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/radProf_pi-_10GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/radProf_pi-_10GeV_ftfp_bert_hp.pdf used on
+ input line 95.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/radProf_pi-_10GeV_qgsp_bert_hp.pdf, id=6114, 569.12625pt x 548.047
+5pt>
+File: Shower/figs/radProf_pi-_10GeV_qgsp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/radProf_pi-_10GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/radProf_pi-_10GeV_qgsp_bert_hp.pdf used on
+ input line 96.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/radProf_pi-_10GeV_ftf_bic.pdf, id=6115, 569.12625pt x 548.0475pt>
+File: Shower/figs/radProf_pi-_10GeV_ftf_bic.pdf Graphic file (type pdf)
+
+<use Shower/figs/radProf_pi-_10GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/radProf_pi-_10GeV_ftf_bic.pdf used on inpu
+t line 97.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/radProf_pi-_30GeV_ftfp_bert_hp.pdf, id=6116, 569.12625pt x 548.047
+5pt>
+File: Shower/figs/radProf_pi-_30GeV_ftfp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/radProf_pi-_30GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/radProf_pi-_30GeV_ftfp_bert_hp.pdf used on
+ input line 98.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/radProf_pi-_30GeV_qgsp_bert_hp.pdf, id=6117, 569.12625pt x 548.047
+5pt>
+File: Shower/figs/radProf_pi-_30GeV_qgsp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/radProf_pi-_30GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/radProf_pi-_30GeV_qgsp_bert_hp.pdf used on
+ input line 99.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/radProf_pi-_30GeV_ftf_bic.pdf, id=6118, 569.12625pt x 548.0475pt>
+File: Shower/figs/radProf_pi-_30GeV_ftf_bic.pdf Graphic file (type pdf)
+
+<use Shower/figs/radProf_pi-_30GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/radProf_pi-_30GeV_ftf_bic.pdf used on inpu
+t line 100.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/radProf_pi-_80GeV_ftfp_bert_hp.pdf, id=6119, 569.12625pt x 548.047
+5pt>
+File: Shower/figs/radProf_pi-_80GeV_ftfp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/radProf_pi-_80GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/radProf_pi-_80GeV_ftfp_bert_hp.pdf used on
+ input line 101.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/radProf_pi-_80GeV_qgsp_bert_hp.pdf, id=6120, 569.12625pt x 548.047
+5pt>
+File: Shower/figs/radProf_pi-_80GeV_qgsp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/radProf_pi-_80GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/radProf_pi-_80GeV_qgsp_bert_hp.pdf used on
+ input line 102.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/radProf_pi-_80GeV_ftf_bic.pdf, id=6121, 569.12625pt x 548.0475pt>
+File: Shower/figs/radProf_pi-_80GeV_ftf_bic.pdf Graphic file (type pdf)
+
+<use Shower/figs/radProf_pi-_80GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/radProf_pi-_80GeV_ftf_bic.pdf used on inpu
+t line 103.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+ [121 <./Shower/figs/radProf_pi-_10GeV_ftfp_bert_hp.pdf, page is rotated 90 deg
+rees> <./Shower/figs/radProf_pi-_10GeV_qgsp_bert_hp.pdf, page is rotated 90 deg
+rees> <./Shower/figs/radProf_pi-_10GeV_ftf_bic.pdf, page is rotated 90 degrees>
+ <./Shower/figs/radProf_pi-_30GeV_ftfp_bert_hp.pdf, page is rotated 90 degrees>
+ <./Shower/figs/radProf_pi-_30GeV_qgsp_bert_hp.pdf, page is rotated 90 degrees>
+ <./Shower/figs/radProf_pi-_30GeV_ftf_bic.pdf, page is rotated 90 degrees> <./S
+hower/figs/radProf_pi-_80GeV_ftfp_bert_hp.pdf, page is rotated 90 degrees> <./S
+hower/figs/radProf_pi-_80GeV_qgsp_bert_hp.pdf, page is rotated 90 degrees> <./S
+hower/figs/radProf_pi-_80GeV_ftf_bic.pdf, page is rotated 90 degrees>]
+<Shower/figs/RADPIONHP.pdf, id=6526, 565.11125pt x 739.76375pt>
+File: Shower/figs/RADPIONHP.pdf Graphic file (type pdf)
+
+<use Shower/figs/RADPIONHP.pdf>
+Package pdftex.def Info: Shower/figs/RADPIONHP.pdf used on input line 116.
+(pdftex.def)             Requested size: 204.85802pt x 268.16595pt.
+
+<Shower/figs/RADPIONNOV.pdf, id=6527, 565.11125pt x 739.76375pt>
+File: Shower/figs/RADPIONNOV.pdf Graphic file (type pdf)
+
+<use Shower/figs/RADPIONNOV.pdf>
+Package pdftex.def Info: Shower/figs/RADPIONNOV.pdf used on input line 117.
+(pdftex.def)             Requested size: 204.85802pt x 268.16595pt.
+
+<Shower/figs/RADPROF_PION_MODEL.pdf, id=6528, 565.11125pt x 739.76375pt>
+File: Shower/figs/RADPROF_PION_MODEL.pdf Graphic file (type pdf)
+
+<use Shower/figs/RADPROF_PION_MODEL.pdf>
+Package pdftex.def Info: Shower/figs/RADPROF_PION_MODEL.pdf used on input line 
+118.
+(pdftex.def)             Requested size: 204.85802pt x 268.16595pt.
+
+<Shower/figs/RADPROF_PION_MODEL_NOV.pdf, id=6529, 565.11125pt x 739.76375pt>
+File: Shower/figs/RADPROF_PION_MODEL_NOV.pdf Graphic file (type pdf)
+
+<use Shower/figs/RADPROF_PION_MODEL_NOV.pdf>
+Package pdftex.def Info: Shower/figs/RADPROF_PION_MODEL_NOV.pdf used on input l
+ine 119.
+(pdftex.def)             Requested size: 204.85802pt x 268.16595pt.
+
+<Shower/figs/radProf_e-_20GeV_AugSep2012.pdf, id=6531, 569.12625pt x 548.0475pt
+>
+File: Shower/figs/radProf_e-_20GeV_AugSep2012.pdf Graphic file (type pdf)
+ <use Shower/figs/radProf_e-_20GeV_AugSep2012.pdf>
+Package pdftex.def Info: Shower/figs/radProf_e-_20GeV_AugSep2012.pdf used on in
+put line 126.
+(pdftex.def)             Requested size: 204.85802pt x 197.27185pt.
+
+<Shower/figs/RADELECTRON.pdf, id=6532, 565.11125pt x 739.76375pt>
+File: Shower/figs/RADELECTRON.pdf Graphic file (type pdf)
+
+<use Shower/figs/RADELECTRON.pdf>
+Package pdftex.def Info: Shower/figs/RADELECTRON.pdf used on input line 127.
+(pdftex.def)             Requested size: 170.71393pt x 223.46597pt.
+
+Underfull \hbox (badness 1067) in paragraph at lines 128--128
+\T1/cmr/m/sl/12 les don-nées (cercles noirs) et une si-mu-la-tion réa-li-sée av
+ec la liste phy-sique
+ []
+
+[122]
+
+LaTeX Warning: Text page 123 contains only floats.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [123 <./Shower/figs/RADPIONHP.pdf> <./Shower/figs/RADPIONNOV.pdf> <./Shower/fi
+gs/RADPROF_PION_MODEL.pdf> <./Shower/figs/RADPROF_PION_MODEL_NOV.pdf>] [124 <./
+Shower/figs/radProf_e-_20GeV_AugSep2012.pdf, page is rotated 90 degrees> <./Sho
+wer/figs/RADELECTRON.pdf>] <Shower/figs/HTexample.jpg, id=6820, 568.7649pt x 54
+7.8066pt>
+File: Shower/figs/HTexample.jpg Graphic file (type jpg)
+
+<use Shower/figs/HTexample.jpg>
+Package pdftex.def Info: Shower/figs/HTexample.jpg used on input line 142.
+(pdftex.def)             Requested size: 213.39566pt x 205.53563pt.
+
+<Shower/figs/HTspace.jpg, id=6821, 568.7649pt x 547.8066pt>
+File: Shower/figs/HTspace.jpg Graphic file (type jpg)
+
+<use Shower/figs/HTspace.jpg>
+Package pdftex.def Info: Shower/figs/HTspace.jpg used on input line 143.
+(pdftex.def)             Requested size: 213.39566pt x 205.53563pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 142--144
+[][] [] 
+ []
+
+[125 <./Shower/figs/HTexample.jpg> <./Shower/figs/HTspace.jpg>]
+<Shower/figs/muon-50-data.pdf, id=6833, 569.12625pt x 569.12625pt>
+File: Shower/figs/muon-50-data.pdf Graphic file (type pdf)
+
+<use Shower/figs/muon-50-data.pdf>
+Package pdftex.def Info: Shower/figs/muon-50-data.pdf used on input line 160.
+(pdftex.def)             Requested size: 213.39566pt x 213.39577pt.
+
+<Shower/figs/muon-50-HS_2.pdf, id=6834, 569.12625pt x 569.12625pt>
+File: Shower/figs/muon-50-HS_2.pdf Graphic file (type pdf)
+
+<use Shower/figs/muon-50-HS_2.pdf>
+Package pdftex.def Info: Shower/figs/muon-50-HS_2.pdf used on input line 161.
+(pdftex.def)             Requested size: 213.39566pt x 213.39577pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 160--162
+[][] [][] 
+ []
+
+[126 <./Shower/figs/muon-50-data.pdf> <./Shower/figs/muon-50-HS_2.pdf>]
+<Shower/figs/715747_319_1_X.pdf, id=6933, 569.12625pt x 548.0475pt>
+File: Shower/figs/715747_319_1_X.pdf Graphic file (type pdf)
+
+<use Shower/figs/715747_319_1_X.pdf>
+Package pdftex.def Info: Shower/figs/715747_319_1_X.pdf used on input line 174.
+
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/715747_319_2_X.pdf, id=6934, 569.12625pt x 548.0475pt>
+File: Shower/figs/715747_319_2_X.pdf Graphic file (type pdf)
+
+<use Shower/figs/715747_319_2_X.pdf>
+Package pdftex.def Info: Shower/figs/715747_319_2_X.pdf used on input line 175.
+
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/715747_319_3_X.pdf, id=6935, 569.12625pt x 548.0475pt>
+File: Shower/figs/715747_319_3_X.pdf Graphic file (type pdf)
+
+<use Shower/figs/715747_319_3_X.pdf>
+Package pdftex.def Info: Shower/figs/715747_319_3_X.pdf used on input line 176.
+
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/715747_319_1_Y.pdf, id=6936, 569.12625pt x 548.0475pt>
+File: Shower/figs/715747_319_1_Y.pdf Graphic file (type pdf)
+
+<use Shower/figs/715747_319_1_Y.pdf>
+Package pdftex.def Info: Shower/figs/715747_319_1_Y.pdf used on input line 177.
+
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/715747_319_2_Y.pdf, id=6937, 569.12625pt x 548.0475pt>
+File: Shower/figs/715747_319_2_Y.pdf Graphic file (type pdf)
+
+<use Shower/figs/715747_319_2_Y.pdf>
+Package pdftex.def Info: Shower/figs/715747_319_2_Y.pdf used on input line 178.
+
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/715747_319_3_Y.pdf, id=6938, 569.12625pt x 548.0475pt>
+File: Shower/figs/715747_319_3_Y.pdf Graphic file (type pdf)
+
+<use Shower/figs/715747_319_3_Y.pdf>
+Package pdftex.def Info: Shower/figs/715747_319_3_Y.pdf used on input line 179.
+
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+Underfull \hbox (badness 1308) in paragraph at lines 174--180
+[][] [] []
+ []
+
+[127]
+<Shower/figs/ntrack_mu-_10GeV_ftfp_bert_hp.pdf, id=6952, 569.12625pt x 548.0475
+pt>
+File: Shower/figs/ntrack_mu-_10GeV_ftfp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/ntrack_mu-_10GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/ntrack_mu-_10GeV_ftfp_bert_hp.pdf used on 
+input line 187.
+(pdftex.def)             Requested size: 213.39566pt x 205.49222pt.
+
+<Shower/figs/nhit_mu-_715747.pdf, id=6958, 569.12625pt x 548.0475pt>
+File: Shower/figs/nhit_mu-_715747.pdf Graphic file (type pdf)
+
+<use Shower/figs/nhit_mu-_715747.pdf>
+Package pdftex.def Info: Shower/figs/nhit_mu-_715747.pdf used on input line 194
+.
+(pdftex.def)             Requested size: 192.0548pt x 184.9455pt.
+
+<Shower/figs/ntrack_mu-_715747.pdf, id=6959, 569.12625pt x 548.0475pt>
+File: Shower/figs/ntrack_mu-_715747.pdf Graphic file (type pdf)
+
+<use Shower/figs/ntrack_mu-_715747.pdf>
+Package pdftex.def Info: Shower/figs/ntrack_mu-_715747.pdf used on input line 1
+95.
+(pdftex.def)             Requested size: 192.0548pt x 184.9455pt.
+
+<Shower/figs/ntrack_electron_20GeV_AugSep2012.pdf, id=6963, 569.12625pt x 548.0
+475pt>
+File: Shower/figs/ntrack_electron_20GeV_AugSep2012.pdf Graphic file (type pdf)
+ <use Shower/figs/ntrack_electron_20GeV_AugSep2012.pdf>
+Package pdftex.def Info: Shower/figs/ntrack_electron_20GeV_AugSep2012.pdf used 
+on input line 204.
+(pdftex.def)             Requested size: 192.0548pt x 184.9455pt.
+
+<Shower/figs/ntrack_electron_50GeV_AugSep2012.pdf, id=6964, 569.12625pt x 548.0
+475pt>
+File: Shower/figs/ntrack_electron_50GeV_AugSep2012.pdf Graphic file (type pdf)
+ <use Shower/figs/ntrack_electron_50GeV_AugSep2012.pdf>
+Package pdftex.def Info: Shower/figs/ntrack_electron_50GeV_AugSep2012.pdf used 
+on input line 205.
+(pdftex.def)             Requested size: 192.0548pt x 184.9455pt.
+ [128 <./Shower/figs/715747_319_1_X.pdf> <./Shower/figs/715747_319_2_X.pdf> <./
+Shower/figs/715747_319_3_X.pdf> <./Shower/figs/715747_319_1_Y.pdf> <./Shower/fi
+gs/715747_319_2_Y.pdf> <./Shower/figs/715747_319_3_Y.pdf>] [129 <./Shower/figs/
+ntrack_mu-_10GeV_ftfp_bert_hp.pdf, page is rotated 90 degrees> <./Shower/figs/n
+hit_mu-_715747.pdf, page is rotated 90 degrees> <./Shower/figs/ntrack_mu-_71574
+7.pdf, page is rotated 90 degrees>]
+<Shower/figs/ntrack_pi-_10GeV_ftfp_bert_hp.pdf, id=7127, 569.12625pt x 548.0475
+pt>
+File: Shower/figs/ntrack_pi-_10GeV_ftfp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/ntrack_pi-_10GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/ntrack_pi-_10GeV_ftfp_bert_hp.pdf used on 
+input line 214.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/ntrack_pi-_10GeV_qgsp_bert_hp.pdf, id=7128, 569.12625pt x 548.0475
+pt>
+File: Shower/figs/ntrack_pi-_10GeV_qgsp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/ntrack_pi-_10GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/ntrack_pi-_10GeV_qgsp_bert_hp.pdf used on 
+input line 215.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/ntrack_pi-_10GeV_ftf_bic.pdf, id=7129, 569.12625pt x 548.0475pt>
+File: Shower/figs/ntrack_pi-_10GeV_ftf_bic.pdf Graphic file (type pdf)
+
+<use Shower/figs/ntrack_pi-_10GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/ntrack_pi-_10GeV_ftf_bic.pdf used on input
+ line 216.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/ntrack_pi-_30GeV_ftfp_bert_hp.pdf, id=7130, 569.12625pt x 548.0475
+pt>
+File: Shower/figs/ntrack_pi-_30GeV_ftfp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/ntrack_pi-_30GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/ntrack_pi-_30GeV_ftfp_bert_hp.pdf used on 
+input line 217.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/ntrack_pi-_30GeV_qgsp_bert_hp.pdf, id=7131, 569.12625pt x 548.0475
+pt>
+File: Shower/figs/ntrack_pi-_30GeV_qgsp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/ntrack_pi-_30GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/ntrack_pi-_30GeV_qgsp_bert_hp.pdf used on 
+input line 218.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/ntrack_pi-_30GeV_ftf_bic.pdf, id=7132, 569.12625pt x 548.0475pt>
+File: Shower/figs/ntrack_pi-_30GeV_ftf_bic.pdf Graphic file (type pdf)
+
+<use Shower/figs/ntrack_pi-_30GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/ntrack_pi-_30GeV_ftf_bic.pdf used on input
+ line 219.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/ntrack_pi-_80GeV_ftfp_bert_hp.pdf, id=7133, 569.12625pt x 548.0475
+pt>
+File: Shower/figs/ntrack_pi-_80GeV_ftfp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/ntrack_pi-_80GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/ntrack_pi-_80GeV_ftfp_bert_hp.pdf used on 
+input line 220.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/ntrack_pi-_80GeV_qgsp_bert_hp.pdf, id=7134, 569.12625pt x 548.0475
+pt>
+File: Shower/figs/ntrack_pi-_80GeV_qgsp_bert_hp.pdf Graphic file (type pdf)
+ <use Shower/figs/ntrack_pi-_80GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/ntrack_pi-_80GeV_qgsp_bert_hp.pdf used on 
+input line 221.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/ntrack_pi-_80GeV_ftf_bic.pdf, id=7135, 569.12625pt x 548.0475pt>
+File: Shower/figs/ntrack_pi-_80GeV_ftf_bic.pdf Graphic file (type pdf)
+
+<use Shower/figs/ntrack_pi-_80GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/ntrack_pi-_80GeV_ftf_bic.pdf used on input
+ line 222.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/NTRACKPIONHP.pdf, id=7137, 565.11125pt x 739.76375pt>
+File: Shower/figs/NTRACKPIONHP.pdf Graphic file (type pdf)
+
+<use Shower/figs/NTRACKPIONHP.pdf>
+Package pdftex.def Info: Shower/figs/NTRACKPIONHP.pdf used on input line 228.
+(pdftex.def)             Requested size: 187.78922pt x 245.82726pt.
+
+<Shower/figs/NTRACKPIONNOV.pdf, id=7138, 565.11125pt x 739.76375pt>
+File: Shower/figs/NTRACKPIONNOV.pdf Graphic file (type pdf)
+
+<use Shower/figs/NTRACKPIONNOV.pdf>
+Package pdftex.def Info: Shower/figs/NTRACKPIONNOV.pdf used on input line 229.
+(pdftex.def)             Requested size: 187.78922pt x 245.82726pt.
+
+<Shower/figs/NTRACK_PION_MODEL.pdf, id=7139, 565.11125pt x 739.76375pt>
+File: Shower/figs/NTRACK_PION_MODEL.pdf Graphic file (type pdf)
+
+<use Shower/figs/NTRACK_PION_MODEL.pdf>
+Package pdftex.def Info: Shower/figs/NTRACK_PION_MODEL.pdf used on input line 2
+30.
+(pdftex.def)             Requested size: 187.78922pt x 245.82726pt.
+
+<Shower/figs/NTRACK_PION_MODEL_NOV.pdf, id=7140, 565.11125pt x 739.76375pt>
+File: Shower/figs/NTRACK_PION_MODEL_NOV.pdf Graphic file (type pdf)
+
+<use Shower/figs/NTRACK_PION_MODEL_NOV.pdf>
+Package pdftex.def Info: Shower/figs/NTRACK_PION_MODEL_NOV.pdf used on input li
+ne 231.
+(pdftex.def)             Requested size: 187.78922pt x 245.82726pt.
+ [130 <./Shower/figs/ntrack_electron_20GeV_AugSep2012.pdf, page is rotated 90 d
+egrees> <./Shower/figs/ntrack_electron_50GeV_AugSep2012.pdf, page is rotated 90
+ degrees>]
+<Shower/figs/tracklength_pi-_10GeV_ftfp_bert_hp.pdf, id=7238, 569.12625pt x 548
+.0475pt>
+File: Shower/figs/tracklength_pi-_10GeV_ftfp_bert_hp.pdf Graphic file (type pdf
+)
+ <use Shower/figs/tracklength_pi-_10GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/tracklength_pi-_10GeV_ftfp_bert_hp.pdf use
+d on input line 254.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/tracklength_pi-_10GeV_qgsp_bert_hp.pdf, id=7239, 569.12625pt x 548
+.0475pt>
+File: Shower/figs/tracklength_pi-_10GeV_qgsp_bert_hp.pdf Graphic file (type pdf
+)
+ <use Shower/figs/tracklength_pi-_10GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/tracklength_pi-_10GeV_qgsp_bert_hp.pdf use
+d on input line 255.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/tracklength_pi-_10GeV_ftf_bic.pdf, id=7240, 569.12625pt x 548.0475
+pt>
+File: Shower/figs/tracklength_pi-_10GeV_ftf_bic.pdf Graphic file (type pdf)
+ <use Shower/figs/tracklength_pi-_10GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/tracklength_pi-_10GeV_ftf_bic.pdf used on 
+input line 256.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/tracklength_pi-_30GeV_ftfp_bert_hp.pdf, id=7241, 569.12625pt x 548
+.0475pt>
+File: Shower/figs/tracklength_pi-_30GeV_ftfp_bert_hp.pdf Graphic file (type pdf
+)
+ <use Shower/figs/tracklength_pi-_30GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/tracklength_pi-_30GeV_ftfp_bert_hp.pdf use
+d on input line 257.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/tracklength_pi-_30GeV_qgsp_bert_hp.pdf, id=7242, 569.12625pt x 548
+.0475pt>
+File: Shower/figs/tracklength_pi-_30GeV_qgsp_bert_hp.pdf Graphic file (type pdf
+)
+ <use Shower/figs/tracklength_pi-_30GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/tracklength_pi-_30GeV_qgsp_bert_hp.pdf use
+d on input line 258.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/tracklength_pi-_30GeV_ftf_bic.pdf, id=7243, 569.12625pt x 548.0475
+pt>
+File: Shower/figs/tracklength_pi-_30GeV_ftf_bic.pdf Graphic file (type pdf)
+ <use Shower/figs/tracklength_pi-_30GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/tracklength_pi-_30GeV_ftf_bic.pdf used on 
+input line 259.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/tracklength_pi-_80GeV_ftfp_bert_hp.pdf, id=7244, 569.12625pt x 548
+.0475pt>
+File: Shower/figs/tracklength_pi-_80GeV_ftfp_bert_hp.pdf Graphic file (type pdf
+)
+ <use Shower/figs/tracklength_pi-_80GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/tracklength_pi-_80GeV_ftfp_bert_hp.pdf use
+d on input line 260.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/tracklength_pi-_80GeV_qgsp_bert_hp.pdf, id=7245, 569.12625pt x 548
+.0475pt>
+File: Shower/figs/tracklength_pi-_80GeV_qgsp_bert_hp.pdf Graphic file (type pdf
+)
+ <use Shower/figs/tracklength_pi-_80GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/tracklength_pi-_80GeV_qgsp_bert_hp.pdf use
+d on input line 261.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/tracklength_pi-_80GeV_ftf_bic.pdf, id=7246, 569.12625pt x 548.0475
+pt>
+File: Shower/figs/tracklength_pi-_80GeV_ftf_bic.pdf Graphic file (type pdf)
+ <use Shower/figs/tracklength_pi-_80GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/tracklength_pi-_80GeV_ftf_bic.pdf used on 
+input line 262.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/TRACKLENGTHPIONHP.pdf, id=7247, 565.11125pt x 739.76375pt>
+File: Shower/figs/TRACKLENGTHPIONHP.pdf Graphic file (type pdf)
+
+<use Shower/figs/TRACKLENGTHPIONHP.pdf>
+Package pdftex.def Info: Shower/figs/TRACKLENGTHPIONHP.pdf used on input line 2
+67.
+(pdftex.def)             Requested size: 187.78922pt x 245.82726pt.
+
+<Shower/figs/TRACKLENGTHPIONNOV.pdf, id=7248, 565.11125pt x 739.76375pt>
+File: Shower/figs/TRACKLENGTHPIONNOV.pdf Graphic file (type pdf)
+
+<use Shower/figs/TRACKLENGTHPIONNOV.pdf>
+Package pdftex.def Info: Shower/figs/TRACKLENGTHPIONNOV.pdf used on input line 
+268.
+(pdftex.def)             Requested size: 187.78922pt x 245.82726pt.
+
+<Shower/figs/TRACKLENGTH_PION_MODEL.pdf, id=7249, 565.11125pt x 739.76375pt>
+File: Shower/figs/TRACKLENGTH_PION_MODEL.pdf Graphic file (type pdf)
+
+<use Shower/figs/TRACKLENGTH_PION_MODEL.pdf>
+Package pdftex.def Info: Shower/figs/TRACKLENGTH_PION_MODEL.pdf used on input l
+ine 269.
+(pdftex.def)             Requested size: 187.78922pt x 245.82726pt.
+
+<Shower/figs/TRACKLENGTH_PION_MODEL_NOV.pdf, id=7250, 565.11125pt x 739.76375pt
+>
+File: Shower/figs/TRACKLENGTH_PION_MODEL_NOV.pdf Graphic file (type pdf)
+ <use Shower/figs/TRACKLENGTH_PION_MODEL_NOV.pdf>
+Package pdftex.def Info: Shower/figs/TRACKLENGTH_PION_MODEL_NOV.pdf used on inp
+ut line 270.
+(pdftex.def)             Requested size: 187.78922pt x 245.82726pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [131 <./Shower/figs/ntrack_pi-_10GeV_ftfp_bert_hp.pdf, page is rotated 90 degr
+ees> <./Shower/figs/ntrack_pi-_10GeV_qgsp_bert_hp.pdf, page is rotated 90 degre
+es> <./Shower/figs/ntrack_pi-_10GeV_ftf_bic.pdf, page is rotated 90 degrees> <.
+/Shower/figs/ntrack_pi-_30GeV_ftfp_bert_hp.pdf, page is rotated 90 degrees> <./
+Shower/figs/ntrack_pi-_30GeV_qgsp_bert_hp.pdf, page is rotated 90 degrees> <./S
+hower/figs/ntrack_pi-_30GeV_ftf_bic.pdf, page is rotated 90 degrees> <./Shower/
+figs/ntrack_pi-_80GeV_ftfp_bert_hp.pdf, page is rotated 90 degrees> <./Shower/f
+igs/ntrack_pi-_80GeV_qgsp_bert_hp.pdf, page is rotated 90 degrees> <./Shower/fi
+gs/ntrack_pi-_80GeV_ftf_bic.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Text page 132 contains only floats.
+
+[132 <./Shower/figs/NTRACKPIONHP.pdf> <./Shower/figs/NTRACKPIONNOV.pdf> <./Show
+er/figs/NTRACK_PION_MODEL.pdf> <./Shower/figs/NTRACK_PION_MODEL_NOV.pdf>]
+[133 <./Shower/figs/tracklength_pi-_10GeV_ftfp_bert_hp.pdf, page is rotated 90 
+degrees> <./Shower/figs/tracklength_pi-_10GeV_qgsp_bert_hp.pdf, page is rotated
+ 90 degrees> <./Shower/figs/tracklength_pi-_10GeV_ftf_bic.pdf, page is rotated 
+90 degrees> <./Shower/figs/tracklength_pi-_30GeV_ftfp_bert_hp.pdf, page is rota
+ted 90 degrees> <./Shower/figs/tracklength_pi-_30GeV_qgsp_bert_hp.pdf, page is 
+rotated 90 degrees> <./Shower/figs/tracklength_pi-_30GeV_ftf_bic.pdf, page is r
+otated 90 degrees> <./Shower/figs/tracklength_pi-_80GeV_ftfp_bert_hp.pdf, page 
+is rotated 90 degrees> <./Shower/figs/tracklength_pi-_80GeV_qgsp_bert_hp.pdf, p
+age is rotated 90 degrees> <./Shower/figs/tracklength_pi-_80GeV_ftf_bic.pdf, pa
+ge is rotated 90 degrees>]
+
+LaTeX Warning: Text page 134 contains only floats.
+
+[134 <./Shower/figs/TRACKLENGTHPIONHP.pdf> <./Shower/figs/TRACKLENGTHPIONNOV.pd
+f> <./Shower/figs/TRACKLENGTH_PION_MODEL.pdf> <./Shower/figs/TRACKLENGTH_PION_M
+ODEL_NOV.pdf>]
+<Shower/figs/trackangle_pi-_10GeV_ftfp_bert_hp.pdf, id=8395, 569.12625pt x 548.
+0475pt>
+File: Shower/figs/trackangle_pi-_10GeV_ftfp_bert_hp.pdf Graphic file (type pdf)
+
+ <use Shower/figs/trackangle_pi-_10GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/trackangle_pi-_10GeV_ftfp_bert_hp.pdf used
+ on input line 280.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/trackangle_pi-_10GeV_qgsp_bert_hp.pdf, id=8396, 569.12625pt x 548.
+0475pt>
+File: Shower/figs/trackangle_pi-_10GeV_qgsp_bert_hp.pdf Graphic file (type pdf)
+
+ <use Shower/figs/trackangle_pi-_10GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/trackangle_pi-_10GeV_qgsp_bert_hp.pdf used
+ on input line 281.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/trackangle_pi-_10GeV_ftf_bic.pdf, id=8397, 569.12625pt x 548.0475p
+t>
+File: Shower/figs/trackangle_pi-_10GeV_ftf_bic.pdf Graphic file (type pdf)
+ <use Shower/figs/trackangle_pi-_10GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/trackangle_pi-_10GeV_ftf_bic.pdf used on i
+nput line 282.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/trackangle_pi-_30GeV_ftfp_bert_hp.pdf, id=8398, 569.12625pt x 548.
+0475pt>
+File: Shower/figs/trackangle_pi-_30GeV_ftfp_bert_hp.pdf Graphic file (type pdf)
+
+ <use Shower/figs/trackangle_pi-_30GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/trackangle_pi-_30GeV_ftfp_bert_hp.pdf used
+ on input line 283.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/trackangle_pi-_30GeV_qgsp_bert_hp.pdf, id=8399, 569.12625pt x 548.
+0475pt>
+File: Shower/figs/trackangle_pi-_30GeV_qgsp_bert_hp.pdf Graphic file (type pdf)
+
+ <use Shower/figs/trackangle_pi-_30GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/trackangle_pi-_30GeV_qgsp_bert_hp.pdf used
+ on input line 284.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/trackangle_pi-_30GeV_ftf_bic.pdf, id=8400, 569.12625pt x 548.0475p
+t>
+File: Shower/figs/trackangle_pi-_30GeV_ftf_bic.pdf Graphic file (type pdf)
+ <use Shower/figs/trackangle_pi-_30GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/trackangle_pi-_30GeV_ftf_bic.pdf used on i
+nput line 285.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/trackangle_pi-_80GeV_ftfp_bert_hp.pdf, id=8401, 569.12625pt x 548.
+0475pt>
+File: Shower/figs/trackangle_pi-_80GeV_ftfp_bert_hp.pdf Graphic file (type pdf)
+
+ <use Shower/figs/trackangle_pi-_80GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/trackangle_pi-_80GeV_ftfp_bert_hp.pdf used
+ on input line 286.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/trackangle_pi-_80GeV_qgsp_bert_hp.pdf, id=8402, 569.12625pt x 548.
+0475pt>
+File: Shower/figs/trackangle_pi-_80GeV_qgsp_bert_hp.pdf Graphic file (type pdf)
+
+ <use Shower/figs/trackangle_pi-_80GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/trackangle_pi-_80GeV_qgsp_bert_hp.pdf used
+ on input line 287.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/trackangle_pi-_80GeV_ftf_bic.pdf, id=8403, 569.12625pt x 548.0475p
+t>
+File: Shower/figs/trackangle_pi-_80GeV_ftf_bic.pdf Graphic file (type pdf)
+ <use Shower/figs/trackangle_pi-_80GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/trackangle_pi-_80GeV_ftf_bic.pdf used on i
+nput line 288.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/TRACKANGLEPIONHP.pdf, id=8407, 565.11125pt x 739.76375pt>
+File: Shower/figs/TRACKANGLEPIONHP.pdf Graphic file (type pdf)
+
+<use Shower/figs/TRACKANGLEPIONHP.pdf>
+Package pdftex.def Info: Shower/figs/TRACKANGLEPIONHP.pdf used on input line 29
+4.
+(pdftex.def)             Requested size: 187.78922pt x 245.82726pt.
+
+<Shower/figs/TRACKANGLEPIONNOV.pdf, id=8408, 565.11125pt x 739.76375pt>
+File: Shower/figs/TRACKANGLEPIONNOV.pdf Graphic file (type pdf)
+
+<use Shower/figs/TRACKANGLEPIONNOV.pdf>
+Package pdftex.def Info: Shower/figs/TRACKANGLEPIONNOV.pdf used on input line 2
+95.
+(pdftex.def)             Requested size: 187.78922pt x 245.82726pt.
+
+<Shower/figs/TRACKANGLE_PION_MODEL.pdf, id=8409, 565.11125pt x 739.76375pt>
+File: Shower/figs/TRACKANGLE_PION_MODEL.pdf Graphic file (type pdf)
+
+<use Shower/figs/TRACKANGLE_PION_MODEL.pdf>
+Package pdftex.def Info: Shower/figs/TRACKANGLE_PION_MODEL.pdf used on input li
+ne 296.
+(pdftex.def)             Requested size: 187.78922pt x 245.82726pt.
+
+<Shower/figs/TRACKANGLE_PION_MODEL_NOV.pdf, id=8410, 565.11125pt x 739.76375pt>
+File: Shower/figs/TRACKANGLE_PION_MODEL_NOV.pdf Graphic file (type pdf)
+<use Shower/figs/TRACKANGLE_PION_MODEL_NOV.pdf>
+Package pdftex.def Info: Shower/figs/TRACKANGLE_PION_MODEL_NOV.pdf used on inpu
+t line 297.
+(pdftex.def)             Requested size: 187.78922pt x 245.82726pt.
+ [135] [136 <./Shower/figs/trackangle_pi-_10GeV_ftfp_bert_hp.pdf, page is rotat
+ed 90 degrees> <./Shower/figs/trackangle_pi-_10GeV_qgsp_bert_hp.pdf, page is ro
+tated 90 degrees> <./Shower/figs/trackangle_pi-_10GeV_ftf_bic.pdf, page is rota
+ted 90 degrees> <./Shower/figs/trackangle_pi-_30GeV_ftfp_bert_hp.pdf, page is r
+otated 90 degrees> <./Shower/figs/trackangle_pi-_30GeV_qgsp_bert_hp.pdf, page i
+s rotated 90 degrees> <./Shower/figs/trackangle_pi-_30GeV_ftf_bic.pdf, page is 
+rotated 90 degrees> <./Shower/figs/trackangle_pi-_80GeV_ftfp_bert_hp.pdf, page 
+is rotated 90 degrees> <./Shower/figs/trackangle_pi-_80GeV_qgsp_bert_hp.pdf, pa
+ge is rotated 90 degrees> <./Shower/figs/trackangle_pi-_80GeV_ftf_bic.pdf, page
+ is rotated 90 degrees>]
+
+LaTeX Warning: Text page 137 contains only floats.
+
+[137 <./Shower/figs/TRACKANGLEPIONHP.pdf> <./Shower/figs/TRACKANGLEPIONNOV.pdf>
+ <./Shower/figs/TRACKANGLE_PION_MODEL.pdf> <./Shower/figs/TRACKANGLE_PION_MODEL
+_NOV.pdf>] [138]
+<Shower/figs/radProfLog_pi-_10GeV_ftfp_bert_hp.pdf, id=8999, 569.12625pt x 548.
+0475pt>
+File: Shower/figs/radProfLog_pi-_10GeV_ftfp_bert_hp.pdf Graphic file (type pdf)
+
+ <use Shower/figs/radProfLog_pi-_10GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/radProfLog_pi-_10GeV_ftfp_bert_hp.pdf used
+ on input line 324.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/radProfLog_pi-_10GeV_qgsp_bert_hp.pdf, id=9000, 569.12625pt x 548.
+0475pt>
+File: Shower/figs/radProfLog_pi-_10GeV_qgsp_bert_hp.pdf Graphic file (type pdf)
+
+ <use Shower/figs/radProfLog_pi-_10GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/radProfLog_pi-_10GeV_qgsp_bert_hp.pdf used
+ on input line 325.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/radProfLog_pi-_10GeV_ftf_bic.pdf, id=9001, 569.12625pt x 548.0475p
+t>
+File: Shower/figs/radProfLog_pi-_10GeV_ftf_bic.pdf Graphic file (type pdf)
+ <use Shower/figs/radProfLog_pi-_10GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/radProfLog_pi-_10GeV_ftf_bic.pdf used on i
+nput line 326.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/radProfLog_pi-_30GeV_ftfp_bert_hp.pdf, id=9002, 569.12625pt x 548.
+0475pt>
+File: Shower/figs/radProfLog_pi-_30GeV_ftfp_bert_hp.pdf Graphic file (type pdf)
+
+ <use Shower/figs/radProfLog_pi-_30GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/radProfLog_pi-_30GeV_ftfp_bert_hp.pdf used
+ on input line 327.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/radProfLog_pi-_30GeV_qgsp_bert_hp.pdf, id=9003, 569.12625pt x 548.
+0475pt>
+File: Shower/figs/radProfLog_pi-_30GeV_qgsp_bert_hp.pdf Graphic file (type pdf)
+
+ <use Shower/figs/radProfLog_pi-_30GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/radProfLog_pi-_30GeV_qgsp_bert_hp.pdf used
+ on input line 328.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/radProfLog_pi-_30GeV_ftf_bic.pdf, id=9004, 569.12625pt x 548.0475p
+t>
+File: Shower/figs/radProfLog_pi-_30GeV_ftf_bic.pdf Graphic file (type pdf)
+ <use Shower/figs/radProfLog_pi-_30GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/radProfLog_pi-_30GeV_ftf_bic.pdf used on i
+nput line 329.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/radProfLog_pi-_80GeV_ftfp_bert_hp.pdf, id=9005, 569.12625pt x 548.
+0475pt>
+File: Shower/figs/radProfLog_pi-_80GeV_ftfp_bert_hp.pdf Graphic file (type pdf)
+
+ <use Shower/figs/radProfLog_pi-_80GeV_ftfp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/radProfLog_pi-_80GeV_ftfp_bert_hp.pdf used
+ on input line 330.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/radProfLog_pi-_80GeV_qgsp_bert_hp.pdf, id=9006, 569.12625pt x 548.
+0475pt>
+File: Shower/figs/radProfLog_pi-_80GeV_qgsp_bert_hp.pdf Graphic file (type pdf)
+
+ <use Shower/figs/radProfLog_pi-_80GeV_qgsp_bert_hp.pdf>
+Package pdftex.def Info: Shower/figs/radProfLog_pi-_80GeV_qgsp_bert_hp.pdf used
+ on input line 331.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+
+<Shower/figs/radProfLog_pi-_80GeV_ftf_bic.pdf, id=9007, 569.12625pt x 548.0475p
+t>
+File: Shower/figs/radProfLog_pi-_80GeV_ftf_bic.pdf Graphic file (type pdf)
+ <use Shower/figs/radProfLog_pi-_80GeV_ftf_bic.pdf>
+Package pdftex.def Info: Shower/figs/radProfLog_pi-_80GeV_ftf_bic.pdf used on i
+nput line 332.
+(pdftex.def)             Requested size: 136.57634pt x 131.51735pt.
+) (./ILD/ILD.tex [139 <./Shower/figs/radProfLog_pi-_10GeV_ftfp_bert_hp.pdf, pag
+e is rotated 90 degrees> <./Shower/figs/radProfLog_pi-_10GeV_qgsp_bert_hp.pdf, 
+page is rotated 90 degrees> <./Shower/figs/radProfLog_pi-_10GeV_ftf_bic.pdf, pa
+ge is rotated 90 degrees> <./Shower/figs/radProfLog_pi-_30GeV_ftfp_bert_hp.pdf,
+ page is rotated 90 degrees> <./Shower/figs/radProfLog_pi-_30GeV_qgsp_bert_hp.p
+df, page is rotated 90 degrees> <./Shower/figs/radProfLog_pi-_30GeV_ftf_bic.pdf
+, page is rotated 90 degrees> <./Shower/figs/radProfLog_pi-_80GeV_ftfp_bert_hp.
+pdf, page is rotated 90 degrees> <./Shower/figs/radProfLog_pi-_80GeV_qgsp_bert_
+hp.pdf, page is rotated 90 degrees> <./Shower/figs/radProfLog_pi-_80GeV_ftf_bic
+.pdf, page is rotated 90 degrees>] [140
+
+]
+Chapitre 7.
+\openout3 = `steen_thesis_2.mtc'.
+
+\openout3 = `steen_thesis_2.mtc'.
+
+(./steen_thesis_2.mtc7) [141]
+<ILD/figs/ResVsCosTheta_ahcal.png, id=9423, 722.7pt x 496.85625pt>
+File: ILD/figs/ResVsCosTheta_ahcal.png Graphic file (type png)
+
+<use ILD/figs/ResVsCosTheta_ahcal.png>
+Package pdftex.def Info: ILD/figs/ResVsCosTheta_ahcal.png used on input line 15
+.
+(pdftex.def)             Requested size: 341.43436pt x 234.73549pt.
+ [142 <./ILD/figs/ResVsCosTheta_ahcal.png>] <ILD/figs/DijetMass.png, id=9440, 6
+18.31pt x 585.18625pt>
+File: ILD/figs/DijetMass.png Graphic file (type png)
+
+<use ILD/figs/DijetMass.png>
+Package pdftex.def Info: ILD/figs/DijetMass.png used on input line 42.
+(pdftex.def)             Requested size: 209.1301pt x 197.9249pt.
+
+<ILD/figs/WZseparation.png, id=9441, 618.31pt x 583.17876pt>
+File: ILD/figs/WZseparation.png Graphic file (type png)
+
+<use ILD/figs/WZseparation.png>
+Package pdftex.def Info: ILD/figs/WZseparation.png used on input line 43.
+(pdftex.def)             Requested size: 209.1301pt x 197.24591pt.
+ [143] [144 <./ILD/figs/DijetMass.png> <./ILD/figs/WZseparation.png>]
+Overfull \hbox (3.52467pt too wide) in paragraph at lines 62--62
+[]\T1/cmr/bx/n/17.28 Reconstruction de l'éner-gie des jets avec le SDH-
+ []
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 66.
+
+<ILD/figs/EREC.pdf, id=9474, 565.11125pt x 739.76375pt>
+File: ILD/figs/EREC.pdf Graphic file (type pdf)
+
+<use ILD/figs/EREC.pdf>
+Package pdftex.def Info: ILD/figs/EREC.pdf used on input line 78.
+(pdftex.def)             Requested size: 192.0548pt x 251.40346pt.
+ <ILD/figs/ERES.pdf, id=9475, 569.12625pt x 481.8pt>
+File: ILD/figs/ERES.pdf Graphic file (type pdf)
+
+<use ILD/figs/ERES.pdf>
+Package pdftex.def Info: ILD/figs/ERES.pdf used on input line 79.
+(pdftex.def)             Requested size: 234.73653pt x 198.72289pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 78--80
+[][] [][] 
+ []
+
+[145] <ILD/figs/erec_200GeV_fPFA.pdf, id=9488, 569.12625pt x 548.0475pt>
+File: ILD/figs/erec_200GeV_fPFA.pdf Graphic file (type pdf)
+
+<use ILD/figs/erec_200GeV_fPFA.pdf>
+Package pdftex.def Info: ILD/figs/erec_200GeV_fPFA.pdf used on input line 91.
+(pdftex.def)             Requested size: 209.1301pt x 201.38622pt.
+
+<ILD/figs/erec_360GeV_fPFA.pdf, id=9489, 569.12625pt x 548.0475pt>
+File: ILD/figs/erec_360GeV_fPFA.pdf Graphic file (type pdf)
+
+<use ILD/figs/erec_360GeV_fPFA.pdf>
+Package pdftex.def Info: ILD/figs/erec_360GeV_fPFA.pdf used on input line 92.
+(pdftex.def)             Requested size: 209.1301pt x 201.38622pt.
+ [146 <./ILD/figs/EREC.pdf> <./ILD/figs/ERES.pdf, page is rotated 90 degrees>]
+<ILD/figs/ResVsCosTheta.pdf, id=9589, 569.12625pt x 364.36125pt>
+File: ILD/figs/ResVsCosTheta.pdf Graphic file (type pdf)
+
+<use ILD/figs/ResVsCosTheta.pdf>
+Package pdftex.def Info: ILD/figs/ResVsCosTheta.pdf used on input line 103.
+(pdftex.def)             Requested size: 341.43436pt x 218.60175pt.
+ [147 <./ILD/figs/erec_200GeV_fPFA.pdf, page is rotated 90 degrees> <./ILD/figs
+/erec_360GeV_fPFA.pdf, page is rotated 90 degrees>] <ILD/figs/wwFeynman.png, id
+=9689, 1163.34625pt x 277.035pt>
+File: ILD/figs/wwFeynman.png Graphic file (type png)
+
+<use ILD/figs/wwFeynman.png>
+Package pdftex.def Info: ILD/figs/wwFeynman.png used on input line 128.
+(pdftex.def)             Requested size: 341.43436pt x 81.30612pt.
+ [148 <./ILD/figs/ResVsCosTheta.pdf, page is rotated 90 degrees> <./ILD/figs/ww
+Feynman.png>]
+<ILD/figs/mIJ_vs_mKL.pdf, id=9745, 569.12625pt x 548.0475pt>
+File: ILD/figs/mIJ_vs_mKL.pdf Graphic file (type pdf)
+
+<use ILD/figs/mIJ_vs_mKL.pdf>
+Package pdftex.def Info: ILD/figs/mIJ_vs_mKL.pdf used on input line 139.
+(pdftex.def)             Requested size: 209.1301pt x 201.38622pt.
+
+<ILD/figs/mass_distrib.pdf, id=9746, 569.12625pt x 548.0475pt>
+File: ILD/figs/mass_distrib.pdf Graphic file (type pdf)
+
+<use ILD/figs/mass_distrib.pdf>
+Package pdftex.def Info: ILD/figs/mass_distrib.pdf used on input line 140.
+(pdftex.def)             Requested size: 209.1301pt x 201.38622pt.
+
+<ILD/figs/mIJ_vs_mKL_MC.pdf, id=9750, 569.12625pt x 548.0475pt>
+File: ILD/figs/mIJ_vs_mKL_MC.pdf Graphic file (type pdf)
+
+<use ILD/figs/mIJ_vs_mKL_MC.pdf>
+Package pdftex.def Info: ILD/figs/mIJ_vs_mKL_MC.pdf used on input line 146.
+(pdftex.def)             Requested size: 209.1301pt x 201.38622pt.
+
+<ILD/figs/mass_distrib_MC.pdf, id=9751, 569.12625pt x 548.0475pt>
+File: ILD/figs/mass_distrib_MC.pdf Graphic file (type pdf)
+
+<use ILD/figs/mass_distrib_MC.pdf>
+Package pdftex.def Info: ILD/figs/mass_distrib_MC.pdf used on input line 147.
+(pdftex.def)             Requested size: 209.1301pt x 201.38622pt.
+ [149 <./ILD/figs/mIJ_vs_mKL.pdf, page is rotated 90 degrees> <./ILD/figs/mass_
+distrib.pdf, page is rotated 90 degrees>])
+[150 <./ILD/figs/mIJ_vs_mKL_MC.pdf, page is rotated 90 degrees> <./ILD/figs/mas
+s_distrib_MC.pdf, page is rotated 90 degrees>] (./Conclusion/Conclusion.tex)
+(./steen_thesis_2.bbl [151
+
+
+] [152
+
+]
+Underfull \hbox (badness 1354) in paragraph at lines 29--39
+\T1/cmr/m/n/12 S0168-[]9002(99 ) 00374-[]5$.  URL []$\T1/cmtt/m/n/12 http : / /
+ www . sciencedirect . com / science /
+ []
+
+[153]
+Underfull \hbox (badness 2818) in paragraph at lines 125--139
+[]\T1/cmr/m/n/12 Tim and Bark-low, Kei-suke Fu-jii, Yuan-ning Gao, Andre Hoang,
+ Shi-
+ []
+
+
+Underfull \hbox (badness 6542) in paragraph at lines 125--139
+\T1/cmr/m/n/12 nya Ka-ne-mura, Jenny List, Hea-ther E Lo-gan, An-drei No-me-rot
+ski,
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 125--139
+\T1/cmr/m/n/12 Maxim Per-el-stein, Mi-chael E Pes-kin, Ro-man Pö-schl, Jür-gen 
+Reu-ter,
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 125--139
+\T1/cmr/m/n/12 lume 2 : Phy-sics.  Tech-ni-cal Re-port arXiv :1306.6352. ANL-HE
+P-TR-
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 125--139
+\T1/cmr/m/n/12 2013-001. ILC-REPORT-2013-040. INFN-13-04-LNF. JAI-2013-001. JIN
+R-
+ []
+
+[154] [155] [156]
+Underfull \hbox (badness 1460) in paragraph at lines 372--382
+[]\T1/cmr/m/n/12 M. Der-rick, D. Ga-cek, N. Hill, B. Mus-grave, R. No-land, E. 
+Pe-te-reit,
+ []
+
+[157]
+Underfull \hbox (badness 3803) in paragraph at lines 475--479
+[]\T1/cmr/m/n/12 J.Va'vra.  Some com-ments about the Ba-Bar RPC ex-pe-rience.Wh
+at
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 475--479
+\T1/cmr/m/n/12 to do next?  []$\T1/cmtt/m/n/12 http : / / www-[]off-[]axis . fn
+al . gov / workshops / stanford03 /
+ []
+
+[158])
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the steen_thesis_2.maf file.
+\openout3 = `steen_thesis_2.maf'.
+
+
+
+Package minitoc(hints) Warning: W0033
+(minitoc(hints))                The caption package should be 
+(minitoc(hints))                loaded BEFORE the minitoc package.
+
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the steen_thesis_2.log file.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 372.
+[159]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 372.
+ (./steen_thesis_2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 372.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 372.
+Package rerunfilecheck Info: File `steen_thesis_2.out' has not changed.
+(rerunfilecheck)             Checksum: EB6DC2CEF6F49EAE36D0857F1BF824C3;6964.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 372.
+ ) 
+Here is how much of TeX's memory you used:
+ 20708 strings out of 493304
+ 352602 string characters out of 6139872
+ 450273 words of memory out of 5000000
+ 22635 multiletter control sequences out of 15000+600000
+ 44854 words of font info for 132 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 39i,17n,43p,10356b,644s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/steen/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/s
+teen/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </home/steen/.texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/steen/.texmf-var/fonts/
+pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/steen/.texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecrm1000.600pk> </home/steen/.texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecsl1200.600pk> </home/steen/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.60
+0pk> </home/steen/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home
+/steen/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/steen/.tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/steen/.texmf-var/font
+s/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/steen/.texmf-var/fonts/pk/ljfour
+/jknappen/ec/eccc1200.600pk> </home/steen/.texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecbx1200.600pk> </home/steen/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.
+600pk> </home/steen/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </ho
+me/steen/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/steen/.t
+exmf-var/fonts/pk/ljfour/jknappen/ec/eccc1728.600pk> </home/steen/.texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </home/steen/.texmf-var/fonts/pk/ljfo
+ur/jknappen/ec/eccc2074.600pk> </home/steen/.texmf-var/fonts/pk/ljfour/jknappen
+/ec/ecrm2074.600pk> </home/steen/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm248
+8.600pk> </home/steen/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on steen_thesis_2.pdf (169 pages, 13686047 bytes).
+PDF statistics:
+ 11233 PDF objects out of 12825 (max. 8388607)
+ 5479 compressed objects within 55 object streams
+ 633 named destinations out of 1000 (max. 500000)
+ 1873 words of extra memory for PDF output out of 10000 (max. 10000000)
+

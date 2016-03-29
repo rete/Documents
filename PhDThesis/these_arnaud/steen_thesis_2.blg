@@ -1,0 +1,118 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: steen_thesis_2.aux
+The style file: Bibliography/MyRefStyle.bst
+Database file #1: Bibliography/Bibliography.bib
+I was expecting a `,' or a `}'---line 27 of file Bibliography/Bibliography.bib
+ :   title = {{Physics} {Reference} {Manual}}
+ :                                           ;
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 93 of file Bibliography/Bibliography.bib
+ :   
+ :   %note = {Accessed: 2010-09-30}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 114 of file Bibliography/Bibliography.bib
+ :   
+ :   %owner = {kieffer},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 538 of file Bibliography/Bibliography.bib
+ : @Comment       
+ :                author         = "R Ete",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 654 of file Bibliography/Bibliography.bib
+ : 
+ : @article{cdf_ecal,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1057 of file Bibliography/Bibliography.bib
+ :   
+ :   %note = {Accessed: 2010-09-30}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1090 of file Bibliography/Bibliography.bib
+ :   
+ :   %note = {Accessed: 2010-09-30}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1096 of file Bibliography/Bibliography.bib
+ :   
+ :   %note = {Accessed: 2010-09-30}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1102 of file Bibliography/Bibliography.bib
+ :   
+ :   %note = {Accessed: 2010-09-30}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in CMS-PAS-HIG-14-009
+Name 1 in "I. Laktineh, and others" has a comma at the end for entry sdhcal-com
+while executing---line 1409 of file Bibliography/MyRefStyle.bst
+Name 1 in "J.Va’vra," has a comma at the end for entry vavra
+while executing---line 1409 of file Bibliography/MyRefStyle.bst
+Warning--empty author in CMS-PAS-HIG-14-009
+Warning--empty journal in detectorTDR
+Warning--empty journal in acceleratorTDR
+Warning--empty journal in clicAcc
+Warning--missing institution in physicsTDR
+Warning--empty journal in introTDR
+Warning--empty journal in geant4_reference
+Warning--empty year in geant4_reference
+Warning--empty journal in can023
+Warning--empty journal in can037-add-b
+Warning--empty journal in ahcal_pi-_profil
+Warning--empty journal in geant4_parton
+Warning--missing school in CrystalBall
+Warning--empty year in CrystalBall
+Warning--empty journal in geant4_bertini
+Name 1 in "J.Va’vra," has a comma at the end for entry vavra
+while executing---line 1450 of file Bibliography/MyRefStyle.bst
+Name 1 in "I. Laktineh, and others" has a comma at the end for entry sdhcal-com
+while executing---line 1450 of file Bibliography/MyRefStyle.bst
+Warning--empty journal in sdhcal-com
+Warning--empty journal in clic
+Warning--empty author in opal
+Warning--missing publisher in wigmans
+You've used 67 entries,
+            2747 wiz_defined-function locations,
+            1015 strings with 55110 characters,
+and the built_in function-call counts, 45762 in all, are:
+= -- 3354
+> -- 2719
+< -- 8
++ -- 2756
+- -- 762
+* -- 2761
+:= -- 5369
+add.period$ -- 301
+call.type$ -- 67
+change.case$ -- 571
+chr.to.int$ -- 0
+cite$ -- 87
+duplicate$ -- 3290
+empty$ -- 3010
+format.name$ -- 807
+if$ -- 9271
+int.to.chr$ -- 0
+int.to.str$ -- 67
+missing$ -- 983
+newline$ -- 438
+num.names$ -- 120
+pop$ -- 1929
+preamble$ -- 1
+purify$ -- 493
+quote$ -- 0
+skip$ -- 1712
+stack$ -- 0
+substring$ -- 1329
+swap$ -- 2134
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 266
+warning$ -- 20
+while$ -- 166
+width$ -- 69
+write$ -- 894
+(There were 13 error messages)

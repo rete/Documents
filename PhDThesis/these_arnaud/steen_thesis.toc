@@ -1,0 +1,129 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Le contexte th\IeC {\'e}orique}{1}{chapter.1}
+\contentsline {section}{\numberline {1}Le mod\IeC {\`e}le standard}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1}Les leptons}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.2}Les quarks}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.3}Les bosons vecteurs et les interactions du mod\IeC {\`e}le standard}{4}{subsection.1.1.3}
+\contentsline {section}{\numberline {2}Le m\IeC {\'e}canisme de Higgs}{5}{section.1.2}
+\contentsline {section}{\numberline {3}Au-del\IeC {\`a} du mod\IeC {\`e}le standard}{6}{section.1.3}
+\contentsline {chapter}{\numberline {2}Le Collisionneur Lin\IeC {\'e}aire International}{7}{chapter.2}
+\contentsline {section}{\numberline {1}Les motivations d'un collisionneur leptonique}{8}{section.2.1}
+\contentsline {section}{\numberline {2}Le Collisionneur Lin\IeC {\'e}aire International}{11}{section.2.2}
+\contentsline {subsection}{\numberline {2.1}Le complexe d'acc\IeC {\'e}l\IeC {\'e}rateurs de l'ILC}{12}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2}Les d\IeC {\'e}tecteurs de l'ILC}{13}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Le Grand D\IeC {\'e}tecteur International ILD}{16}{subsection.2.2.3}
+\contentsline {subsubsection}{Le d\IeC {\'e}tecteur de vertex}{17}{section*.22}
+\contentsline {subsubsection}{Les d\IeC {\'e}tecteurs au silicium}{18}{section*.24}
+\contentsline {subsubsection}{La chambre \IeC {\`a} projection temporelle}{18}{section*.25}
+\contentsline {subsubsection}{Les calorim\IeC {\`e}tres}{19}{section*.28}
+\contentsline {subsubsection}{Le calorim\IeC {\`e}tre \IeC {\'e}lectromagn\IeC {\'e}tique}{20}{section*.31}
+\contentsline {subsubsection}{Le calorim\IeC {\`e}tre hadronique}{22}{section*.33}
+\contentsline {subsubsection}{Les calorim\IeC {\`e}tres vers l'avant}{23}{section*.35}
+\contentsline {subsubsection}{Les chambres \IeC {\`a} muons}{23}{section*.37}
+\contentsline {subsection}{\numberline {2.4}Le D\IeC {\'e}tecteur au Silicium SiD}{24}{subsection.2.2.4}
+\contentsline {section}{\numberline {3}Le programme de physique de l'ILC}{25}{section.2.3}
+\contentsline {section}{\numberline {4}Les autres concepts de collisionneur leptonique}{27}{section.2.4}
+\contentsline {chapter}{\numberline {3}Les gerbes hadroniques et \IeC {\'e}lectromagn\IeC {\'e}tiques}{29}{chapter.3}
+\contentsline {section}{\numberline {1}Interactions des particules avec la mati\IeC {\`e}re}{30}{section.3.1}
+\contentsline {subsection}{\numberline {1.1}Interactions des particules charg\IeC {\'e}es}{30}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {1.2}Interactions des photons}{32}{subsection.3.1.2}
+\contentsline {subsubsection}{Effet photo\IeC {\'e}lectrique}{32}{section*.45}
+\contentsline {subsubsection}{Diffusion Rayleigh}{32}{section*.46}
+\contentsline {subsubsection}{Diffusion Compton}{32}{section*.47}
+\contentsline {subsubsection}{Interaction photonucl\IeC {\'e}aire}{33}{section*.49}
+\contentsline {subsubsection}{Cr\IeC {\'e}ation de paire}{33}{section*.50}
+\contentsline {subsection}{\numberline {1.3}Interactions des hadrons}{35}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {1.4}Interactions des neutrons}{36}{subsection.3.1.4}
+\contentsline {subsubsection}{Diffusion \IeC {\'e}lastique des neutrons}{36}{section*.53}
+\contentsline {subsubsection}{Diffusion in\IeC {\'e}lastique des neutrons}{36}{section*.54}
+\contentsline {subsubsection}{Capture de neutrons}{37}{section*.55}
+\contentsline {section}{\numberline {2}Gerbes \IeC {\'e}lectromagn\IeC {\'e}tiques}{37}{section.3.2}
+\contentsline {subsection}{\numberline {2.1}Cascades \IeC {\'e}lectromagn\IeC {\'e}tiques}{37}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {2.2}Longueur de radiation}{38}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {2.3}Le rayon de Moli\IeC {\`e}re}{38}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {2.4}Profils des gerbes \IeC {\'e}lectromagn\IeC {\'e}tiques}{38}{subsection.3.2.4}
+\contentsline {section}{\numberline {3}Gerbes hadroniques}{40}{section.3.3}
+\contentsline {subsection}{\numberline {3.1}D\IeC {\'e}veloppement d'une cascade hadronique}{40}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.2}Fraction \IeC {\'e}lectromagn\IeC {\'e}tique}{41}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3}Longueur d'interaction}{42}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.4}Profils des gerbes hadroniques}{43}{subsection.3.3.4}
+\contentsline {chapter}{\numberline {4}Le prototype de calorim\IeC {\`e}tre \IeC {\`a} lecture semi-digitale}{45}{chapter.4}
+\contentsline {section}{\numberline {1}Les calorim\IeC {\`e}tres en physique des particules}{46}{section.4.1}
+\contentsline {subsection}{\numberline {1.1}Calorim\IeC {\`e}tres \IeC {\'e}lectromagn\IeC {\'e}tiques}{46}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {1.2}Calorim\IeC {\`e}tres hadroniques}{47}{subsection.4.1.2}
+\contentsline {section}{\numberline {2}Le calorim\IeC {\`e}tre \IeC {\`a} lecture semi-digitale SDHCAL}{48}{section.4.2}
+\contentsline {section}{\numberline {3}Les chambres \IeC {\`a} plaques r\IeC {\'e}sistives de verre}{50}{section.4.3}
+\contentsline {subsection}{\numberline {3.1}Description des GRPC utilis\IeC {\'e}es dans le SDHCAL}{52}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {3.2}Alimentation puls\IeC {\'e}e}{53}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {3.3}Description d'un cycle d'acquisition}{55}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {3.4}Le r\IeC {\'e}glage des seuils}{55}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {3.5}Le fonctionnement d'une GRPC}{57}{subsection.4.3.5}
+\contentsline {subsubsection}{Le m\IeC {\'e}lange de gaz}{57}{section*.74}
+\contentsline {subsubsection}{R\IeC {\'e}glage de la haute tension}{57}{section*.75}
+\contentsline {subsubsection}{Seuils utilis\IeC {\'e}s}{58}{section*.77}
+\contentsline {subsection}{\numberline {3.6}Correction des gains}{60}{subsection.4.3.6}
+\contentsline {section}{\numberline {4}Reconstruction de l'\IeC {\'e}nergie dans le SDHCAL}{62}{section.4.4}
+\contentsline {subsection}{\numberline {4.1}Reconstruction des \IeC {\'e}v\IeC {\'e}nements}{62}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.2}Performance du SDHCAL}{63}{subsection.4.4.2}
+\contentsline {subsubsection}{Reconstruction des traces}{63}{section*.84}
+\contentsline {subsubsection}{Efficacit\IeC {\'e} et multiplicit\IeC {\'e}}{66}{section*.88}
+\contentsline {subsection}{\numberline {4.3}S\IeC {\'e}lection des gerbes hadroniques}{67}{subsection.4.4.3}
+\contentsline {subsubsection}{Contamination par les protons}{67}{section*.90}
+\contentsline {subsubsection}{Axe des \IeC {\'e}v\IeC {\'e}nements}{68}{section*.92}
+\contentsline {subsubsection}{Contamination par les muons}{68}{section*.93}
+\contentsline {subsubsection}{Contamination par les gerbes \IeC {\'e}lectromagn\IeC {\'e}tiques}{68}{section*.96}
+\contentsline {subsubsection}{Coupures suppl\IeC {\'e}mentaires}{70}{section*.98}
+\contentsline {subsection}{\numberline {4.4}Calibration en fonction du temps}{72}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.5}Reconstruction de l'\IeC {\'e}nergie des pions}{74}{subsection.4.4.5}
+\contentsline {subsubsection}{R\IeC {\'e}ponse du SDHCAL aux gerbes hadroniques}{75}{section*.106}
+\contentsline {subsubsection}{Le mode binaire}{75}{section*.109}
+\contentsline {subsubsection}{Le mode multi-seuils}{78}{section*.112}
+\contentsline {subsubsection}{\IeC {\'E}tude des incertitudes syst\IeC {\'e}matiques}{81}{section*.117}
+\contentsline {subsubsection}{Comparaison des modes binaire et multi-seuils}{82}{section*.119}
+\contentsline {section}{\numberline {4.A}Annexe: Fonction Crystal Ball}{85}{section.a.4.A}
+\contentsline {chapter}{\numberline {5}Simulation du SDHCAL}{87}{chapter.5}
+\contentsline {section}{\numberline {1}Les mod\IeC {\`e}les de simulation des gerbes hadroniques}{89}{section.5.1}
+\contentsline {subsection}{\numberline {1.1}Mod\IeC {\`e}les de cordes partoniques}{90}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {1.2}Les mod\IeC {\`e}les de cascade intranucl\IeC {\'e}aire}{90}{subsection.5.1.2}
+\contentsline {subsubsection}{Le mod\IeC {\`e}le de Bertini}{91}{section*.124}
+\contentsline {subsubsection}{Le mod\IeC {\`e}le de cascade binaire}{92}{section*.126}
+\contentsline {subsubsection}{Les mod\IeC {\`e}les param\IeC {\'e}tr\IeC {\'e}s}{93}{section*.127}
+\contentsline {subsection}{\numberline {1.3}Les listes physiques}{93}{subsection.5.1.3}
+\contentsline {section}{\numberline {2}La simulation du prototype}{94}{section.5.2}
+\contentsline {section}{\numberline {3}Mod\IeC {\'e}lisation de la r\IeC {\'e}ponse des GRPC aux particules charg\IeC {\'e}es}{95}{section.5.3}
+\contentsline {subsection}{\numberline {3.1}Algorithme SimDigital}{95}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {3.2}Param\IeC {\'e}trage de l'algorithme}{97}{subsection.5.3.2}
+\contentsline {subsubsection}{Mesure du spectre de charge}{98}{section*.131}
+\contentsline {subsubsection}{R\IeC {\'e}partition de la charge}{99}{section*.135}
+\contentsline {subsubsection}{D\IeC {\'e}pendance de l'angle d'incidence}{101}{section*.140}
+\contentsline {subsubsection}{Param\IeC {\'e}trage des seuils}{102}{section*.142}
+\contentsline {subsubsection}{R\IeC {\'e}sum\IeC {\'e}}{102}{section*.144}
+\contentsline {subsection}{\numberline {3.3}R\IeC {\'e}sultats}{104}{subsection.5.3.3}
+\contentsline {subsubsection}{Gerbes \IeC {\'e}lectromagn\IeC {\'e}tiques}{104}{section*.146}
+\contentsline {subsubsection}{Gerbes hadroniques}{107}{section*.151}
+\contentsline {section}{\numberline {4}Conclusion}{112}{section.5.4}
+\contentsline {chapter}{\numberline {6}Topologie des gerbes hadroniques}{113}{chapter.6}
+\contentsline {section}{\numberline {1}Les amas de hits}{114}{section.6.1}
+\contentsline {section}{\numberline {2}Les profils des gerbes hadroniques}{117}{section.6.2}
+\contentsline {subsection}{\numberline {2.1}Profil longitudinal}{117}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {2.2}Profil lat\IeC {\'e}ral}{121}{subsection.6.2.2}
+\contentsline {section}{\numberline {3}Reconstruction des traces dans le SDHCAL}{124}{section.6.3}
+\contentsline {subsection}{\numberline {3.1}La m\IeC {\'e}thode de Transform\IeC {\'e}e de Hough}{125}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {3.2}Transform\IeC {\'e}e de Hough dans le SDHCAL}{126}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {3.3}Performance de la Transform\IeC {\'e}e de Hough}{128}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {3.4}\IeC {\'E}tude des mod\IeC {\`e}les de simulation des gerbes hadroniques}{130}{subsection.6.3.4}
+\contentsline {subsubsection}{Nombre de traces reconstruites}{130}{section*.172}
+\contentsline {subsubsection}{Longueur des traces reconstruites}{133}{section*.175}
+\contentsline {subsubsection}{Angle d'\IeC {\'e}mission des traces reconstruites}{135}{section*.178}
+\contentsline {subsection}{\numberline {3.5}Conclusion}{135}{subsection.6.3.5}
+\contentsline {section}{\numberline {4}Conclusion}{138}{section.6.4}
+\contentsline {section}{\numberline {6.A}Annexe: Profil lat\IeC {\'e}ral}{139}{section.b.6.A}
+\contentsline {chapter}{\numberline {7}Reconstruction de la masse des bosons W et Z dans l'ILD}{141}{chapter.7}
+\contentsline {section}{\numberline {1}Introduction}{142}{section.7.1}
+\contentsline {section}{\numberline {2}Identification et s\IeC {\'e}paration des d\IeC {\'e}p\IeC {\^o}ts \IeC {\'e}lectromagn\IeC {\'e}tiques et hadroniques dans l'ILD}{144}{section.7.2}
+\contentsline {section}{\numberline {3}Reconstruction de l'\IeC {\'e}nergie des jets avec le SDHCAL}{145}{section.7.3}
+\contentsline {subsection}{\numberline {3.1}Simulation du SDHCAL dans l'ILD}{145}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {3.2}Energie reconstruite des jets}{146}{subsection.7.3.2}
+\contentsline {section}{\numberline {4}Reconstruction des \IeC {\'e}v\IeC {\'e}nements WW et ZZ}{148}{section.7.4}
+\contentsline {section}{\numberline {5}Conclusion}{150}{section.7.5}
+\contentsline {chapter}{Bibliographie}{157}{chapter*.192}

@@ -1,0 +1,586 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{CMS-PAS-HIG-14-009}
+{Precise determination of the mass of the Higgs boson and studies of the
+  compatibility of its couplings with the standard model}.
+\newblock Technical Report CMS-PAS-HIG-14-009, CERN, Geneva, 2014.
+\newblock \urlprefix\url{https://cds.cern.ch/record/1728249}.
+
+\bibitem{atlas}
+G.~Aad \emph{et~al.}
+\newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
+\newblock \emph{JINST}, 3:S08003, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08003}.
+
+\bibitem{Abat}
+E.~Abat \emph{et~al.}
+\newblock {Study of energy response and resolution of the ATLAS barrel
+  calorimeter to hadrons of energies from 20-GeV to 350-GeV}.
+\newblock \emph{Nucl.Instrum.Meth.}, A621:134--150, 2010.
+\newblock \doi{10.1016/j.nima.2010.04.054}.
+
+\bibitem{abbresciaPolya}
+M.~Abbrescia and al.
+\newblock The simulation of resistive plate chambers in avalanche mode: charge
+  spectra and efficiency.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 431(3):413
+  -- 427, 1999.
+\newblock ISSN 0168-9002.
+\newblock \doi{DOI: 10.1016/S0168-9002(99)00374-5}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/B6TJM-3WYHWDP-4/2/f05cca7f1165f235e8fc1e763c263a97}.
+
+\bibitem{detectorTDR}
+Halina Abramowicz \emph{et~al.}
+\newblock {The International Linear Collider Technical Design Report - Volume
+  4: Detectors}.
+\newblock 2013.
+
+\bibitem{ahcal-energy}
+C~Adloff, J~Blaha, J~J Blaising, C~Drancourt, A~Espargilière, R~Gaglione,
+  N~Geffroy, Y~Karyotakis, J~Prast, G~Vouters, K~Francis, J~Repond,
+  \emph{et~al.}
+\newblock Hadronic energy resolution of a highly granular scintillator-steel
+  hadron calorimeter using software compensation techniques.
+\newblock \emph{Journal of Instrumentation}, 7(09):P09017, 2012.
+\newblock \urlprefix\url{http://stacks.iop.org/1748-0221/7/i=09/a=P09017}.
+
+\bibitem{geant4-ahcal}
+C~Adloff, J~Blaha, J~J Blaising, C~Drancourt, A~Espargilière, R~Gaglione,
+  N~Geffroy, Y~Karyotakis, J~Prast, G~Vouters, K~Francis, J~Repond,
+  \emph{et~al.}
+\newblock {Validation of GEANT4 Monte Carlo models with a highly granular
+  scintillator-steel hadron calorimeter}.
+\newblock \emph{Journal of Instrumentation}, 8(07):P07005, 2013.
+\newblock \urlprefix\url{http://stacks.iop.org/1748-0221/8/i=07/a=P07005}.
+
+\bibitem{track-ahcal}
+C~Adloff, J~J Blaising, M~Chefdeville, C~Drancourt, R~Gaglione, N~Geffroy,
+  Y~Karyotakis, I~Koletsou, J~Prast, G~Vouters, K~Francis, J~Repond,
+  \emph{et~al.}
+\newblock Track segments in hadronic showers in a highly granular
+  scintillator-steel hadron calorimeter.
+\newblock \emph{Journal of Instrumentation}, 8(09):P09001, 2013.
+\newblock \urlprefix\url{http://stacks.iop.org/1748-0221/8/i=09/a=P09001}.
+
+\bibitem{siw-ecal}
+C.~Adloff, Y.~Karyotakis, J.~Repond, J.~Yu, G.~Eigen, C.M. Hawkes, Y.~Mikami,
+  O.~Miller, N.K. Watson, J.A. Wilson, T.~Goto, G.~Mavromanolakis,
+  \emph{et~al.}
+\newblock {Response of the CALICE Si-W electromagnetic calorimeter physics
+  prototype to electrons}.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 608(3):372
+  -- 383, 2009.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/j.nima.2009.07.026}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0168900209014673}.
+
+\bibitem{acceleratorTDR}
+Chris Adolphsen, Maura Barone, Barry Barish, Karsten Buesser, Philip Burrows,
+  \emph{et~al.}
+\newblock {The International Linear Collider Technical Design Report - Volume
+  3.II: Accelerator Baseline Design}.
+\newblock 2013.
+
+\bibitem{l3-hadron-calo}
+O.~Adriani, A.~Arefiev, Q.~An, T.~Azemoon, T.~Aziz, R.C. Ball, S.~Banerjee,
+  P.~Blomeke, M.~Capell, X.~Cai, C.~Chen, G.M. Chen, \emph{et~al.}
+\newblock {Hadron calorimetry in the L3 detector }.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 302(1):53
+  -- 62, 1991.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/0168-9002(91)90491-8}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/0168900291904918}.
+
+\bibitem{geant4}
+S.~Agostinelli and al.
+\newblock Geant4--a simulation toolkit.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 506(3):250
+  -- 303, 2003.
+\newblock ISSN 0168-9002.
+\newblock \doi{DOI: 10.1016/S0168-9002(03)01368-8}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0168900203013688}.
+
+\bibitem{clicAcc}
+M~Aicheler, M~Aicheler, P~Burrows, M~Draper, T~Garvey, P~Lebrun, K~Peach,
+  N~Phinney, H~Schmickler, D~Schulte, \emph{et~al.}
+\newblock {A Multi-TeV Linear Collider Based on CLIC Technology}.
+\newblock 2012.
+\newblock \doi{10.5170/CERN-2012-007}.
+
+\bibitem{physicsTDR}
+Tim and Barklow, Keisuke Fujii, Yuanning Gao, Andre Hoang, Shinya Kanemura,
+  Jenny List, Heather~E Logan, Andrei Nomerotski, Maxim Perelstein, Michael~E
+  Peskin, Roman Pöschl, Jürgen Reuter, \emph{et~al.}
+\newblock {The International Linear Collider Technical Design Report - Volume
+  2: Physics}.
+\newblock Technical Report arXiv:1306.6352. ANL-HEP-TR-13-20.
+  BNL-100603-2013-IR. IRFU-13-59. CERN-ATS-2013-037. Cockcroft-13-10.
+  CLNS-13-2085. DESY-13-062. FERMILAB-TM-2554. IHEP-AC-ILC-2013-001.
+  ILC-REPORT-2013-040. INFN-13-04-LNF. JAI-2013-001. JINR-E9-2013-35.
+  JLAB-R-2013-01. KEK-Report-2013-1. KNU-CHEP-ILC-2013-1. LLNL-TR-635539.
+  SLAC-R-1004. ILC-HiGrade-Report-2013-003, Geneva, Jun 2013.
+\newblock \urlprefix\url{http://cds.cern.ch/record/1601967}.
+\newblock Comments: See also http://www.linearcollider.org/ILC/TDR . The full
+  list of signatories is inside the Report.
+
+\bibitem{zeus_ecal}
+A.~Andresen, A.~Bamberger, A.~Bargende, F.~Barreiro, U.~Behrens, S.~Bentvelsen,
+  M.~Brkic, B.~Burow, A.~Caldwell, G.~Cases, F.~Corriveau, J.A. Crittenden,
+  \emph{et~al.}
+\newblock {Construction and beam test of the ZEUS forward and rear
+  calorimeter}.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  309(1–2):101 -- 142, 1991.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/0168-9002(91)90095-8}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/0168900291900958}.
+
+\bibitem{atlas-hadron-tilecal}
+F.~Ariztizabal, M.~Bosman, M.~Cavalli-Sforza, I.~Efthymiopoulos, C.~Padilla,
+  F.~Teubert, R.~Arsenescu, C.~Blag, V.~Boldea, S.~Dita, Z.~Ajaltouni,
+  F.~Badaud, \emph{et~al.}
+\newblock Construction and performance of an iron-scintillator hadron
+  calorimeter with longitudinal tile configuration.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 349(2):384
+  -- 397, 1994.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/0168-9002(94)91201-7}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/0168900294912017}.
+
+\bibitem{atlas-liquid-ar}
+B.~Aubert, A.~Bazan, B.~Beaugiraud, J.~Colas, T.~Leflour, M.~Maire, J.P.
+  Vialle, I.~Wingerter-Seez, Y.P. Zolnierowski, H.A. Gordon, V.~Radeka,
+  D.~Rahm, \emph{et~al.}
+\newblock {Performance of a liquid argon Accordion calorimeter with fast
+  readout }.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 321(3):467
+  -- 478, 1992.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/0168-9002(92)90056-A}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/016890029290056A}.
+
+\bibitem{cms-pwo}
+E~Auffray, P~Baillon, D~Barney, G~Bassompierre, Y~Benhammou, A~Blick, P~Bloch,
+  P~Bonamy, J~Bourotte, L~Buiron, F~Cavallari, R~Chipaux, \emph{et~al.}
+\newblock {Beam tests of lead tungstate crystal matrices and a silicon strip
+  preshower detector for the CMS electromagnetic calorimeter }.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  412(2–3):223 -- 237, 1998.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/S0168-9002(98)00464-1}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0168900298004641}.
+
+\bibitem{l3-bgo}
+J.A. Bakken, L.~Barone, D.~Braun, M.~Caillat, C.~Dionisi, C.~Doré,
+  H.~Elmamouni, F.~Ferroni, G.L. Grazer, J.T. He, R.~Herbiet, B.~Ille,
+  \emph{et~al.}
+\newblock {Study of a BGO calorimeter using electron and hadron beams from 1 to
+  50 GeV }.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  228(2–3):294 -- 302, 1985.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/0168-9002(85)90272-4}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/0168900285902724}.
+
+\bibitem{cdf_ecal}
+L.~Balka, K.~Coover, R.~Diebold, W.~Evans, N.~Hill, L.~Nodulman, J.~Proudfoot,
+  R.~Rezmer, J.R. Sauer, P.~Schoessow, D.~Underwood, R.G. Wagner, \emph{et~al.}
+\newblock {The CDF central electromagnetic calorimeter }.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  267(2–3):272 -- 279, 1988.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/0168-9002(88)90474-3}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/0168900288904743}.
+
+\bibitem{1352718}
+H.R. Band.
+\newblock {Experience with the BaBar resistive plate chambers}.
+\newblock In \emph{Nuclear Science Symposium Conference Record, 2003 IEEE},
+  volume~5, pages 3735--3739 Vol.5. Oct 2003.
+\newblock ISSN 1082-3654.
+\newblock \doi{10.1109/NSSMIC.2003.1352718}.
+
+\bibitem{introTDR}
+Ties Behnke, James~E. Brau, Brian Foster, Juan Fuster, Mike Harrison,
+  James~McEwan Paterson, Michael Peskin, Marcel Stanitzki, Nicholas Walker, and
+  Hitoshi Yamamoto.
+\newblock {The International Linear Collider Technical Design Report - Volume
+  1: Executive Summary}.
+\newblock 2013.
+
+\bibitem{bertini}
+H.W. Bertini.
+\newblock {Intranuclear-Cascade Calculation of the Secondary Nucleon Spectra
+  from Nucleon-Nucleus Interactions in the Energy Range 340 to 2900 MeV and
+  Comparisons with Experiment}.
+\newblock \emph{{Physical Review}}, 1969.
+\newblock
+  \urlprefix\url{http://journals.aps.org/pr/abstract/10.1103/PhysRev.188.1711}.
+
+\bibitem{fcc-ee}
+M.~Bicer, H.~Duran~Yildiz, I.~Yildiz, G.~Coignet, M.~Delmastro, T.~Alexopoulos,
+  C~Grojean, S.~Antusch, T.~Sen, H.-J. He, K.~Potamianos, S.~Haug,
+  \emph{et~al.}
+\newblock First look at the physics case of tlep.
+\newblock \emph{Journal of High Energy Physics}, 2014(1):164, 2014.
+\newblock \doi{10.1007/JHEP01(2014)164}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/JHEP01%282014%29164}.
+
+\bibitem{naomi}
+B.~Bilki \emph{et~al.}
+\newblock {Testing Hadronic Interaction Models using a Highly Granular
+  Silicon-Tungsten Calorimeter}.
+\newblock \emph{Nucl.Instrum.Meth.}, A794:240--254, 2015.
+\newblock \doi{10.1016/j.nima.2015.05.009}.
+
+\bibitem{h1-ecal}
+W.~Braunschweig, J.~Tutas, E.~Vogel, M.~Widgoff, F.W. Brasse, W.~Flauger,
+  J.~Gayler, V.~Korbel, J.~Marks, Ch. Zeitnitz, S.~Brinkmann, K.~Rauschnabel,
+  \emph{et~al.}
+\newblock {Results from a test of a Pb-Cu liquid argon calorimeter }.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 265(3):419
+  -- 434, 1988.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/S0168-9002(98)90008-0}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0168900298900080}.
+
+\bibitem{brient}
+J.~C. Brient.
+\newblock {Improving the jet reconstruction with the particle flow method: An
+  introduction}.
+\newblock In \emph{{Calorimetry in particle physics. Proceedings, 11th
+  International Conference, CALOR 2004, Perugia, Italy, March 29-April 2,
+  2004}}, pages 445--451. 2004.
+
+\bibitem{snowmass}
+R.~Brock \emph{et~al.}
+\newblock {Planning the Future of U.S. Particle Physics (Snowmass 2013):
+  Chapter 3: Energy Frontier}.
+\newblock In \emph{{Community Summer Study 2013: Snowmass on the Mississippi
+  (CSS2013) Minneapolis, MN, USA, July 29-August 6, 2013}}. 2014.
+\newblock
+  \urlprefix\url{https://inspirehep.net/record/1278569/files/arXiv:1401.6081.pdf}.
+
+\bibitem{houghPatent}
+H.P.V. C.
+\newblock Method and means for recognizing complex patterns, December~18 1962.
+\newblock \urlprefix\url{http://www.google.com/patents/US3069654}.
+\newblock US Patent 3,069,654.
+
+\bibitem{omega}
+S.~Callier, F.~Dulucq, C.~De~La~Taille, G.~Martin-Chassard, N.~Seguin-Moreau,
+  R.~Gaglione, I.~Laktineh, H.~Mathez, V.~Boudry, J.C. Brient, and C.~Jauffret.
+\newblock {HARDROC1, readout chip of the Digital HAdronic CALorimeter of ILC}.
+\newblock In \emph{Nuclear Science Symposium Conference Record, 2007. NSS '07.
+  IEEE}, volume~3, pages 1851--1856. Oct 2007.
+\newblock ISSN 1095-7863.
+\newblock \doi{10.1109/NSSMIC.2007.4436518}.
+
+\bibitem{pp-in-mag-field}
+L~Caponetto, C~Combaret, C~de~la Taille, F~Dulucq, R~Kieffer, I~Laktineh,
+  N~Lumb, L~Mirabito, and N~Seguin-Moreau.
+\newblock First test of a power-pulsed electronics system on a grpc detector in
+  a 3-tesla magnetic field.
+\newblock \emph{Journal of Instrumentation}, 7(04):P04009, 2012.
+\newblock \urlprefix\url{http://stacks.iop.org/1748-0221/7/i=04/a=P04009}.
+
+\bibitem{cms}
+S.~Chatrchyan \emph{et~al.}
+\newblock {The CMS experiment at the CERN LHC}.
+\newblock \emph{JINST}, 3:S08004, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08004}.
+
+\bibitem{cmslumiplot}
+{CMS Luminosity - Public Results}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}.
+
+\bibitem{geant4_reference}
+GEANT4 collaboration.
+\newblock {Physics} {Reference} {Manual}.
+
+\bibitem{can023}
+The~CALICE collaboration.
+\newblock {Tracking with the CALICE Si-W electromagnetic calorimeter prototype
+  using the Hough transform, CALICE Analysis note CAN-023a}.
+\newblock 2010.
+
+\bibitem{can037-add-b}
+The~CALICE collaboration.
+\newblock {First results of the CALICE SDHCAL Technological Prototype, CALICE
+  Analysis note CAN-037b}.
+\newblock 2012.
+
+\bibitem{1748-0221-6-04-P04003}
+The~CALICE collaboration, C~Adloff, J~Blaha, J~J Blaising, C~Drancourt,
+  A~Espargilière, R~Gaglione, N~Geffroy, Y~Karyotakis, J~Prast, G~Vouters,
+  K~Francis, \emph{et~al.}
+\newblock Electromagnetic response of a highly granular hadronic calorimeter.
+\newblock \emph{Journal of Instrumentation}, 6(04):P04003, 2011.
+\newblock \urlprefix\url{http://stacks.iop.org/1748-0221/6/i=04/a=P04003}.
+
+\bibitem{ahcal-construction}
+The~CALICE collaboration, C~Adloff, Y~Karyotakis, J~Repond, A~Brandt, H~Brown,
+  K~De, C~Medina, J~Smith, J~Li, M~Sosebee, A~White, \emph{et~al.}
+\newblock Construction and commissioning of the calice analog hadron
+  calorimeter prototype.
+\newblock \emph{Journal of Instrumentation}, 5(05):P05004, 2010.
+\newblock \urlprefix\url{http://stacks.iop.org/1748-0221/5/i=05/a=P05004}.
+
+\bibitem{aleph-hadron-calo}
+D.~Decamp, B.~Deschizeaux, J.-P. Lees, M.-N. Minard, J.M. Crespo, M.~Delfino,
+  E.~Fernandez, M.~Martinez, R.~Miquel, L.I.M. Mir, S.~Orteu, A.~Pacheco,
+  \emph{et~al.}
+\newblock {ALEPH: A detector for electron-positron annihilations at LEP }.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  294(1–2):121 -- 178, 1990.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/0168-9002(90)91831-U}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/016890029091831U}.
+
+\bibitem{zeus-hcal}
+M.~Derrick, D.~Gacek, N.~Hill, B.~Musgrave, R.~Noland, E.~Petereit, J.~Repond,
+  R.~Stanek, and K.~Sugano.
+\newblock Design and construction of the zeus barrel calorimeter.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 309(1):77
+  -- 100, 1991.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/0168-9002(91)90094-7}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/0168900291900947}.
+
+\bibitem{cepc}
+Wang Dou, Gao Jie, Xiao Ming, Geng Hui-Ping, Guo Yuan-Yuan, Xu~Shou-Yan, Wang
+  Na, An~Yu-Wen, Qin Qing, Xu~Gang, and Wang Sheng.
+\newblock Optimization parameter design of a circular e+e- higgs factory.
+\newblock \emph{Chinese Physics C}, 37(9):097003, 2013.
+\newblock \urlprefix\url{http://stacks.iop.org/1674-1137/37/i=9/a=097003}.
+
+\bibitem{houghDuda}
+Richard~O. Duda and Peter~E. Hart.
+\newblock {Use of the Hough Transformation to Detect Lines and Curves in
+  Pictures}.
+\newblock \emph{Commun. ACM}, 15(1):11--15, January 1972.
+\newblock ISSN 0001-0782.
+\newblock \doi{10.1145/361237.361242}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/361237.361242}.
+
+\bibitem{fastJet}
+Fastjet homepage.
+\newblock \url{http://fastjet.fr/}.
+
+\bibitem{ahcal_pi-_profil}
+Nils Feege.
+\newblock {Imaging Pion Showers with the CALICE Analogue Hadron Calorimeter}.
+\newblock 2011.
+\newblock \urlprefix\url{http://arxiv.org/abs/1109.1982}.
+
+\bibitem{geant4_parton}
+G.~Folger and J.P. Wellisch.
+\newblock String {Parton} {Models} in {Geant4}.
+\newblock 2003.
+\newblock \urlprefix\url{http://arxiv.org/abs/nucl-th/0306007}.
+
+\bibitem{calice-scecal}
+K.~Francis, J.~Repond, J.~Schlereth, J.~Smith, L.~Xia, E.~Baldolemar, J.~Li,
+  S.T. Park, M.~Sosebee, A.P. White, J.~Yu, G.~Eigen, \emph{et~al.}
+\newblock {Performance of the first prototype of the CALICE scintillator strip
+  electromagnetic calorimeter }.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 763:278 --
+  289, 2014.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/j.nima.2014.06.039}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0168900214007621}.
+
+\bibitem{Gabriel}
+T.A. Gabriel, D.E. Groom, P.K. Job, N.V. Mokhov, and G.R. Stevenson.
+\newblock Energy dependence of hadronic activity.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  338(2–3):336 -- 347, 1994.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/0168-9002(94)91317-X}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/016890029491317X}.
+
+\bibitem{marlin}
+F.~Gaede.
+\newblock {Marlin and LCCD: Software tools for the ILC}.
+\newblock \emph{Nucl.Instrum.Meth.}, A559:177--180, 2006.
+\newblock \doi{10.1016/j.nima.2005.11.138}.
+
+\bibitem{CrystalBall}
+J.~E. Gaiser.
+\newblock \emph{Charmonium Spectroscopy from Radiative Decays of the $J/\Psi$
+  and $\Psi^\prime$}.
+\newblock Ph.D. thesis.
+
+\bibitem{haddad}
+Y.~Haddad, I.~Laktineh, G.~Grenier, N.~Lumb, and S.~Cauwenbergh.
+\newblock {High rate resistive plate chamber for LHC detector upgrades }.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 718(0):424
+  -- 426, 2013.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/j.nima.2012.11.029}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0168900212013630}.
+\newblock Proceedings of the 12th Pisa Meeting on Advanced Detectors La
+  Biodola, Isola d’Elba, Italy, May 20 – 26, 2012.
+
+\bibitem{geant4_bertini}
+A.~Heikkinen, N.~Stepanov, and J.P. Wellisch.
+\newblock {Bertini intra-nuclear cascade implementation in GEANT4}.
+\newblock 2003.
+\newblock \urlprefix\url{http://arxiv.org/abs/nucl-th/0306008}.
+
+\bibitem{ilcsoft}
+Ilcsoft homepage.
+\newblock \url{http://ilcsoft.desy.de}.
+
+\bibitem{vavra}
+J.Va’vra.
+\newblock {Some comments about the BaBar RPC experience.What to do next?}
+\newblock
+  \url{http://www-off-axis.fnal.gov/workshops/stanford03/transparencies/vavra_RPC_summary_2003_talk.pdf}.
+
+\bibitem{sdhcal-com}
+I.~Laktineh \emph{et~al.}
+\newblock Construction and commissioning of a technological prototype of a
+  high-granularity semi-digital hadronic calorimeter.
+\newblock 2015.
+\newblock \urlprefix\url{http://arxiv.org/abs/1506.05316}.
+
+\bibitem{clic}
+Lucie Linssen, Akiya Miyamoto, Marcel Stanitzki, and Harry Weerts.
+\newblock {Physics and Detectors at CLIC: CLIC Conceptual Design Report}.
+\newblock 2012.
+\newblock \doi{10.5170/CERN-2012-003}.
+
+\bibitem{mokka}
+Mokka homepage.
+\newblock \url{https://llrforge.in2p3.fr/trac/Mokka/}.
+
+\bibitem{polarised_elec_beam}
+G.~Moortgat-Pick, T.~Abe, G.~Alexander, B.~Ananthanarayan, A.A. Babich,
+  V.~Bharadwaj, D.~Barber, A.~Bartl, A.~Brachmann, S.~Chen, J.~Clarke, J.E.
+  Clendenin, \emph{et~al.}
+\newblock Polarized positrons and electrons at the linear collider.
+\newblock \emph{Physics Reports}, 460(4–5):131 -- 243, 2008.
+\newblock ISSN 0370-1573.
+\newblock \doi{http://dx.doi.org/10.1016/j.physrep.2007.12.003}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370157308000136}.
+
+\bibitem{pdg}
+K.A. Olive and Particle~Data Group.
+\newblock Review of particle physics.
+\newblock \emph{Chinese Physics C}, 38(9):090001, 2014.
+\newblock \urlprefix\url{http://stacks.iop.org/1674-1137/38/i=9/a=090001}.
+
+\bibitem{riegler}
+Werner Riegler, Christian Lippmann, and Rob Veenhof.
+\newblock Detector physics and simulation of resistive plate chambers.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  500(1–3):144 -- 162, 2003.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/S0168-9002(03)00337-1}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0168900203003371}.
+\newblock \{NIMA\} Vol 500.
+
+\bibitem{kieffer}
+R.Kieffer.
+\newblock \emph{Caract\'erisation d'un calorim\`etre hadronique semi-digital
+  pour le futur collisionneur ILC}.
+\newblock Ph.D. thesis, Universit\'ee Claude Bernard Lyon-1, 2011.
+
+\bibitem{opal}
+{The OPAL detector at LEP}.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 305(2):275
+  -- 319, 1991.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/0168-9002(91)90547-4}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/0168900291905474}.
+
+\bibitem{pfaPandora}
+M.A. Thomson.
+\newblock Particle flow calorimetry and the pandorapfa algorithm.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 611(1):25
+  -- 40, 2009.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/j.nima.2009.09.009}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0168900209017264}.
+
+\bibitem{tsai}
+Yung-Su Tsai.
+\newblock Pair production and bremsstrahlung of charged leptons.
+\newblock \emph{Rev. Mod. Phys.}, 46:815--851, Oct 1974.
+\newblock \doi{10.1103/RevModPhys.46.815}.
+\newblock \urlprefix\url{http://link.aps.org/doi/10.1103/RevModPhys.46.815}.
+
+\bibitem{yi_wang}
+Yi~Wang, Jingbo Wang, Qiang Yan, Yuanjing Li, and Jianping Cheng.
+\newblock {Study on the performance of high rating MRPC}.
+\newblock In \emph{Nuclear Science Symposium Conference Record, 2008. NSS '08.
+  IEEE}, pages 913--916. Oct 2008.
+\newblock ISSN 1095-7863.
+\newblock \doi{10.1109/NSSMIC.2008.4774543}.
+
+\bibitem{marlinreco}
+O.~Wendt, F.~Gaede, and T.~Krämer.
+\newblock {Event reconstruction with MarlinReco at the International Linear
+  Collider}.
+\newblock \emph{Pramana}, 69(6):1109--1114, 2007.
+\newblock ISSN 0304-4289.
+\newblock \doi{10.1007/s12043-007-0237-8}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/s12043-007-0237-8}.
+
+\bibitem{whizard}
+Whizard homepage.
+\newblock \url{https://whizard.hepforge.org/}.
+
+\bibitem{wigmans}
+R.~Wigmans.
+\newblock \emph{Calorimetry: Energy measurement in particle physics.}
+\newblock 2000.
+
+\end{thebibliography}

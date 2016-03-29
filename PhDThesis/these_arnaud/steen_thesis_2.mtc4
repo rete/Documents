@@ -1,0 +1,33 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}Les calorim\IeC {\`e}tres en physique des particules}{\reset@font\mtcSfont 46}{section.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.1.1}Calorim\IeC {\`e}tres \IeC {\'e}lectromagn\IeC {\'e}tiques}{\reset@font\mtcSSfont 46}{subsection.4.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.1.2}Calorim\IeC {\`e}tres hadroniques}{\reset@font\mtcSSfont 47}{subsection.4.1.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Le calorim\IeC {\`e}tre \IeC {\`a} lecture semi-digitale SDHCAL}{\reset@font\mtcSfont 48}{section.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}Les chambres \IeC {\`a} plaques r\IeC {\'e}sistives de verre}{\reset@font\mtcSfont 50}{section.4.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.1}Description des GRPC utilis\IeC {\'e}es dans le SDHCAL}{\reset@font\mtcSSfont 52}{subsection.4.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.2}Alimentation puls\IeC {\'e}e}{\reset@font\mtcSSfont 53}{subsection.4.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.3}Description d'un cycle d'acquisition}{\reset@font\mtcSSfont 55}{subsection.4.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.4}Le r\IeC {\'e}glage des seuils}{\reset@font\mtcSSfont 55}{subsection.4.3.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.5}Le fonctionnement d'une GRPC}{\reset@font\mtcSSfont 57}{subsection.4.3.5}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.5.1}Le m\IeC {\'e}lange de gaz}{\reset@font\mtcSSSfont 57}{subsubsection.4.3.5.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.5.2}R\IeC {\'e}glage de la haute tension}{\reset@font\mtcSSSfont 58}{subsubsection.4.3.5.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.5.3}Seuils utilis\IeC {\'e}s}{\reset@font\mtcSSSfont 58}{subsubsection.4.3.5.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.6}Correction des gains}{\reset@font\mtcSSfont 60}{subsection.4.3.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}Reconstruction de l'\IeC {\'e}nergie dans le SDHCAL}{\reset@font\mtcSfont 62}{section.4.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.1}Reconstruction des \IeC {\'e}v\IeC {\'e}nements}{\reset@font\mtcSSfont 62}{subsection.4.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.2}Performance du SDHCAL}{\reset@font\mtcSSfont 63}{subsection.4.4.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.2.1}Reconstruction des traces}{\reset@font\mtcSSSfont 63}{subsubsection.4.4.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.2.2}Efficacit\IeC {\'e} et multiplicit\IeC {\'e}}{\reset@font\mtcSSSfont 66}{subsubsection.4.4.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.3}S\IeC {\'e}lection des gerbes hadroniques}{\reset@font\mtcSSfont 67}{subsection.4.4.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.3.1}Contamination par les protons}{\reset@font\mtcSSSfont 67}{subsubsection.4.4.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.3.2}Axe des \IeC {\'e}v\IeC {\'e}nements}{\reset@font\mtcSSSfont 68}{subsubsection.4.4.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.3.3}Contamination par les muons}{\reset@font\mtcSSSfont 68}{subsubsection.4.4.3.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.3.4}Contamination par les gerbes \IeC {\'e}lectromagn\IeC {\'e}tiques}{\reset@font\mtcSSSfont 69}{subsubsection.4.4.3.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.3.5}Coupures suppl\IeC {\'e}mentaires}{\reset@font\mtcSSSfont 70}{subsubsection.4.4.3.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.4}Calibration en fonction du temps}{\reset@font\mtcSSfont 72}{subsection.4.4.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.5}Reconstruction de l'\IeC {\'e}nergie des pions}{\reset@font\mtcSSfont 75}{subsection.4.4.5}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.5.1}R\IeC {\'e}ponse du SDHCAL aux gerbes hadroniques}{\reset@font\mtcSSSfont 75}{subsubsection.4.4.5.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.5.2}Le mode binaire}{\reset@font\mtcSSSfont 75}{subsubsection.4.4.5.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.5.3}Le mode multi-seuils}{\reset@font\mtcSSSfont 78}{subsubsection.4.4.5.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.5.4}\IeC {\'E}tude des incertitudes syst\IeC {\'e}matiques}{\reset@font\mtcSSSfont 82}{subsubsection.4.4.5.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.5.5}Comparaison des modes binaire et multi-seuils}{\reset@font\mtcSSSfont 82}{subsubsection.4.4.5.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.A}Annexe: Fonction Crystal Ball}{\reset@font\mtcSfont 85}{section.a.4.A}}

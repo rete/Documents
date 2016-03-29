@@ -1,0 +1,42 @@
+\select@language {french}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Le contexte th\IeC {\'e}orique}{1}{chapter.1}
+\contentsline {table}{\numberline {1.1}{\ignorespaces Propri\IeC {\'e}t\IeC {\'e}s des leptons du mod\IeC {\`e}le standard. Les charges sont donn\IeC {\'e}es en unit\IeC {\'e} de charge \IeC {\'e}l\IeC {\'e}mentaire ($e=1.6\times 10^{-19}~C$).\relax }}{3}{table.caption.8}
+\contentsline {table}{\numberline {1.2}{\ignorespaces Propri\IeC {\'e}t\IeC {\'e}s des quarks du mod\IeC {\`e}le standard. Les charges sont donn\IeC {\'e}es en unit\IeC {\'e} de charge \IeC {\'e}l\IeC {\'e}mentaire ($e=1.6\times 10^{-19}~C$). Seule la masse du quark $top$ provient d'une mesure directe. Les masses des autres quarks sont, \IeC {\`a} cause de leur confinement dans les hadrons, d\IeC {\'e}termin\IeC {\'e}es indirectement par leur influence sur la mati\IeC {\`e}re hadronique.\relax }}{4}{table.caption.9}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Le Collisionneur Lin\IeC {\'e}aire International}{7}{chapter.2}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Pr\IeC {\'e}cision attendue pour les couplages de diff\IeC {\'e}rentes particules au boson de Higgs. Pour les modes de d\IeC {\'e}sint\IeC {\'e}gration du Higgs en signal invisible, une limite sup\IeC {\'e}rieure est donn\IeC {\'e}e avec un taux de confiance \IeC {\`a} 95$\%$. Les quatre colonnes pr\IeC {\'e}sentent les pr\IeC {\'e}cisions attendues pour le LHC avec une luminosit\IeC {\'e} de 300 $fb^{-1}$; l'ILC \IeC {\`a} 250 $GeV$ avec 250 $fb^{-1}$; l'ILC \IeC {\`a} 500 $GeV$ avec 500 $fb^{-1}$; et l'ILC \IeC {\`a} 1 $TeV$ avec 1000~$fb^{-1}$.\relax }}{10}{table.caption.12}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Tableau r\IeC {\'e}capitulatif des principales caract\IeC {\'e}ristiques de l'ILC.\relax }}{14}{table.caption.17}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Performances requises pour les sous-d\IeC {\'e}tecteurs des d\IeC {\'e}tecteurs de l'ILC.\relax }}{16}{table.caption.20}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Param\IeC {\`e}tres des diff\IeC {\'e}rents plans du d\IeC {\'e}tecteur de vertex de l'ILD.\relax }}{17}{table.caption.23}
+\contentsline {table}{\numberline {2.5}{\ignorespaces Principaux param\IeC {\`e}tres de la chambre \IeC {\`a} projection temporelle de l'ILD~\cite {detectorTDR}.\relax }}{19}{table.caption.26}
+\contentsline {table}{\numberline {2.6}{\ignorespaces Principaux param\IeC {\`e}tres g\IeC {\'e}om\IeC {\'e}triques des calorim\IeC {\`e}tres de l'ILD~\cite {detectorTDR}.\relax }}{20}{table.caption.30}
+\contentsline {table}{\numberline {2.7}{\ignorespaces Couverture angulaire des calorim\IeC {\`e}tres de l'ILD dispos\IeC {\'e}s vers l'avant~\cite {detectorTDR}.\relax }}{23}{table.caption.36}
+\contentsline {table}{\numberline {2.8}{\ignorespaces Tableau r\IeC {\'e}capitulatif des processus physiques majeurs qui seront \IeC {\'e}tudi\IeC {\'e}s en fonction de l'\IeC {\'e}nergie dans le centre de masse \cite {physicsTDR}.\relax }}{25}{table.caption.39}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Les gerbes hadroniques et \IeC {\'e}lectromagn\IeC {\'e}tiques}{29}{chapter.3}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Longueur de radiation pour diff\IeC {\'e}rents mat\IeC {\'e}riaux.\relax }}{38}{table.caption.57}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Longueur d'interaction pour diff\IeC {\'e}rents mat\IeC {\'e}riaux.\relax }}{43}{table.caption.61}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Le prototype de calorim\IeC {\`e}tre \IeC {\`a} lecture semi-digitale}{45}{chapter.4}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Facteur de conversion et valeur des pi\IeC {\'e}destaux pour chaque seuil.\relax }}{56}{table.caption.72}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Fraction du nombre de protons sur la ligne H6 du SPS \cite {Abat}.\relax }}{67}{table.caption.91}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Efficacit\IeC {\'e} de s\IeC {\'e}lection des gerbes hadroniques en fonction de l'\IeC {\'e}nergie de la particule incidente.\relax }}{72}{table.caption.101}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Nombre moyen de hits pour les trois seuils, \IeC {\'e}cart type et r\IeC {\'e}solution relative avant et apr\IeC {\`e}s la correction temporelle.\relax }}{75}{table.caption.105}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Valeur moyenne de l'\IeC {\'e}nergie reconstruite (en $GeV$), d\IeC {\'e}viation relative (en $\%$) et r\IeC {\'e}solution en \IeC {\'e}nergie (en $\%$) en fonction de l'\IeC {\'e}nergie. Les r\IeC {\'e}sultats pour les donn\IeC {\'e}es des lignes H2 et H6 sont indiqu\IeC {\'e}s. Ces valeurs sont celles obtenues avec le param\IeC {\'e}trage quadratique.\relax }}{83}{table.caption.118}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Simulation du SDHCAL}{87}{chapter.5}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Domaine de validit\IeC {\'e} des mod\IeC {\`e}les QGS et FTF pour plusieurs hadrons incidents.\relax }}{91}{table.caption.123}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Exemple de listes physiques disponibles dans GEANT4 version 9.6. L'option $HP$ est indiqu\IeC {\'e}e lorsqu'elle est disponible. Cette option n'est utilis\IeC {\'e}e que pour les neutrons d'\IeC {\'e}nergie inf\IeC {\'e}rieure \IeC {\`a} 20 $MeV$.\relax }}{94}{table.caption.129}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Liste des chambres utilis\IeC {\'e}es pour le scan en seuil.\relax }}{98}{table.caption.132}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Valeurs d'entr\IeC {\'e}es des param\IeC {\`e}tres de la distribution de Polya utilis\IeC {\'e}e dans l'algorithme SimDigital.\relax }}{99}{table.caption.134}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Valeurs d'entr\IeC {\'e}es des param\IeC {\`e}tres introduits dans l'\IeC {\'e}quation~\ref {eq.ratio}.\relax }}{100}{table.caption.136}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Valeur moyenne et \IeC {\'e}cart type des param\IeC {\`e}tres $\mathaccentV {bar}016q$ et $\theta $ des distributions de Polya des 48 chambres du prototype SDHCAL.\relax }}{101}{table.caption.139}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Param\IeC {\`e}tres d'entr\IeC {\'e}e de l'algorithme SimDigital.\relax }}{103}{table.caption.145}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Efficacit\IeC {\'e} de s\IeC {\'e}lection des gerbes \IeC {\'e}lectromagn\IeC {\'e}tiques ($2^{\IeC {\`e}me}$ colonne) en fonction de l'\IeC {\'e}nergie de la particule incidente, et efficacit\IeC {\'e} de s\IeC {\'e}lection des gerbes hadroniques, calcul\IeC {\'e}e avec les crit\IeC {\`e}res de s\IeC {\'e}lection des gerbes \IeC {\'e}lectromagn\IeC {\'e}tiques. Ces efficacit\IeC {\'e}s sont d\IeC {\'e}termin\IeC {\'e}es avec des \IeC {\'e}chantillons de simulation.\relax }}{105}{table.caption.147}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Topologie des gerbes hadroniques}{113}{chapter.6}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Reconstruction de la masse des bosons W et Z dans l'ILD}{141}{chapter.7}
+\contentsline {table}{\numberline {7.1}{\ignorespaces R\IeC {\'e}solution en \IeC {\'e}nergie des jets dans la r\IeC {\'e}gion du tonneau ($|cos\theta |<0.7$). La r\IeC {\'e}solution en \IeC {\'e}nergie des jets est calcul\IeC {\'e}e \IeC {\`a} partir du $RMS_{90}$ \cite {detectorTDR}.\relax }}{143}{table.caption.183}
+\contentsline {table}{\numberline {7.2}{\ignorespaces R\IeC {\'e}solution en \IeC {\'e}nergie des jets dans la r\IeC {\'e}gion du tonneau ($|cos\theta |<0.7$) avec le SDHCAL. La r\IeC {\'e}solution en \IeC {\'e}nergie des jets est calcul\IeC {\'e}e \IeC {\`a} partir du $RMS_{90}$.\relax }}{147}{table.caption.188}

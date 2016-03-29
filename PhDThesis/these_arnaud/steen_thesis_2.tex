@@ -1,0 +1,372 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Classe        %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt]{book}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Quelques ajustements et variables   pour les marges%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%L'origine par défaut correspond au coin en haut a gauche de la zone de texte
+%Si on met \hoffset = 0 et \voffset = 0 : on sera a 1 inch du bord, et 1 inch du top c'est la valeur par défaut on va le changer pour partir du coin de la page.
+\setlength{\hoffset}{-1in}% Offset horizontal global du texte pour être à 0
+\setlength{\voffset}{-1in} % Offset vertical global du texte pour être à 0
+
+
+%%%%%%%%%POUR LA HAUTEUR%%%%%%%%% A4= 29.7cm
+\setlength{\topmargin}{1.5cm} % Marge en haut
+\setlength{\headheight}{1.cm} % Taille du cadre pour le header
+\setlength{\headsep}{.5cm}% Séparation entre le header et le texte( donné à la zone de texte header)
+\setlength{\topskip}{0cm} % Séparation entre le header et le texte (donné à la 
+%zone de texte) même effet que \headsep
+\setlength{\textheight}{23cm} % Hauteur de la zone de texte (25cm)
+\setlength{\footskip}{3cm} %Séparation avec la zone de footnote? % Bas de page + séparation %Marche pas
+
+%%%%%%%%%POUR LA LARGEUR%%%%%%%%% A4= 21cm
+%Si je met 3.25 pour odd et even, mon texte est centré (gauche droite)
+%Je vais le décaler de +-0.25mm pour prendre en compte la reliure
+
+\setlength{\oddsidemargin}{3.25cm}  % Marge gauche sur pages impaires
+\setlength{\evensidemargin}{3.25cm} % Marge gauche sur pages paires
+
+% largeur hauteur du texte
+\setlength{\textwidth}{15cm} % Largeur de la zone de texte
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Packages   %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[frenchb]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{pifont}
+\usepackage[T1]{fontenc}
+\usepackage{verbatim}
+\usepackage[nooneline]{subfigure}
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{geometry}
+\usepackage{gensymb}
+\usepackage{textcomp}
+\usepackage{wasysym}
+\usepackage{enumerate}
+\usepackage{appendix}
+\usepackage{lscape}
+
+%Pour les petit table of content en début de chapitre
+\usepackage{minitoc}
+\mtcsettitle{minitoc}{Contenu}
+%Profondeur d'indexage
+\setcounter{secnumdepth}{4}
+\setcounter{minitocdepth}{2}
+
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{lineno} % Numéro de lignes
+\usepackage{ upgreek } %Lettres grec grandes
+\usepackage{textcomp}
+\usepackage[colorlinks= false, urlcolor=blue, citebordercolor={0 1 0}, linkbordercolor ={1 0 0},pdfborder={0 0 0}]{hyperref} %Gestion des affichages (Citations, Acronymes)
+\usepackage[printonlyused,withpage]{acronym}  %Utilisation des acronymes
+
+ \usepackage[version=3]{mhchem} %Pour les élements chimiques
+
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{colortbl}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage{fancyhdr}
+\usepackage{perpage}
+\captionsetup{font=sl}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Commande pour modifier les haut de page %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Commande pour avoir les footnote partant de 1 sur chaque page %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{perpage}
+%\usepackage[bottom]{footmisc}% Pour aligner les footnote depuis le bas
+\MakePerPage{footnote}
+
+
+\usepackage{caption}%[2008/04/01]
+\captionsetup{font=sl}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Commande spéciale pour passer TableOfContent en Français %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\contentsname}{Table des mati\`eres}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Déclaration de toutes mes commandes   %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input Fonctions/myCommands.tex
+\input Fonctions/ltxdefs.tex
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Page de couverture %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+
+\def\clap#1{\hbox to 0pt{\hss #1\hss}}%
+
+\def\ligne#1{
+  \hbox to \hsize{
+    \vbox{\centering #1}}}
+    
+\def\haut#1#2#3{
+  \hbox to \hsize{
+    \rlap{\vtop{\raggedright #1}}
+    \hss
+    \clap{\vtop{\centering #2}}
+    \hss
+    \llap{\vtop{\raggedleft #3}}}}
+    
+\def\bas#1#2#3{
+  \hbox to \hsize{
+    \rlap{\vbox{\raggedright #1}}
+    \hss
+    \clap{\vbox{\centering #2}}
+    \hss
+    \llap{\vbox{\raggedleft #3}}}}
+    
+% Titre
+\def\maketitle{
+  \thispagestyle{empty}\vbox to \vsize{
+    \vfill
+    \haut{}{\large \@blurb}{}
+    \vfill
+    \ligne{\LARGE \@title}
+    \vspace{5mm}
+    \ligne{\LARGE \@author}
+    %\vspace{1mm}\ligne{\texttt{<\@email>}}
+%    \vspace{1cm}
+ %   \ligne{\Large \@administratif}
+    \vfill
+    \ligne{\Large \@jury}
+    \vfill
+%    \bas{
+
+%   }
+% % \cleardoublepage
+	}
+}
+
+% Date, lieu,...
+\def\date#1{\def\@date{#1}}
+\def\author#1{\def\@author{#1}}
+\def\title#1{\def\@title{#1}}
+\def\location#1{\def\@location{#1}}
+\def\blurb#1{\def\@blurb{#1}}
+\def\jury#1{\def\@jury{#1}}
+\def\email#1{\def\@email{#1}}
+\def\administratif#1{\def\@administratif{#1}}
+%\def\includegraphics#1{\def\@includegraphics{#1}}
+
+% Valeurs par defaut
+\date{\today}
+\author{}
+\title{}
+\location{Villeurbanne}
+\blurb{}
+
+\email{steen@ipnl.in2p3.fr}
+
+\makeatother
+\title{\Huge Étude des gerbes hadroniques à l’aide du prototype du calorimètre hadronique semi-digitial et comparaison avec les modèles théoriques utilisés dans le logiciel GEANT4}
+\author{Arnaud \textsc{Steen}}
+\location{Villeurbanne}
+\administratif{
+  %Sous la direction de :\\
+  %Imad  \textsc{Laktineh} et 
+}
+\blurb{
+  Th\`ese de l'Universit\'e de Lyon \\
+  \bigskip
+  \'Ecole Doctorale de Physique et Astrophysique de Lyon (PHAST)\\[1em]
+  \bigskip
+  Th\`ese de Doctorat en Physique des Particules \\
+  \bigskip
+  Institut de Physique Nucl\'eaire de Lyon (IPNL)\\
+}
+\jury{
+  \begin{center}
+    \begin{tabular}{lll}
+      JURY~: & M.  Didier \textsc{Contardo} & (examinateur)\\
+      & M.  Gérald \textsc{Grenier} & (co-directeur de th\`ese)\\
+      & M.  Imad  \textsc{Laktineh} & (directeur de th\`ese)\\
+      & M.  Dominique \textsc{Pallin}       & (rapporteur)\\
+      & M.  Alberto \textsc{Ribon}       & (examinateur)\\
+      & M.  Laurent \textsc{Serin}      & (rapporteur)\\
+      & M.  Frank \textsc{Simon}      & (examinateur)\\
+    \end{tabular}
+  \end{center}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Pour que les footnotes n'aillent pas sur deux pages
+\interfootnotelinepenalty=10000
+
+
+%%###############################################
+%%#######Début manuscrit     #########################
+%%###############################################
+\begin{document}
+
+%%%###############################################
+%%#######LOGOs   #################################
+%%###############################################
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.18\textwidth]{Logo/logo_white_ILC.jpg}
+    \hspace{1cm}
+    \includegraphics[width=0.18\textwidth]{Logo/calice_logo.jpg}
+    \hspace{1cm}
+    \includegraphics[width=0.18\textwidth]{Logo/Logo_IPNL.jpg}
+    \hspace{1cm}
+    \includegraphics[width=0.18\textwidth]{Logo/logo_ucbl_lyon1.jpg}
+  \end{center}
+\end{figure}
+	
+\maketitle{\thispagestyle{empty}}
+
+\clearpage
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Activation numéro de lignes            %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\setpagewiselinenumbers
+\modulolinenumbers[5]
+\linenumbers
+
+
+%%%%%%%%%%%%%%Haut et Bas de Page%%%%%%%%%%
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\sectionmark}[1]{ \markright{\thesection\, #1}}
+\renewcommand{\chaptermark}[1]{%
+\markboth{\sc\thechapter.\ #1}{}}
+%\renewcommand{\headrulewidth}{0.5pt}
+%\renewcommand{\footrulewidth}{0.5pt}
+%\renewcommand{\sectionmark}[1]{\markright{\thesection{} #1}}
+\lhead[\thepage]{\rightmark}
+ \rhead[\leftmark]{\thepage}
+\fancyhead{} % clear all header fields
+\fancyhead[RE,LO]{\thepage}
+\fancyhead[RO,LE]{\rightmark}
+\fancyfoot{\thepage} % clear all footer fields
+\fancyfoot[LE,RO]{\thepage} 
+\lfoot[\thepage]{} 
+\rfoot[]{\thepage}
+
+
+%%###############################################
+%%#######Sauts de pages pour présentation  #############
+%%###############################################
+%\input Specials/PageVierge.tex
+%\newpage
+%\cleardoublepage
+
+\dominitoc
+
+%%%###############################################
+%%%####### Resumé  ########################
+%%%###############################################
+%\frontmatter %active les numérot de pages en i
+\pagestyle{empty}
+\input Resume/Resume.tex
+\pageblanche
+
+
+%%%###############################################
+%%%####### Remerciement  ########################
+%%%###############################################
+%%\frontmatter
+%%\renewcommand*\thesection{\arabic{section}}
+%%\pagestyle{empty}
+%\thispagestyle{empty}
+%\input Remerciement/Remerciement.tex
+
+%\renewcommand*\thesection{\arabic{section}}
+\input Introduction/Introduction.tex
+
+%%###############################################
+%%#######Table des Matières  ########################
+%%###############################################
+
+\tableofcontents{\thispagestyle{empty}}
+\pageblanche
+%\cleardoublepage
+
+%%###############################################
+%%#######Liste des Figures  ########################
+%%###############################################
+%\renewcommand\listfigurename{Liste des figures}
+%\listoffigures{\thispagestyle{empty}}
+
+%%###############################################
+%%#######Liste des Tables  ########################
+%%###############################################
+%\listoftables{\thispagestyle{empty}}
+
+%On désactive ici les haut de pages
+%\pagestyle{empty}
+
+%###############################################
+%%#######MicroIntro###############
+%%###############################################
+
+%%%%%%%%%%%%%%Haut et Bas de Page%%%%%%%%%%
+\pagestyle{fancy}
+\fancyhf{}
+%\renewcommand{\sectionmark}[1]{ \markright{\thesection\, #1}}
+%\renewcommand{\chaptermark}[1]{\markboth{\ #1}{}}
+%\renewcommand{\headrulewidth}{0.5pt}
+%\renewcommand{\footrulewidth}{0.5pt}
+%\renewcommand{\sectionmark}[1]{\markright{\thesection{} #1}}
+\lhead[\thepage]{\rightmark}
+ \rhead[\leftmark]{\thepage}
+%\fancyhead{} % clear all hea
+
+%###############################################
+%%#######Chapitre: Introduction générale###############
+%%###############################################
+
+\mainmatter % désactive les numérot de pages en i
+
+%On active ici les haut de pages comme définit dans fancy
+\pagestyle{fancy}
+
+\input ModelStandard/ModelStandard.tex
+\input ILC/ILC.tex
+\input ShowerTh/ShowerTh.tex
+\input SDHCAL/SDHCAL.tex
+\input Digitizer/Digitizer.tex
+\input Shower/Shower.tex
+\input ILD/ILD.tex
+
+\backmatter
+\input Conclusion/Conclusion.tex
+
+%###############################################
+%#######Bibliographie #############################
+%###############################################
+\bibliography{Bibliography/Bibliography}
+\bibliographystyle{Bibliography/MyRefStyle}
+\addcontentsline{toc}{chapter}{\bibname} 
+
+  
+  
+\end{document}
