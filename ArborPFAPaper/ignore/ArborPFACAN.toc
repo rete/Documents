@@ -1,0 +1,26 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}The SDHCAL prototype}{2}{section.2}
+\contentsline {section}{\numberline {3}The Arbor particle flow algorithm}{3}{section.3}
+\contentsline {section}{\numberline {4}Single particle study}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Setup}{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Single particle analysis}{4}{subsection.4.2}
+\contentsline {section}{\numberline {5}Separation of two close-by hadronic showers}{7}{section.5}
+\contentsline {subsection}{\numberline {5.1}Overlay procedure and setup}{7}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Overlaid particles analysis}{9}{subsection.5.2}
+\contentsline {section}{\numberline {6}Summary}{12}{section.6}
+\contentsline {section}{\numberline {A}ArborPFA algorithm}{14}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Pre-clustering phase}{15}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}The main clustering phase - Connectors and trees}{15}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}Association algorithms}{18}{subsection.A.3}
+\contentsline {section}{\numberline {B}ArborPFA algorithm parameters}{22}{appendix.B}
+\contentsline {paragraph}{Object creation algorithm}{22}{section*.37}
+\contentsline {paragraph}{Track segment candidate tagging algorithm}{22}{section*.39}
+\contentsline {paragraph}{Primary track connection}{23}{section*.41}
+\contentsline {paragraph}{Connector seeding 1}{23}{section*.43}
+\contentsline {paragraph}{Connector cleaning 1}{24}{section*.45}
+\contentsline {paragraph}{Connector seeding 2}{24}{section*.47}
+\contentsline {paragraph}{Connector cleaning 2}{25}{section*.49}
+\contentsline {paragraph}{Energy driven track cluster association}{25}{section*.51}
+\contentsline {paragraph}{Neutral tree merging}{26}{section*.53}
+\contentsline {paragraph}{Pointing cluster association}{26}{section*.55}
+\contentsline {paragraph}{Small neutral fragment merging}{27}{section*.57}

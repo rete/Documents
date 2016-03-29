@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {2}The SDHCAL prototype}{2}
+\contentsline {subsection}{\numberline {2.1}The technological prototype}{2}
+\contentsline {subsection}{\numberline {2.2}The Geant4 simulation}{2}
+\contentsline {subsection}{\numberline {2.3}Energy reconstruction}{3}
+\contentsline {section}{\numberline {3}The SDHCAL Arbor particle flow algorithm}{4}
+\contentsline {subsection}{\numberline {3.1}Principle}{4}
+\contentsline {subsection}{\numberline {3.2}Algorithms description}{4}
+\contentsline {section}{\numberline {4}Single particle study}{6}
+\contentsline {subsection}{\numberline {4.1}Setup}{6}
+\contentsline {subsection}{\numberline {4.2}Single particle analysis}{6}
+\contentsline {section}{\numberline {5}Separation of two close-by hadronic showers}{9}
+\contentsline {subsection}{\numberline {5.1}Overlay procedure and setup}{10}
+\contentsline {subsection}{\numberline {5.2}Overlaid particles analysis}{11}
+\contentsline {section}{\numberline {6}Summary}{14}
