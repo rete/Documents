@@ -213,16 +213,16 @@ The calorimeter hits and the created track of a single event are then loaded int
 
 \begin{figure}[!h]
   \begin{center}
-    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/MC_DATA_COMP/Single_MC_DATA_COMP_NPfos_20GeV.pdf}
-    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/MC_DATA_COMP/Single_MC_DATA_COMP_NPfos_70GeV.pdf} \\
+    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/CALICESDHCAL/MC_DATA_COMP/Single_MC_DATA_COMP_NPfos_20GeV.pdf}
+    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/CALICESDHCAL/MC_DATA_COMP/Single_MC_DATA_COMP_NPfos_70GeV.pdf} \\
   \end{center}
   \caption{\label{ARBOR_SINGLE_PARTICLE_NPFOS_20_AND_70_GEV} Distributions of the number of reconstructed particles for a 20 GeV single charged hadron (left) and a 70 GeV single charged hadron (right).}
 \end{figure}
 
 \begin{figure}[!h]
   \begin{center}
-    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/MC_DATA_COMP/Single_MC_DATA_COMP_Efficiency.pdf}
-    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/MC_DATA_COMP/Single_MC_DATA_COMP_NPfos.pdf} \\
+    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/CALICESDHCAL/MC_DATA_COMP/Single_MC_DATA_COMP_Efficiency.pdf}
+    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/CALICESDHCAL/MC_DATA_COMP/Single_MC_DATA_COMP_NPfos.pdf} \\
   \end{center}
   \caption{\label{ARBOR_SINGLE_PARTICLE_EFFICIENCY_AND_NPFOS} Hit clustering efficiency (left) and the mean number of reconstructed particles (right) after ArborPFA reconstruction on single pion shower events with the SDHCAL prototype using test beam data and simulation samples.}
 \end{figure}
@@ -232,8 +232,8 @@ We define the efficiency of the single particle reconstruction, or the hit clust
 %%%%%%%%%%%%%%%%%%
 \begin{figure}[!h]
   \begin{center}
-    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/DATA_ONLY/Single_DATA_ONLY_ERec.pdf}
-    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/MC_ONLY/Single_MC_ONLY_ERec.pdf} \\
+    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/CALICESDHCAL/DATA_ONLY/Single_DATA_ONLY_ERec.pdf}
+    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/CALICESDHCAL/MC_ONLY/Single_MC_ONLY_ERec.pdf} \\
   \end{center}
   \caption{\label{ARBOR_SINGLE_PARTICLE_EREC_DATA_MC} Reconstructed energy before and after ArborPFA reconstruction on single pion shower event for test beam data (left) and simulation data (right).}
 \end{figure}
@@ -241,8 +241,8 @@ We define the efficiency of the single particle reconstruction, or the hit clust
 %%%%%%%%%%%%%%%%%%
 \begin{figure}[!h]
   \begin{center}
-    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/DATA_ONLY/Single_DATA_ONLY_EResol.pdf}
-    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/MC_ONLY/Single_MC_ONLY_EResol.pdf} \\
+    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/CALICESDHCAL/DATA_ONLY/Single_DATA_ONLY_EResol.pdf}
+    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/CALICESDHCAL/MC_ONLY/Single_MC_ONLY_EResol.pdf} \\
   \end{center}
   \caption{\label{ARBOR_SINGLE_PARTICLE_ERESOL_DATA_MC} Energy resolution before and after ArborPFA reconstruction on single pion shower event for simulation data (left) and test beam data (right).}
 \end{figure}
@@ -250,8 +250,8 @@ We define the efficiency of the single particle reconstruction, or the hit clust
 %%%%%%%%%%%%%%%%%%
 \begin{figure}[!h]
   \begin{center}
-    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/MC_DATA_COMP/Single_MC_DATA_COMP_ERec.pdf}
-    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/MC_DATA_COMP/Single_MC_DATA_COMP_EResol.pdf} \\
+    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/CALICESDHCAL/MC_DATA_COMP/Single_MC_DATA_COMP_ERec.pdf}
+    \includegraphics[width=0.48\textwidth]{plots/SingleParticle/CALICESDHCAL/MC_DATA_COMP/Single_MC_DATA_COMP_EResol.pdf} \\
   \end{center}
   \caption{\label{ARBOR_SINGLE_PARTICLE_EREC_AND_ERESOL_COMP} Reconstructed energy (left) and energy resolution (right) after ArborPFA reconstruction on single pion shower event with the SDHCAL prototype.}
 \end{figure}
@@ -273,21 +273,13 @@ The efficiency plot has shown that some hits are missing after reconstruction so
 %\newpage
 \section{Separation of two close-by hadronic showers}
 
-The ability of a particle flow algorithm to disentangle close-by showers is a key point for the reconstruction in detectors such as ILD of the ILC. To study the confusion between neutral and charged hadrons and the ability of the ArborPFA algorithm to disentangle them, we again use the same test beam data of the SDHCAL prototype. Two different pion showers are first overlaid in the same event and the ArborPFA algorithm is run on the overlaid event with the same parameters as for the single particle study. An analysis of the separation is then performed in order to extract the performance of the algorithm.
+The ability of a particle flow algorithm to disentangle nearby showers is a key point for the reconstruction in detectors such as ILD of the ILC. To study the confusion between neutral and charged hadrons and the ability of the ArborPFA algorithm to disentangle them, we again use the same test beam data and simulation samples of the SDHCAL prototype. Two different pion showers are first overlaid in the same event and the ArborPFA algorithm is run on the overlaid event with the same parameters as for the single particle study. An analysis of the separation is then performed in order to evaluate the ability of the algorithm to disentangle two nearby hadronic showers.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Overlay procedure and setup}
 
-In order to study the separation of nearby hadronic showers, two events from test beam data are overlaid in one event. We have chosen to overlay 10 GeV pion events and pion events at different energies from 10 GeV to 50 GeV, in steps of 10 GeV. The distance between shower entry points was taken between 5 cm and 30 cm with steps of 5 cm. The choice of this energy range is motivated by the fact that it is the typical single particle energy range foreseen at the ILC within jets \cite{hadron-jets}.
-
-\begin{figure}[!h]
-  \begin{center}
-    \includegraphics[width=0.48\linewidth]{plots/SingleParticle_10GeV.pdf}
-    \includegraphics[width=0.48\linewidth]{plots/OverlayEvent_OverlayCompare.pdf}
-  \end{center}
-  \caption{\label{OVERLAY_EVENT_MC_EREC_OVERLAID_HITS} Left : The reconstructed energy of a 10 GeV charged hadron before the overlay procedure. Right : The reconstructed energy of the 10 GeV neutral hadron after the overlay procedure with a 50 GeV charged hadron with a separation distance of 30 cm (black) and 5 cm (red).}
-\end{figure}
+In order to study the separation of nearby hadronic showers, two events from test beam data or from simulation are overlaid in one event. We have chosen to overlay 10 GeV pion events and pion events with energies of 10 GeV and 30 GeV. The choice of these energies is motivated by the fact that it is the typical single particle energy range foreseen at the ILC within jets \cite{hadron-jets}. The distance between shower entry points is chosen to be between 5 cm and 30 cm with steps of 5 cm. A distance of 30 cm between showers means well identified energy depositions in the point of view of the reconstruction algorithm whereas 10 cm and 5 cm implies a contact between the showers and confusions for the reconstruction algorithm. 
 
 The overlay event algorithm is processed as follow :
 
@@ -296,12 +288,32 @@ The overlay event algorithm is processed as follow :
   \item The hits belonging to the 10 GeV pion primary track segment are removed from the event in order to emulate a neutral hadron shower.
   \item The two showers are then centred along the X and Y axis at the center of the calorimeter. No shift is performed on the Z direction (beam line).
   \item The showers are then shifted along the X axis by a distance of -d/2 for the neutral hadron and +d/2 for the charged particle, where d is the distance to the calorimeter center in cm.
-  \item The two events are then overlaid. At this step a problem may occur : while mixing the showers in the event, pair of hits may overlap in the same cell. Knowing that we are using a semi digital readout and that the information of the deposit charge in each cell is not available in the data, we need to assign a new threshold by using an approximation. The most intuitive one is to keep the highest threshold of the two hits. Figure \ref{OVERLAY_EVENT_MC_EREC_OVERLAID_HITS} (right) shows the reconstructed energy of the 10 GeV fake neutral hadron overlaid with a 50 GeV charged hadron at 30 cm distance (black) and 5 cm distance (red). The latter case is the worst that can appear in this study given the energy points and the distances we have chosen. By comparing the two plots, we can see that the effect of this approximation on the reconstructed energy is negligible.
+  \item The two events are then overlaid. At this step a problem may occur : while mixing the showers in the event, pair of hits may overlap in the same cell. Knowing that we are using a semi digital readout and that the information of the deposit charge in each cell is not available in the data, we need to assign a new threshold by using an approximation. The most intuitive one is to keep the highest threshold of the two hits. Figure \ref{OVERLAY_EVENT_MC_EREC_OVERLAID_HITS} shows the reconstructed energy of the 10 GeV fake neutral hadron overlaid with a 30 GeV charged hadron at 30 cm distance (black) and 5 cm distance (red). The latter case is the worst one that can appear in this study given the energy points and the distances we have chosen. The maximum mean energy difference observed is about 0.2 GeV for the FTFP\_BERT\_HP simulation, which corresponds, given the table \ref{SDHCAL_ENERGY_MINIMIZATION_PARAMS}, to almost two hits of threshold 3 wrongly assigned. The effect of this approximation is thus negligible.
   \item The hits are tagged with respect to our initial showers. The overlaid hits are tagged differently so that the information on the overlaid hits can be retrieved after reconstruction.
   \item A new event is created containing the overlaid showers and the entering point of the charged particle track after shifting. An example is shown on figure \ref{OVERLAY_EVENT_DISPLAY}.
 \end{enumerate}
 
-Figure \ref{OVERLAY_EVENT_MC_EREC_OVERLAID_HITS} shows the reconstructed energy of a 10 GeV charged hadron before the overlay procedure (left). A small energy difference of approximatively -0.8 GeV is observed between the reconstructed energy before the overlay (left) and after the overlay (right) for the 30 cm case (black), due to the track segment hits removal while overlaying the two showers.
+\begin{figure}[!h]
+  \begin{center}
+    \includegraphics[width=0.48\linewidth]{plots/OverlayEvent/OverlayEvent_OverlayCheck_ChBefore_TB.pdf}
+    \includegraphics[width=0.48\linewidth]{plots/OverlayEvent/OverlayEvent_OverlayCheck_ChBefore_FTF_BIC.pdf}
+    %\includegraphics[width=0.32\linewidth]{plots/OverlayEvent/OverlayEvent_OverlayCheck_ChBefore_FTFP_BERT_HP.pdf}
+  \end{center}
+  \caption{\label{OVERLAY_EVENT_MC_CH_EREC_NO_OVERLAY} The reconstructed energy of a 10 GeV charged hadron before the overlay procedure for different data samples : test beam data (left) and FTF\_BIC simulation (right)}
+\end{figure}
+
+\begin{figure}[!h]
+  \begin{center}
+    \includegraphics[width=0.48\linewidth]{plots/OverlayEvent/OverlayEvent_OverlayCheck_TB.pdf}
+    \includegraphics[width=0.48\linewidth]{plots/OverlayEvent/OverlayEvent_OverlayCheck_FTF_BIC.pdf}
+    %\includegraphics[width=0.32\linewidth]{plots/OverlayEvent/OverlayEvent_OverlayCheck_FTFP_BERT_HP.pdf}
+  \end{center}
+  \caption{\label{OVERLAY_EVENT_MC_EREC_OVERLAID_HITS} The reconstructed energy of the 10 GeV neutral hadron after the overlay procedure with a 30 GeV charged hadron with a separation distance of 30 cm (black) and 5 cm (red) for different data samples : test beam data (left) and FTF\_BIC simulation (right)}
+\end{figure}
+
+Figure \ref{OVERLAY_EVENT_MC_CH_EREC_NO_OVERLAY} shows the reconstructed energy of a 10 GeV charged hadron before the overlay procedure for different data samples. By comparing the mean energy of these distributions with the mean energy after the overlay at a 30 cm separation distance (Figure \ref{OVERLAY_EVENT_MC_EREC_OVERLAID_HITS}), we observe a small energy decrease of about 0.7 GeV due to the track segment hits removal while overlaying the two showers.
+
+%A small energy difference is observed between the reconstructed energy before the overlay and after the overlay (right) for the 30 cm case (black), due to the track segment hits removal while overlaying the two showers.
 
 \begin{figure}[!h]
   \begin{center}
@@ -309,7 +321,7 @@ Figure \ref{OVERLAY_EVENT_MC_EREC_OVERLAID_HITS} shows the reconstructed energy 
     \includegraphics[width=0.32\linewidth]{ArborPFA_PandoraMonitoring_SDHCAL_Overlay_XZ.pdf}
     \includegraphics[width=0.32\linewidth]{ArborPFA_PandoraMonitoring_SDHCAL_Overlay_YZ.pdf}
   \end{center}
-  \caption{\label{OVERLAY_EVENT_DISPLAY} Display of a 10 GeV fake neutral hadron overlaid with a 30 GeV charged hadron separated by 20 cm in three different views (XoY on left, XoZ in center and YoZ on right). Colours correspond to the reconstructed PFOs after running the ArborPFA program. The black straight line is the fake track generated in front of the calorimeter.}
+  \caption{\label{OVERLAY_EVENT_DISPLAY} Display of a 10 GeV fake neutral hadron overlaid with a 30 GeV charged hadron separated by 20 cm in three different views : XoY (left), XoZ (middle) and YoZ (right). Colours correspond to the reconstructed PFOs after running the ArborPFA program. The black straight line is the fake track generated in front of the calorimeter.}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -318,7 +330,7 @@ Figure \ref{OVERLAY_EVENT_MC_EREC_OVERLAID_HITS} shows the reconstructed energy 
 
 \begin{figure}[!h]
   \begin{center}
-    \includegraphics[width=0.6\linewidth]{plots/OverlayEvent_NPfos.pdf}
+    \includegraphics[width=0.6\linewidth]{plots/OverlayEvent/OverlayEvent_NPfos.pdf}
   \end{center}
   \caption{\label{OVERLAY_EVENT_NPFOS} The mean number of PFOs after running the ArborPFA program on overlaid 10 GeV emulated neutral hadron and charged hadrons at different energies.}
 \end{figure}
