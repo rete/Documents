@@ -295,8 +295,8 @@ The overlay event algorithm is processed as follow :
 
 \begin{figure}[!h]
   \begin{center}
-    \includegraphics[width=0.48\linewidth]{plots/OverlayEvent/OverlayEvent_OverlayCheck_ChBefore_TB.pdf}
-    \includegraphics[width=0.48\linewidth]{plots/OverlayEvent/OverlayEvent_OverlayCheck_ChBefore_FTF_BIC.pdf}
+    \includegraphics[width=0.45\linewidth]{plots/OverlayEvent/OverlayEvent_OverlayCheck_ChBefore_TB.pdf}
+    \includegraphics[width=0.45\linewidth]{plots/OverlayEvent/OverlayEvent_OverlayCheck_ChBefore_FTF_BIC.pdf}
     %\includegraphics[width=0.32\linewidth]{plots/OverlayEvent/OverlayEvent_OverlayCheck_ChBefore_FTFP_BERT_HP.pdf}
   \end{center}
   \caption{\label{OVERLAY_EVENT_MC_CH_EREC_NO_OVERLAY} The reconstructed energy of a 10 GeV charged hadron before the overlay procedure for different data samples : test beam data (left) and FTF\_BIC simulation (right)}
@@ -304,25 +304,27 @@ The overlay event algorithm is processed as follow :
 
 \begin{figure}[!h]
   \begin{center}
-    \includegraphics[width=0.48\linewidth]{plots/OverlayEvent/OverlayEvent_OverlayCheck_TB.pdf}
-    \includegraphics[width=0.48\linewidth]{plots/OverlayEvent/OverlayEvent_OverlayCheck_FTF_BIC.pdf}
+    \includegraphics[width=0.45\linewidth]{plots/OverlayEvent/OverlayEvent_OverlayCheck_TB.pdf}
+    \includegraphics[width=0.45\linewidth]{plots/OverlayEvent/OverlayEvent_OverlayCheck_FTF_BIC.pdf}
     %\includegraphics[width=0.32\linewidth]{plots/OverlayEvent/OverlayEvent_OverlayCheck_FTFP_BERT_HP.pdf}
   \end{center}
   \caption{\label{OVERLAY_EVENT_MC_EREC_OVERLAID_HITS} The reconstructed energy of the 10 GeV neutral hadron after the overlay procedure with a 30 GeV charged hadron with a separation distance of 30 cm (black) and 5 cm (red) for different data samples : test beam data (left) and FTF\_BIC simulation (right)}
 \end{figure}
 
+\begin{figure}[!h]
+  \begin{center}
+    \includegraphics[width=0.28\linewidth]{ArborPFA_PandoraMonitoring_SDHCAL_Overlay_XY.pdf}
+    \includegraphics[width=0.28\linewidth]{ArborPFA_PandoraMonitoring_SDHCAL_Overlay_XZ.pdf}
+    \includegraphics[width=0.28\linewidth]{ArborPFA_PandoraMonitoring_SDHCAL_Overlay_YZ.pdf}
+  \end{center}
+  \caption{\label{OVERLAY_EVENT_DISPLAY} 
+  Display of a 10 GeV fake neutral hadron overlaid with a 30 GeV charged hadron separated by 20 cm in three different views : XoY (left), XoZ (middle) and YoZ (right). Colours correspond to the reconstructed PFOs after running the ArborPFA program. %The black straight line is the fake track generated in front of the calorimeter.
+  }
+\end{figure}
+
 Figure \ref{OVERLAY_EVENT_MC_CH_EREC_NO_OVERLAY} shows the reconstructed energy of a 10 GeV charged hadron before the overlay procedure for different data samples. By comparing the mean energy of these distributions with the mean energy after the overlay at a 30 cm separation distance (Figure \ref{OVERLAY_EVENT_MC_EREC_OVERLAID_HITS}), we observe a small energy decrease of about 0.7 GeV due to the track segment hits removal while overlaying the two showers.
 
 %A small energy difference is observed between the reconstructed energy before the overlay and after the overlay (right) for the 30 cm case (black), due to the track segment hits removal while overlaying the two showers.
-
-\begin{figure}[!h]
-  \begin{center}
-    \includegraphics[width=0.32\linewidth]{ArborPFA_PandoraMonitoring_SDHCAL_Overlay_XY.pdf}
-    \includegraphics[width=0.32\linewidth]{ArborPFA_PandoraMonitoring_SDHCAL_Overlay_XZ.pdf}
-    \includegraphics[width=0.32\linewidth]{ArborPFA_PandoraMonitoring_SDHCAL_Overlay_YZ.pdf}
-  \end{center}
-  \caption{\label{OVERLAY_EVENT_DISPLAY} Display of a 10 GeV fake neutral hadron overlaid with a 30 GeV charged hadron separated by 20 cm in three different views : XoY (left), XoZ (middle) and YoZ (right). Colours correspond to the reconstructed PFOs after running the ArborPFA program. The black straight line is the fake track generated in front of the calorimeter.}
-\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -340,8 +342,8 @@ Figure \ref{OVERLAY_EVENT_NPFOS} shows the mean number of PFOs after running the
 
 \begin{figure}[!h]
   \begin{center}
-    \includegraphics[width=0.47\linewidth]{plots/OverlayEvent_NeutralEfficiency.pdf}
-    \includegraphics[width=0.47\linewidth]{plots/OverlayEvent_NeutralPurity.pdf}
+    \includegraphics[width=0.47\linewidth]{plots/OverlayEvent/OverlayEvent_Efficiency.pdf}
+    \includegraphics[width=0.47\linewidth]{plots/OverlayEvent/OverlayEvent_Purity.pdf}
   \end{center}
   \caption{\label{OVERLAY_EVENT_PURITY_EFFICIENCY} The efficiency (left) and purity (right) of the 10 GeV neutral hadron after reconstruction.}
 \end{figure}
@@ -356,16 +358,16 @@ To quantify the separation, we define the efficiency and the purity related to t
   \rho = \frac{Nhit_{good}}{Nhit_{rec,tot}}
 \end{equation}
 
-with Nhit$_{good}$ the number of hits that initially belong to the particle and correctly assigned after reconstruction, Nhit$_{rec,tot}$ the total number of hits of the reconstructed shower and Nhit$_{ini,tot}$ the total number of hits of the particle before reconstruction. 
+with Nhit$_{good}$ the number of hits that initially belongs to the particle and correctly assigned after reconstruction, Nhit$_{rec,tot}$ the total number of hits of the reconstructed shower and Nhit$_{ini,tot}$ the total number of hits of the particle before reconstruction. 
 
 Figure \ref{OVERLAY_EVENT_PURITY_EFFICIENCY} shows the efficiency (left) and the purity (right) of the neutral hadron for different charged particle energies and different separation distances. In the same way as for the mean number of PFOs, at small distances the two showers start to overlap and confusions appear in the reconstruction. Thus, some hits of the neutral hadron are assigned to the charged one (and vice versa) and the efficiency and purity decrease. At large separation distances, the purity does not tend to 100\%. This is due to the last performed algorithm (small neutral fragment algorithm) which merges small neutral cluster fragments to their closest parent cluster, without considering the parent cluster size or energy. Since the number of neutral fragments for a single hadron particle increases with the energy, a non-negligible part of the charged hits is assigned to the neutral hadron, leading to a decrease of its purity.
 
-Figure \ref{OVERLAY_EVENT_NEUTRAL_PERCENTAGE} (left) shows the fraction of events in which at least one neutral hadron has been reconstructed. As expected, the number of reconstructed neutral particles decreases with the separation distance. From 30 cm down to 15 cm, this fraction is stable and greater than 97\%. At 10 cm, confusion becomes significant and the neutral hadron is sometimes merged with the charged one, leading to a small decrease of this fraction. At 5 cm, we can see that the fraction strongly depends on the charged particle energy and goes from 73\% of reconstructed events for the 10 GeV charged particle case down to 60\% at 50 GeV.
+Figure \ref{OVERLAY_EVENT_NEUTRAL_PERCENTAGE} (left) shows the fraction of events in which at least one neutral hadron has been reconstructed. As expected, the number of reconstructed neutral particles decreases with the separation distance. From 30 cm down to 15 cm, this fraction is stable and greater than 97\%. At 10 cm, confusion becomes significant and the neutral hadron is sometimes merged with the charged one, leading to a small decrease of this fraction. At 5 cm, we can see that the fraction strongly depends on the charged particle energy and goes from 73\% of reconstructed events for the 10 GeV charged particle case down to 62\% at 30 GeV.
 
 \begin{figure}[!h]
   \begin{center}
-    \includegraphics[width=0.47\linewidth]{plots/OverlayEvent_NeutralPercentage.pdf}
-    \includegraphics[width=0.47\linewidth]{plots/OverlayEvent_NeutralEnergyDifferenceMeanNeutralEfficient.pdf}
+    \includegraphics[width=0.47\linewidth]{plots/OverlayEvent/OverlayEvent_ProbaNeutral.pdf}
+    \includegraphics[width=0.47\linewidth]{plots/OverlayEvent/OverlayEvent_EnergyDifference.pdf}
   \end{center}
   \caption{\label{OVERLAY_EVENT_EREC} \label{OVERLAY_EVENT_NEUTRAL_PERCENTAGE} Left : The fraction of events where at least one neutral hadron has been reconstructed. Right : The mean difference between the reconstructed energy and the measured energy before reconstruction in events with at least one reconstructed neutral hadron.}
 \end{figure}
