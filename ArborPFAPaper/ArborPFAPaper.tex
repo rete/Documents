@@ -272,6 +272,7 @@ The efficiency plot has shown that some hits are missing after reconstruction so
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\newpage
 \section{Separation of two close-by hadronic showers}
+\label{OVERLAY_EVENT_SECTION}
 
 The ability of a particle flow algorithm to disentangle nearby showers is a key point for the reconstruction in detectors such as ILD of the ILC. To study the confusion between neutral and charged hadrons and the ability of the ArborPFA algorithm to disentangle them, we again use the same test beam data and simulation samples of the SDHCAL prototype. Two different pion showers are first overlaid in the same event and the ArborPFA algorithm is run on the overlaid event with the same parameters as for the single particle study. An analysis of the separation is then performed in order to evaluate the ability of the algorithm to disentangle two nearby hadronic showers.
 
@@ -374,6 +375,47 @@ Figure \ref{OVERLAY_EVENT_NEUTRAL_PERCENTAGE} (left) shows the fraction of event
 
 We define the reconstructed neutral energy as the sum of the neutral particle energies and the measured neutral energy as the estimated energy before reconstruction. Figure \ref{OVERLAY_EVENT_EREC} (on the right) shows the mean difference between the reconstructed neutral energy and the measured neutral energy when at least one neutral hadron has been reconstructed. For the same reason as for the purity, the mean reconstructed neutral energy increases with the charged particle energy. This plot also shows a flat behavior of the reconstructed neutral energy with the separation distance. This means that the reconstruction of the neutral hadron at very small distance (5 cm) has a \textit{binary-like} behaviour, either well reconstructed or completely merged with the charged hadron.
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% Uncertainties %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\newpage
+\section{Systematic uncertainties}
+
+For the analysis performed in section \ref{SINGLE_PARTICLE_STUDY_SECTION} and \ref{OVERLAY_EVENT_SECTION}, both statistical and systematic uncertainties are taken into account. The systematic uncertainties are estimated by varying the most important algorithm parameters. Table \ref{UNCERTAINTIES_ALGORITHM_TABLE} summarize the algorithm parameters choice, their nominal values and variations for the systematic uncertainties evaluation.
+
+\begin{table}[!h]
+  \begin{center}
+     \begin{tabular}{|l|c|c|c|}
+     \hline
+     Parameter                  & Nominal value & Lower value & Upper value \\ \hline 
+     Connection distance 1      & \textbf{45} mm   & 42.5 mm  & 47.5 mm \\ \hline
+     Connection distance 2      & \textbf{65} mm   & 62.5 mm  & 67.5 mm \\ \hline
+     Connection angle           & \textbf{0.7} rad & 0.65 rad & 0.75 rad \\ \hline
+     Backward cleaning weight 1 & \textbf{2}       & 1.5      & 2.5  \\ \hline
+     Forward  cleaning weight 1 & \textbf{3}       & 2.5      & 3.5  \\ \hline
+     Backward cleaning weight 2 & \textbf{0.1}     & 0.05     & 0.15 \\ \hline
+     Forward  cleaning weight 2 & \textbf{5}       & 4.5      & 5.5  \\ \hline
+     Small fragment size cut    & \textbf{20}      & 19       & 21   \\ \hline
+     \end{tabular}
+     \caption{\label{UNCERTAINTIES_ALGORITHM_TABLE} Algorithm parameters used for the systematic uncertainties evaluation}
+  \end{center}
+\end{table}
+
+For each of the lower and upper values, the complete algorithm is run and a new set of analysis variables is obtained. For a given analysis variable v, the total systematic uncertainty is computed as follow :
+
+\begin{equation}
+  \sigma_{v,sys}^2 = \sum\limits_{p} \big( v_{nom} - v_{p} \big)^2
+\end{equation}
+
+where $p$ labels lower and upper algorithm parameters, $v_{nom}$ is the variable value $v$ estimated with the nominal algorithm parameter and $v_{p}$ the variable value estimated with the algorithm parameter $p$. Note also that statistical and systematic uncertainties are added in quadrature :
+
+\begin{equation}
+  \sigma_{tot}^2 = \sigma_{stat}^2 + \sigma_{sys}^2
+\end{equation}
+
+
 %%%%%%%%%%%%%%%%%%%%%
 %%%%%% Summary %%%%%%
 %%%%%%%%%%%%%%%%%%%%%
@@ -382,11 +424,11 @@ We define the reconstructed neutral energy as the sum of the neutral particle en
 
 The ArborPFA, based on the tree-like structure of hadronic showers has been described. 
 
-A single particle study has been performed on SDHCAL using data taken at SPS H6 beam line at CERN \cite{sdhcal-paper}. Single hadron showers have been studied using the algorithm.
+A single particle study has been performed on SDHCAL using data taken at SPS H6 beam line at CERN \cite{sdhcal-paper} and simulation samples with two different physics lists FTF\_BIC and FTFP\_BERT\_HP. Single hadron showers have been studied using the algorithm.
 
 The results show a good efficiency with more than 95\% of hits assigned to the reconstructed charged particle over the energy range of 10 to 80 GeV. The mean number of PFOs shows a linear increase with the energy from 1.1 PFOs at 10 GeV to 1.4 PFOs at 80 GeV. Around 4\% of hits are not associated by the algorithm, leading to a small decrease in the clustered energy response and a small degradation of the energy resolution with respect to the case in which all hits are considered.
 
-The ability of the algorithm to separate nearby hadronic showers was also investigated. Two different charged hadron showers with different energies from the same test beam data set have been overlaid in the same event with different separation distances. For the 10 GeV pion shower, the track segment inside the calorimeter has been identified and removed from the event in order to emulate a neutral hadron particle. The results show an efficiency of a neutral hadron recovery higher than 90\% down to 10 cm separation distance where a non negligible confusion starts to appear. 
+The ability of the algorithm to separate nearby hadronic showers was also investigated. Two different charged hadron showers with different energies from the same type of data set have been overlaid in the same event with different separation distances. For the 10 GeV pion shower, the track segment inside the calorimeter has been identified and removed from the event in order to emulate a neutral hadron particle. The results show an efficiency of a neutral hadron recovery higher than 90\% down to 10 cm separation distance where a non negligible confusion starts to appear. 
 
 The difference between the reconstructed energy and the measured energy of the neutral hadron in the case where at least one neutral hadron has been reconstructed shows an increase with the charged hadron energy for all the separation distances due to the small neutral fragment merging algorithm. For all separation distances, the difference stays constant and shows that, at small separation distances, the neutral hadron reconstruction has a binary-like behaviour, either a very good reconstruction or merged in the charged hadron.
 
